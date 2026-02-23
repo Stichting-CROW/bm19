@@ -8,8 +8,10 @@ var respecConfig = {
     // alleen `name` is verplicht, https://respec.org/docs/#person
     {
       name: "Redmer Kronemeijer",
+      company: "CROW",
+      companyURL: "https://www.crow.nl/",
     },
   ],
   github: "https://github.com/Stichting-CROW/bm19",
-  license: "undefined",
+  license: "cc-by",
 };
