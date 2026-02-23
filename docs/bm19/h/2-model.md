@@ -9,10 +9,7 @@
 > A Publication is a unit of knowledge, indepdentently managed, references and sold.
 > It can contain online or offline pages of text, websites, web services, datasets and individual requirements.
 
-For publications, an appropriate subclass of [`CreativeWork`][CreativeWork] is used.
-
-[Book]: https://schema.org/Book
-[CreativeWork]: https://schema.org/CreativeWork
+For publications, an appropriate subclass of [=CreativeWork=] is used.
 
 > NOTE
 > This is a subset of Schema.org's [CreativeWork]. The usage notes are adapted from Schema.org (CC BY-SA 3.0).
@@ -30,7 +27,7 @@ For publications, an appropriate subclass of [`CreativeWork`][CreativeWork] is u
 | `datePublished`        | Date orDateTime 0..1                | Date of first publication or broadcast.                                           |
 | `educationalAlignment` | [=AlignmentObject=] 0..n            | An alignment to an established educational framework.                             |
 | `publisher`            | [=Organization=] or [=Person=] 1..1 | The publisher of this content.                                                    |
-| `isbn`                 | Text 0..n                           | (From [Book].)                                                                    |
+| `isbn`                 | Text 0..n                           | (From [=Book=].)                                                                  |
 | `url`                  | Text 1..1                           | URL of the item.                                                                  |
 | {.data}                |
 
