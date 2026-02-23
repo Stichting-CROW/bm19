@@ -72,7 +72,6 @@ jobs:
     runs-on: ubuntu-latest
 
     needs:
-      - notify-ci
       - deploy-drafts
       - stale
 
