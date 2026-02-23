@@ -42,11 +42,16 @@ For publications, an appropriate subclass of [=CreativeWork=] is used.
 
 ### <dfn>`NormativityLevel`
 
-| Level        | Usage notes |
-| ------------ | ----------- |
-| Law          | ...         |
-| Guideline    | ...         |
-| {.def .data} |
+| Level              | Usage notes                                                                                             |
+| ------------------ | ------------------------------------------------------------------------------------------------------- |
+| `"Voorschrift"`    | Regel die men moet volgen                                                                               |
+| `"Richtlijn"`      | Regel waaraan men zich moet houden, en waarvan men alleen gemotiveerd mag afwijken                      |
+| `"Aanbeveling"`    | Iets dat wordt aanbevolen en waarvan doorgaans mag worden aangenomen dat de uitwerking ervan gunstig is |
+| `"Suggestie"`      | Iets dat wordt geopperd en waarvan een gunstige uitwerking mag worden verwacht                          |
+| `"Mogelijkheid"`   | Een optie die wordt gegeven en waarvan over de uitwerking weinig zekerheid bestaat                      |
+| `"Norm"`           | Geen onderdeel van CROW-content                                                                         |
+| `"Wet"`            | Geen onderdeel van CROW-content                                                                         |
+| {.def .data .long} |
 
 ### Schema.org
 

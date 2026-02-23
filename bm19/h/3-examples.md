@@ -19,7 +19,30 @@
     "audienceType": "Verkeerskundigen, ontwerpers, beleidsmakers"
   },
   "isbn": "9789066286900",
-  "citation": "CROW (2023). ASVV 2021 – Aanbevelingen voor Verkeersvoorzieningen Binnen de Bebouwde Kom. CROW.",
+  "citation": [
+    {
+      "@type": "CreativeWork",
+      "name": "Bebouwdekomgrenzen – aanbevelingen voor locatie en inrichting",
+      "publisher": { "@type": "Organization", "name": "CROW" },
+      "datePublished": "1999",
+      "isbn": "N/A",
+      "url": "https://kennisbank.crow.nl/public/gastgebruiker/WOBI/ASVV_2021/Literatuur_en_websites/113051#13.1"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Drempels, plateaus en uitritten",
+      "publisher": { "@type": "Organization", "name": "CROW" },
+      "datePublished": "2014",
+      "isbn": "N/A",
+      "url": "https://kennisbank.crow.nl/public/gastgebruiker/WOBI/ASVV_2021/Literatuur_en_websites/113051#13.2"
+    },
+    {
+      "@type": "Legislation",
+      "name": "Wegenverkeerswet 1994 (WVW)",
+      "datePublished": "1994",
+      "url": "https://kennisbank.crow.nl/public/gastgebruiker/WOBI/ASVV_2021/Literatuur_en_websites/113051#13.4"
+    }
+  ],
   "normativityLevel": "Guideline"
 }
 ```
@@ -42,7 +65,29 @@
     "@type": "Audience",
     "audienceType": "Energieprestatieadviseurs"
   },
-  "citation": "ISSO/BouwZo (2025). ISSO Praktijkboek Energieprestatie Gebouwen. Tweede druk.",
+  "citation": [
+    {
+      "@type": "CreativeWork",
+      "name": "NTA 8800:2025 – Bepalingsmethode energieprestatie van gebouwen",
+      "publisher": { "@type": "Organization", "name": "NEN" },
+      "datePublished": "2025",
+      "url": "https://gebouwenergieprestatie.nl/onderdelen-stelsel-energieprestatie-gebouwen-epg-geactualiseerd/"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "ISSO-publicatie 75.1 Energieprestatie utiliteitsgebouwen",
+      "publisher": { "@type": "Organization", "name": "ISSO" },
+      "datePublished": "2025",
+      "url": "https://isso.nl/energieprestatie/"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "ISSO-publicatie 82.1 Energieprestatie woningen en woongebouwen",
+      "publisher": { "@type": "Organization", "name": "ISSO" },
+      "datePublished": "2025",
+      "url": "https://isso.nl/energieprestatie/"
+    }
+  ],
   "educationalAlignment": {
     "@type": "AlignmentObject",
     "alignmentType": "Prerequisite",
@@ -70,7 +115,15 @@
     "@type": "Audience",
     "audienceType": "Informatie- en data-modelleurs, BIM-professionals"
   },
-  "citation": "NEN (2022). NEN 2660-2:2022 NL. NEN.",
+  "citation": [
+    {
+      "@type": "Standard",
+      "name": "NEN 2660-1:2022 NL",
+      "publisher": { "@type": "Organization", "name": "NEN" },
+      "datePublished": "2022-05-01",
+      "url": "https://www.nen.nl/en/nen-2660-1-2022-nl-291666"
+    }
+  ],
   "normativityLevel": "Normative Standard"
 }
 ```
