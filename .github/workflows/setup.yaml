@@ -7,6 +7,10 @@ on:
 env:
   DOCS_HOME: "https://docs.crow.nl"
 
+permissions:
+  actions: write
+  contents: write
+
 jobs:
   setup-repo:
     name: Setup repo
@@ -19,8 +23,6 @@ jobs:
         with:
           fetch-depth: 1 # merely the last
           ref: ${{ github.head_ref }}
-          token: ${{ secrets.NEW_RESPEC_REPO_WORKFLOW }}
-          # rewriting workflows/*.yaml disallowed without Workflow-level token. 
 
       - name: Calculate document metadata 🧾
         uses: actions/github-script@v4
