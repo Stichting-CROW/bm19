@@ -8,7 +8,7 @@ on:
       - "Initialize"
       - "Publish version"
       - "Add document"
-      - "Publish draft"
+      - "Auto-publish draft"
 
 concurrency:
   group: deploy
@@ -26,7 +26,7 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
       - name: Deploy live view 🚀
         uses: JamesIves/github-pages-deploy-action@v4.3.0
@@ -41,39 +41,12 @@ jobs:
 
             Reason: After push by ${{ github.actor }}
 
-  stale:
-    name: Redeploy docs.crow.nl
-    runs-on: ubuntu-latest
-    needs: [deploy-drafts]
-
-    permissions:
-      pages: write
-
-    steps:
-      - name: Trigger rebuild
-        run: |
-          curl \
-            -X POST \
-            -H "Accept: application/vnd.github.v3+json" \
-            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            https://api.github.com/repos/${{ github.repository }}/pages/builds
-
-      - name: Enforce HTTPS for gh-pages
-        run: |
-          curl \
-            -X PUT \
-            -H "Accept: application/vnd.github.v3+json" \
-            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            https://api.github.com/repos/${{ github.repository }}/pages \
-            -d '{"https_enforced":true}'
-
   report-done:
     name: Report
     runs-on: ubuntu-latest
 
     needs:
       - deploy-drafts
-      - stale
 
     steps:
       - name: Checkout 🛎️
