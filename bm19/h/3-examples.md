@@ -1,4 +1,8 @@
-## Examples
+## Voorbeelden
+
+> ISSUE
+>
+> Onderstaande voorbeelden zijn door LLMs gemaakt en zijn onjuist, maar illustratief bedoeld.
 
 ### ASVV 2021
 
