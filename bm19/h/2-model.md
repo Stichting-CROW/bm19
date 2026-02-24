@@ -35,6 +35,19 @@ For publications, an appropriate subclass of [=CreativeWork=] is used.
 > Dit is nog onvolledig en onvoldoende voor een goede titelbeschrijving.
 > Ik denk iig aan ondertitel, type.
 
+> ISSUE
+> Het PID spreekt nog over:
+>
+> “Verankering”: aanwijzing in wet- en regelgeving of bijvoorbeeld in een Beoordelingsrichtlijn (BRL)
+> “Doelgroep”: Het zou nuttig zijn om relevante documenten voor een bepaalde doelgroep in één klap te kunnen achterhalen. Hiervoor worden de ESCO-standaard, EQF niveau en digilevels onderzocht
+> “Referenties”: zodat documenten gemakkelijk te vinden zijn omdat zij bijvoorbeeld naar dezelfde norm verwijzen
+> “Thematische indeling conform GEBORA”, met bijvoorbeeld de Fases levenscyclus bouwwerken
+> “Thematische indeling organisatiespecifieke trefwoorden”, zoals hoofd- en subcategoriën als energieprestatie. We onderzoeken of het nuttig is om termen semantische af te stemmen
+
+> NOTE
+> Lastig om trefwoordenlijsten gelijk te trekken over kennisorganisaties heen.
+> Balans tussen een implementeerbare platte, korte lijst enerzijds en anderzijds een lijst die de discoverability goed kan helpen.
+
 | Property         | Type                 | Usage notes                                                   |
 | ---------------- | -------------------- | ------------------------------------------------------------- |
 | normativityLevel | [=NormativityLevel=] | The level of bindingness of the contents of this publication. |
