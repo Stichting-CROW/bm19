@@ -76,3 +76,7 @@ For the usage of the following types, refer to the Schema.org documentation.
 - <dfn>`CreativeWork`</dfn> at Schema.org: [schema.org/CreativeWork](https://schema.org/CreativeWork)
 - <dfn>`Organization`</dfn> at Schema.org: [schema.org/Organization](https://schema.org/Organization)
 - <dfn>`Person`</dfn> at Schema.org: [schema.org/Person](https://schema.org/Person)
+
+> ISSUE "API's that remain to be defined."
+>
+> TODO: API for discovery, API for finding references in a publication, API for finding referring publications.
