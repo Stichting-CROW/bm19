@@ -19,3 +19,9 @@ De laagste gemeenschappelijke deler is die van de publicatie.
 > NOTE "Waarom publicatie en niet artikel?"
 > Een lagere indeling dan publicaties verveeldvoudigt het aantal datapunten dat moet worden overgebracht vanuit datadiensten.
 > Voor een hogere indeling is niet één natuurlijke indeling te maken, die generaliseerbaar is tussen kennisorganisaties.
+
+<figure>
+
+![Schema van referenties tussen vier publicaties](attachments/bm19-schema.drawio.svg)
+
+</figure>
