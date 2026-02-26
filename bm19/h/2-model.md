@@ -31,18 +31,9 @@ For publications, an appropriate subclass of [=CreativeWork=] is used.
 | `url`                  | Text 1..1                           | URL of the item.                                                                  |
 | {.data}                |
 
-> ISSUE
-> Dit is nog onvolledig en onvoldoende voor een goede titelbeschrijving.
-> Ik denk iig aan ondertitel, type.
+> ISSUE #8
 
-> ISSUE
-> Het PID spreekt nog over:
->
-> “Verankering”: aanwijzing in wet- en regelgeving of bijvoorbeeld in een Beoordelingsrichtlijn (BRL)
-> “Doelgroep”: Het zou nuttig zijn om relevante documenten voor een bepaalde doelgroep in één klap te kunnen achterhalen. Hiervoor worden de ESCO-standaard, EQF niveau en digilevels onderzocht
-> “Referenties”: zodat documenten gemakkelijk te vinden zijn omdat zij bijvoorbeeld naar dezelfde norm verwijzen
-> “Thematische indeling conform GEBORA”, met bijvoorbeeld de Fases levenscyclus bouwwerken
-> “Thematische indeling organisatiespecifieke trefwoorden”, zoals hoofd- en subcategoriën als energieprestatie. We onderzoeken of het nuttig is om termen semantische af te stemmen
+> ISSUE #9
 
 > NOTE
 > Lastig om trefwoordenlijsten gelijk te trekken over kennisorganisaties heen.
@@ -76,7 +67,3 @@ For the usage of the following types, refer to the Schema.org documentation.
 - <dfn>`CreativeWork`</dfn> at Schema.org: [schema.org/CreativeWork](https://schema.org/CreativeWork)
 - <dfn>`Organization`</dfn> at Schema.org: [schema.org/Organization](https://schema.org/Organization)
 - <dfn>`Person`</dfn> at Schema.org: [schema.org/Person](https://schema.org/Person)
-
-> ISSUE "API's that remain to be defined."
->
-> TODO: API for discovery, API for finding references in a publication, API for finding referring publications.

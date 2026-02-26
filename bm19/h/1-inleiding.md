@@ -25,3 +25,9 @@ De laagste gemeenschappelijke deler is die van de publicatie.
 ![Schema van referenties tussen vier publicaties](attachments/bm19-schema.drawio.svg)
 
 </figure>
+
+Tegelijk betekent nieuwe API's en het aansluiten op DSGO ook nieuw werk dat we ons op de hals nemen.
+Daarom moeten we een balans weten te behouden tussen enerzijds het realiseren van die vindbaarheid,
+en anderzijds de implementeerbaarheid.
+
+> ISSUE #10
