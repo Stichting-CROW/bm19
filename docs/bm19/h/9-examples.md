@@ -1,8 +1,6 @@
 ## Voorbeelden
 
-> ISSUE
->
-> Onderstaande voorbeelden zijn door LLMs gemaakt en zijn onjuist, maar illustratief bedoeld.
+> ISSUE #7
 
 ### ASVV 2021
 
