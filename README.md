@@ -1,10 +1,10 @@
-# Specificatie
+### DigiGo Bestuursakkoord '27: Beleidsmaatregel 19
 
-Dit is de GitHub-repository voor ...
+# Sectorkennisplatformen en -kennisdiensten ontsluiten via het DSGO
 
----
+In deze GitHub-repo werken we aan definities en een API-specificatie voor kennispublicaties.
 
-## Instructies voor redacteurs
+<details><summary>Instructies voor redacteurs</summary>
 
 1. **Werkversies**
 
@@ -49,3 +49,5 @@ Dit is de GitHub-repository voor ...
 [publiceer-readme]: https://github.com/stichting-crow/stichting-crow.github.io/blob/main/README.md#publiceren
 [crow-respec-wiki]: https://github.com/stichting-crow/respec/wiki
 [respec-handleiding]: https://respec.org/docs/
+
+</details>
