@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>BM19 demo — CROW-publicaties</title>
+    <title>BM19 demo — Publicaties</title>
     <style>
       :root {
         --accent: #005a9c;
@@ -101,11 +101,10 @@
   </head>
   <body>
     <main>
-      <h1>CROW-publicaties</h1>
+      <h1>Publicaties</h1>
       <p class="lead">
-        Voorbeeldweergave van <code>crow.json</code> (BM19 / schema.org als
-        JSON-LD). Typ in het zoekveld om te filteren op titel, ISBN, datum of
-        samenvatting.
+        Voorbeeldweergave van JSON-LD-bronnen (schema.org). Typ in het zoekveld
+        om te filteren op titel, ISBN, datum of samenvatting.
       </p>
 
       <div class="toolbar">
@@ -230,22 +229,44 @@
 
         searchInput.addEventListener("input", applyFilter);
 
-        fetch("data/crow.json")
-          .then(function (res) {
-            if (!res.ok) throw new Error("HTTP " + res.status);
-            return res.json();
-          })
-          .then(function (data) {
-            var graph = Array.isArray(data["@graph"]) ? data["@graph"] : [data];
-            rows = graph.map(buildRow);
-            applyFilter();
-          })
-          .catch(function (err) {
-            statusEl.innerHTML =
-              '<p class="error">Kon <code>data/crow.json</code> niet laden: ' +
-              esc(err.message) +
-              ". Serveer deze map via een HTTP-server, bijv. <code>npx serve docs/demo</code>.</p>";
+        // All JSON-LD endpoints to load. Add more JSON files here; each may
+        // be a single node or an object with an "@graph" array of nodes.
+        var endpoints = ["data/crow.json"];
+
+        function loadEndpoint(url) {
+          return fetch(url)
+            .then(function (res) {
+              if (!res.ok) throw new Error("HTTP " + res.status);
+              return res.json();
+            })
+            .then(function (data) {
+              return Array.isArray(data["@graph"]) ? data["@graph"] : [data];
+            });
+        }
+
+        // Load every endpoint; a failing one shows an error but doesn't
+        // block the others.
+        Promise.all(
+          endpoints.map(function (url) {
+            return loadEndpoint(url).catch(function (err) {
+              statusEl.innerHTML +=
+                '<p class="error">Kon <code>' +
+                esc(url) +
+                "</code> niet laden: " +
+                esc(err.message) +
+                ".";
+              return [];
+            });
+          }),
+        ).then(function (results) {
+          rows = [];
+          results.forEach(function (nodes) {
+            nodes.forEach(function (node) {
+              rows.push(buildRow(node));
+            });
           });
+          applyFilter();
+        });
       })();
     </script>
   </body>
