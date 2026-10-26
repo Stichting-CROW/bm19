@@ -1,0 +1,566 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "bm19": "https://docs.crow.nl/bm19/def/",
+    "ecm": "https://data.crow.nl/kg/schema/def/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "Publication": "schema:CreativeWork",
+    "Book": "schema:Book",
+    "DigitalDocument": "schema:DigitalDocument",
+    "Periodical": "schema:Periodical",
+    "Organization": "schema:Organization",
+    "Person": "schema:Person",
+    "Audience": "schema:Audience",
+    "AlignmentObject": "schema:AlignmentObject",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "alternateName": "schema:alternateName",
+    "url": {
+      "@id": "schema:url",
+      "@type": "xsd:anyURI"
+    },
+    "abstract": "schema:abstract",
+    "author": {
+      "@id": "schema:author",
+      "@type": "@id"
+    },
+    "editor": {
+      "@id": "schema:editor",
+      "@type": "@id"
+    },
+    "publisher": {
+      "@id": "schema:publisher",
+      "@type": "@id"
+    },
+    "datePublished": {
+      "@id": "schema:datePublished",
+      "@type": "xsd:dateTime"
+    },
+    "isbn": "schema:isbn",
+    "audience": {
+      "@id": "schema:audience",
+      "@type": "@id"
+    },
+    "audienceType": "schema:audienceType",
+    "citation": {
+      "@id": "schema:citation",
+      "@type": "@id"
+    },
+    "acquireLicensePage": {
+      "@id": "schema:acquireLicensePage",
+      "@type": "@id"
+    },
+    "educationalAlignment": {
+      "@id": "schema:educationalAlignment",
+      "@type": "@id"
+    },
+    "alignmentType": "schema:alignmentType",
+    "targetName": "schema:targetName",
+    "normativityLevel": "bm19:normativityLevel",
+    "hardheidKennis": "ecm:hardheidKennis"
+  },
+  "@graph": [
+    {
+      "id": "https://data.crow.nl/kg/zn/id/Prd_03d40c4dd07962583b4a4c8a6228bef45e5daf28",
+      "type": "Publication",
+      "abstract": "De Kwaliteitscatalogus openbare ruimte 2023 biedt landelijke standaardkwaliteitsniveaus voor het onderhoud van de openbare ruimte door middel van beeldmeetlatten.",
+      "acquireLicensePage": null,
+      "alternateName": null,
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2023-08-28T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "978 90 6628 710 5",
+      "name": {
+        "@language": "nl",
+        "@value": "Kwaliteitscatalogus openbare ruimte 2023"
+      },
+      "publisher": null,
+      "url": "https://www.crow.nl/kennisproducten/kwaliteitscatalogus-openbare-ruimte-2023/?referer=bm19"
+    },
+    {
+      "id": "https://data.crow.nl/kg/zn/id/Prd_03f12776d802a6b3e286d7abcf0d03da974ac4cd",
+      "type": "Publication",
+      "abstract": "De nieuwe CROW-publicatie 500 ‘Schade voorkomen aan kabels en leidingen’ is een samenvoeging van de publicaties ‘Graafschade voorkomen aan kabels en leidingen'.",
+      "acquireLicensePage": null,
+      "alternateName": null,
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2016-11-02T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "978-90-6628-658-0",
+      "name": {
+        "@language": "nl",
+        "@value": "Schade voorkomen aan kabels en leidingen"
+      },
+      "publisher": null,
+      "url": "https://www.crow.nl/kennisproducten/schade-voorkomen-aan-kabels-en-leidingen/?referer=bm19"
+    },
+    {
+      "id": "https://data.crow.nl/kg/zn/id/Prd_061b25867c8eebdd83a295747b5186b44e16b7a6",
+      "type": "Publication",
+      "abstract": "Dankzij CROW-CUR Aanbeveling 124:2019 heb je een helder overzicht van richtlijnen en procedures voor een realistische beoordeling van de constructieve veiligheid van bruggen en viaducten die in beheer zijn bij decentrale overheden.",
+      "acquireLicensePage": null,
+      "alternateName": "CROW-CUR Aanbeveling 124:2019",
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2019-08-01T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "9789066286719",
+      "name": {
+        "@language": "nl",
+        "@value": "Constructieve veiligheid bestaande bruggen en viaducten van decentrale overheden"
+      },
+      "publisher": null,
+      "url": "https://www.crow.nl/kennisproducten/constructieve-veiligheid-bestaande-bruggen-en-viaducten-van-decentrale-overheden/?referer=bm19"
+    },
+    {
+      "id": "https://data.crow.nl/kg/zn/id/Prd_07fc6bcfc175a827639d5f13b3b2d3aee367d79f",
+      "type": "Publication",
+      "abstract": "Deze leidraad helpt gemeenten met het inrichten van hun fietsparkeerplaatsen.",
+      "acquireLicensePage": null,
+      "alternateName": null,
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2023-11-14T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "978 90 6628 705 1",
+      "name": {
+        "@language": "nl",
+        "@value": "Leidraad Fietsparkeren"
+      },
+      "publisher": null,
+      "url": "https://www.crow.nl/kennisproducten/leidraad-fietsparkeren/?referer=bm19"
+    },
+    {
+      "id": "https://data.crow.nl/kg/zn/id/Prd_087c45c4c4a3b326527e0f02f1c1a9bca0a840b8",
+      "type": "Publication",
+      "abstract": "Aandacht voor veiligheids- en gezondheidsaspecten bij werken in of met een verontreinigde bodem om blootstelling te voorkomen.",
+      "acquireLicensePage": null,
+      "alternateName": "Richtlijn voor veilig, zorgvuldig en risicogestuurd werken",
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2023-11-06T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "978-90-6628-706-8",
+      "name": {
+        "@language": "nl",
+        "@value": "Werken in en met verontreinigde bodem"
+      },
+      "publisher": null,
+      "url": "https://www.crow.nl/kennisproducten/werken-in-en-met-verontreinigde-bodem/?referer=bm19"
+    },
+    {
+      "id": "https://data.crow.nl/kg/zn/id/Prd_0fd646074d9e7adf844fdadde08619e037b80d89",
+      "type": "Publication",
+      "abstract": "Voorspel het ontstaan van spoorvorming bij elementenverhardingen met dit softwareprogramma.",
+      "acquireLicensePage": null,
+      "alternateName": null,
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2005-07-01T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "90 6628 435 8",
+      "name": {
+        "@language": "nl",
+        "@value": "BESCON"
+      },
+      "publisher": null,
+      "url": "https://www.crow.nl/kennisproducten/bescon/?referer=bm19"
+    },
+    {
+      "id": "https://data.crow.nl/kg/zn/id/Prd_104954d5a1ff3068d359bc646540b4c7fdd6d400",
+      "type": "Publication",
+      "abstract": "In de ASVV (Aanbevelingen voor Verkeersvoorzieningen Binnen de Bebouwde Kom) is alle kennis over verkeersvoorzieningen binnen de bebouwde kom gebundeld.",
+      "acquireLicensePage": null,
+      "alternateName": "Bundeling van alle kennis over verkeersvoorzieningen binnen de bebouwde kom",
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2021-09-15T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "9789066286900",
+      "name": {
+        "@language": "nl",
+        "@value": "ASVV 2021"
+      },
+      "publisher": null,
+      "url": "https://www.crow.nl/kennisproducten/asvv-2021/?referer=bm19"
+    },
+    {
+      "id": "https://data.crow.nl/kg/zn/id/Prd_13e302db8ef5a3453acef3e5c6bfbd5ab570d2b5",
+      "type": "Publication",
+      "abstract": "Deze CROW-CUR Aanbeveling biedt beheerders, eigenaren en hun adviseurs heldere, eenduidige procedures, regels en eisen voor inspectie, advies en nader onderzoek voor het beheer van kunstwerken, bestaande uit civieltechnische constructies en hun technische installaties.",
+      "acquireLicensePage": null,
+      "alternateName": "CROW-CUR Aanbeveling 117:2020",
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2020-07-30T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "9789066286849",
+      "name": {
+        "@language": "nl",
+        "@value": "Inspectie en advies civiele kunstwerken"
+      },
+      "publisher": null,
+      "url": "https://www.crow.nl/kennisproducten/inspectie-en-advies-civiele-kunstwerken/?referer=bm19"
+    },
+    {
+      "id": "https://data.crow.nl/kg/zn/id/Prd_140fe6252131cb02ee8d70d2e13daface4e4a1f1",
+      "type": "Publication",
+      "abstract": "Deze CROW-CUR Aanbeveling 48:2022 bevat procedures, keuringscriteria en beproevingsmethoden, benodigd voor het beoordelen van de geschiktheid van cement en de gelijkwaardige prestatie in beton van een combinatie van cement(en) met vulstof(fen).",
+      "acquireLicensePage": null,
+      "alternateName": "CROW-CUR Aanbeveling 48:2022",
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2022-11-29T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "978 90 6628 700 6",
+      "name": {
+        "@language": "nl",
+        "@value": "CROW-CUR Aanbeveling 48:2022"
+      },
+      "publisher": null,
+      "url": "https://www.crow.nl/kennisproducten/crow-cur-aanbeveling-482022/?referer=bm19"
+    },
+    {
+      "id": "https://data.crow.nl/kg/zn/id/Prd_1a467086ff9a936e2535c60a812483a5bd75b379",
+      "type": "Publication",
+      "abstract": "Deze CROW-CUR Richtlijn 2:2021 geeft aan hoe grondstoffen voor beton beoordeeld moeten worden op de gevolgen voor de circulariteit van het beton. Het geeft daarmee ook inzicht in de toepassing van de volgende levenscyclus van beton.",
+      "acquireLicensePage": null,
+      "alternateName": "Beoordelingssystematiek grondstoffen op geschiktheid voor circulair beton",
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2022-02-17T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "978 90 6628 698 6",
+      "name": {
+        "@language": "nl",
+        "@value": "CROW-CUR Richtlijn 2:2021"
+      },
+      "publisher": null,
+      "url": "https://www.crow.nl/kennisproducten/crow-cur-richtlijn-22021/?referer=bm19"
+    },
+    {
+      "id": "https://data.crow.nl/kg/zn/id/Prd_1b396bf35e29f495fa195c8e579e77cb945de3a7",
+      "type": "Publication",
+      "abstract": "Publicatie vol kennis op het gebied van funderingsmaterialen in de wegenbouw.",
+      "acquireLicensePage": null,
+      "alternateName": null,
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2014-05-06T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "978 90 6628 636 8",
+      "name": {
+        "@language": "nl",
+        "@value": "Handboek funderingsmaterialen in de wegenbouw"
+      },
+      "publisher": null,
+      "url": "https://www.crow.nl/kennisproducten/handboek-funderingsmaterialen-in-de-wegenbouw/?referer=bm19"
+    },
+    {
+      "id": "https://data.crow.nl/kg/zn/id/Prd_24171579da7bfe108f8003a7929fa74615e7e043",
+      "type": "Publication",
+      "abstract": "Praktisch handboek met informatie over de systematiek voor het visueel inspecteren van wegen en de gereedschappen die daarbij nodig zijn. Ook de plaats die visuele inspectie binnen wegbeheer inneemt, komt aan bod.",
+      "acquireLicensePage": null,
+      "alternateName": null,
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2011-12-19T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "978 9066285873",
+      "name": {
+        "@language": "nl",
+        "@value": "Handboek visuele inspectie 2011"
+      },
+      "publisher": null,
+      "url": "https://www.crow.nl/kennisproducten/handboek-visuele-inspectie-2011/?referer=bm19"
+    },
+    {
+      "id": "https://data.crow.nl/kg/zn/id/Prd_2b71dc7e4fa330d47e59d114b9b38bc6573be1f5",
+      "type": "Publication",
+      "abstract": "Engelstalige versie van de ASVV 1998, aanbevelingen voor verkeersvoorzieningen binnen de bebouwde kom. Collected in this publication is the knowledge relating to design, implementation and management of traffic provisions in built-up areas.",
+      "acquireLicensePage": null,
+      "alternateName": "Aanbevelingen voor verkeersvoorzieningen binnen de bebouwde kom - Engelse vertaling",
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "1998-03-01T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "90 6628 265 7",
+      "name": {
+        "@language": "nl",
+        "@value": "ASVV - Recommendations for traffic provisions in built up areas"
+      },
+      "publisher": null,
+      "url": "https://www.crow.nl/kennisproducten/asvv-recommendations-for-traffic-provisions-in-built-up-areas/?referer=bm19"
+    },
+    {
+      "id": "https://data.crow.nl/kg/zn/id/Prd_2c5670524027040e5608901848f2296226ca4c33",
+      "type": "Publication",
+      "abstract": "Deze aanbeveling geeft definities, classificaties, eisen en regels voor de samenstelling en de eigenschappen van de mortelspecie en de mortel, de levering en verwerking, alsmede de eisen en de meetmethoden van krimparme cementgebonden mortels.",
+      "acquireLicensePage": null,
+      "alternateName": "CROW-CUR Aanbeveling 24:2021",
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2021-06-14T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "978 90 6628 691 7",
+      "name": {
+        "@language": "nl",
+        "@value": "CROW-CUR Aanbeveling 24:2021"
+      },
+      "publisher": null,
+      "url": "https://www.crow.nl/kennisproducten/crow-cur-aanbeveling-242021/?referer=bm19"
+    },
+    {
+      "id": "https://data.crow.nl/kg/zn/id/Prd_30ea9bbc173c02d385f36a7ee52607007a405e2d",
+      "type": "Publication",
+      "abstract": "Voor effectief risicomanagement is goed communiceren noodzakelijk. In deze publicatie wordt beschreven hoe je dat doet.",
+      "acquireLicensePage": null,
+      "alternateName": "Van denken naar doen",
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2010-10-13T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "978 90 6628 570 5",
+      "name": {
+        "@language": "nl",
+        "@value": "Effectief omgaan met risico's"
+      },
+      "publisher": null,
+      "url": "https://www.crow.nl/kennisproducten/effectief-omgaan-met-risicos/?referer=bm19"
+    },
+    {
+      "id": "https://data.crow.nl/kg/zn/id/Prd_34394c6da9c4c9e34d33a80edd66e977dd01a446",
+      "type": "Publication",
+      "abstract": "Vormvrij ontwerpen en bouwen met minder materiaal. Dat is mogelijk met 3D-betonprinten. Deze nieuwe bouwwijze wijkt af van traditionele bouwprocessen en is duurzaam, kosten- en milieubesparend. De werkgroep heeft de nieuwe CROW-CUR Richtlijn 5:2023 3D-betonprinten opgesteld. De richtlijn is de leidraad voor alle betrokkenen in het bouwproces, van architecten, ontwerpers tot constructeurs en (publieke) opdrachtgevers.",
+      "acquireLicensePage": null,
+      "alternateName": null,
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2024-02-08T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "978 90 6628 711 2",
+      "name": {
+        "@language": "nl",
+        "@value": "CROW-CUR Richtlijn 5:2023 3D-Betonprinten"
+      },
+      "publisher": null,
+      "url": "https://www.crow.nl/kennisproducten/crow-cur-richtlijn-52023-3d-betonprinten/?referer=bm19"
+    },
+    {
+      "id": "https://data.crow.nl/kg/zn/id/Prd_36300184b9222d745aa10c155980deedb365a373",
+      "type": "Publication",
+      "abstract": "The CROW-CUR Recommendation addresses the need to formulate technical principles for the design of load-bearing structures that use fibre-reinforced polymers.",
+      "acquireLicensePage": null,
+      "alternateName": "Fibre-reinforced polymers in buildings and civil engineering structures",
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2019-11-14T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "978-90-6628-673-3",
+      "name": {
+        "@language": "nl",
+        "@value": "CROW- CUR Recommendation 96:2019"
+      },
+      "publisher": null,
+      "url": "https://www.crow.nl/kennisproducten/crow-cur-recommendation-962019/?referer=bm19"
+    },
+    {
+      "id": "https://data.crow.nl/kg/zn/id/Prd_3c7304ff222e19f65855c7329bf10463715d5450",
+      "type": "Publication",
+      "abstract": "Dit handboek is letterlijk bedoeld als handboek: om bij de hand te hebben tijdens de uitvoering van wegwerkzaamheden voor iedereen die op niet-autosnelwegen aan het werk is. Deze publicatie vervangt het Handboek wegafzettingen 96b uit 2014.",
+      "acquireLicensePage": null,
+      "alternateName": "Werk in Uitvoering 96b - 2020 / DEZE PUBLICATIE IS ALLEEN NOG ONLINE BESCHIKBAAR IN DE KENNISMODULE WERK IN UITVOERING",
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2020-07-01T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "9789066286832",
+      "name": {
+        "@language": "nl",
+        "@value": "Standaardmaatregelen op niet-autosnelwegen"
+      },
+      "publisher": null,
+      "url": "https://www.crow.nl/kennisproducten/standaardmaatregelen-op-niet-autosnelwegen/?referer=bm19"
+    },
+    {
+      "id": "https://data.crow.nl/kg/zn/id/Prd_419556245446936c93a96e8208c67dedb3bb65c5",
+      "type": "Publication",
+      "abstract": "Dit handboek is letterlijk bedoeld als handboek: om bij de hand te hebben tijdens de uitvoering van wegwerkzaamheden voor iedereen die op autosnelwegen aan het werk is. Deze publicatie vervangt het Handboek wegafzettingen uit 2017.",
+      "acquireLicensePage": null,
+      "alternateName": "Werk in Uitvoering 96a - 2020 / DEZE IS ALLEEN NOG DIGITAAL BESCHIKBAAR IN DE KENNISMODULE WERK IN UITVOERING",
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2020-07-01T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "9789066286825",
+      "name": {
+        "@language": "nl",
+        "@value": "Standaardmaatregelen op autosnelwegen"
+      },
+      "publisher": null,
+      "url": "https://www.crow.nl/kennisproducten/standaardmaatregelen-op-autosnelwegen/?referer=bm19"
+    },
+    {
+      "id": "https://data.crow.nl/kg/zn/id/Prd_434de952a703431167d7f427a7c82defddd53ca1",
+      "type": "Publication",
+      "abstract": "Het Handboek inspectie E&WI civieltechnische constructies geeft (achtergrond)informatie voor inspecties van elektrotechnische- en werktuigbouwkundige onderdelen van civieltechnische constructies.",
+      "acquireLicensePage": null,
+      "alternateName": "CROW-CUR Handboek 2:2020",
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2020-07-30T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "978-90-6628-675-7",
+      "name": {
+        "@language": "nl",
+        "@value": "Inspectie elektrotechnische en werktuigbouwkundige installaties (E&WI)"
+      },
+      "publisher": null,
+      "url": "https://www.crow.nl/kennisproducten/inspectie-elektrotechnische-en-werktuigbouwkundige-installaties-ewi/?referer=bm19"
+    },
+    {
+      "id": "https://data.crow.nl/kg/zn/id/Prd_4781a97b5102fc280957365d6458551f11fef6d0",
+      "type": "Publication",
+      "abstract": "Het Handboek specificeren is van belang voor iedere organisatie die op basis van Systems Engineering gww-werken ontwerpt of uitvoert.",
+      "acquireLicensePage": null,
+      "alternateName": "DEZE PUBLICATIE IS ALLEEN DIGITAAL BESCHIKBAAR IN DE KENNISBANK",
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2011-09-05T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "978 90 6628 580 4",
+      "name": {
+        "@language": "nl",
+        "@value": "Handboek specificeren"
+      },
+      "publisher": null,
+      "url": "https://www.crow.nl/kennisproducten/handboek-specificeren/?referer=bm19"
+    },
+    {
+      "id": "https://data.crow.nl/kg/zn/id/Prd_48d8b8c1dab806ef57efc6d8b251ebeacd85c2f8",
+      "type": "Publication",
+      "abstract": "De Ontwerpwijzer voetgangers is het handboek voor iedere professional die bij wil dragen aan een voor voetgangers toegankelijke, veilige en aantrekkelijke omgeving.",
+      "acquireLicensePage": null,
+      "alternateName": null,
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2023-11-02T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "978 90 6628 708 2",
+      "name": {
+        "@language": "nl",
+        "@value": "Ontwerpwijzer voetgangers"
+      },
+      "publisher": null,
+      "url": "https://www.crow.nl/kennisproducten/ontwerpwijzer-voetgangers/?referer=bm19"
+    },
+    {
+      "id": "https://data.crow.nl/kg/zn/id/Prd_4cf0642ab7cf7eecbe684f978f84a4f335774dc5",
+      "type": "Publication",
+      "abstract": "Engelstalige editie van de ontwerphandleiding voor fietsverkeer (editie 2016). World's best-selling Dutch design manual for bicycle traffic (edition 2016)",
+      "acquireLicensePage": null,
+      "alternateName": null,
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2016-12-12T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "9789066286597",
+      "name": {
+        "@language": "nl",
+        "@value": "Design manual for bicycle traffic"
+      },
+      "publisher": null,
+      "url": "https://www.crow.nl/kennisproducten/design-manual-for-bicycle-traffic/?referer=bm19"
+    },
+    {
+      "id": "https://data.crow.nl/kg/zn/id/Prd_4ddf8623fb3e52857510b979333aab24ef7e7a3e",
+      "type": "Publication",
+      "abstract": "De publicatie richt zich op alle professionals binnen de gww die te maken hebben met lichte ophoogmaterialen.",
+      "acquireLicensePage": null,
+      "alternateName": null,
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2013-05-13T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "978 90 6628 618 4",
+      "name": {
+        "@language": "nl",
+        "@value": "Lichte ophoogmaterialen in de wegenbouw"
+      },
+      "publisher": null,
+      "url": "https://www.crow.nl/kennisproducten/lichte-ophoogmaterialen-in-de-wegenbouw/?referer=bm19"
+    },
+    {
+      "id": "https://data.crow.nl/kg/zn/id/Prd_53832629bc9c6083ddd431c90676cb958c8c9d9f",
+      "type": "Publication",
+      "abstract": "Deze publicatie bevat de basisgegevens voor voertuigen. Ook de menselijke kant is meegenomen, omdat voertuigen niet over de weg rijden zonder invloed van de mens als bestuurder.",
+      "acquireLicensePage": null,
+      "alternateName": null,
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2010-06-14T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "978 90 6628 539 2",
+      "name": {
+        "@language": "nl",
+        "@value": "Karakteristieken van voertuigen en mensen"
+      },
+      "publisher": null,
+      "url": "https://www.crow.nl/kennisproducten/karakteristieken-van-voertuigen-en-mensen/?referer=bm19"
+    }
+  ]
+}
