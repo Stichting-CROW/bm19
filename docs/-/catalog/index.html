@@ -104,14 +104,14 @@
       <h1>Publicaties</h1>
       <p class="lead">
         Voorbeeldweergave van JSON-LD-bronnen (schema.org). Typ in het zoekveld
-        om te filteren op titel, ISBN, datum of samenvatting.
+        om te filteren op titel, uitgever, datum of samenvatting.
       </p>
 
       <div class="toolbar">
         <input
           type="search"
           id="search"
-          placeholder="Zoeken… (titel, ISBN, datum, tekst)"
+          placeholder="Zoeken… (titel, datum, tekst, etc.)"
           aria-label="Zoek in publicaties"
           autofocus
         />
@@ -124,7 +124,7 @@
         <thead>
           <tr>
             <th>Titel</th>
-            <th>ISBN</th>
+            <th>Uitgever</th>
             <th>Datum</th>
             <th>Samenvatting</th>
             <th>Link</th>
@@ -180,7 +180,7 @@
         function buildRow(node) {
           var name =
             text(node.name) || text(node.alternateName) || "(zonder titel)";
-          var isbn = text(node.isbn);
+          var publisherName = text(node.publisher);
           var date = fmtDate(node.datePublished);
           var abstract = text(node.abstract);
           var url = text(node.url);
@@ -191,7 +191,7 @@
             esc(name) +
             "</td>" +
             '<td class="muted">' +
-            (isbn ? esc(isbn) : "—") +
+            (publisherName ? esc(publisherName) : "—") +
             "</td>" +
             '<td class="muted" style="white-space:nowrap">' +
             (date ? esc(date) : "—") +
@@ -207,7 +207,7 @@
               : "—") +
             "</td>";
 
-          var searchable = [name, isbn, date, abstract, url]
+          var searchable = [name, publisherName, date, abstract, url]
             .join(" ")
             .toLowerCase();
           return { node: tr, text: searchable };
