@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BM19 demo — CROW-publicaties</title>
+    <style>
+      :root {
+        --accent: #005a9c;
+        --border: #d0d7de;
+        --bg-soft: #f6f8fa;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+          Arial, sans-serif;
+        margin: 0;
+        padding: 2rem 1rem;
+        color: #1f2328;
+        background: #fff;
+      }
+      main {
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+      h1 {
+        font-size: 1.5rem;
+        margin-bottom: 0.25rem;
+      }
+      p.lead {
+        color: #57606a;
+        margin-top: 0;
+      }
+      .toolbar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        align-items: center;
+        margin: 1.25rem 0;
+      }
+      .toolbar input[type="search"] {
+        flex: 1 1 260px;
+        padding: 0.5rem 0.75rem;
+        font-size: 1rem;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+      }
+      .toolbar input[type="search"]:focus {
+        outline: 2px solid var(--accent);
+        outline-offset: -1px;
+        border-color: var(--accent);
+      }
+      .count {
+        color: #57606a;
+        font-size: 0.9rem;
+        white-space: nowrap;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.92rem;
+      }
+      th,
+      td {
+        text-align: left;
+        vertical-align: top;
+        padding: 0.55rem 0.75rem;
+        border-bottom: 1px solid var(--border);
+      }
+      thead th {
+        position: sticky;
+        top: 0;
+        background: var(--bg-soft);
+        border-bottom: 2px solid var(--border);
+        white-space: nowrap;
+      }
+      tbody tr:hover {
+        background: var(--bg-soft);
+      }
+      td.abstract {
+        max-width: 32rem;
+        color: #444c56;
+      }
+      td a {
+        color: var(--accent);
+      }
+      .muted {
+        color: #8b949e;
+      }
+      .error {
+        background: #ffebe9;
+        border: 1px solid #ff8182;
+        border-radius: 6px;
+        padding: 0.75rem 1rem;
+        color: #cf222e;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>CROW-publicaties</h1>
+      <p class="lead">
+        Voorbeeldweergave van <code>crow.json</code> (BM19 / schema.org als
+        JSON-LD). Typ in het zoekveld om te filteren op titel, ISBN, datum of
+        samenvatting.
+      </p>
+
+      <div class="toolbar">
+        <input
+          type="search"
+          id="search"
+          placeholder="Zoeken… (titel, ISBN, datum, tekst)"
+          aria-label="Zoek in publicaties"
+          autofocus
+        />
+        <span class="count" id="count"></span>
+      </div>
+
+      <div id="status"></div>
+
+      <table id="results" hidden>
+        <thead>
+          <tr>
+            <th>Titel</th>
+            <th>ISBN</th>
+            <th>Datum</th>
+            <th>Samenvatting</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </main>
+
+    <script>
+      (function () {
+        "use strict";
+
+        var searchInput = document.getElementById("search");
+        var countEl = document.getElementById("count");
+        var statusEl = document.getElementById("status");
+        var table = document.getElementById("results");
+        var tbody = document.getElementById("tbody");
+
+        var rows = []; // { node, text }
+
+        function text(value) {
+          if (value == null) return "";
+          if (typeof value === "string") return value;
+          if (typeof value === "object") {
+            // Language-tagged string: { "@language": "nl", "@value": "…" }
+            if (value["@value"] != null) return String(value["@value"]);
+            return JSON.stringify(value);
+          }
+          return String(value);
+        }
+
+        function fmtDate(value) {
+          var s = text(value);
+          if (!s) return "";
+          var d = new Date(s);
+          if (isNaN(d)) return s;
+          return d.toLocaleDateString("nl-NL", {
+            year: "numeric",
+            month: "2-digit",
+            day: "2-digit",
+          });
+        }
+
+        function esc(s) {
+          return String(s)
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;");
+        }
+
+        function buildRow(node) {
+          var name =
+            text(node.name) || text(node.alternateName) || "(zonder titel)";
+          var isbn = text(node.isbn);
+          var date = fmtDate(node.datePublished);
+          var abstract = text(node.abstract);
+          var url = text(node.url);
+
+          var tr = document.createElement("tr");
+          tr.innerHTML =
+            "<td>" +
+            esc(name) +
+            "</td>" +
+            '<td class="muted">' +
+            (isbn ? esc(isbn) : "—") +
+            "</td>" +
+            '<td class="muted" style="white-space:nowrap">' +
+            (date ? esc(date) : "—") +
+            "</td>" +
+            '<td class="abstract">' +
+            (abstract ? esc(abstract) : "—") +
+            "</td>" +
+            "<td>" +
+            (url
+              ? '<a href="' +
+                esc(url) +
+                '" target="_blank" rel="noopener">bekijk</a>'
+              : "—") +
+            "</td>";
+
+          var searchable = [name, isbn, date, abstract, url]
+            .join(" ")
+            .toLowerCase();
+          return { node: tr, text: searchable };
+        }
+
+        function applyFilter() {
+          var q = searchInput.value.trim().toLowerCase();
+          var shown = 0;
+          tbody.textContent = "";
+          for (var i = 0; i < rows.length; i++) {
+            if (!q || rows[i].text.indexOf(q) !== -1) {
+              tbody.appendChild(rows[i].node);
+              shown++;
+            }
+          }
+          countEl.textContent = shown + " van " + rows.length + " publicaties";
+          table.hidden = rows.length === 0;
+        }
+
+        searchInput.addEventListener("input", applyFilter);
+
+        fetch("data/crow.json")
+          .then(function (res) {
+            if (!res.ok) throw new Error("HTTP " + res.status);
+            return res.json();
+          })
+          .then(function (data) {
+            var graph = Array.isArray(data["@graph"]) ? data["@graph"] : [data];
+            rows = graph.map(buildRow);
+            applyFilter();
+          })
+          .catch(function (err) {
+            statusEl.innerHTML =
+              '<p class="error">Kon <code>data/crow.json</code> niet laden: ' +
+              esc(err.message) +
+              ". Serveer deze map via een HTTP-server, bijv. <code>npx serve docs/demo</code>.</p>";
+          });
+      })();
+    </script>
+  </body>
+</html>
