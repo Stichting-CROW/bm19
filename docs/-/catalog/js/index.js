@@ -1,298 +1,250 @@
-(function () {
-  "use strict";
+import * as C from "catalog";
 
-  var searchInput = document.getElementById("search");
-  var countEl = document.getElementById("count");
-  var statusEl = document.getElementById("status");
-  var groupsEl = document.getElementById("groups");
-  var listEl = document.getElementById("list");
-
-  var text = Catalog.text;
-  var esc = Catalog.esc;
-  var conceptsUrl = "data/concepts.json";
-
-  var STOPWORDS = (
+const STOPWORDS = new Set(
+  (
     "aan als bij dan dat de deze die dit door een en er heb hebben het " +
     "hoe hun ik in is je kan kun kunnen me met mijn moet moeten mag naar " +
     "niet of om op over te tot uit van voor wat we welk welke wanneer " +
     "waar wij wil wordt zijn zo zou"
-  ).split(" ");
-  var MIN_TOKEN_LENGTH = 3;
+  ).split(" "),
+);
+const MIN_TOKEN_LENGTH = 3;
+const TITLE_WEIGHT = 3;
+const BODY_WEIGHT = 1;
+const NUMBER = /^[0-9]+$/;
 
-  var records = []; // see buildRecord
-  var byId = {};
-  var concepts = []; // { label, triggers, terms }
-
-  // Splits text into lowercase words. Hyphenated words are kept whole
-  // and also added as their separate parts.
-  function words(s) {
-    var out = [];
-    s.toLowerCase()
-      .split(/[^0-9a-z\u00c0-\u024f-]+/)
-      .forEach(function (w) {
-        w = w.replace(/^-+|-+$/g, "");
-        if (!w) return;
-        out.push(w);
-        if (w.indexOf("-") !== -1) {
-          w.split("-").forEach(function (part) {
-            if (part) out.push(part);
-          });
-        }
-      });
-    return out;
+// Splits text into lowercase words. Hyphenated words are kept whole and
+// also added as their separate parts.
+function words(s) {
+  const out = [];
+  for (const raw of s.toLowerCase().split(/[^0-9a-z\u00c0-\u024f-]+/)) {
+    const w = raw.replace(/^-+|-+$/g, "");
+    if (!w) continue;
+    out.push(w);
+    if (w.includes("-")) out.push(...w.split("-").filter(Boolean));
   }
+  return out;
+}
 
-  // Words from the query that carry meaning: no stopwords, no short
-  // words except numbers.
-  function queryTokens(q) {
-    return words(q).filter(function (w, i, all) {
-      if (all.indexOf(w) !== i) return false;
-      if (STOPWORDS.indexOf(w) !== -1) return false;
-      return /^[0-9]+$/.test(w) || w.length >= MIN_TOKEN_LENGTH;
-    });
-  }
+// Words from the query that carry meaning: no stopwords, no short words
+// except numbers.
+function queryTokens(q) {
+  return [...new Set(words(q))].filter(
+    (w) =>
+      !STOPWORDS.has(w) && (NUMBER.test(w) || w.length >= MIN_TOKEN_LENGTH),
+  );
+}
 
-  // A number must match a word exactly; other tokens match the start
-  // of a word.
-  function tokenMatches(token, recordWords) {
-    var numeric = /^[0-9]+$/.test(token);
-    for (var i = 0; i < recordWords.length; i++) {
-      var w = recordWords[i];
-      if (numeric ? w === token : w.indexOf(token) === 0) return true;
-    }
-    return false;
+// A number must match a word exactly; other tokens match the start of a
+// word.
+function tokenMatches(token, recordWords) {
+  const numeric = NUMBER.test(token);
+  return recordWords.some((w) =>
+    numeric ? w === token : w.startsWith(token),
+  );
+}
+
+// A search result: a record with its words, split by title and body.
+class Record {
+  constructor(entry) {
+    this.entry = entry;
+    const node = entry.node;
+    this.isProduct = C.isType(node, "Product");
+    this.title = C.title(node);
+    this.titleWords = words(this.title);
+    const keywords = C.list(node.keywords).map(C.text).join(" ");
+    const chapterWords = C.chapters(node).map((c) => `${c.label} ${c.keywords}`);
+    this.words = words(
+      [
+        this.title,
+        entry.source,
+        C.text(node.publisher),
+        C.fmtDate(node.datePublished),
+        C.summary(node),
+        C.text(node.url),
+        keywords,
+        ...chapterWords,
+      ].join(" "),
+    );
   }
 
   // A match in the title counts more than a match in the rest of the
   // record. 0 means no match.
-  var TITLE_WEIGHT = 3;
-  var BODY_WEIGHT = 1;
-  function matchWeight(token, record) {
-    if (tokenMatches(token, record.titleWords)) return TITLE_WEIGHT;
-    if (tokenMatches(token, record.words)) return BODY_WEIGHT;
+  weight(token) {
+    if (tokenMatches(token, this.titleWords)) return TITLE_WEIGHT;
+    if (tokenMatches(token, this.words)) return BODY_WEIGHT;
     return 0;
   }
 
-  function score(tokens, record) {
-    var total = 0;
-    var textHits = 0;
-    tokens.forEach(function (t) {
-      var w = matchWeight(t, record);
+  // Sum of the weights of the tokens. A query with text words only counts
+  // when at least one text word matches.
+  score(tokens) {
+    let total = 0;
+    let textHits = 0;
+    for (const t of tokens) {
+      const w = this.weight(t);
       if (w) {
         total += w;
-        if (!/^[0-9]+$/.test(t)) textHits++;
+        if (!NUMBER.test(t)) textHits++;
       }
-    });
-    var hasTextToken = tokens.some(function (t) {
-      return !/^[0-9]+$/.test(t);
-    });
+    }
+    const hasTextToken = tokens.some((t) => !NUMBER.test(t));
     return hasTextToken && textHits === 0 ? 0 : total;
   }
+}
 
-  function buildRecord(entry) {
-    var node = entry.node;
-    var title = Catalog.title(node);
-    var keywords = Catalog.list(node.keywords).map(text).join(" ");
-    return {
-      entry: entry,
-      isProduct: Catalog.isType(node, "Product"),
-      title: title,
-      titleWords: words(title),
-      words: words(
-        [
-          title,
-          entry.source,
-          text(node.publisher),
-          Catalog.fmtDate(node.datePublished),
-          Catalog.summary(node),
-          text(node.url),
-          keywords,
-        ]
-          .concat(
-            Catalog.chapters(node).map(function (c) {
-              return c.label + " " + c.keywords;
-            }),
-          )
-          .join(" "),
-      ),
-    };
+// The words all titles start with, e.g. "HR-wand combiketel Kli-Max" for
+// its tapklasse 3 and tapklasse 4 variants.
+function commonTitle(titles) {
+  let prefix = titles.reduce((p, t) => {
+    let i = 0;
+    while (i < p.length && i < t.length && p[i] === t[i]) i++;
+    return p.slice(0, i);
+  });
+  const cutsWord = titles.some((t) => /[0-9a-z]/i.test(t.charAt(prefix.length)));
+  if (cutsWord) prefix = prefix.replace(/[^\s/]*$/, "");
+  prefix = prefix.replace(/[\s/-]+$/, "");
+  return prefix || titles[0];
+}
+
+class CatalogSearch {
+  constructor({ input, count, groups, list, status }) {
+    this.input = input;
+    this.countEl = count;
+    this.groupsEl = groups;
+    this.listEl = list;
+    this.statusEl = status;
+    this.records = [];
+    this.concepts = []; // { label, triggers, terms }
+    this.byId = {};
+    input.addEventListener("input", () => this.apply());
   }
 
-  function matchedConcepts(tokens) {
-    return concepts.filter(function (c) {
-      return tokens.some(function (t) {
-        return c.triggers.some(function (trigger) {
-          return t.indexOf(trigger.toLowerCase()) === 0;
-        });
+  async load() {
+    const [sources, concepts] = await Promise.all([
+      C.loadSources(),
+      C.loadJson("data/concepts.json").catch((err) => {
+        this.reportError("data/concepts.json", err);
+        return [];
+      }),
+    ]);
+    sources.errors.forEach((e) => this.reportError(e.url, e.error));
+    this.byId = sources.byId;
+    this.records = sources.nodes.map((entry) => new Record(entry));
+    this.concepts = concepts;
+    this.apply();
+  }
+
+  reportError(url, err) {
+    this.statusEl.insertAdjacentHTML("beforeend", C.errorHtml(url, err));
+  }
+
+  apply() {
+    const tokens = queryTokens(this.input.value);
+    const groups = [];
+
+    for (const concept of this.matchedConcepts(tokens)) {
+      const hits = this.conceptHits(concept);
+      if (hits.length) groups.push({ heading: concept.label, hits });
+    }
+
+    const products = this.bestProducts(tokens);
+    if (products.length) {
+      groups.push({
+        heading: commonTitle(products.map((r) => r.title)),
+        hits: products,
       });
-    });
+    }
+
+    if (groups.length) this.showGroups(groups);
+    else this.showList(tokens);
+  }
+
+  matchedConcepts(tokens) {
+    return this.concepts.filter((c) =>
+      tokens.some((t) =>
+        c.triggers.some((trigger) => t.startsWith(trigger.toLowerCase())),
+      ),
+    );
   }
 
   // The non-product sources about a concept, best matches first.
-  function conceptHits(concept) {
-    var terms = concept.terms.map(function (t) {
-      return t.toLowerCase();
-    });
-    return records
-      .map(function (r) {
-        var s = 0;
-        if (!r.isProduct) {
-          terms.forEach(function (t) {
-            s += matchWeight(t, r);
-          });
-        }
-        return { r: r, s: s };
-      })
-      .filter(function (x) {
-        return x.s > 0;
-      })
-      .sort(function (a, b) {
-        return b.s - a.s;
-      })
-      .map(function (x) {
-        return x.r;
-      });
+  conceptHits(concept) {
+    const terms = concept.terms.map((t) => t.toLowerCase());
+    return this.records
+      .filter((r) => !r.isProduct)
+      .map((r) => ({
+        r,
+        s: terms.reduce((sum, t) => sum + r.weight(t), 0),
+      }))
+      .filter((x) => x.s > 0)
+      .sort((a, b) => b.s - a.s)
+      .map((x) => x.r);
   }
 
-  // The products that share the most query tokens with the query.
-  function bestProducts(tokens) {
-    var best = 0;
-    var hits = [];
-    records.forEach(function (r) {
-      if (!r.isProduct) return;
-      var s = score(tokens, r);
-      if (s === 0) return;
+  // The products that share the most query tokens with the query, shortest
+  // title first.
+  bestProducts(tokens) {
+    let best = 0;
+    let hits = [];
+    for (const r of this.records) {
+      if (!r.isProduct) continue;
+      const s = r.score(tokens);
+      if (s === 0) continue;
       if (s > best) {
         best = s;
         hits = [r];
       } else if (s === best) {
         hits.push(r);
       }
-    });
-    return hits.sort(function (a, b) {
-      return a.title.length - b.title.length;
-    });
+    }
+    return hits.sort((a, b) => a.title.length - b.title.length);
   }
 
-  // The words all titles start with, e.g. "HR-wand combiketel Kli-Max"
-  // for its tapklasse 3 and tapklasse 4 variants.
-  function commonTitle(titles) {
-    var prefix = titles[0];
-    titles.forEach(function (t) {
-      var i = 0;
-      while (i < prefix.length && i < t.length && prefix[i] === t[i]) i++;
-      prefix = prefix.slice(0, i);
-    });
-    var cutsWord = titles.some(function (t) {
-      return /[0-9a-z]/i.test(t.charAt(prefix.length));
-    });
-    if (cutsWord) prefix = prefix.replace(/[^\s\/]*$/, "");
-    prefix = prefix.replace(/[\s\/-]+$/, "");
-    return prefix || titles[0];
+  card(r) {
+    return C.card(r.entry, this.byId);
   }
 
-  function card(r) {
-    return Catalog.card(r.entry, byId);
-  }
-
-  function group(heading, hits) {
-    return (
-      '<section class="group">' +
-      "<h2>Over “" +
-      esc(heading) +
-      "” vind je informatie bij</h2>" +
-      '<ul class="cards">' +
-      hits.map(card).join("") +
-      "</ul></section>"
-    );
-  }
-
-  function showGroups(groups) {
-    var total = 0;
-    groupsEl.innerHTML = groups
-      .map(function (g) {
-        total += g.hits.length;
-        return group(g.heading, g.hits);
-      })
+  showGroups(groups) {
+    let total = 0;
+    this.groupsEl.innerHTML = groups
+      .map(
+        (g) => {
+          total += g.hits.length;
+          return `<section class="group">
+            <h2>Over “${C.esc(g.heading)}” vind je informatie bij</h2>
+            <ul class="cards">${g.hits.map((r) => this.card(r)).join("")}</ul>
+          </section>`;
+        },
+      )
       .join("");
-    groupsEl.hidden = false;
-    listEl.hidden = true;
-    countEl.textContent =
-      total +
-      (total === 1 ? " bron" : " bronnen") +
-      " voor " +
-      groups.length +
-      (groups.length === 1 ? " onderwerp" : " onderwerpen");
+    this.groupsEl.hidden = false;
+    this.listEl.hidden = true;
+    this.countEl.textContent =
+      `${total} ${total === 1 ? "bron" : "bronnen"} voor ` +
+      `${groups.length} ${groups.length === 1 ? "onderwerp" : "onderwerpen"}`;
   }
 
-  function showList(tokens) {
-    var shown = records;
-    if (tokens.length) {
-      shown = records
-        .map(function (r) {
-          return { r: r, s: score(tokens, r) };
-        })
-        .filter(function (x) {
-          return x.s > 0;
-        })
-        .sort(function (a, b) {
-          return b.s - a.s;
-        })
-        .map(function (x) {
-          return x.r;
-        });
-    }
-    listEl.innerHTML = shown.map(card).join("");
-    groupsEl.hidden = true;
-    listEl.hidden = records.length === 0;
-    countEl.textContent =
-      shown.length + " van " + records.length + " resultaten";
+  showList(tokens) {
+    const shown = tokens.length
+      ? this.records
+          .map((r) => ({ r, s: r.score(tokens) }))
+          .filter((x) => x.s > 0)
+          .sort((a, b) => b.s - a.s)
+          .map((x) => x.r)
+      : this.records;
+    this.listEl.innerHTML = shown.map((r) => this.card(r)).join("");
+    this.groupsEl.hidden = true;
+    this.listEl.hidden = this.records.length === 0;
+    this.countEl.textContent = `${shown.length} van ${this.records.length} resultaten`;
   }
+}
 
-  function applySearch() {
-    var tokens = queryTokens(searchInput.value);
-    var groups = [];
-
-    matchedConcepts(tokens).forEach(function (c) {
-      var hits = conceptHits(c);
-      if (hits.length) groups.push({ heading: c.label, hits: hits });
-    });
-
-    var products = bestProducts(tokens);
-    if (products.length) {
-      groups.push({
-        heading: commonTitle(
-          products.map(function (r) {
-            return r.title;
-          }),
-        ),
-        hits: products,
-      });
-    }
-
-    if (groups.length) showGroups(groups);
-    else showList(tokens);
-  }
-
-  searchInput.addEventListener("input", applySearch);
-
-  function reportError(url, err) {
-    statusEl.innerHTML += Catalog.errorHtml(url, err);
-  }
-
-  Promise.all([
-    Catalog.loadSources(),
-    Catalog.loadJson(conceptsUrl).catch(function (err) {
-      reportError(conceptsUrl, err);
-      return [];
-    }),
-  ]).then(function (results) {
-    results[0].errors.forEach(function (e) {
-      reportError(e.url, e.error);
-    });
-    byId = results[0].byId;
-    records = results[0].nodes.map(buildRecord);
-    concepts = results[1];
-    applySearch();
-  });
-})();
+const search = new CatalogSearch({
+  input: document.getElementById("search"),
+  count: document.getElementById("count"),
+  groups: document.getElementById("groups"),
+  list: document.getElementById("list"),
+  status: document.getElementById("status"),
+});
+search.load();

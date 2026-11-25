@@ -29,7 +29,7 @@ const sources = [
   { file: "fgoplus.json", source: "FGOPlus" },
 ];
 
-// Mirrors Catalog.text in js/sources.js: strings, arrays and language-tagged
+// Mirrors text in js/sources.js: strings, arrays and language-tagged
 // values all become plain text.
 function text(value) {
   if (value == null) return "";
