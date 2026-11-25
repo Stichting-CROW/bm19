@@ -233,6 +233,144 @@ p.lead {
 .offer-item {
   color: var(--heading);
 }
+.detail {
+  max-width: 900px;
+}
+.detail h2 {
+  margin: 0 0 0.6rem;
+  color: var(--heading);
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.3;
+}
+.panel {
+  background: #fff;
+  padding: 1.5rem 1.75rem;
+  margin: 0 0 1.25rem;
+}
+.panel p {
+  margin: 0 0 0.75rem;
+}
+.panel p:last-child {
+  margin-bottom: 0;
+}
+.detail-head {
+  border-top: 6px solid var(--yellow);
+}
+.detail-head h1 {
+  margin: 0.6rem 0 0.4rem;
+}
+.facts {
+  font-size: 0.95rem;
+}
+.subtitle,
+.intro {
+  color: var(--heading);
+  font-size: 1.1rem;
+}
+.publisher {
+  font-size: 0.9rem;
+}
+.access {
+  background: #fffbd6;
+  border-left: 6px solid var(--yellow);
+  padding: 1.5rem 1.75rem;
+  margin: 0 0 2rem;
+}
+.eyebrow {
+  margin: 0 0 0.25rem;
+  color: var(--heading);
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.access-rows {
+  list-style: none;
+  margin: 0.75rem 0 1.25rem;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+.access-rows li {
+  background: #fff;
+  padding: 0.75rem 1rem;
+}
+.access-rows strong {
+  display: block;
+  color: var(--heading);
+}
+.access-rows span {
+  font-size: 0.95rem;
+}
+.access-rows a.inline {
+  color: var(--blue);
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.access-rows a.inline:hover {
+  color: var(--blue-hover);
+  text-decoration: underline;
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0;
+}
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  font-weight: 700;
+  text-decoration: none;
+  border: 2px solid #000;
+}
+.button-primary {
+  background: var(--yellow);
+  color: #000;
+  border-color: var(--yellow);
+}
+.button-primary:hover {
+  background: #000;
+  color: var(--yellow);
+  border-color: #000;
+}
+.button-secondary {
+  background: #fff;
+  color: #000;
+}
+.button-secondary:hover {
+  background: #000;
+  color: #fff;
+}
+.related h2 {
+  padding-bottom: 0.4rem;
+  border-bottom: 3px solid var(--yellow);
+}
+.related-lead {
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+}
+.cards-grid {
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+.cards-grid .card {
+  display: flex;
+  flex-direction: column;
+}
+.cards-grid .card-meta {
+  flex-direction: column;
+}
+.cards-grid .card-links {
+  margin-top: auto;
+}
+.cards-grid .card > p:not(.card-links) {
+  font-size: 0.95rem;
+}
+.cards-grid .badge {
+  align-self: flex-start;
+}
 .chapters {
   list-style: none;
   margin: 0;

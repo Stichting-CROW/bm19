@@ -115,6 +115,17 @@
           "url": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021/4#4/4.2/4.2.2"
         }
       ]
+    },
+    {
+      "id": "urn:isso:publicatie:kleintje-gas",
+      "type": "Publication",
+      "abstract": "Placeholder: titel en samenvatting volgen uit de ISSO-zoekindex. Dit Kleintje gaat over gasinstallaties.",
+      "name": {
+        "@language": "nl",
+        "@value": "ISSO Kleintje Gas"
+      },
+      "publisher": "ISSO",
+      "url": null
     }
   ]
 }

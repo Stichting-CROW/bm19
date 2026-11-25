@@ -1,10 +1,10 @@
 # Sources
 
-| Participant | JSON                           | Endpoint                                                                         |
-| ----------- | ------------------------------ | -------------------------------------------------------------------------------- |
-| CROW        | [crow.json](./crow.json)       | [Source](https://datasets.crow.nl/bm19/-/queries/publications) (private for now) |
-| BouwZo      | [bouwzo.json](./bouwzo.json)   | Hand-made demo record (search term `warmtebehoefte`)                             |
-| FGOPlus     | [fgoplus.json](./fgoplus.json) | Mock: a minimal extract of an FGOPlus API response, mapped to schema.org         |
+| Participant | JSON                           | Endpoint                                                                             |
+| ----------- | ------------------------------ | ------------------------------------------------------------------------------------ |
+| CROW        | [crow.json](./crow.json)       | [Source](https://datasets.crow.nl/bm19/-/queries/publications) (private for now)     |
+| BouwZo      | [bouwzo.json](./bouwzo.json)   | Hand-made demo records (search term `warmtebehoefte`); Kleintje Gas is a placeholder |
+| FGOPlus     | [fgoplus.json](./fgoplus.json) | Mock: a minimal extract of an FGOPlus API response, mapped to schema.org             |
 
 # Concepts
 
@@ -37,3 +37,11 @@ The source's `@context` must define `Chapter`, `hasPart` and `position` (see
 [bouwzo.json](./bouwzo.json)). The catalog page shows each chapter as a link, labelled `position name` or `Hoofdstuk position` when it has
 no name. A chapter's name and keywords are searchable, so a concept can find a
 publication through one of its chapters.
+
+# Detail page
+
+`detail.html?id=<id>` shows one node. A product points with `subjectOf` to
+the works about it. The work from the same source, such as the FGOPlus
+`Dataset`, provides the general description and the access section (its
+`offers` and `acquireLicensePage`); the other works are shown as related
+content.

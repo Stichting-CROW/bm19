@@ -25,32 +25,46 @@
     "unitCode": "schema:unitCode",
     "unitText": "schema:unitText",
     "validForMemberTier": "schema:validForMemberTier",
-    "Service": "schema:Service",
-    "itemOffered": "schema:itemOffered",
     "url": {
       "@id": "schema:url",
       "@type": "xsd:anyURI"
     },
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "Dataset": "schema:Dataset",
+    "Organization": "schema:Organization",
+    "MemberProgram": "schema:MemberProgram",
+    "alternateName": "schema:alternateName",
+    "abstract": "schema:abstract",
+    "publisher": "schema:publisher",
+    "acquireLicensePage": {
+      "@id": "schema:acquireLicensePage",
+      "@type": "@id"
+    },
+    "subjectOf": {
+      "@id": "schema:subjectOf",
+      "@type": "@id"
+    },
+    "isTierOf": "schema:isTierOf",
+    "hostingOrganization": "schema:hostingOrganization",
+    "disambiguatingDescription": "schema:disambiguatingDescription"
   },
   "@graph": [
     {
-      "id": "urn:fgoplus:product:3471115",
-      "type": "Product",
-      "name": "HR-wand combiketel Kli-Max tapklasse 3",
-      "url": "https://www.fgoplus.nl/Boiler/Details?productId=3471115",
-      "brand": "Itho Daalderop",
-      "model": "Kli-Max HRT 20/22",
-      "mpn": "545-1020",
-      "gtin": "08712922953143",
-      "category": "Gaswand Combiketel (EC011396)",
+      "id": "https://www.fgoplus.nl/",
+      "type": "Dataset",
+      "name": "FGOPlus",
+      "disambiguatingDescription": "FGOPlus staat voor Fabrikaatgebonden Onderhoudsinformatie.",
+      "abstract": "De databank van Techniek Nederland met installatie- en onderhoudsgegevens per toestel. Installateurs en onderhoudsmonteurs vinden er de storings- en servicecodes, instelgegevens en standaard onderhoudsformulieren voor cv-toestellen, warmtepompen en zonnestroominstallaties. Met de bijbehorende Formulierenapp vul je onderhouds- en opleverformulieren digitaal in.",
+      "publisher": {
+        "type": "Organization",
+        "name": "Techniek Nederland",
+        "url": "https://www.technieknederland.nl/"
+      },
+      "url": "https://www.fgoplus.nl/",
+      "acquireLicensePage": "https://www.technieknederland.nl/aanvraagformulier-abonnement-fgoplus",
       "offers": [
         {
           "type": "Offer",
-          "itemOffered": {
-            "type": "Service",
-            "name": "Licentie op FGOPlus"
-          },
           "description": "Leden Techniek Nederland",
           "priceSpecification": {
             "type": "UnitPriceSpecification",
@@ -64,16 +78,23 @@
             },
             "validForMemberTier": {
               "type": "MemberProgramTier",
-              "name": "Lid Techniek Nederland"
+              "name": "Lid Techniek Nederland",
+              "isTierOf": {
+                "type": "MemberProgram",
+                "name": "Lidmaatschap Techniek Nederland",
+                "url": "https://www.technieknederland.nl/word-nu-lid",
+                "hostingOrganization": {
+                  "type": "Organization",
+                  "name": "Techniek Nederland",
+                  "url": "https://www.technieknederland.nl/"
+                }
+              }
             }
-          }
+          },
+          "url": "https://www.technieknederland.nl/aanvraagformulier-abonnement-fgoplus"
         },
         {
           "type": "Offer",
-          "itemOffered": {
-            "type": "Service",
-            "name": "Licentie op FGOPlus"
-          },
           "description": "Niet-leden",
           "priceSpecification": {
             "type": "UnitPriceSpecification",
@@ -85,7 +106,30 @@
               "unitCode": "ANN",
               "unitText": "jaar"
             }
-          }
+          },
+          "url": "https://www.technieknederland.nl/aanvraagformulier-abonnement-fgoplus"
+        }
+      ]
+    },
+    {
+      "id": "urn:fgoplus:product:3471115",
+      "type": "Product",
+      "name": "HR-wand combiketel Kli-Max tapklasse 3",
+      "url": "https://www.fgoplus.nl/Boiler/Details?productId=3471115",
+      "brand": "Itho Daalderop",
+      "model": "Kli-Max HRT 20/22",
+      "mpn": "545-1020",
+      "gtin": "08712922953143",
+      "category": "Gaswand Combiketel (EC011396)",
+      "subjectOf": [
+        {
+          "id": "https://www.fgoplus.nl/"
+        },
+        {
+          "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021"
+        },
+        {
+          "id": "urn:isso:publicatie:kleintje-gas"
         }
       ]
     },
@@ -99,48 +143,15 @@
       "mpn": "545-1220",
       "gtin": "08712922963074",
       "category": "Gaswand Combiketel (EC011396)",
-      "offers": [
+      "subjectOf": [
         {
-          "type": "Offer",
-          "itemOffered": {
-            "type": "Service",
-            "name": "Licentie op FGOPlus"
-          },
-          "description": "Leden Techniek Nederland",
-          "priceSpecification": {
-            "type": "UnitPriceSpecification",
-            "price": 96.59,
-            "priceCurrency": "EUR",
-            "referenceQuantity": {
-              "type": "QuantitativeValue",
-              "value": 1,
-              "unitCode": "ANN",
-              "unitText": "jaar"
-            },
-            "validForMemberTier": {
-              "type": "MemberProgramTier",
-              "name": "Lid Techniek Nederland"
-            }
-          }
+          "id": "https://www.fgoplus.nl/"
         },
         {
-          "type": "Offer",
-          "itemOffered": {
-            "type": "Service",
-            "name": "Licentie op FGOPlus"
-          },
-          "description": "Niet-leden",
-          "priceSpecification": {
-            "type": "UnitPriceSpecification",
-            "price": 218.76,
-            "priceCurrency": "EUR",
-            "referenceQuantity": {
-              "type": "QuantitativeValue",
-              "value": 1,
-              "unitCode": "ANN",
-              "unitText": "jaar"
-            }
-          }
+          "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021"
+        },
+        {
+          "id": "urn:isso:publicatie:kleintje-gas"
         }
       ]
     },
@@ -154,48 +165,15 @@
       "mpn": "545-1024",
       "gtin": "08712922953136",
       "category": "Gaswand Combiketel (EC011396)",
-      "offers": [
+      "subjectOf": [
         {
-          "type": "Offer",
-          "itemOffered": {
-            "type": "Service",
-            "name": "Licentie op FGOPlus"
-          },
-          "description": "Leden Techniek Nederland",
-          "priceSpecification": {
-            "type": "UnitPriceSpecification",
-            "price": 96.59,
-            "priceCurrency": "EUR",
-            "referenceQuantity": {
-              "type": "QuantitativeValue",
-              "value": 1,
-              "unitCode": "ANN",
-              "unitText": "jaar"
-            },
-            "validForMemberTier": {
-              "type": "MemberProgramTier",
-              "name": "Lid Techniek Nederland"
-            }
-          }
+          "id": "https://www.fgoplus.nl/"
         },
         {
-          "type": "Offer",
-          "itemOffered": {
-            "type": "Service",
-            "name": "Licentie op FGOPlus"
-          },
-          "description": "Niet-leden",
-          "priceSpecification": {
-            "type": "UnitPriceSpecification",
-            "price": 218.76,
-            "priceCurrency": "EUR",
-            "referenceQuantity": {
-              "type": "QuantitativeValue",
-              "value": 1,
-              "unitCode": "ANN",
-              "unitText": "jaar"
-            }
-          }
+          "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021"
+        },
+        {
+          "id": "urn:isso:publicatie:kleintje-gas"
         }
       ]
     },
@@ -209,48 +187,15 @@
       "mpn": "545-1336A",
       "gtin": "08712922140055",
       "category": "Gaswand Combiketel (EC011396)",
-      "offers": [
+      "subjectOf": [
         {
-          "type": "Offer",
-          "itemOffered": {
-            "type": "Service",
-            "name": "Licentie op FGOPlus"
-          },
-          "description": "Leden Techniek Nederland",
-          "priceSpecification": {
-            "type": "UnitPriceSpecification",
-            "price": 96.59,
-            "priceCurrency": "EUR",
-            "referenceQuantity": {
-              "type": "QuantitativeValue",
-              "value": 1,
-              "unitCode": "ANN",
-              "unitText": "jaar"
-            },
-            "validForMemberTier": {
-              "type": "MemberProgramTier",
-              "name": "Lid Techniek Nederland"
-            }
-          }
+          "id": "https://www.fgoplus.nl/"
         },
         {
-          "type": "Offer",
-          "itemOffered": {
-            "type": "Service",
-            "name": "Licentie op FGOPlus"
-          },
-          "description": "Niet-leden",
-          "priceSpecification": {
-            "type": "UnitPriceSpecification",
-            "price": 218.76,
-            "priceCurrency": "EUR",
-            "referenceQuantity": {
-              "type": "QuantitativeValue",
-              "value": 1,
-              "unitCode": "ANN",
-              "unitText": "jaar"
-            }
-          }
+          "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021"
+        },
+        {
+          "id": "urn:isso:publicatie:kleintje-gas"
         }
       ]
     }

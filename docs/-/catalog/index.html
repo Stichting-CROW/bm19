@@ -27,9 +27,8 @@
     <main>
       <h1>Kennisbronnen</h1>
       <p class="lead">
-        Voorbeeldweergave van JSON-LD-bronnen (schema.org) van CROW, BouwZo
-        en FGOPlus. Stel een vraag of zoek op titel, bron, datum of
-        samenvatting.
+        Voorbeeldweergave van JSON-LD-bronnen (schema.org) van CROW, BouwZo en
+        FGOPlus. Stel een vraag of zoek op titel, bron, datum of samenvatting.
       </p>
 
       <div class="toolbar">
@@ -74,66 +73,8 @@
         var MIN_TOKEN_LENGTH = 3;
 
         var records = []; // see buildRecord
+        var byId = {};
         var concepts = []; // { label, triggers, terms }
-
-        function fmtDate(value) {
-          var s = text(value);
-          if (!s) return "";
-          var d = new Date(s);
-          if (isNaN(d)) return s;
-          return d.toLocaleDateString("nl-NL", {
-            year: "numeric",
-            month: "2-digit",
-            day: "2-digit",
-          });
-        }
-
-        // Chapters of a publication, from schema:hasPart. A chapter shows
-        // as "4.2.2 Name", or "Hoofdstuk 4.2.2" when it has no name.
-        function chapters(node) {
-          return []
-            .concat(node.hasPart == null ? [] : node.hasPart)
-            .filter(function (part) {
-              return part && typeof part === "object";
-            })
-            .map(function (part) {
-              var position = text(part.position);
-              var name = text(part.name);
-              var label = name
-                ? (position ? position + " " : "") + name
-                : "Hoofdstuk" + (position ? " " + position : "");
-              return {
-                label: label,
-                url: text(part.url) || text(part.id),
-                keywords: []
-                  .concat(part.keywords == null ? [] : part.keywords)
-                  .map(text)
-                  .join(" "),
-              };
-            });
-        }
-
-        function chapterLinks(list) {
-          return (
-            '<ul class="chapters">' +
-            list
-              .map(function (c) {
-                return (
-                  "<li>" +
-                  (c.url
-                    ? '<a href="' +
-                      esc(c.url) +
-                      '" target="_blank" rel="noopener">' +
-                      esc(c.label) +
-                      "</a>"
-                    : esc(c.label)) +
-                  "</li>"
-                );
-              })
-              .join("") +
-            "</ul>"
-          );
-        }
 
         // Splits text into lowercase words. Hyphenated words are kept whole
         // and also added as their separate parts.
@@ -190,131 +131,26 @@
           return hasTextToken && textHits === 0 ? 0 : hits;
         }
 
-        // E.g. "€ 96,59 per jaar (Leden Techniek Nederland)". The price may
-        // be on the offer itself or in its priceSpecification.
-        function fmtPrice(offer) {
-          var spec = offer.priceSpecification || {};
-          var price = text(spec.price != null ? spec.price : offer.price);
-          if (price === "") return "";
-          var currency =
-            text(spec.priceCurrency || offer.priceCurrency) || "EUR";
-          var n = Number(price);
-          var amount =
-            n === 0
-              ? "Gratis"
-              : isNaN(n)
-                ? price + " " + currency
-                : n.toLocaleString("nl-NL", {
-                    style: "currency",
-                    currency: currency,
-                  });
-          var unit = spec.referenceQuantity
-            ? text(spec.referenceQuantity.unitText)
-            : "";
-          var label = text(offer.description) || text(offer.name);
-          return (
-            amount +
-            (unit && n !== 0 ? " per " + unit : "") +
-            (label ? " (" + label + ")" : "")
-          );
-        }
-
-        // Cost and license as HTML, from schema.org offers, license and
-        // acquireLicensePage.
-        function costLicense(node) {
-          var parts = [];
-          // Prices grouped under the name of what is offered, e.g.
-          // "Licentie op FGOPlus".
-          var items = [];
-          [].concat(node.offers || []).forEach(function (offer) {
-            var price = fmtPrice(offer);
-            if (!price) return;
-            var item = offer.itemOffered ? text(offer.itemOffered.name) : "";
-            var group = items.filter(function (g) {
-              return g.item === item;
-            })[0];
-            if (!group) items.push((group = { item: item, prices: [] }));
-            group.prices.push(price);
-          });
-          items.forEach(function (g) {
-            parts.push(
-              (g.item
-                ? '<span class="offer-item">' + esc(g.item) + "</span><br />"
-                : "") + g.prices.map(esc).join("<br />"),
-            );
-          });
-          var license = text(node.license);
-          if (license) {
-            parts.push(
-              /^https?:\/\//.test(license)
-                ? '<a href="' +
-                    esc(license) +
-                    '" target="_blank" rel="noopener">licentie</a>'
-                : esc(license),
-            );
-          }
-          [].concat(node.acquireLicensePage || []).forEach(function (page) {
-            var href = text(page);
-            if (href) {
-              parts.push(
-                '<a href="' +
-                  esc(href) +
-                  '" target="_blank" rel="noopener">licentie verkrijgen</a>',
-              );
-            }
-          });
-          return parts.length
-            ? parts.join(" · ")
-            : '<span class="unknown">Niet opgegeven door de bron</span>';
-        }
-
-        function buildRecord(node, source) {
-          var isProduct = text(node.type) === "Product";
+        function buildRecord(entry) {
+          var node = entry.node;
           var title = Catalog.title(node);
-          var date = fmtDate(node.datePublished);
-          var url = text(node.url);
-          var keywords = []
-            .concat(node.keywords == null ? [] : node.keywords)
-            .map(text)
-            .join(" ");
-          var parts = chapters(node);
-          var summary;
-          if (isProduct) {
-            summary = [
-              text(node.brand),
-              text(node.model),
-              node.mpn ? "art.nr. " + text(node.mpn) : "",
-              node.gtin ? "GTIN " + text(node.gtin) : "",
-              text(node.category),
-            ]
-              .filter(Boolean)
-              .join(" · ");
-          } else {
-            summary = text(node.abstract);
-          }
-
+          var keywords = Catalog.list(node.keywords).map(text).join(" ");
           return {
-            isProduct: isProduct,
-            source: source,
+            entry: entry,
+            isProduct: Catalog.isType(node, "Product"),
             title: title,
-            summary: summary,
-            date: date,
-            url: url,
-            detailUrl: Catalog.detailUrl(node),
-            costLicense: costLicense(node),
-            chapters: parts,
             words: words(
               [
                 title,
-                source,
+                entry.source,
                 text(node.publisher),
-                date,
-                summary,
-                url,
+                Catalog.fmtDate(node.datePublished),
+                Catalog.summary(node),
+                text(node.url),
                 keywords,
               ]
                 .concat(
-                  parts.map(function (c) {
+                  Catalog.chapters(node).map(function (c) {
                     return c.label + " " + c.keywords;
                   }),
                 )
@@ -385,41 +221,7 @@
         }
 
         function card(r) {
-          return (
-            '<li class="card">' +
-            '<span class="badge">' +
-            esc(r.source) +
-            "</span>" +
-            '<h3 class="card-title"><a href="' +
-            esc(r.detailUrl) +
-            '">' +
-            esc(r.title) +
-            "</a></h3>" +
-            (r.summary ? "<p>" + esc(r.summary) + "</p>" : "") +
-            (r.chapters.length
-              ? '<p class="chapters-label">Direct naar</p>' +
-                chapterLinks(r.chapters)
-              : "") +
-            '<dl class="card-meta">' +
-            (r.date
-              ? "<div><dt>Datum</dt><dd>" + esc(r.date) + "</dd></div>"
-              : "") +
-            "<div><dt>Kosten/licentie</dt><dd>" +
-            r.costLicense +
-            "</dd></div>" +
-            "</dl>" +
-            '<p class="card-links">' +
-            '<a href="' +
-            esc(r.detailUrl) +
-            '">Details</a>' +
-            (r.url
-              ? '<a href="' +
-                esc(r.url) +
-                '" target="_blank" rel="noopener">Naar de bron ↗</a>'
-              : '<span class="unknown">Geen bronlink</span>') +
-            "</p>" +
-            "</li>"
-          );
+          return Catalog.card(r.entry, byId);
         }
 
         function group(heading, hits) {
@@ -517,9 +319,8 @@
           results[0].errors.forEach(function (e) {
             reportError(e.url, e.error);
           });
-          records = results[0].nodes.map(function (n) {
-            return buildRecord(n.node, n.source);
-          });
+          byId = results[0].byId;
+          records = results[0].nodes.map(buildRecord);
           concepts = results[1];
           applySearch();
         });
