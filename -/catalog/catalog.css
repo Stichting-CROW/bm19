@@ -83,52 +83,6 @@ p.lead {
   font-size: 0.9rem;
   white-space: nowrap;
 }
-.table-wrap {
-  overflow-x: auto;
-}
-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.95rem;
-  background: #fff;
-}
-th,
-td {
-  text-align: left;
-  vertical-align: top;
-  padding: 0.8rem 0.75rem;
-  border-bottom: 1px solid var(--line);
-}
-thead th {
-  position: sticky;
-  top: 0;
-  background: #fff;
-  color: var(--heading);
-  font-weight: 700;
-  border-bottom: 3px solid var(--yellow);
-  white-space: nowrap;
-}
-tbody tr {
-  background: #e6e6e6;
-}
-tbody tr:hover {
-  background: #fff;
-}
-td.abstract {
-  max-width: 32rem;
-}
-td a {
-  color: var(--blue);
-  font-weight: 700;
-  text-decoration: none;
-}
-td a:hover {
-  color: var(--blue-hover);
-  text-decoration: underline;
-}
-.muted {
-  color: var(--text);
-}
 .error {
   background: #000;
   color: #fff;
@@ -223,4 +177,59 @@ td a:hover {
   font-weight: 700;
   font-size: 0.75rem;
   letter-spacing: 0.04em;
+}
+.card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.5rem;
+  margin: 0.6rem 0 0;
+  font-size: 0.9rem;
+}
+.card-meta div {
+  display: flex;
+  gap: 0.4rem;
+}
+.card-meta dt {
+  color: var(--heading);
+  font-weight: 700;
+}
+.card-meta dd {
+  margin: 0;
+}
+.card-meta a,
+.card-links a {
+  color: var(--blue);
+  font-weight: 700;
+  text-decoration: none;
+}
+.card-meta a:hover,
+.card-links a:hover {
+  color: var(--blue-hover);
+  text-decoration: underline;
+}
+.card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.25rem;
+  margin: 0.6rem 0 0;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.9rem;
+}
+.unknown {
+  font-style: italic;
+}
+.back {
+  display: inline-block;
+  margin: 0 0 1rem;
+  color: var(--blue);
+  font-weight: 700;
+  text-decoration: none;
+}
+.back:hover {
+  color: var(--blue-hover);
+  text-decoration: underline;
+}
+.offer-item {
+  color: var(--heading);
 }
