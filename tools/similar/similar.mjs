@@ -22,14 +22,14 @@ const here = dirname(fileURLToPath(import.meta.url));
 const dataDir = join(here, "../../docs/-/catalog/data");
 const outFile = join(dataDir, "similar.json");
 
-// Same files and sources as the endpoints in docs/-/catalog/sources.js.
+// Same files and sources as the endpoints in docs/-/catalog/js/sources.js.
 const sources = [
   { file: "crow.json", source: "CROW" },
   { file: "bouwzo.json", source: "BouwZo" },
   { file: "fgoplus.json", source: "FGOPlus" },
 ];
 
-// Mirrors Catalog.text in sources.js: strings, arrays and language-tagged
+// Mirrors Catalog.text in js/sources.js: strings, arrays and language-tagged
 // values all become plain text.
 function text(value) {
   if (value == null) return "";
