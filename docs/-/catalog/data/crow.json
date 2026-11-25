@@ -73,10 +73,6 @@
     "keywords": {
       "@id": "schema:keywords",
       "@container": "@set"
-    },
-    "subjectOf": {
-      "@id": "schema:subjectOf",
-      "@type": "@id"
     }
   },
   "@graph": [
@@ -561,15 +557,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/klanttevredenheid-zero-emissie-openbaar-vervoer/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/klanttevredenheid-zero-emissie-openbaar-vervoer/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_0b6fa1eedccbf876fd55280d4e5009ba7fc951bc",
@@ -644,15 +632,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/monitor-zero-emissiebussen-1-juli-2026/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/monitor-zero-emissiebussen-1-juli-2026/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_0cb40653ea481fe4c89c34c4a57a25f456cfc224",
@@ -728,15 +708,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/geluidssignalen-bij-elektrische-bussen/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/geluidssignalen-bij-elektrische-bussen/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_0e06fe5bfcfce02607e6d4dd3180591e873b5352",
@@ -787,15 +759,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/inventarisatie-van-veiligheidsaspecten-zero-emissiebussen/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/inventarisatie-van-veiligheidsaspecten-zero-emissiebussen/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_0fd646074d9e7adf844fdadde08619e037b80d89",
@@ -947,15 +911,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/het-vernieuwde-veiligstallennl-handleiding-voor-gemeenten/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/het-vernieuwde-veiligstallennl-handleiding-voor-gemeenten/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_11adf9d8caff9392ea99cfd5ee1418ef636df95e",
@@ -2984,15 +2940,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/update-2021-van-zero-emissiebus-hoe-doe-je-dat/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/update-2021-van-zero-emissiebus-hoe-doe-je-dat/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_3eafa44676303e1d8348894d602c7d7196a8fe52",
@@ -3040,15 +2988,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/zero-emissiebus-is-er-nog-een-onrendabele-top/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/zero-emissiebus-is-er-nog-een-onrendabele-top/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_4007893f7661ddc31775e17d54a7d16cf40b0799",
@@ -3962,15 +3902,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/handreiking-zero-emissie-doelgroepenvervoer/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/handreiking-zero-emissie-doelgroepenvervoer/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_4dd7f3b8366a5895177d70892827ee2d40c6b0e5",
@@ -4071,15 +4003,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/handreiking-overnameregeling-zero-emissiebussysteem-tweede-update/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/handreiking-overnameregeling-zero-emissiebussysteem-tweede-update/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_4ea02ffab41c70196777a60bf59ac907c0e6afc3",
@@ -4755,15 +4679,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/kansen-voor-transitie-naar-zero-emissiebussen/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/kansen-voor-transitie-naar-zero-emissiebussen/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_5a9dd133f34f72e58763779e0c9b79698e20dffc",
@@ -6092,15 +6008,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/kennisagenda-zero-emissie-doelgroepenvervoer/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/kennisagenda-zero-emissie-doelgroepenvervoer/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_765042c17a619277f5ad4b6955be0a269832dc9f",
@@ -6227,15 +6135,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/infographic-10-jaar-bazeb/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/infographic-10-jaar-bazeb/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_790e2dc04bde4dd126cf178ee7b63ccbf65517a2",
@@ -6488,15 +6388,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/ontwikkeling-verduurzaming-ov-bussen/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/ontwikkeling-verduurzaming-ov-bussen/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_7ee392afdfb66b8be9b6c6035981be1b54af6534",
@@ -6828,15 +6720,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/laadkabels-laadpalen-hoe-houdt-je-het-trottoir-veilig-en-toegankelijk/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/laadkabels-laadpalen-hoe-houdt-je-het-trottoir-veilig-en-toegankelijk/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_84f0b80a65cf5f98d1ed4aa26d777a433f3a86d1",
@@ -6861,15 +6745,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/ontwerprichtlijnen-brandveiligheid-stallingen-voor-zero-emissiebussen/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/ontwerprichtlijnen-brandveiligheid-stallingen-voor-zero-emissiebussen/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_8629ae75e1ea12be4c7639723a98f5e7043c8cff",
@@ -7245,15 +7121,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/monitor-zero-emissiebussen-1-oktober-2026/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/monitor-zero-emissiebussen-1-oktober-2026/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_8fee8bc53a1d6efc589fb9b631f5c5eaec987a6c",
@@ -7406,15 +7274,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/inkoopbundeling-heeft-nog-geen-prioriteit/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/inkoopbundeling-heeft-nog-geen-prioriteit/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_932ff729e04cade31432de5a8128eda4d2b60c7e",
@@ -7616,15 +7476,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/staat-van-het-regionale-ov-minder-reizigers-en-meer-duurzaamheid-in-2020/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/staat-van-het-regionale-ov-minder-reizigers-en-meer-duurzaamheid-in-2020/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_97741cefcacc84d29e65fc3036fe2b1bdaaac7a1",
@@ -7674,15 +7526,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/evaluatie-city-deal-elektrische-deelmobiliteit-in-stedelijke-gebiedsontwikkeling/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/evaluatie-city-deal-elektrische-deelmobiliteit-in-stedelijke-gebiedsontwikkeling/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_9858edd67f7f06502b576dfee648f6291686a19b",
@@ -8387,15 +8231,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/poster-milieuprestatie-ov-bussen-2026/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/poster-milieuprestatie-ov-bussen-2026/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_a96ca3cf1c0cef9217a5825ea71e34b0640e5f1b",
@@ -8420,15 +8256,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/vierde-kwartaal-2022-tijdelijke-afname-elektrisch-wagenpark/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/vierde-kwartaal-2022-tijdelijke-afname-elektrisch-wagenpark/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_a96e0c894550b06af4a53df7d80b696f76623839",
@@ -9746,15 +9574,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/aanscherping-handreiking-overnameregeling-zero-emissiebussysteem/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/aanscherping-handreiking-overnameregeling-zero-emissiebussysteem/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_c13d9a5b4476b963b5540afec685cdedc19e2dce",
@@ -10080,15 +9900,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/rapport-invloed-zero-emissiebussen-op-brand-en-explosieveiligheid-van-ov-knooppunten/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/rapport-invloed-zero-emissiebussen-op-brand-en-explosieveiligheid-van-ov-knooppunten/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_cb8689eacbd74320bba84ed1e234504449fd1da5",
@@ -10314,15 +10126,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/samenvatting-rapport-risicos-zero-emissiebussen-op-ov-knooppunten/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/samenvatting-rapport-risicos-zero-emissiebussen-op-ov-knooppunten/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_cf11afc599decbc1f255cf275fe41581cad45b25",
@@ -12065,15 +11869,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/monitor-zero-emissiebussen-1-januari-2026/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/monitor-zero-emissiebussen-1-januari-2026/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_ee917f0974f6ebb1a6dbd64c4aa8d8b25f282c6f",
@@ -12099,15 +11895,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/kwartaalmonitor-zero-emissiebussen-1-april-2026/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/kwartaalmonitor-zero-emissiebussen-1-april-2026/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_eee80dee5fbeb66a834401a4d4d4a31b06575e98",
@@ -12536,15 +12324,7 @@
         "priceCurrency": "EUR"
       },
       "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/poster-milieuprestatie-ov-bussen-2025/?utm_medium=referral&utm_source=api-bm19",
-      "subjectOf": [
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025"
-        },
-        {
-          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
-        }
-      ]
+      "url": "https://www.crow.nl/kennisproducten/poster-milieuprestatie-ov-bussen-2025/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_f94365c2d852f0aef7f0d70617b5748ca13870d7",
