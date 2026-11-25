@@ -9,6 +9,7 @@
     "Book": "schema:Book",
     "DigitalDocument": "schema:DigitalDocument",
     "Periodical": "schema:Periodical",
+    "Chapter": "schema:Chapter",
     "Organization": "schema:Organization",
     "Person": "schema:Person",
     "Audience": "schema:Audience",
@@ -67,7 +68,12 @@
       "@type": "@id"
     },
     "price": "schema:price",
-    "priceCurrency": "schema:priceCurrency"
+    "priceCurrency": "schema:priceCurrency",
+    "hasPart": {
+      "@id": "schema:hasPart",
+      "@type": "@id"
+    },
+    "position": "schema:position"
   },
   "@graph": [
     {
@@ -96,7 +102,19 @@
         "priceCurrency": "EUR"
       },
       "publisher": "ISSO",
-      "url": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021/4#4/4.2/4.2.2"
+      "url": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021/",
+      "hasPart": [
+        {
+          "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021/4#4/4.2/4.2.2",
+          "type": "Chapter",
+          "position": "4.2.2",
+          "name": null,
+          "keywords": [
+            "warmtebehoefte"
+          ],
+          "url": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021/4#4/4.2/4.2.2"
+        }
+      ]
     }
   ]
 }

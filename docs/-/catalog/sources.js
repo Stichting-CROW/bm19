@@ -8,7 +8,6 @@ window.Catalog = (function () {
   var endpoints = [
     { url: "data/crow.json", source: "CROW" },
     { url: "data/bouwzo.json", source: "BouwZo" },
-    { url: "data/isso.json", source: "ISSO" },
     { url: "data/fgoplus.json", source: "FGOPlus" },
   ];
 
