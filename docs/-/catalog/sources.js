@@ -194,6 +194,55 @@ window.Catalog = (function () {
       .filter(Boolean);
   }
 
+  // The ids a node points to with a property, e.g. isRelatedTo.
+  function refIds(value) {
+    return list(value)
+      .map(function (ref) {
+        return typeof ref === "string" ? ref : text(ref.id || ref["@id"]);
+      })
+      .filter(Boolean);
+  }
+
+  // Which entries each entry refers to, as { id: [id, ...] }. isRelatedTo is
+  // symmetric: when A relates to B, B also refers to A. mentions and citation
+  // are one-way. Only the data files are read; no reverse edge is written.
+  function buildReferences(nodes) {
+    var refs = {};
+    function add(from, to) {
+      if (!from || !to || from === to) return;
+      refs[from] = refs[from] || [];
+      if (refs[from].indexOf(to) === -1) refs[from].push(to);
+    }
+    nodes.forEach(function (entry) {
+      var id = text(entry.node.id);
+      refIds(entry.node.isRelatedTo).forEach(function (to) {
+        add(id, to);
+        add(to, id);
+      });
+      refIds(entry.node.mentions).forEach(function (to) {
+        add(id, to);
+      });
+      refIds(entry.node.citation).forEach(function (to) {
+        add(id, to);
+      });
+    });
+    return refs;
+  }
+
+  // The works an entry refers to, from any source. The access work is left
+  // out, because it is shown in the access section.
+  function referencesOf(entry, byId, references) {
+    var access = accessWork(entry, byId);
+    var ids = (references && references[text(entry.node.id)]) || [];
+    return ids
+      .map(function (id) {
+        return byId[id];
+      })
+      .filter(function (e) {
+        return e && (!access || e.node !== access.node);
+      });
+  }
+
   // Cost and license as HTML, from schema.org offers, license and
   // acquireLicensePage. Offers on a dataset are shown as a license on it,
   // e.g. "Licentie op FGOPlus".
@@ -290,8 +339,9 @@ window.Catalog = (function () {
   }
 
   // Resolves to { nodes: [{ node, source }], byId: { id: { node, source } },
-  // similar: { id: [{ id, score }] }, errors: [{ url, error }] }. A failing
-  // file is reported but doesn't block the others.
+  // similar: { id: [{ id, score }] }, references: { id: [id] },
+  // errors: [{ url, error }] }. A failing file is reported but doesn't block
+  // the others.
   function loadSources() {
     var errors = [];
     function optional(url, pick) {
@@ -327,6 +377,7 @@ window.Catalog = (function () {
         nodes: nodes,
         byId: byId,
         similar: results[1],
+        references: buildReferences(nodes),
         errors: errors,
       };
     });
@@ -357,6 +408,7 @@ window.Catalog = (function () {
     refs: refs,
     accessWork: accessWork,
     relatedWorks: relatedWorks,
+    referencesOf: referencesOf,
     costLicense: costLicense,
     card: card,
     loadJson: loadJson,
