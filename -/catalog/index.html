@@ -27,8 +27,8 @@
     <main>
       <h1>Kennisbronnen</h1>
       <p class="lead">
-        Voorbeeldweergave van JSON-LD-bronnen (schema.org) van CROW, BouwZo,
-        ISSO en FGOPlus. Stel een vraag of zoek op titel, bron, datum of
+        Voorbeeldweergave van JSON-LD-bronnen (schema.org) van CROW, BouwZo
+        en FGOPlus. Stel een vraag of zoek op titel, bron, datum of
         samenvatting.
       </p>
 
@@ -86,6 +86,53 @@
             month: "2-digit",
             day: "2-digit",
           });
+        }
+
+        // Chapters of a publication, from schema:hasPart. A chapter shows
+        // as "4.2.2 Name", or "Hoofdstuk 4.2.2" when it has no name.
+        function chapters(node) {
+          return []
+            .concat(node.hasPart == null ? [] : node.hasPart)
+            .filter(function (part) {
+              return part && typeof part === "object";
+            })
+            .map(function (part) {
+              var position = text(part.position);
+              var name = text(part.name);
+              var label = name
+                ? (position ? position + " " : "") + name
+                : "Hoofdstuk" + (position ? " " + position : "");
+              return {
+                label: label,
+                url: text(part.url) || text(part.id),
+                keywords: []
+                  .concat(part.keywords == null ? [] : part.keywords)
+                  .map(text)
+                  .join(" "),
+              };
+            });
+        }
+
+        function chapterLinks(list) {
+          return (
+            '<ul class="chapters">' +
+            list
+              .map(function (c) {
+                return (
+                  "<li>" +
+                  (c.url
+                    ? '<a href="' +
+                      esc(c.url) +
+                      '" target="_blank" rel="noopener">' +
+                      esc(c.label) +
+                      "</a>"
+                    : esc(c.label)) +
+                  "</li>"
+                );
+              })
+              .join("") +
+            "</ul>"
+          );
         }
 
         // Splits text into lowercase words. Hyphenated words are kept whole
@@ -230,6 +277,7 @@
             .concat(node.keywords == null ? [] : node.keywords)
             .map(text)
             .join(" ");
+          var parts = chapters(node);
           var summary;
           if (isProduct) {
             summary = [
@@ -254,6 +302,7 @@
             url: url,
             detailUrl: Catalog.detailUrl(node),
             costLicense: costLicense(node),
+            chapters: parts,
             words: words(
               [
                 title,
@@ -263,7 +312,13 @@
                 summary,
                 url,
                 keywords,
-              ].join(" "),
+              ]
+                .concat(
+                  parts.map(function (c) {
+                    return c.label + " " + c.keywords;
+                  }),
+                )
+                .join(" "),
             ),
           };
         }
@@ -341,6 +396,10 @@
             esc(r.title) +
             "</a></h3>" +
             (r.summary ? "<p>" + esc(r.summary) + "</p>" : "") +
+            (r.chapters.length
+              ? '<p class="chapters-label">Direct naar</p>' +
+                chapterLinks(r.chapters)
+              : "") +
             '<dl class="card-meta">' +
             (r.date
               ? "<div><dt>Datum</dt><dd>" + esc(r.date) + "</dd></div>"
