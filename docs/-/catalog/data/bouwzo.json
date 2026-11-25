@@ -73,7 +73,15 @@
       "@id": "schema:hasPart",
       "@type": "@id"
     },
-    "position": "schema:position"
+    "position": "schema:position",
+    "isRelatedTo": {
+      "@id": "schema:isRelatedTo",
+      "@type": "@id"
+    },
+    "subjectOf": {
+      "@id": "schema:subjectOf",
+      "@type": "@id"
+    }
   },
   "@graph": [
     {
@@ -153,6 +161,14 @@
           "keywords": [],
           "url": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025/5#5/5.4/5.4.2"
         }
+      ],
+      "subjectOf": [
+        {
+          "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
+        },
+        {
+          "id": "https://bouwzo.nl/reader/publicatie/handboek-hbze-zonne-energie/2026"
+        }
       ]
     },
     {
@@ -183,6 +199,11 @@
         "priceCurrency": "EUR"
       },
       "publisher": "ISSO",
+      "isRelatedTo": [
+        {
+          "id": "https://data.crow.nl/kg/zn/id/Prd_d6aa90992ad72c7c6ed513a54db2245c2fb9d2e7"
+        }
+      ],
       "url": "https://bouwzo.nl/reader/publicatie/isso-publicatie-70-hemelwater-en-grijswater-binnen-de-perceelgrens/2023/"
     },
     {
@@ -221,6 +242,67 @@
       },
       "publisher": "ISSO",
       "url": "https://bouwzo.nl/reader/publicatie/isso-publicatie-106-functionele-inspectiemethode-duurzaam-beheer-en-onderhoud/2010/"
+    },
+    {
+      "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025",
+      "type": "Publication",
+      "abstract": "De energietransitie verandert de gebouwde omgeving in rap tempo. Elektrificatie van woningen en utiliteitsgebouwen stelt steeds hogere eisen aan elektrotechnische installaties. ISSO speelt hierop in met deel 7 van het ISSO-Handboek Bouw- en Installatietechniek: Elektrotechnische installaties. Dit handboek biedt professionals actuele en toepasbare kennis over de fundamenten van elektrotechniek én de nieuwste ontwikkelingen in de sector. De inhoud richt zich op elektriciteitsleer, energieopwekking, verdeling en beveiliging, maar gaat ook in op moderne thema’s zoals gelijkstroomtoepassingen, laadinfrastructuren, energiemanagement en energieopslag. In een tijd waarin slimme apparaten, decentrale opwekking en netcongestie een groeiende rol spelen, is deze kennis essentieel. Professionals vinden in dit handboek niet alleen theoretische achtergronden, maar ook praktische voorbeelden en schema’s die helpen bij het ontwerpen, realiseren en beheren van toekomstbestendige installaties. De meterkast neemt hierin een centrale plek in: van traditioneel meetpunt evolueert deze naar een regelcentrum voor het complete energie-ecosysteem in huis of gebouw. Het handboek speelt in op deze ontwikkeling en laat zien hoe ontwerp en uitvoering kunnen worden aangepast aan deze nieuwe realiteit. Door de toenemende belasting van het elektriciteitsnet zijn slimme oplossingen noodzakelijk. Denk aan het benutten van opslagcapaciteit, schakelen op energiemomenten en het toepassen van gelijkstroom naast wisselstroom. Deel 7 ondersteunt professionals om hier op een onderbouwde manier mee om te gaan.",
+      "acquireLicensePage": null,
+      "alternateName": null,
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2025-03-01T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "978-90-5044-413-2",
+      "keywords": [
+        "Elektrotechnische installaties",
+        "Laagspanningsinstallaties"
+      ],
+      "name": {
+        "@language": "nl",
+        "@value": "Handboek HBbi Bouw- en Installatietechniek Deel 7: Elektrotechnische installaties"
+      },
+      "offers": {
+        "type": "Offer",
+        "price": 118.0,
+        "priceCurrency": "EUR"
+      },
+      "publisher": "ISSO",
+      "url": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025/"
+    },
+    {
+      "id": "https://bouwzo.nl/reader/publicatie/handboek-hbze-zonne-energie/2026",
+      "type": "Publication",
+      "abstract": "Het Handboek Zonne-energie biedt professionals actuele kennis voor het ontwerpen en realiseren van zonnewarmte- en zonnestroomsystemen. De kennis sluit aan op de huidige wet- en regelgeving en normen en volgt het volledige bouwproces: van ontwerp tot en met uitvoering. Opdrachtgevers, adviseurs, ontwerpers en installateurs vinden in het handboek de uitgangspunten en eisen die per fase gelden. Het vernieuwde handboek verwerkt recente ontwikkelingen in wet- en regelgeving en normering. Zo speelt de salderingsregeling geen rol meer als uitgangspunt in de berekeningen, omdat daar vanaf 2027 geen rekening meer mee hoeft te worden gehouden. Ook zijn de kosten- en opbrengstcijfers opnieuw beoordeeld. De hoofdstukken over ontwerp, aansluiting, beveiliging, bekabeling, inspectie en oplevering van PV-installaties zijn afgestemd op de actuele NEN 1010. Daardoor weten aannemers, ontwikkelaars en installateurs duidelijk waar zij aan moeten voldoen. Brandveiligheid krijgt extra aandacht. Verzekeraars kijken steeds kritischer naar brandrisico’s bij zonnepanelen op daken. Vooral de afstand tussen de panelen en het dakoppervlak is daarbij belangrijk. Het handboek ondersteunt professionals in alle fasen van het proces. De bijlagen bevatten formulieren waarmee installateurs het ontwerp, de uitvoering en de oplevering kunnen onderbouwen en verantwoorden richting opdrachtgevers en toezichthouders. Door de uitgebreide inhoud sluit de kennis ook aan op examens en opleidingen in de installatietechniek.",
+      "acquireLicensePage": null,
+      "alternateName": {
+        "@language": "nl",
+        "@value": "Bouwkundige- en installatietechnische richtlijnen voor zonne-energiesystemen"
+      },
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2026-06-01T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "978-90-5044-434-7",
+      "keywords": [
+        "Elektrotechnische installaties",
+        "Zonne-energie"
+      ],
+      "name": {
+        "@language": "nl",
+        "@value": "Handboek HBze Zonne-energie"
+      },
+      "offers": {
+        "type": "Offer",
+        "price": 250.0,
+        "priceCurrency": "EUR"
+      },
+      "publisher": "ISSO",
+      "url": "https://bouwzo.nl/reader/publicatie/handboek-hbze-zonne-energie/2026/"
     },
     {
       "id": "urn:isso:publicatie:kleintje-gas",
