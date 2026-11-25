@@ -116,19 +116,30 @@
           return false;
         }
 
+        // A match in the title counts more than a match in the rest of the
+        // record. 0 means no match.
+        var TITLE_WEIGHT = 3;
+        var BODY_WEIGHT = 1;
+        function matchWeight(token, record) {
+          if (tokenMatches(token, record.titleWords)) return TITLE_WEIGHT;
+          if (tokenMatches(token, record.words)) return BODY_WEIGHT;
+          return 0;
+        }
+
         function score(tokens, record) {
-          var hits = 0;
+          var total = 0;
           var textHits = 0;
           tokens.forEach(function (t) {
-            if (tokenMatches(t, record.words)) {
-              hits++;
+            var w = matchWeight(t, record);
+            if (w) {
+              total += w;
               if (!/^[0-9]+$/.test(t)) textHits++;
             }
           });
           var hasTextToken = tokens.some(function (t) {
             return !/^[0-9]+$/.test(t);
           });
-          return hasTextToken && textHits === 0 ? 0 : hits;
+          return hasTextToken && textHits === 0 ? 0 : total;
         }
 
         function buildRecord(entry) {
@@ -139,6 +150,7 @@
             entry: entry,
             isProduct: Catalog.isType(node, "Product"),
             title: title,
+            titleWords: words(title),
             words: words(
               [
                 title,
@@ -169,18 +181,30 @@
           });
         }
 
+        // The non-product sources about a concept, best matches first.
         function conceptHits(concept) {
           var terms = concept.terms.map(function (t) {
             return t.toLowerCase();
           });
-          return records.filter(function (r) {
-            return (
-              !r.isProduct &&
-              terms.some(function (t) {
-                return tokenMatches(t, r.words);
-              })
-            );
-          });
+          return records
+            .map(function (r) {
+              var s = 0;
+              if (!r.isProduct) {
+                terms.forEach(function (t) {
+                  s += matchWeight(t, r);
+                });
+              }
+              return { r: r, s: s };
+            })
+            .filter(function (x) {
+              return x.s > 0;
+            })
+            .sort(function (a, b) {
+              return b.s - a.s;
+            })
+            .map(function (x) {
+              return x.r;
+            });
         }
 
         // The products that share the most query tokens with the query.
