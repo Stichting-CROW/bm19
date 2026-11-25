@@ -102,31 +102,6 @@
       "url": "https://www.crow.nl/kennisproducten/werk-in-uitvoering-2020-serie/?utm_medium=referral&utm_source=api-bm19"
     },
     {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_029d74f47a620fde360eaad887f1364774e8b732",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/durability-design-of-concrete-pavements-gedrukte-versie/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2018-01-26T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Duurzame mobiliteit"
-      ],
-      "name": "Durability design of concrete pavements (gedrukte versie)",
-      "offers": {
-        "type": "Offer",
-        "price": "60",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/durability-design-of-concrete-pavements-gedrukte-versie/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
       "id": "https://data.crow.nl/kg/zn/id/Prd_02a637f9459a0f658ae325eb6b154688bebdc689",
       "type": "Publication",
       "abstract": "Relevante informatie over de organisatie van personenvervoer over water in Nederland in kaart.",
@@ -201,56 +176,6 @@
       },
       "publisher": "CROW",
       "url": "https://kennisbank.crow.nl/kennismodule/publicationdetail/414?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_046768cc33aa0fea3039cd73a059f9839e800884",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-voorbereidende-opdracht-ambtenaar-30/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2021-08-16T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Assetmanagement"
-      ],
-      "name": "Cursusmateriaal -Voorbereidende opdracht Ambtenaar 3.0",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/cursusmateriaal-voorbereidende-opdracht-ambtenaar-30/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_0481ff441ce32a01b1a14129477c96e68e8aa4d9",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/vv-bericht-171-autonome-voertuigen-d-redding-voor-het-platteland/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2016-06-01T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Doelgroepen- en flexvervoer"
-      ],
-      "name": "V&V Bericht 171: Autonome voertuigen, dé redding voor het platteland?",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/vv-bericht-171-autonome-voertuigen-d-redding-voor-het-platteland/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_0533c0047ca6e8fe885c921f7b4d50e8135ed2b1",
@@ -1116,31 +1041,6 @@
       "url": "https://www.crow.nl/kennisproducten/ambitieweb-excel/?utm_medium=referral&utm_source=api-bm19"
     },
     {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_15a9a29b04bb65e6d7a49cda8e3cbbbec8b58152",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/organisatie-en-bestrijding-van-wintergladheid-2/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2017-05-15T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
-      "name": "Organisatie en bestrijding van wintergladheid",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/organisatie-en-bestrijding-van-wintergladheid-2/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
       "id": "https://data.crow.nl/kg/zn/id/Prd_15c01fa6add42bdcb83c8de066f2163dfb6df229",
       "type": "Publication",
       "abstract": "Deze discussienotie van CROW gaat in op situaties waarin een voorrangsplein kan worden toegepast. De notitie is bedoeld als opstap voor opname van het voorrangsplein in de ASVV.",
@@ -1166,56 +1066,6 @@
       "url": "https://www.crow.nl/kennisproducten/discussienotitie-het-voorrangsplein-een-nieuw-kruispunttype/?utm_medium=referral&utm_source=api-bm19"
     },
     {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_15ce108007791f27d006b3dc3ff0162b5f5638b7",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/notitie-stedelijke-mobiliteit-ten-tijde-van-covid-19-2/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2020-04-15T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
-      "name": "Notitie - Stedelijke Mobiliteit ten tijde van COVID-19",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/notitie-stedelijke-mobiliteit-ten-tijde-van-covid-19-2/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_162b632b0882544918e926eccce59de4eedd1fec",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-kostendeskundigheid-infrastructuur-obv-ssk-2018-2/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2016-06-17T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Bouwproces"
-      ],
-      "name": "Cursusmateriaal - Kostendeskundigheid infrastructuur (o.b.v. SSK-2018)",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/cursusmateriaal-kostendeskundigheid-infrastructuur-obv-ssk-2018-2/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
       "id": "https://data.crow.nl/kg/zn/id/Prd_162d5f765f1852dbc6d48374d414610cfae90b46",
       "type": "Publication",
       "abstract": "Engelstalige versie van rapport 01-03 ‘Aanbevelingen en Richtlijnen voor de Toepassing van Ingegoten Spoorconstructies’.",
@@ -1239,31 +1089,6 @@
       },
       "publisher": "CROW",
       "url": "https://www.crow.nl/kennisproducten/recommendations-and-guidelines-for-embedded-rail-systems/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_172827d2186df3ddaf3a7fcb472b09cd419c7038",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-am-4-daagse-incompany/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2022-10-05T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Assetmanagement"
-      ],
-      "name": "Cursusmateriaal - AM- 4 Daagse incompany",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/cursusmateriaal-am-4-daagse-incompany/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_17a3b9fedc8a6f7e0fb517a1aee97480fa960746",
@@ -1392,31 +1217,6 @@
       "url": "https://kennisbank.crow.nl/kennismodule/publicationdetail/368?utm_medium=referral&utm_source=api-bm19"
     },
     {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_1c6bf807ff143ec3d248db62eb0f159de2f32f14",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/probeer-een-e-bike-bramm-2/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2012-02-15T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
-      "name": "Probeer een E-bike (BRAMM)",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/probeer-een-e-bike-bramm-2/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
       "id": "https://data.crow.nl/kg/zn/id/Prd_1c7e3e28e6b2a29f5196c0ee029cf680bcbd5031",
       "type": "Publication",
       "abstract": "De CROW Richtlijn Warm Mix Asfalt (WMA) biedt de gehele asfaltsector duidelijke kaders voor de productie en verwerking van WMA, waarmee de milieu-impact van asfaltwegen aanzienlijk wordt verkleind.",
@@ -1516,31 +1316,6 @@
       },
       "publisher": "CROW",
       "url": "https://www.crow.nl/kennisproducten/fietsberaadpublicatie-6-fietsstraten-in-hoofdfietsroutes-toepassingen-in-de-praktijk/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_1dbe9f12d8a41001cf940dfc306d33cb23dbf3f5",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-twee-fasen-aanbesteden-bouwteams/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2020-09-02T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Aanbesteden"
-      ],
-      "name": "Cursusmateriaal - Twee-fasen aanbesteden: Bouwteams",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/cursusmateriaal-twee-fasen-aanbesteden-bouwteams/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_1e1590a3eec4ea4441f05265e3978ea8a1482546",
@@ -1694,31 +1469,6 @@
       },
       "publisher": "CROW",
       "url": "https://www.crow.nl/kennisproducten/aan-de-slag-met-de-whitepaper-toekomstvaste-inrichting-wegen/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_2266bd4364439e33f3c725c9b36c47bce8b892d1",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/aan-de-slag-met-park-bike-voor-woon-werkverkeer-3/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2021-06-14T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
-      "name": "Aan de slag met Park & Bike voor woon-werkverkeer",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/aan-de-slag-met-park-bike-voor-woon-werkverkeer-3/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_22aaa105a7206b52c8979dae1bd6dffc30124e5c",
@@ -1923,32 +1673,6 @@
       },
       "publisher": "CROW",
       "url": "https://www.crow.nl/kennisproducten/handreiking-brom-en-snorfietsparkeren/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_27dac111eb5d7d4eb4b5dfb66c168227a5f61ea9",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-basiscursus-imbor/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2020-08-04T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Assetmanagement",
-        "Datagedreven assetmanagement"
-      ],
-      "name": "Cursusmateriaal - Basiscursus IMBOR",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/cursusmateriaal-basiscursus-imbor/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_28263fa38d38bd4478b5c1b58d9d9bb9863d3e57",
@@ -2252,31 +1976,6 @@
       },
       "publisher": "CROW",
       "url": "https://www.crow.nl/kennisproducten/discussienotitie-ontwerpaanbevelingen-fietspad-van-de-toekomst/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_2d67f8b900dfccccc944c5c8d82e5444751f591d",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-toezichthouders-in-verontreinigde-water-bodem/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2016-06-17T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Verontreinigde bodem"
-      ],
-      "name": "Cursusmateriaal - Toezichthouders in verontreinigde (water-) bodem",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/cursusmateriaal-toezichthouders-in-verontreinigde-water-bodem/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_2e95e438df961967dc56e7607e81ee3af2740531",
@@ -3245,31 +2944,6 @@
       "url": "https://www.crow.nl/kennisproducten/fietsberaadpublicatie-11b-het-effect-van-de-toename-van-het-aantal-allochtonen-en-de-vergrijzing-op-het-fietsgebruik/?utm_medium=referral&utm_source=api-bm19"
     },
     {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_42df7b25b27759d9b2b3dbea7780bca8bb3846b5",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/vv-bericht-172-praktijkproef-amsterdam-test-slimme-oplossingen-voor-files/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2016-06-01T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Duurzame mobiliteit"
-      ],
-      "name": "V&V Bericht 172: Praktijkproef Amsterdam test slimme oplossingen voor files",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/vv-bericht-172-praktijkproef-amsterdam-test-slimme-oplossingen-voor-files/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
       "id": "https://data.crow.nl/kg/zn/id/Prd_43008094d01fe9fc0d48ead39e6ce9404ed9c3b6",
       "type": "Publication",
       "abstract": "The Netherlands Cycling Embassy gaat Nederland op fietsgebied één gezicht geven. Mét inbreng van u: adviseurs, beleidsmedewerkers, lobbyisten, ondernemers en wetenschappers. Zo&'n gezamenlijke aanpak schept duidelijkheid en meerwaarde voor buitenlandse contacten.",
@@ -3418,31 +3092,6 @@
       },
       "publisher": "CROW",
       "url": "https://www.crow.nl/kennisproducten/handboek-buurtbus/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_4400de7ed40b68bfc7a16d60656a54931a5d9525",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-opfriscursus-cogla/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2019-08-16T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Gladheidsbestrijding"
-      ],
-      "name": "Cursusmateriaal - Opfriscursus COGLA",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/cursusmateriaal-opfriscursus-cogla/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_44daddcbbae452adc067fdd567a4df0e99730768",
@@ -3700,31 +3349,6 @@
       },
       "publisher": "CROW",
       "url": "https://www.crow.nl/kennisproducten/rijtaakondersteunende-systemen-adas-en-weginrichting/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_4889a19e56055211b0699d088796f4a2b9996adc",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/vv-bericht-170-papieren-kaartje-op-zn-retour/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2016-06-01T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
-      "name": "V&V Bericht 170: Papieren kaartje op z'n retour",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/vv-bericht-170-papieren-kaartje-op-zn-retour/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_48a1f0ebfd4753aadbaa2d03ac78a2de3f84c976",
@@ -4584,29 +4208,6 @@
       "url": "https://www.crow.nl/kennisproducten/discussienotitie-voorrangsregeling-fietsers-en-voetgangers-bij-vris/?utm_medium=referral&utm_source=api-bm19"
     },
     {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_57353898f9f77c69955a1c0818d18e3d5cf39126",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/refactor-ipad-apps-tbv-uitrol-van-ios-15/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2022-01-27T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [],
-      "name": "Refactor iPad apps t.b.v. uitrol van iOS 15",
-      "offers": {
-        "type": "Offer",
-        "price": "1430",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/refactor-ipad-apps-tbv-uitrol-van-ios-15/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
       "id": "https://data.crow.nl/kg/zn/id/Prd_586e9a1cbd588247c77d05dbf4f962c608ba1740",
       "type": "Publication",
       "abstract": "Deze download van brochure 1077 is het resultaat van de verkenning die CROW in 2014 heeft uitgevoerd.",
@@ -4829,31 +4430,6 @@
       },
       "publisher": "CROW",
       "url": "https://www.crow.nl/kennisproducten/bereikbaarheid-in-balans/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_5f353acabbdabf48a5f619b319481164f730f8ff",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-verdiepingscursus-aanbesteden-van-werken/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2016-06-17T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Gladheidsbestrijding"
-      ],
-      "name": "Cursusmateriaal - Verdiepingscursus Aanbesteden van werken",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/cursusmateriaal-verdiepingscursus-aanbesteden-van-werken/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_5f71b8587e114845a74ffebb2425a4cea1d6f316",
@@ -5182,31 +4758,6 @@
       "url": "https://www.crow.nl/kennisproducten/integrale-aanpak-openbare-verlichting-afwegingskader-20/?utm_medium=referral&utm_source=api-bm19"
     },
     {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_62d3e5d8ca1cf370a955dbd14c9f275d19ab8249",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-beinvloeden-van-mobiliteitsgedrag/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2020-01-02T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Verkeerseducatie en gedrag"
-      ],
-      "name": "Cursusmateriaal - Beïnvloeden van Mobiliteitsgedrag",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/cursusmateriaal-beinvloeden-van-mobiliteitsgedrag/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
       "id": "https://data.crow.nl/kg/zn/id/Prd_630568f0a3220e619cd1843ec5dd3dd19161ca33",
       "type": "Publication",
       "abstract": "CROW stelt in samenwerking met DOVA concessieteksten op om ov-concessies MaaS-waardig te maken. Versie 4.1 is de meest recente versie en geldt vanaf 1 juli 2024.",
@@ -5232,56 +4783,6 @@
       "url": "https://www.crow.nl/kennisproducten/maas-waardige-bestekseisen-voor-ov-concessies-versie-41/?utm_medium=referral&utm_source=api-bm19"
     },
     {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_6389c5f3b35566fd816b839254c34138f6cbbd6d",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/vv-bericht-173-cijfers-ov-gebruik-komen-langzaam-maar-zeker-boven-water/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2016-06-01T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
-      "name": "V&V Bericht 173: Cijfers ov-gebruik komen langzaam maar zeker boven water",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/vv-bericht-173-cijfers-ov-gebruik-komen-langzaam-maar-zeker-boven-water/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_644c4c6b49287d1f7d25630b01b063a8d8273303",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/ontwerpwijzer-bruggen-voor-langzaam-verkeer-2/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2014-03-28T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
-      "name": "Ontwerpwijzer bruggen voor langzaam verkeer",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/ontwerpwijzer-bruggen-voor-langzaam-verkeer-2/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
       "id": "https://data.crow.nl/kg/zn/id/Prd_64a6e1dafad2ddb3fe37fcdadc6958a831455b68",
       "type": "Publication",
       "abstract": "Het adviesrapport Digitale aspecten werken aan de weg biedt een concreet en uitvoerbaar voorstel voor het verankeren van digitale aspecten binnen de bestaande CROW 96-serie (de richtlijn voor het veilig uitvoeren van werkzaamheden aan of langs de weg).",
@@ -5305,31 +4806,6 @@
       },
       "publisher": "CROW",
       "url": "https://www.crow.nl/kennisproducten/digitale-aspecten-werken-aan-de-we/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_651a6904bd8a296f8e7ba1ad87c46a8848d4c060",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/inspiratieboek-snelle-fietsroutes-2/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2014-03-12T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
-      "name": "Inspiratieboek snelle fietsroutes",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/inspiratieboek-snelle-fietsroutes-2/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_65b24deebefc271f1f04f7b1e5dc8142b8eeebf3",
@@ -5434,31 +4910,6 @@
       "url": "https://www.crow.nl/kennisproducten/notitie-fietsdeelsystemen-in-antwerpen-het-succes-van-de-velo/?utm_medium=referral&utm_source=api-bm19"
     },
     {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_68332d6a6c8ca31dc1a0a3fc8b10d00d750f62ac",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/handboek-soilmix-wanden-online-versie/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2018-01-26T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Funderingen en trillingen"
-      ],
-      "name": "Handboek Soilmix-wanden (online versie)",
-      "offers": {
-        "type": "Offer",
-        "price": "255",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://kennisbank.crow.nl/kennismodule/publicationdetail/457?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
       "id": "https://data.crow.nl/kg/zn/id/Prd_68ccd0887fb2207d6044a5af74bd0fccece91e14",
       "type": "Publication",
       "abstract": "De publicatie ‘Praktijkvoorbeelden Inclusieve mobiliteit’ van CROW-KpVV gaat in op het wegnemen van onzichtbare, mentale drempels die veel reizigers met een beperking ervaren",
@@ -5482,31 +4933,6 @@
       },
       "publisher": "CROW",
       "url": "https://www.crow.nl/kennisproducten/praktijkvoorbeelden-van-inclusieve-mobiliteit/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_69d7058c8760a81c824ecd6714f02cc6956a587f",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-verkeersveiligheid-vanuit-menselijk-perspectief/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2020-01-02T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Verkeersveiligheid"
-      ],
-      "name": "Cursusmateriaal - Verkeersveiligheid vanuit menselijk perspectief",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/cursusmateriaal-verkeersveiligheid-vanuit-menselijk-perspectief/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_6a0f5e16299b2956675b1d68b3d562d1a7f3170f",
@@ -5607,31 +5033,6 @@
       },
       "publisher": "CROW",
       "url": "https://www.crow.nl/kennisproducten/standaard-raw-bepalingen-2020/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_6c362ef6daaca7fb9be60928fc6dade0943f0a33",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/fietsberaadpublicatie-36-fietsparkeren-bij-grootschalige-wooncomplexen-2/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "schema:datePublished": null,
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
-      "name": "Fietsberaadpublicatie 36: Fietsparkeren bij grootschalige wooncomplexen",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/fietsberaadpublicatie-36-fietsparkeren-bij-grootschalige-wooncomplexen-2/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_6c64b71bd28f8c3d75c7a99a6e1ebfb952155eee",
@@ -6315,31 +5716,6 @@
       "url": "https://www.crow.nl/kennisproducten/uitwerking-kwaliteitseis-aantrekkelijkheid-van-looproutes/?utm_medium=referral&utm_source=api-bm19"
     },
     {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_7cbe300e7b8dea764f974db4dcf4d361ced6cede",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-module-gladheidsmeldsysteem-gms/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2016-08-22T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Gladheidsbestrijding"
-      ],
-      "name": "Cursusmateriaal - Module Gladheidsmeldsysteem (GMS)",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/cursusmateriaal-module-gladheidsmeldsysteem-gms/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
       "id": "https://data.crow.nl/kg/zn/id/Prd_7d5b7fe1c58f3e7c8bf641d4b22ae08eed15d728",
       "type": "Publication",
       "abstract": "Wmo-vervoerregelingen per 1 augustus 2019. De publicatie biedt een overzicht van de Wmo-regelingen in Nederland.",
@@ -6414,31 +5790,6 @@
       },
       "publisher": "CROW",
       "url": "https://www.crow.nl/kennisproducten/definitie-deelmobiliteit/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_7f50fb6469587adfee3c16f5832bf03f5520c699",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/sbr-referentiedetails-voor-op-de-bouwplaats-gedrukte-versie/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2018-02-07T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Funderingen en trillingen"
-      ],
-      "name": "SBR-Referentiedetails voor op de bouwplaats (gedrukte versie)",
-      "offers": {
-        "type": "Offer",
-        "price": "95",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/sbr-referentiedetails-voor-op-de-bouwplaats-gedrukte-versie/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_7f591f4996bb7569e7e9ad92785f6e89480463a4",
@@ -7046,31 +6397,6 @@
       },
       "publisher": "CROW",
       "url": "https://www.crow.nl/kennisproducten/discussienotitie-fietsstraten-binnen-de-kom/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_8f0ad167483b322571be7b4407415e14c748e209",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-training-ambtenaar-30/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2021-04-20T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Assetmanagement"
-      ],
-      "name": "Cursusmateriaal - Training Ambtenaar 3.0",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/cursusmateriaal-training-ambtenaar-30/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_8f9f7a243d60afed5d3deed026dfe67b433eb3ae",
@@ -7959,57 +7285,6 @@
       "url": "https://kennisbank.crow.nl/kennismodule/publicationdetail/547?utm_medium=referral&utm_source=api-bm19"
     },
     {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_a2d64aa0c830c94f0947b4b177548806986f6f4e",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/vv-bericht-169-nieuwe-omgevingswet-vraagt-afstemming-ruimte-en-mobiliteit/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2016-06-01T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Slimme duurzame verstedelijking",
-        "Brede welvaart"
-      ],
-      "name": "V&V Bericht 169: Nieuwe Omgevingswet vraagt afstemming ruimte en mobiliteit",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/vv-bericht-169-nieuwe-omgevingswet-vraagt-afstemming-ruimte-en-mobiliteit/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_a36973933d73c8a469627e80834c46ea5f74aae6",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/fietsberaadpublicatie-25-kwaliteitsnormen-fietsparkeervoorzieningen-btm-haltes-2/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2013-05-23T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
-      "name": "Fietsberaadpublicatie 25: Kwaliteitsnormen fietsparkeervoorzieningen BTM-haltes",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/fietsberaadpublicatie-25-kwaliteitsnormen-fietsparkeervoorzieningen-btm-haltes-2/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
       "id": "https://data.crow.nl/kg/zn/id/Prd_a3b17d9043890d336eca2470a7d48d2b81d3f00f",
       "type": "Publication",
       "abstract": "Dit CROW-CUR Handboek is een complete leidraad voor de voorbereiding en planning van het bemalen van bouwputten en sleuven.",
@@ -8033,31 +7308,6 @@
       },
       "publisher": "CROW",
       "url": "https://kennisbank.crow.nl/kennismodule/publicationdetail/549?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_a3d00e226e82da857a72bd93eb6f84ad2de6778e",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-basiscursus-samenwerkings-en-contractvormen-in-de-bouw/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2021-08-06T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Bouwproces"
-      ],
-      "name": "Cursusmateriaal - Basiscursus Samenwerkings- en contractvormen in de bouw",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/cursusmateriaal-basiscursus-samenwerkings-en-contractvormen-in-de-bouw/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_a4c823cf9bd6c273b6de9fc04d57ba30a5b59b82",
@@ -8257,31 +7507,6 @@
       },
       "publisher": "CROW",
       "url": "https://www.crow.nl/kennisproducten/vierde-kwartaal-2022-tijdelijke-afname-elektrisch-wagenpark/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_a96e0c894550b06af4a53df7d80b696f76623839",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/fietsberaadnotitie-kennisagenda-markering-op-snelle-fietsroutes/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2020-03-30T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
-      "name": "Fietsberaadnotitie: Kennisagenda markering op (snelle) fietsroutes",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/fietsberaadnotitie-kennisagenda-markering-op-snelle-fietsroutes/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_aa1ae08c7a0dfb7b9dc6b6c249a754d30936f733",
@@ -8592,32 +7817,6 @@
       },
       "publisher": "CROW",
       "url": "https://www.crow.nl/kennisproducten/handreiking-fietsparkeren-en-inclusie/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_b2980f807cc7b62868f2dd7ccf4f9766258ce669",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-basiscursus-wegbeheersystematiek/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2016-10-10T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Wegontwerp en weginrichting",
-        "Beheersystematiek"
-      ],
-      "name": "Cursusmateriaal - Basiscursus Wegbeheersystematiek",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/cursusmateriaal-basiscursus-wegbeheersystematiek/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_b2c1746b769fbeb50e1082ae80d976d64da8851b",
@@ -8972,31 +8171,6 @@
       "url": "https://www.crow.nl/kennisproducten/fietsberaadnotitie-de-basis-voor-effectieve-gladheidsbestrijding-voor-fietsers/?utm_medium=referral&utm_source=api-bm19"
     },
     {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_b866f9504af8b7cfa0dee7d561127e0c8d2f9591",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/handboek-inspectie-voegovergangen-gedrukte-versie/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2018-01-26T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Beton en betonconstructies"
-      ],
-      "name": "Handboek Inspectie voegovergangen (gedrukte versie)",
-      "offers": {
-        "type": "Offer",
-        "price": "110",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/handboek-inspectie-voegovergangen-gedrukte-versie/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
       "id": "https://data.crow.nl/kg/zn/id/Prd_b88c5307d37e0a01a647a64998ed5687b6665f03",
       "type": "Publication",
       "abstract": "Deze ‘stand-der-techniek’ rapportage wordt gebruikt om de beschikbare kennis en ervaring te verzamelen en deze te delen in de Nederlandse ontwerp- en uitvoeringspraktijk.",
@@ -9198,56 +8372,6 @@
       "url": "https://www.crow.nl/kennisproducten/handboek-soilmix-wanden-ontwerp-en-uitvoering/?utm_medium=referral&utm_source=api-bm19"
     },
     {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_ba8eb1fa595f2eaa7ed25408d761e6dc35064605",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/leidraad-toegankelijkheid-2/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2026-02-21T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
-      "name": "Leidraad toegankelijkheid",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/leidraad-toegankelijkheid-2/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_baa9707a071ca1e912346dd723c1afb09503efef",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/handboek-soilmix-wanden-gedrukte-versie/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2018-01-26T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Funderingen en trillingen"
-      ],
-      "name": "Handboek Soilmix-wanden (gedrukte versie)",
-      "offers": {
-        "type": "Offer",
-        "price": "255",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/handboek-soilmix-wanden-gedrukte-versie/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
       "id": "https://data.crow.nl/kg/zn/id/Prd_bafb62ffcf43d279108e88cef769987aa29b6d14",
       "type": "Publication",
       "abstract": "Factsheet over het gebruik van het regionaal openbaar vervoer in 2015.",
@@ -9349,31 +8473,6 @@
       },
       "publisher": "CROW",
       "url": "https://www.crow.nl/kennisproducten/schoolzones-toepassing-en-inrichting/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_bbf34e0e6a023861cb553a10a58f300ec9b44955",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-basiscursus-aanbesteden-van-werken/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2016-06-17T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Aanbesteden"
-      ],
-      "name": "Cursusmateriaal - Basiscursus Aanbesteden van werken",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/cursusmateriaal-basiscursus-aanbesteden-van-werken/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_bc031b40f1abc3957d4137a0d300f79b74408363",
@@ -9524,31 +8623,6 @@
       },
       "publisher": "CROW",
       "url": "https://www.crow.nl/kennisproducten/richtlijn-geotechnisch-laboratoriumonderzoek/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_bffbc99014ab327914e43b3fd2478d90ce093440",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/handboek-inspectie-opleggingen-gedrukte-versie/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2018-01-26T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Beton en betonconstructies"
-      ],
-      "name": "Handboek Inspectie Opleggingen (gedrukte versie)",
-      "offers": {
-        "type": "Offer",
-        "price": "110",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/handboek-inspectie-opleggingen-gedrukte-versie/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_c110100a26bcac6b72f56e49453554acfa531eec",
@@ -10967,31 +10041,6 @@
       "url": "https://www.crow.nl/kennisproducten/fietsberaadpublicatie-21-stimuleren-van-fietsgebruik-door-zorgverleners/?utm_medium=referral&utm_source=api-bm19"
     },
     {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_df10e4f93af25d95bac8d1be30d232ecacee1a27",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/richtlijn-houten-paalfunderingen-onder-gebouwen/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2018-02-27T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Funderingen en trillingen"
-      ],
-      "name": "Richtlijn Houten paalfunderingen onder gebouwen",
-      "offers": {
-        "type": "Offer",
-        "price": "85",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://kennisbank.crow.nl/kennismodule/publicationdetail/503?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
       "id": "https://data.crow.nl/kg/zn/id/Prd_df1106a75a8fbaeff49604eff379d052c97fd56c",
       "type": "Publication",
       "abstract": "De publicatie beschrijft een algemene, breed gedragen methode voor de categorisering of indeling van het fietsnetwerk, zoals dit ook het geval is bij de wegencategorisering. Zo zijn kenmerken en eisen eenduidig te koppelen aan de functie in het netwerk. Je leest meer over de verschillende indelingen van het fietsnetwerk en de voorkeurskenmerken.",
@@ -11467,31 +10516,6 @@
       },
       "publisher": "CROW",
       "url": "https://kennisbank.crow.nl/kennismodule/publicationdetail/618?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_e6ed2531e199d313922643c44636d42427c8e203",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/toepassing-kengetallen-goederenvervoer-van-en-naar-bedrijventerreinen/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2005-11-01T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Logistiek"
-      ],
-      "name": "Toepassing kengetallen goederenvervoer van en naar bedrijventerreinen",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/toepassing-kengetallen-goederenvervoer-van-en-naar-bedrijventerreinen/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_e7aa0e6d5dae2303a411e903580e6e12ef298d7e",
@@ -12225,31 +11249,6 @@
       },
       "publisher": "CROW",
       "url": "https://www.crow.nl/kennisproducten/facts-about-cycling-in-the-netherlands/?utm_medium=referral&utm_source=api-bm19"
-    },
-    {
-      "id": "https://data.crow.nl/kg/zn/id/Prd_f5e87920801cf15956f4fb77808dbf67d9e0a50a",
-      "type": "Publication",
-      "schema:abstract": null,
-      "acquireLicensePage": "https://www.crow.nl/kennisproducten/fietsparkeerbeleid-in-centrumgebieden-2/?utm_medium=referral&utm_source=api-bm19",
-      "schema:alternateName": null,
-      "audience": null,
-      "author": null,
-      "citation": null,
-      "datePublished": "2001-01-07T00:00:00",
-      "editor": null,
-      "educationalAlignment": null,
-      "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
-      "name": "Fietsparkeerbeleid in centrumgebieden",
-      "offers": {
-        "type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
-      },
-      "publisher": "CROW",
-      "url": "https://www.crow.nl/kennisproducten/fietsparkeerbeleid-in-centrumgebieden-2/?utm_medium=referral&utm_source=api-bm19"
     },
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_f6c559399a6e728c7036fc3596490acee780037c",

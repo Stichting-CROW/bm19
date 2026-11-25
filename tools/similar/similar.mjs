@@ -7,12 +7,15 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { pipeline } from "@huggingface/transformers";
 
-const MODEL = "Xenova/multilingual-e5-small";
+const MODEL = process.env.SIMILAR_MODEL ?? "Xenova/multilingual-e5-base";
 const MAX_NEIGHBOURS = 25;
-// Pair scores of this model sit in a narrow band (median about 0.83). At 0.88,
-// 23 of 505 entries have no neighbour and the average is 14; at 0.85 nearly
-// every entry gets 25 neighbours, which is too weak to mean "similar".
+// Pair scores of e5 models sit in a narrow band (median about 0.83), so the
+// thresholds are close to the top of that band. Same-source neighbours need a
+// high score. Other sources get a lower floor, because the sources barely use
+// the same vocabulary, and at most MAX_CROSS_SOURCE of the list come from them.
 const MIN_SCORE = Number(process.env.SIMILAR_MIN_SCORE ?? 0.88);
+const MIN_CROSS_SOURCE_SCORE = Number(process.env.SIMILAR_CROSS_MIN_SCORE ?? 0.84);
+const MAX_CROSS_SOURCE = Number(process.env.SIMILAR_MAX_CROSS ?? 5);
 const BATCH_SIZE = 16;
 
 const here = dirname(fileURLToPath(import.meta.url));
@@ -41,11 +44,19 @@ function text(value) {
   return String(value);
 }
 
+const sourceByNode = new WeakMap();
+function sourceOf(node) {
+  return sourceByNode.get(node);
+}
+
 async function loadNodes() {
   const nodes = [];
-  for (const { file } of sources) {
+  for (const { file, source } of sources) {
     const data = JSON.parse(await readFile(join(dataDir, file), "utf8"));
-    nodes.push(...(Array.isArray(data["@graph"]) ? data["@graph"] : [data]));
+    for (const node of Array.isArray(data["@graph"]) ? data["@graph"] : [data]) {
+      sourceByNode.set(node, source);
+      nodes.push(node);
+    }
   }
   const seen = new Set();
   return nodes.filter((node) => {
@@ -86,7 +97,7 @@ function dot(a, b) {
 async function main() {
   const nodes = await loadNodes();
   const indexed = nodes
-    .map((node) => ({ id: text(node.id), text: documentText(node) }))
+    .map((node) => ({ id: text(node.id), source: sourceOf(node), text: documentText(node) }))
     .filter((d) => d.text);
   console.log(`Embedding ${indexed.length} of ${nodes.length} entries with ${MODEL}`);
 
@@ -98,21 +109,38 @@ async function main() {
 
   const similar = {};
   const allScores = [];
+  let crossCount = 0;
   indexed.forEach((doc, i) => {
-    const scored = [];
+    const same = [];
+    const cross = [];
     indexed.forEach((other, j) => {
       if (i === j) return;
       const score = dot(vectors[i], vectors[j]);
       allScores.push(score);
-      if (score >= MIN_SCORE) scored.push({ id: other.id, score: round(score) });
+      const entry = { id: other.id, score: round(score), source: other.source };
+      if (other.source === doc.source) {
+        if (score >= MIN_SCORE) same.push(entry);
+      } else if (score >= MIN_CROSS_SOURCE_SCORE) {
+        cross.push(entry);
+      }
     });
-    scored.sort((a, b) => b.score - a.score);
-    similar[doc.id] = scored.slice(0, MAX_NEIGHBOURS);
+    const byScore = (a, b) => b.score - a.score;
+    same.sort(byScore);
+    cross.sort(byScore);
+    // Cross-source picks first, so they always get room; the rest of the list
+    // is filled with the best same-source matches.
+    const crossPicks = cross.slice(0, MAX_CROSS_SOURCE);
+    const samePicks = same.slice(0, MAX_NEIGHBOURS - crossPicks.length);
+    const picks = [...crossPicks, ...samePicks].sort(byScore);
+    crossCount += crossPicks.length;
+    similar[doc.id] = picks.map(({ id, score }) => ({ id, score }));
   });
 
   const output = {
     model: MODEL,
     minScore: MIN_SCORE,
+    minCrossSourceScore: MIN_CROSS_SOURCE_SCORE,
+    maxCrossSource: MAX_CROSS_SOURCE,
     maxNeighbours: MAX_NEIGHBOURS,
     similar,
   };
@@ -121,6 +149,7 @@ async function main() {
   const withNone = Object.values(similar).filter((list) => list.length === 0).length;
   console.log(`Wrote ${outFile}`);
   console.log(`Entries without neighbours: ${withNone} of ${indexed.length}`);
+  console.log(`Average cross-source neighbours: ${(crossCount / indexed.length).toFixed(2)}`);
   printDistribution(allScores);
 }
 

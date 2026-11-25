@@ -47,10 +47,15 @@ the general description and the access section (its `offers` and
 
 # Similar publications
 
-[similar.json](./similar.json) lists, per id, up to 25 entries from any source
-whose Dutch name, keywords and abstract are semantically close (a multilingual
-embedding model, cosine similarity). The detail page shows them as "Vergelijkbare
-publicaties". Entries below the threshold (0.88) get no list.
+[similar.json](./similar.json) lists, per id, up to 25 entries whose Dutch name,
+keywords and abstract are semantically close (multilingual-e5-base, cosine
+similarity). The detail page shows them as "Vergelijkbare publicaties".
+
+- Same-source neighbours need a score of at least 0.88.
+- Neighbours from other sources need at least 0.84, and at most 5 per entry.
+  Cross-source matches are kept deliberately, so the sources link to each other.
+  The rest of the list is filled with same-source neighbours.
+- Entries with no neighbour above the threshold get an empty list.
 
 It is generated, not written by hand. After changing a data file, run:
 
