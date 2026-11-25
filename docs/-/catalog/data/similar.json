@@ -6,25 +6,7 @@
   "maxNeighbours": 25,
   "similar": {
     "https://data.crow.nl/kg/zn/id/Prd_009bcc1320d5297aae7a584c99886bbf6c707f6f": [],
-    "https://data.crow.nl/kg/zn/id/Prd_029d74f47a620fde360eaad887f1364774e8b732": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a96e0c894550b06af4a53df7d80b696f76623839",
-        "score": 0.896
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_62d3e5d8ca1cf370a955dbd14c9f275d19ab8249",
-        "score": 0.884
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b866f9504af8b7cfa0dee7d561127e0c8d2f9591",
-        "score": 0.881
-      }
-    ],
     "https://data.crow.nl/kg/zn/id/Prd_02a637f9459a0f658ae325eb6b154688bebdc689": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_6389c5f3b35566fd816b839254c34138f6cbbd6d",
-        "score": 0.883
-      },
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_d822424d1471994ce3017a7e666c16583e2d997e",
         "score": 0.882
@@ -76,54 +58,6 @@
       {
         "id": "https://bouwzo.nl/reader/publicatie/handboek-hbze-zonne-energie/2026",
         "score": 0.845
-      }
-    ],
-    "https://data.crow.nl/kg/zn/id/Prd_046768cc33aa0fea3039cd73a059f9839e800884": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_8f0ad167483b322571be7b4407415e14c748e209",
-        "score": 0.982
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_172827d2186df3ddaf3a7fcb472b09cd419c7038",
-        "score": 0.924
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_27dac111eb5d7d4eb4b5dfb66c168227a5f61ea9",
-        "score": 0.921
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2d67f8b900dfccccc944c5c8d82e5444751f591d",
-        "score": 0.898
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_1dbe9f12d8a41001cf940dfc306d33cb23dbf3f5",
-        "score": 0.891
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b2980f807cc7b62868f2dd7ccf4f9766258ce669",
-        "score": 0.886
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_62d3e5d8ca1cf370a955dbd14c9f275d19ab8249",
-        "score": 0.883
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_bbf34e0e6a023861cb553a10a58f300ec9b44955",
-        "score": 0.883
-      },
-      {
-        "id": "urn:fgoplus:product:3471115",
-        "score": 0.855
-      },
-      {
-        "id": "urn:fgoplus:product:2269428",
-        "score": 0.848
-      }
-    ],
-    "https://data.crow.nl/kg/zn/id/Prd_0481ff441ce32a01b1a14129477c96e68e8aa4d9": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_d8c7d1a05fd4219db52e42a419b76cc95f0ae98f",
-        "score": 0.883
       }
     ],
     "https://data.crow.nl/kg/zn/id/Prd_0533c0047ca6e8fe885c921f7b4d50e8135ed2b1": [
@@ -388,10 +322,6 @@
         "score": 0.9
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a2d64aa0c830c94f0947b4b177548806986f6f4e",
-        "score": 0.898
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_33b9db3ad2824bc3bc2fe0f333b7ac3b3d8ad581",
         "score": 0.896
       },
@@ -434,10 +364,6 @@
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_bc031b40f1abc3957d4137a0d300f79b74408363",
         "score": 0.886
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_62d3e5d8ca1cf370a955dbd14c9f275d19ab8249",
-        "score": 0.883
       },
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_800ea9d77bee7e9cfa6aa9b7c22a57363ed95ced",
@@ -566,12 +492,7 @@
         "score": 0.841
       }
     ],
-    "https://data.crow.nl/kg/zn/id/Prd_087c45c4c4a3b326527e0f02f1c1a9bca0a840b8": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2d67f8b900dfccccc944c5c8d82e5444751f591d",
-        "score": 0.889
-      }
-    ],
+    "https://data.crow.nl/kg/zn/id/Prd_087c45c4c4a3b326527e0f02f1c1a9bca0a840b8": [],
     "https://data.crow.nl/kg/zn/id/Prd_0904eecf3d84e3e1e89f7f57621d13236998cb49": [
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_7e1503d6413c3ed520a5969ca3a98837a2899fc6",
@@ -2300,36 +2221,6 @@
       }
     ],
     "https://data.crow.nl/kg/zn/id/Prd_153c39f2421b9ec14873e60372e1b26baf5ad85f": [],
-    "https://data.crow.nl/kg/zn/id/Prd_15a9a29b04bb65e6d7a49cda8e3cbbbec8b58152": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b4f0185990baa38af940bd4e66bff4a08531bd40",
-        "score": 0.907
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_ba8eb1fa595f2eaa7ed25408d761e6dc35064605",
-        "score": 0.906
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_f5e87920801cf15956f4fb77808dbf67d9e0a50a",
-        "score": 0.906
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2266bd4364439e33f3c725c9b36c47bce8b892d1",
-        "score": 0.897
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2f1619f6fce06e5489f050661323418f9db44e22",
-        "score": 0.891
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_651a6904bd8a296f8e7ba1ad87c46a8848d4c060",
-        "score": 0.885
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_d8e7ffcdd2193164640fed2037cedaf8521dcc79",
-        "score": 0.882
-      }
-    ],
     "https://data.crow.nl/kg/zn/id/Prd_15c01fa6add42bdcb83c8de066f2163dfb6df229": [
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_d6aa90992ad72c7c6ed513a54db2245c2fb9d2e7",
@@ -2348,66 +2239,6 @@
         "score": 0.88
       }
     ],
-    "https://data.crow.nl/kg/zn/id/Prd_15ce108007791f27d006b3dc3ff0162b5f5638b7": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2bc9a077732b53526e5990b5d403d41f601078af",
-        "score": 0.925
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_cbaba350e6ab6790c969d2ecae3915f5f7e0917c",
-        "score": 0.883
-      }
-    ],
-    "https://data.crow.nl/kg/zn/id/Prd_162b632b0882544918e926eccce59de4eedd1fec": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a3d00e226e82da857a72bd93eb6f84ad2de6778e",
-        "score": 0.904
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_1dbe9f12d8a41001cf940dfc306d33cb23dbf3f5",
-        "score": 0.898
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_bbf34e0e6a023861cb553a10a58f300ec9b44955",
-        "score": 0.895
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b2980f807cc7b62868f2dd7ccf4f9766258ce669",
-        "score": 0.893
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_27dac111eb5d7d4eb4b5dfb66c168227a5f61ea9",
-        "score": 0.888
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_8f0ad167483b322571be7b4407415e14c748e209",
-        "score": 0.886
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_5f353acabbdabf48a5f619b319481164f730f8ff",
-        "score": 0.882
-      },
-      {
-        "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025",
-        "score": 0.851
-      },
-      {
-        "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025",
-        "score": 0.847
-      },
-      {
-        "id": "https://bouwzo.nl/reader/publicatie/isso-publicatie-106-functionele-inspectiemethode-duurzaam-beheer-en-onderhoud/2010",
-        "score": 0.843
-      },
-      {
-        "id": "https://bouwzo.nl/reader/publicatie/isso-publicatie-70-hemelwater-en-grijswater-binnen-de-perceelgrens/2023",
-        "score": 0.841
-      },
-      {
-        "id": "urn:isso:publicatie:kleintje-gas",
-        "score": 0.841
-      }
-    ],
     "https://data.crow.nl/kg/zn/id/Prd_162d5f765f1852dbc6d48374d414610cfae90b46": [
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_2f1619f6fce06e5489f050661323418f9db44e22",
@@ -2416,40 +2247,6 @@
       {
         "id": "https://bouwzo.nl/reader/publicatie/isso-publicatie-106-functionele-inspectiemethode-duurzaam-beheer-en-onderhoud/2010",
         "score": 0.842
-      }
-    ],
-    "https://data.crow.nl/kg/zn/id/Prd_172827d2186df3ddaf3a7fcb472b09cd419c7038": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_8f0ad167483b322571be7b4407415e14c748e209",
-        "score": 0.929
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_046768cc33aa0fea3039cd73a059f9839e800884",
-        "score": 0.924
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_27dac111eb5d7d4eb4b5dfb66c168227a5f61ea9",
-        "score": 0.913
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2d67f8b900dfccccc944c5c8d82e5444751f591d",
-        "score": 0.897
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b2980f807cc7b62868f2dd7ccf4f9766258ce669",
-        "score": 0.892
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_1dbe9f12d8a41001cf940dfc306d33cb23dbf3f5",
-        "score": 0.881
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_62d3e5d8ca1cf370a955dbd14c9f275d19ab8249",
-        "score": 0.881
-      },
-      {
-        "id": "urn:fgoplus:product:2712660",
-        "score": 0.847
       }
     ],
     "https://data.crow.nl/kg/zn/id/Prd_17a3b9fedc8a6f7e0fb517a1aee97480fa960746": [
@@ -2720,23 +2517,11 @@
         "score": 0.916
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_baa9707a071ca1e912346dd723c1afb09503efef",
-        "score": 0.912
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_68332d6a6c8ca31dc1a0a3fc8b10d00d750f62ac",
-        "score": 0.909
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_ba2e028d66eaa3d16cdfd923223c968426aa49b4",
         "score": 0.908
       },
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_402ad2e069ba81203522b8d6c1436d7c029ab7c7",
-        "score": 0.906
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_7f50fb6469587adfee3c16f5832bf03f5520c699",
         "score": 0.906
       },
       {
@@ -2850,10 +2635,6 @@
         "score": 0.894
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_644c4c6b49287d1f7d25630b01b063a8d8273303",
-        "score": 0.893
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_b75e22b96c8ffe4d1d0c518b2c888115d9e505d5",
         "score": 0.893
       },
@@ -2910,34 +2691,16 @@
         "score": 0.885
       },
       {
+        "id": "https://data.crow.nl/kg/zn/id/Prd_4cf5b402a176e827197f6595d3395f5237bc4314",
+        "score": 0.885
+      },
+      {
         "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025",
         "score": 0.849
       },
       {
         "id": "https://bouwzo.nl/reader/publicatie/handboek-hbze-zonne-energie/2026",
         "score": 0.841
-      }
-    ],
-    "https://data.crow.nl/kg/zn/id/Prd_1c6bf807ff143ec3d248db62eb0f159de2f32f14": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2266bd4364439e33f3c725c9b36c47bce8b892d1",
-        "score": 0.903
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_ba8eb1fa595f2eaa7ed25408d761e6dc35064605",
-        "score": 0.892
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_651a6904bd8a296f8e7ba1ad87c46a8848d4c060",
-        "score": 0.891
-      },
-      {
-        "id": "urn:fgoplus:product:2712660",
-        "score": 0.845
-      },
-      {
-        "id": "urn:fgoplus:product:3471115",
-        "score": 0.843
       }
     ],
     "https://data.crow.nl/kg/zn/id/Prd_1c7e3e28e6b2a29f5196c0ee029cf680bcbd5031": [
@@ -3175,48 +2938,6 @@
         "score": 0.85
       }
     ],
-    "https://data.crow.nl/kg/zn/id/Prd_1dbe9f12d8a41001cf940dfc306d33cb23dbf3f5": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_bbf34e0e6a023861cb553a10a58f300ec9b44955",
-        "score": 0.928
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_162b632b0882544918e926eccce59de4eedd1fec",
-        "score": 0.898
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_5f353acabbdabf48a5f619b319481164f730f8ff",
-        "score": 0.896
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_046768cc33aa0fea3039cd73a059f9839e800884",
-        "score": 0.891
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_8f0ad167483b322571be7b4407415e14c748e209",
-        "score": 0.888
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a3d00e226e82da857a72bd93eb6f84ad2de6778e",
-        "score": 0.888
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2d67f8b900dfccccc944c5c8d82e5444751f591d",
-        "score": 0.886
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b2980f807cc7b62868f2dd7ccf4f9766258ce669",
-        "score": 0.886
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_c5b8f0ab78338be3bf6484f67e0e21709dce544e",
-        "score": 0.885
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_172827d2186df3ddaf3a7fcb472b09cd419c7038",
-        "score": 0.881
-      }
-    ],
     "https://data.crow.nl/kg/zn/id/Prd_1e1590a3eec4ea4441f05265e3978ea8a1482546": [
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_83467d1e5350a878f6486bc35107dceff7d64044",
@@ -3357,10 +3078,6 @@
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_f94365c2d852f0aef7f0d70617b5748ca13870d7",
         "score": 0.883
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_7f50fb6469587adfee3c16f5832bf03f5520c699",
-        "score": 0.88
       },
       {
         "id": "https://bouwzo.nl/reader/publicatie/handboek-hbze-zonne-energie/2026",
@@ -3601,52 +3318,6 @@
         "score": 0.847
       }
     ],
-    "https://data.crow.nl/kg/zn/id/Prd_2266bd4364439e33f3c725c9b36c47bce8b892d1": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_1c6bf807ff143ec3d248db62eb0f159de2f32f14",
-        "score": 0.903
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_f5e87920801cf15956f4fb77808dbf67d9e0a50a",
-        "score": 0.901
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_15a9a29b04bb65e6d7a49cda8e3cbbbec8b58152",
-        "score": 0.897
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_651a6904bd8a296f8e7ba1ad87c46a8848d4c060",
-        "score": 0.891
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_6c362ef6daaca7fb9be60928fc6dade0943f0a33",
-        "score": 0.888
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_ba8eb1fa595f2eaa7ed25408d761e6dc35064605",
-        "score": 0.885
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2f1619f6fce06e5489f050661323418f9db44e22",
-        "score": 0.884
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_cbd5fbec80cdeca181d653ce114c16567dd956be",
-        "score": 0.883
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a96e0c894550b06af4a53df7d80b696f76623839",
-        "score": 0.881
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_644c4c6b49287d1f7d25630b01b063a8d8273303",
-        "score": 0.88
-      },
-      {
-        "id": "urn:fgoplus:product:2269428",
-        "score": 0.842
-      }
-    ],
     "https://data.crow.nl/kg/zn/id/Prd_22aaa105a7206b52c8979dae1bd6dffc30124e5c": [
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_b8c1c3eb1702b2b14ffb5feef654ec043bf8625b",
@@ -3761,10 +3432,6 @@
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_549c0ad9b500d33b11bfef8ab7da05f826121653",
         "score": 0.898
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_62d3e5d8ca1cf370a955dbd14c9f275d19ab8249",
-        "score": 0.893
       },
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_6f798865c940a55ff3573a532323e0fe699be2b6",
@@ -3923,14 +3590,6 @@
         "score": 0.931
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_bffbc99014ab327914e43b3fd2478d90ce093440",
-        "score": 0.918
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b866f9504af8b7cfa0dee7d561127e0c8d2f9591",
-        "score": 0.913
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_9514a4b1faf064b5160cc61d48f92e46a1c419a6",
         "score": 0.91
       },
@@ -3996,6 +3655,14 @@
       },
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_acb413acbe293b2207bda00b3fb6c70344c10198",
+        "score": 0.881
+      },
+      {
+        "id": "https://data.crow.nl/kg/zn/id/Prd_e02bfa23a73ee94bccaa43cc44a2b5908b4e8de1",
+        "score": 0.881
+      },
+      {
+        "id": "https://data.crow.nl/kg/zn/id/Prd_ebae96ebf8fb259cd750802935fa88c69fbe43b7",
         "score": 0.881
       },
       {
@@ -4339,44 +4006,6 @@
         "score": 0.847
       }
     ],
-    "https://data.crow.nl/kg/zn/id/Prd_27dac111eb5d7d4eb4b5dfb66c168227a5f61ea9": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_8f0ad167483b322571be7b4407415e14c748e209",
-        "score": 0.928
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_046768cc33aa0fea3039cd73a059f9839e800884",
-        "score": 0.921
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_172827d2186df3ddaf3a7fcb472b09cd419c7038",
-        "score": 0.913
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_bbf34e0e6a023861cb553a10a58f300ec9b44955",
-        "score": 0.895
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b2980f807cc7b62868f2dd7ccf4f9766258ce669",
-        "score": 0.892
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_66ccae6961e7b9e4fbffb2b0c48f5e6efcbe7c1e",
-        "score": 0.889
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_162b632b0882544918e926eccce59de4eedd1fec",
-        "score": 0.888
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a3d00e226e82da857a72bd93eb6f84ad2de6778e",
-        "score": 0.885
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_62d3e5d8ca1cf370a955dbd14c9f275d19ab8249",
-        "score": 0.882
-      }
-    ],
     "https://data.crow.nl/kg/zn/id/Prd_28263fa38d38bd4478b5c1b58d9d9bb9863d3e57": [
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_800ea9d77bee7e9cfa6aa9b7c22a57363ed95ced",
@@ -4651,10 +4280,6 @@
     ],
     "https://data.crow.nl/kg/zn/id/Prd_2bc9a077732b53526e5990b5d403d41f601078af": [
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_15ce108007791f27d006b3dc3ff0162b5f5638b7",
-        "score": 0.925
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_9dac20c81689b0f03ff5f1756f2e53605678d280",
         "score": 0.914
       },
@@ -4749,6 +4374,10 @@
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_dce4862968e4e7712fd344e820b86e1aeaa2d05d",
         "score": 0.888
+      },
+      {
+        "id": "https://data.crow.nl/kg/zn/id/Prd_caa8ae3a3120a5f866c24dcac3f9f1e9bd606f1b",
+        "score": 0.887
       }
     ],
     "https://data.crow.nl/kg/zn/id/Prd_2c0bbf086ad7dbc27780f2a239acaf9b091eea82": [
@@ -5277,52 +4906,6 @@
         "score": 0.842
       }
     ],
-    "https://data.crow.nl/kg/zn/id/Prd_2d67f8b900dfccccc944c5c8d82e5444751f591d": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b2980f807cc7b62868f2dd7ccf4f9766258ce669",
-        "score": 0.909
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_046768cc33aa0fea3039cd73a059f9839e800884",
-        "score": 0.898
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_69d7058c8760a81c824ecd6714f02cc6956a587f",
-        "score": 0.898
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_172827d2186df3ddaf3a7fcb472b09cd419c7038",
-        "score": 0.897
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_62d3e5d8ca1cf370a955dbd14c9f275d19ab8249",
-        "score": 0.895
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b866f9504af8b7cfa0dee7d561127e0c8d2f9591",
-        "score": 0.894
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_8f0ad167483b322571be7b4407415e14c748e209",
-        "score": 0.89
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a96e0c894550b06af4a53df7d80b696f76623839",
-        "score": 0.89
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_bffbc99014ab327914e43b3fd2478d90ce093440",
-        "score": 0.89
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_087c45c4c4a3b326527e0f02f1c1a9bca0a840b8",
-        "score": 0.889
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_1dbe9f12d8a41001cf940dfc306d33cb23dbf3f5",
-        "score": 0.886
-      }
-    ],
     "https://data.crow.nl/kg/zn/id/Prd_2e95e438df961967dc56e7607e81ee3af2740531": [
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_2795dea20eb423b44263d6ab5efb3c35cf4cd8a8",
@@ -5617,7 +5200,7 @@
         "score": 0.901
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a36973933d73c8a469627e80834c46ea5f74aae6",
+        "id": "https://data.crow.nl/kg/zn/id/Prd_a51f8c989b8e3bbab2f1011030b49eff4196755a",
         "score": 0.901
       },
       {
@@ -5833,10 +5416,6 @@
         "score": 0.896
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_bffbc99014ab327914e43b3fd2478d90ce093440",
-        "score": 0.896
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_b8ede3a15c73ed77cb013fcd5ac5a5eb3ca2af6d",
         "score": 0.895
       },
@@ -5863,10 +5442,6 @@
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_13e302db8ef5a3453acef3e5c6bfbd5ab570d2b5",
         "score": 0.882
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b866f9504af8b7cfa0dee7d561127e0c8d2f9591",
-        "score": 0.881
       },
       {
         "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025",
@@ -6287,10 +5862,6 @@
         "score": 0.915
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_6c362ef6daaca7fb9be60928fc6dade0943f0a33",
-        "score": 0.909
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_f1fe1c62c450092784467323212587b168be56b4",
         "score": 0.908
       },
@@ -6355,16 +5926,20 @@
         "score": 0.89
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_f5e87920801cf15956f4fb77808dbf67d9e0a50a",
-        "score": 0.89
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_6d6c7c582a9c3f661463835405e13df101d2e8e2",
         "score": 0.889
       },
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_a51f8c989b8e3bbab2f1011030b49eff4196755a",
         "score": 0.889
+      },
+      {
+        "id": "https://data.crow.nl/kg/zn/id/Prd_3072aae99366da51d889541c241a392ff97a61ae",
+        "score": 0.888
+      },
+      {
+        "id": "https://data.crow.nl/kg/zn/id/Prd_dd5e119371c45b80b66a1bec2b83854f28bf40cc",
+        "score": 0.887
       },
       {
         "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025",
@@ -7665,15 +7240,7 @@
         "score": 0.889
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_62d3e5d8ca1cf370a955dbd14c9f275d19ab8249",
-        "score": 0.889
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_800ea9d77bee7e9cfa6aa9b7c22a57363ed95ced",
-        "score": 0.889
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b2980f807cc7b62868f2dd7ccf4f9766258ce669",
         "score": 0.889
       },
       {
@@ -7686,6 +7253,14 @@
       },
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_6f798865c940a55ff3573a532323e0fe699be2b6",
+        "score": 0.886
+      },
+      {
+        "id": "https://data.crow.nl/kg/zn/id/Prd_a3b17d9043890d336eca2470a7d48d2b81d3f00f",
+        "score": 0.886
+      },
+      {
+        "id": "https://data.crow.nl/kg/zn/id/Prd_e0c7c67c559df0cf07947680635a8064cac173bc",
         "score": 0.886
       },
       {
@@ -8037,20 +7612,6 @@
         "score": 0.853
       }
     ],
-    "https://data.crow.nl/kg/zn/id/Prd_42df7b25b27759d9b2b3dbea7780bca8bb3846b5": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_6389c5f3b35566fd816b839254c34138f6cbbd6d",
-        "score": 0.895
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_4889a19e56055211b0699d088796f4a2b9996adc",
-        "score": 0.89
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a2d64aa0c830c94f0947b4b177548806986f6f4e",
-        "score": 0.887
-      }
-    ],
     "https://data.crow.nl/kg/zn/id/Prd_43008094d01fe9fc0d48ead39e6ce9404ed9c3b6": [
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_bc031b40f1abc3957d4137a0d300f79b74408363",
@@ -8173,16 +7734,8 @@
         "score": 0.891
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_bffbc99014ab327914e43b3fd2478d90ce093440",
-        "score": 0.89
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_932ff729e04cade31432de5a8128eda4d2b60c7e",
         "score": 0.889
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b866f9504af8b7cfa0dee7d561127e0c8d2f9591",
-        "score": 0.887
       },
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_710ef4812e185ca66df880d84d35ba4fa55b9395",
@@ -8309,24 +7862,6 @@
       {
         "id": "https://bouwzo.nl/reader/publicatie/isso-publicatie-70-hemelwater-en-grijswater-binnen-de-perceelgrens/2023",
         "score": 0.841
-      }
-    ],
-    "https://data.crow.nl/kg/zn/id/Prd_4400de7ed40b68bfc7a16d60656a54931a5d9525": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_5f353acabbdabf48a5f619b319481164f730f8ff",
-        "score": 0.929
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_7cbe300e7b8dea764f974db4dcf4d361ced6cede",
-        "score": 0.924
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_69d7058c8760a81c824ecd6714f02cc6956a587f",
-        "score": 0.901
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_62d3e5d8ca1cf370a955dbd14c9f275d19ab8249",
-        "score": 0.886
       }
     ],
     "https://data.crow.nl/kg/zn/id/Prd_44daddcbbae452adc067fdd567a4df0e99730768": [
@@ -8795,20 +8330,6 @@
       {
         "id": "https://bouwzo.nl/reader/publicatie/isso-publicatie-70-hemelwater-en-grijswater-binnen-de-perceelgrens/2023",
         "score": 0.845
-      }
-    ],
-    "https://data.crow.nl/kg/zn/id/Prd_4889a19e56055211b0699d088796f4a2b9996adc": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_6389c5f3b35566fd816b839254c34138f6cbbd6d",
-        "score": 0.904
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a2d64aa0c830c94f0947b4b177548806986f6f4e",
-        "score": 0.892
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_42df7b25b27759d9b2b3dbea7780bca8bb3846b5",
-        "score": 0.89
       }
     ],
     "https://data.crow.nl/kg/zn/id/Prd_48a1f0ebfd4753aadbaa2d03ac78a2de3f84c976": [
@@ -11094,7 +10615,6 @@
         "score": 0.847
       }
     ],
-    "https://data.crow.nl/kg/zn/id/Prd_57353898f9f77c69955a1c0818d18e3d5cf39126": [],
     "https://data.crow.nl/kg/zn/id/Prd_586e9a1cbd588247c77d05dbf4f962c608ba1740": [
       {
         "id": "https://bouwzo.nl/reader/publicatie/isso-publicatie-70-hemelwater-en-grijswater-binnen-de-perceelgrens/2023",
@@ -11510,7 +11030,7 @@
       },
       {
         "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025",
-        "score": 0.853
+        "score": 0.854
       },
       {
         "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025",
@@ -11519,36 +11039,6 @@
       {
         "id": "https://bouwzo.nl/reader/publicatie/isso-publicatie-70-hemelwater-en-grijswater-binnen-de-perceelgrens/2023",
         "score": 0.841
-      }
-    ],
-    "https://data.crow.nl/kg/zn/id/Prd_5f353acabbdabf48a5f619b319481164f730f8ff": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_bbf34e0e6a023861cb553a10a58f300ec9b44955",
-        "score": 0.932
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_4400de7ed40b68bfc7a16d60656a54931a5d9525",
-        "score": 0.929
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_7cbe300e7b8dea764f974db4dcf4d361ced6cede",
-        "score": 0.918
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_1dbe9f12d8a41001cf940dfc306d33cb23dbf3f5",
-        "score": 0.896
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_162b632b0882544918e926eccce59de4eedd1fec",
-        "score": 0.882
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_8f0ad167483b322571be7b4407415e14c748e209",
-        "score": 0.881
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_69d7058c8760a81c824ecd6714f02cc6956a587f",
-        "score": 0.88
       }
     ],
     "https://data.crow.nl/kg/zn/id/Prd_5f71b8587e114845a74ffebb2425a4cea1d6f316": [
@@ -11795,10 +11285,6 @@
         "score": 0.897
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_69d7058c8760a81c824ecd6714f02cc6956a587f",
-        "score": 0.893
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_1b396bf35e29f495fa195c8e579e77cb945de3a7",
         "score": 0.892
       },
@@ -11837,10 +11323,6 @@
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_e0c7c67c559df0cf07947680635a8064cac173bc",
         "score": 0.881
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b2980f807cc7b62868f2dd7ccf4f9766258ce669",
-        "score": 0.88
       },
       {
         "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025",
@@ -12241,80 +11723,6 @@
         "score": 0.84
       }
     ],
-    "https://data.crow.nl/kg/zn/id/Prd_62d3e5d8ca1cf370a955dbd14c9f275d19ab8249": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_69d7058c8760a81c824ecd6714f02cc6956a587f",
-        "score": 0.936
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b2980f807cc7b62868f2dd7ccf4f9766258ce669",
-        "score": 0.92
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a092ed6fbed1ba6baa663add041269436949f1f0",
-        "score": 0.909
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2d67f8b900dfccccc944c5c8d82e5444751f591d",
-        "score": 0.895
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_23baa8c4bac7f2b74b1745039cf17245e97196d2",
-        "score": 0.893
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_406e5a0dc200d27e5516ae6a07f30fddc3ef572c",
-        "score": 0.889
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_ece9111951c97f2b926cdeefbfd5e8e4d75c5c53",
-        "score": 0.888
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_7cbe300e7b8dea764f974db4dcf4d361ced6cede",
-        "score": 0.887
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_4400de7ed40b68bfc7a16d60656a54931a5d9525",
-        "score": 0.886
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a96e0c894550b06af4a53df7d80b696f76623839",
-        "score": 0.886
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_029d74f47a620fde360eaad887f1364774e8b732",
-        "score": 0.884
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_8f0ad167483b322571be7b4407415e14c748e209",
-        "score": 0.884
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_046768cc33aa0fea3039cd73a059f9839e800884",
-        "score": 0.883
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_073023080c2c75b36b5144c8c426902f3f160f7c",
-        "score": 0.883
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_27dac111eb5d7d4eb4b5dfb66c168227a5f61ea9",
-        "score": 0.882
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_e42d55381ceb917fb517b61f9ed4e5fddbd9ee96",
-        "score": 0.882
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_172827d2186df3ddaf3a7fcb472b09cd419c7038",
-        "score": 0.881
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_aab9ef0eee89e8b468e67f9677ba29a78580cd56",
-        "score": 0.881
-      }
-    ],
     "https://data.crow.nl/kg/zn/id/Prd_630568f0a3220e619cd1843ec5dd3dd19161ca33": [
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_36288497bcf9f167d9b3a11010b662c046ba191f",
@@ -12335,50 +11743,6 @@
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_90c68f3c278713a34136ffa3beac138646e1582c",
         "score": 0.883
-      }
-    ],
-    "https://data.crow.nl/kg/zn/id/Prd_6389c5f3b35566fd816b839254c34138f6cbbd6d": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_4889a19e56055211b0699d088796f4a2b9996adc",
-        "score": 0.904
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_42df7b25b27759d9b2b3dbea7780bca8bb3846b5",
-        "score": 0.895
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_02a637f9459a0f658ae325eb6b154688bebdc689",
-        "score": 0.883
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a2d64aa0c830c94f0947b4b177548806986f6f4e",
-        "score": 0.88
-      }
-    ],
-    "https://data.crow.nl/kg/zn/id/Prd_644c4c6b49287d1f7d25630b01b063a8d8273303": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_651a6904bd8a296f8e7ba1ad87c46a8848d4c060",
-        "score": 0.903
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_1b7be0c197ac03ea314bf5ae2a1b01759509035f",
-        "score": 0.893
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_ba8eb1fa595f2eaa7ed25408d761e6dc35064605",
-        "score": 0.885
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2cfc630c2938cf17f01b973848a42c4618bf2d43",
-        "score": 0.883
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_f5e87920801cf15956f4fb77808dbf67d9e0a50a",
-        "score": 0.883
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2266bd4364439e33f3c725c9b36c47bce8b892d1",
-        "score": 0.88
       }
     ],
     "https://data.crow.nl/kg/zn/id/Prd_64a6e1dafad2ddb3fe37fcdadc6958a831455b68": [
@@ -12429,44 +11793,6 @@
       {
         "id": "https://bouwzo.nl/reader/publicatie/isso-publicatie-70-hemelwater-en-grijswater-binnen-de-perceelgrens/2023",
         "score": 0.844
-      }
-    ],
-    "https://data.crow.nl/kg/zn/id/Prd_651a6904bd8a296f8e7ba1ad87c46a8848d4c060": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_ba8eb1fa595f2eaa7ed25408d761e6dc35064605",
-        "score": 0.914
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a96e0c894550b06af4a53df7d80b696f76623839",
-        "score": 0.913
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_644c4c6b49287d1f7d25630b01b063a8d8273303",
-        "score": 0.903
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_f5e87920801cf15956f4fb77808dbf67d9e0a50a",
-        "score": 0.896
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_1c6bf807ff143ec3d248db62eb0f159de2f32f14",
-        "score": 0.891
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2266bd4364439e33f3c725c9b36c47bce8b892d1",
-        "score": 0.891
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_15a9a29b04bb65e6d7a49cda8e3cbbbec8b58152",
-        "score": 0.885
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2f1619f6fce06e5489f050661323418f9db44e22",
-        "score": 0.882
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_cbd5fbec80cdeca181d653ce114c16567dd956be",
-        "score": 0.88
       }
     ],
     "https://data.crow.nl/kg/zn/id/Prd_65b24deebefc271f1f04f7b1e5dc8142b8eeebf3": [
@@ -12523,10 +11849,6 @@
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_11adf9d8caff9392ea99cfd5ee1418ef636df95e",
         "score": 0.893
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_27dac111eb5d7d4eb4b5dfb66c168227a5f61ea9",
-        "score": 0.889
       },
       {
         "id": "https://bouwzo.nl/reader/publicatie/isso-publicatie-70-hemelwater-en-grijswater-binnen-de-perceelgrens/2023",
@@ -12599,36 +11921,6 @@
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_aab9ef0eee89e8b468e67f9677ba29a78580cd56",
         "score": 0.884
-      }
-    ],
-    "https://data.crow.nl/kg/zn/id/Prd_68332d6a6c8ca31dc1a0a3fc8b10d00d750f62ac": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_baa9707a071ca1e912346dd723c1afb09503efef",
-        "score": 0.994
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_7f50fb6469587adfee3c16f5832bf03f5520c699",
-        "score": 0.936
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_ba2e028d66eaa3d16cdfd923223c968426aa49b4",
-        "score": 0.912
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_1b396bf35e29f495fa195c8e579e77cb945de3a7",
-        "score": 0.909
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_f94365c2d852f0aef7f0d70617b5748ca13870d7",
-        "score": 0.905
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_df10e4f93af25d95bac8d1be30d232ecacee1a27",
-        "score": 0.891
-      },
-      {
-        "id": "urn:isso:publicatie:kleintje-gas",
-        "score": 0.846
       }
     ],
     "https://data.crow.nl/kg/zn/id/Prd_68ccd0887fb2207d6044a5af74bd0fccece91e14": [
@@ -12733,36 +12025,6 @@
         "score": 0.843
       }
     ],
-    "https://data.crow.nl/kg/zn/id/Prd_69d7058c8760a81c824ecd6714f02cc6956a587f": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_62d3e5d8ca1cf370a955dbd14c9f275d19ab8249",
-        "score": 0.936
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_4400de7ed40b68bfc7a16d60656a54931a5d9525",
-        "score": 0.901
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2d67f8b900dfccccc944c5c8d82e5444751f591d",
-        "score": 0.898
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b2980f807cc7b62868f2dd7ccf4f9766258ce669",
-        "score": 0.895
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_5fe18ac4b2eade242d1c2371bb12097d5c6b135f",
-        "score": 0.893
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_7cbe300e7b8dea764f974db4dcf4d361ced6cede",
-        "score": 0.892
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_5f353acabbdabf48a5f619b319481164f730f8ff",
-        "score": 0.88
-      }
-    ],
     "https://data.crow.nl/kg/zn/id/Prd_6a0f5e16299b2956675b1d68b3d562d1a7f3170f": [
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_b8ede3a15c73ed77cb013fcd5ac5a5eb3ca2af6d",
@@ -12857,92 +12119,6 @@
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_bc66492e8955bc32e5f1f7d1d7700ad0d980d617",
         "score": 0.882
-      }
-    ],
-    "https://data.crow.nl/kg/zn/id/Prd_6c362ef6daaca7fb9be60928fc6dade0943f0a33": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a36973933d73c8a469627e80834c46ea5f74aae6",
-        "score": 0.914
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_34aa2c790019d0870d37f8a3424c9dc0011a6c72",
-        "score": 0.909
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_8119e457d2d29602fead14d612993c1df06cbaa0",
-        "score": 0.903
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_f5e87920801cf15956f4fb77808dbf67d9e0a50a",
-        "score": 0.902
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_9d54a5623718a8b055c8d3c8c935f182dca9d82d",
-        "score": 0.901
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_cbd5fbec80cdeca181d653ce114c16567dd956be",
-        "score": 0.9
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_f1fe1c62c450092784467323212587b168be56b4",
-        "score": 0.899
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_790e2dc04bde4dd126cf178ee7b63ccbf65517a2",
-        "score": 0.897
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_8ec5a84e45f7972a68d18a4e8f04bb4a167ec383",
-        "score": 0.893
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_86e6766208706e927169b439380f9c3af9b7f21c",
-        "score": 0.89
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_dd5e119371c45b80b66a1bec2b83854f28bf40cc",
-        "score": 0.89
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2266bd4364439e33f3c725c9b36c47bce8b892d1",
-        "score": 0.888
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_cbaba350e6ab6790c969d2ecae3915f5f7e0917c",
-        "score": 0.888
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_61c72ebb53a57626268f387dcde4a12704864b3d",
-        "score": 0.886
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_d11f01f459f33814bcd7f7d00d6412f00f75b19e",
-        "score": 0.886
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_07fc6bcfc175a827639d5f13b3b2d3aee367d79f",
-        "score": 0.885
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_4dde73a10f7619a226fb7e742ab58a6cfbfbab6e",
-        "score": 0.883
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2f1619f6fce06e5489f050661323418f9db44e22",
-        "score": 0.882
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_99e9ba7dfbe046bc2937364496f7b4c105441f16",
-        "score": 0.882
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b3da27edbf5dba1f156c12a844d638639b4a3b05",
-        "score": 0.882
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_1d5ad1deaf6f700c67f444693fbacaa9601e50ae",
-        "score": 0.88
       }
     ],
     "https://data.crow.nl/kg/zn/id/Prd_6c64b71bd28f8c3d75c7a99a6e1ebfb952155eee": [
@@ -13789,14 +12965,6 @@
         "score": 0.902
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_bffbc99014ab327914e43b3fd2478d90ce093440",
-        "score": 0.89
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b866f9504af8b7cfa0dee7d561127e0c8d2f9591",
-        "score": 0.884
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_710ef4812e185ca66df880d84d35ba4fa55b9395",
         "score": 0.883
       },
@@ -14627,24 +13795,6 @@
         "score": 0.88
       }
     ],
-    "https://data.crow.nl/kg/zn/id/Prd_7cbe300e7b8dea764f974db4dcf4d361ced6cede": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_4400de7ed40b68bfc7a16d60656a54931a5d9525",
-        "score": 0.924
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_5f353acabbdabf48a5f619b319481164f730f8ff",
-        "score": 0.918
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_69d7058c8760a81c824ecd6714f02cc6956a587f",
-        "score": 0.892
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_62d3e5d8ca1cf370a955dbd14c9f275d19ab8249",
-        "score": 0.887
-      }
-    ],
     "https://data.crow.nl/kg/zn/id/Prd_7d5b7fe1c58f3e7c8bf641d4b22ae08eed15d728": [
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_965cedef46b38e831e31742f9676e5424ee129a3",
@@ -14833,40 +13983,6 @@
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_b4e2844369c660a1df5b45ed6d6a89fc12ded5fb",
         "score": 0.881
-      }
-    ],
-    "https://data.crow.nl/kg/zn/id/Prd_7f50fb6469587adfee3c16f5832bf03f5520c699": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_baa9707a071ca1e912346dd723c1afb09503efef",
-        "score": 0.941
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_68332d6a6c8ca31dc1a0a3fc8b10d00d750f62ac",
-        "score": 0.936
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_1b396bf35e29f495fa195c8e579e77cb945de3a7",
-        "score": 0.906
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_df10e4f93af25d95bac8d1be30d232ecacee1a27",
-        "score": 0.905
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b88c5307d37e0a01a647a64998ed5687b6665f03",
-        "score": 0.895
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_bfda95d0db0d426afe62d2a57f5be42f0a7135a8",
-        "score": 0.892
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_f94365c2d852f0aef7f0d70617b5748ca13870d7",
-        "score": 0.89
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_211e498b9022a147a4cf67d83b39e5f7be95b36e",
-        "score": 0.88
       }
     ],
     "https://data.crow.nl/kg/zn/id/Prd_7f591f4996bb7569e7e9ad92785f6e89480463a4": [
@@ -15309,10 +14425,6 @@
         "score": 0.905
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_6c362ef6daaca7fb9be60928fc6dade0943f0a33",
-        "score": 0.903
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_d11f01f459f33814bcd7f7d00d6412f00f75b19e",
         "score": 0.902
       },
@@ -15322,10 +14434,6 @@
       },
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_93c0e86e127b43fefd92e7e543319922348df27f",
-        "score": 0.901
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a36973933d73c8a469627e80834c46ea5f74aae6",
         "score": 0.901
       },
       {
@@ -15363,6 +14471,14 @@
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_ded8fb7536e501929ff9a9ca47f429a4513a2a74",
         "score": 0.896
+      },
+      {
+        "id": "https://data.crow.nl/kg/zn/id/Prd_e650e9ec7f88ae2636715b4e8b6e35777ca2da84",
+        "score": 0.896
+      },
+      {
+        "id": "https://data.crow.nl/kg/zn/id/Prd_790e2dc04bde4dd126cf178ee7b63ccbf65517a2",
+        "score": 0.895
       },
       {
         "id": "urn:isso:publicatie:kleintje-gas",
@@ -16601,56 +15717,6 @@
         "score": 0.846
       }
     ],
-    "https://data.crow.nl/kg/zn/id/Prd_8f0ad167483b322571be7b4407415e14c748e209": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_046768cc33aa0fea3039cd73a059f9839e800884",
-        "score": 0.982
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_172827d2186df3ddaf3a7fcb472b09cd419c7038",
-        "score": 0.929
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_27dac111eb5d7d4eb4b5dfb66c168227a5f61ea9",
-        "score": 0.928
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2d67f8b900dfccccc944c5c8d82e5444751f591d",
-        "score": 0.89
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_bbf34e0e6a023861cb553a10a58f300ec9b44955",
-        "score": 0.89
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_1dbe9f12d8a41001cf940dfc306d33cb23dbf3f5",
-        "score": 0.888
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_162b632b0882544918e926eccce59de4eedd1fec",
-        "score": 0.886
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_62d3e5d8ca1cf370a955dbd14c9f275d19ab8249",
-        "score": 0.884
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b2980f807cc7b62868f2dd7ccf4f9766258ce669",
-        "score": 0.884
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_5f353acabbdabf48a5f619b319481164f730f8ff",
-        "score": 0.881
-      },
-      {
-        "id": "urn:fgoplus:product:3471115",
-        "score": 0.848
-      },
-      {
-        "id": "urn:fgoplus:product:2269428",
-        "score": 0.843
-      }
-    ],
     "https://data.crow.nl/kg/zn/id/Prd_8f9f7a243d60afed5d3deed026dfe67b433eb3ae": [
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_34394c6da9c4c9e34d33a80edd66e977dd01a446",
@@ -17465,10 +16531,6 @@
         "score": 0.895
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_bffbc99014ab327914e43b3fd2478d90ce093440",
-        "score": 0.886
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_932ff729e04cade31432de5a8128eda4d2b60c7e",
         "score": 0.885
       },
@@ -17938,10 +17000,6 @@
     ],
     "https://data.crow.nl/kg/zn/id/Prd_99e9ba7dfbe046bc2937364496f7b4c105441f16": [
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a36973933d73c8a469627e80834c46ea5f74aae6",
-        "score": 0.958
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_b3da27edbf5dba1f156c12a844d638639b4a3b05",
         "score": 0.907
       },
@@ -18020,6 +17078,10 @@
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_3072aae99366da51d889541c241a392ff97a61ae",
         "score": 0.891
+      },
+      {
+        "id": "https://data.crow.nl/kg/zn/id/Prd_b1cd354208a0b8f9fc9b5c091d8fdea3104d0e3d",
+        "score": 0.89
       },
       {
         "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025",
@@ -18400,10 +17462,6 @@
         "score": 0.902
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_6c362ef6daaca7fb9be60928fc6dade0943f0a33",
-        "score": 0.901
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_dce4862968e4e7712fd344e820b86e1aeaa2d05d",
         "score": 0.9
       },
@@ -18422,6 +17480,10 @@
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_b75e22b96c8ffe4d1d0c518b2c888115d9e505d5",
         "score": 0.898
+      },
+      {
+        "id": "https://data.crow.nl/kg/zn/id/Prd_0a726da9752b28cdc820e4e02b960c68fe38e7f8",
+        "score": 0.897
       },
       {
         "id": "https://bouwzo.nl/reader/publicatie/isso-publicatie-70-hemelwater-en-grijswater-binnen-de-perceelgrens/2023",
@@ -18812,10 +17874,6 @@
         "score": 0.907
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a96e0c894550b06af4a53df7d80b696f76623839",
-        "score": 0.903
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_f1fe1c62c450092784467323212587b168be56b4",
         "score": 0.902
       },
@@ -18845,6 +17903,10 @@
       },
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_0b6fa1eedccbf876fd55280d4e5009ba7fc951bc",
+        "score": 0.897
+      },
+      {
+        "id": "https://data.crow.nl/kg/zn/id/Prd_5349404b307e91e8cb9a2325c6ba246bd2e37891",
         "score": 0.897
       },
       {
@@ -19062,10 +18124,6 @@
         "score": 0.922
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_62d3e5d8ca1cf370a955dbd14c9f275d19ab8249",
-        "score": 0.909
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_e42d55381ceb917fb517b61f9ed4e5fddbd9ee96",
         "score": 0.902
       },
@@ -19147,6 +18205,10 @@
       },
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_53c60780c8255b238af49c14675384123b1e11cb",
+        "score": 0.882
+      },
+      {
+        "id": "https://data.crow.nl/kg/zn/id/Prd_9c6ce8fda64246492c8d79a9a29cf6f124c200e1",
         "score": 0.882
       },
       {
@@ -19288,126 +18350,6 @@
         "score": 0.844
       }
     ],
-    "https://data.crow.nl/kg/zn/id/Prd_a2d64aa0c830c94f0947b4b177548806986f6f4e": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_073023080c2c75b36b5144c8c426902f3f160f7c",
-        "score": 0.898
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_4889a19e56055211b0699d088796f4a2b9996adc",
-        "score": 0.892
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_9c6ce8fda64246492c8d79a9a29cf6f124c200e1",
-        "score": 0.89
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_42df7b25b27759d9b2b3dbea7780bca8bb3846b5",
-        "score": 0.887
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_e42d55381ceb917fb517b61f9ed4e5fddbd9ee96",
-        "score": 0.884
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_6389c5f3b35566fd816b839254c34138f6cbbd6d",
-        "score": 0.88
-      }
-    ],
-    "https://data.crow.nl/kg/zn/id/Prd_a36973933d73c8a469627e80834c46ea5f74aae6": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_99e9ba7dfbe046bc2937364496f7b4c105441f16",
-        "score": 0.958
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_6c362ef6daaca7fb9be60928fc6dade0943f0a33",
-        "score": 0.914
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_cbd5fbec80cdeca181d653ce114c16567dd956be",
-        "score": 0.906
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2f1619f6fce06e5489f050661323418f9db44e22",
-        "score": 0.901
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_8119e457d2d29602fead14d612993c1df06cbaa0",
-        "score": 0.901
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_790e2dc04bde4dd126cf178ee7b63ccbf65517a2",
-        "score": 0.899
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_8ec5a84e45f7972a68d18a4e8f04bb4a167ec383",
-        "score": 0.896
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_dce4862968e4e7712fd344e820b86e1aeaa2d05d",
-        "score": 0.896
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_9db15fac25bb88b4af212e3c5569287a5bf1b6ca",
-        "score": 0.895
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b3da27edbf5dba1f156c12a844d638639b4a3b05",
-        "score": 0.893
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_f1fe1c62c450092784467323212587b168be56b4",
-        "score": 0.891
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_86e6766208706e927169b439380f9c3af9b7f21c",
-        "score": 0.889
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_f5e87920801cf15956f4fb77808dbf67d9e0a50a",
-        "score": 0.889
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_34aa2c790019d0870d37f8a3424c9dc0011a6c72",
-        "score": 0.888
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_9d54a5623718a8b055c8d3c8c935f182dca9d82d",
-        "score": 0.888
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_07fc6bcfc175a827639d5f13b3b2d3aee367d79f",
-        "score": 0.887
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_4dde73a10f7619a226fb7e742ab58a6cfbfbab6e",
-        "score": 0.887
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_cbaba350e6ab6790c969d2ecae3915f5f7e0917c",
-        "score": 0.886
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b04a897ed7c4fbe2d159168a20508ebc25f8f519",
-        "score": 0.884
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_4c583f56b34e4892d85bfeb26c53f03d86f916ba",
-        "score": 0.883
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a96e0c894550b06af4a53df7d80b696f76623839",
-        "score": 0.883
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_d11f01f459f33814bcd7f7d00d6412f00f75b19e",
-        "score": 0.881
-      },
-      {
-        "id": "urn:isso:publicatie:kleintje-gas",
-        "score": 0.842
-      }
-    ],
     "https://data.crow.nl/kg/zn/id/Prd_a3b17d9043890d336eca2470a7d48d2b81d3f00f": [
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_13e302db8ef5a3453acef3e5c6bfbd5ab570d2b5",
@@ -19508,28 +18450,6 @@
       {
         "id": "https://bouwzo.nl/reader/publicatie/isso-publicatie-106-functionele-inspectiemethode-duurzaam-beheer-en-onderhoud/2010",
         "score": 0.841
-      }
-    ],
-    "https://data.crow.nl/kg/zn/id/Prd_a3d00e226e82da857a72bd93eb6f84ad2de6778e": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_bbf34e0e6a023861cb553a10a58f300ec9b44955",
-        "score": 0.922
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_162b632b0882544918e926eccce59de4eedd1fec",
-        "score": 0.904
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_1dbe9f12d8a41001cf940dfc306d33cb23dbf3f5",
-        "score": 0.888
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_27dac111eb5d7d4eb4b5dfb66c168227a5f61ea9",
-        "score": 0.885
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b2980f807cc7b62868f2dd7ccf4f9766258ce669",
-        "score": 0.881
       }
     ],
     "https://data.crow.nl/kg/zn/id/Prd_a4c823cf9bd6c273b6de9fc04d57ba30a5b59b82": [
@@ -19978,68 +18898,6 @@
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_ee917f0974f6ebb1a6dbd64c4aa8d8b25f282c6f",
         "score": 0.883
-      }
-    ],
-    "https://data.crow.nl/kg/zn/id/Prd_a96e0c894550b06af4a53df7d80b696f76623839": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_651a6904bd8a296f8e7ba1ad87c46a8848d4c060",
-        "score": 0.913
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_9db15fac25bb88b4af212e3c5569287a5bf1b6ca",
-        "score": 0.903
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_ba8eb1fa595f2eaa7ed25408d761e6dc35064605",
-        "score": 0.898
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_029d74f47a620fde360eaad887f1364774e8b732",
-        "score": 0.896
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2d67f8b900dfccccc944c5c8d82e5444751f591d",
-        "score": 0.89
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2f1619f6fce06e5489f050661323418f9db44e22",
-        "score": 0.888
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_62d3e5d8ca1cf370a955dbd14c9f275d19ab8249",
-        "score": 0.886
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_cbd5fbec80cdeca181d653ce114c16567dd956be",
-        "score": 0.886
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b04a897ed7c4fbe2d159168a20508ebc25f8f519",
-        "score": 0.885
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b2980f807cc7b62868f2dd7ccf4f9766258ce669",
-        "score": 0.885
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a36973933d73c8a469627e80834c46ea5f74aae6",
-        "score": 0.883
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_dce4862968e4e7712fd344e820b86e1aeaa2d05d",
-        "score": 0.883
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2266bd4364439e33f3c725c9b36c47bce8b892d1",
-        "score": 0.881
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_790e2dc04bde4dd126cf178ee7b63ccbf65517a2",
-        "score": 0.88
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_f5e87920801cf15956f4fb77808dbf67d9e0a50a",
-        "score": 0.88
       }
     ],
     "https://data.crow.nl/kg/zn/id/Prd_aa1ae08c7a0dfb7b9dc6b6c249a754d30936f733": [
@@ -21122,72 +19980,6 @@
         "score": 0.847
       }
     ],
-    "https://data.crow.nl/kg/zn/id/Prd_b2980f807cc7b62868f2dd7ccf4f9766258ce669": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_62d3e5d8ca1cf370a955dbd14c9f275d19ab8249",
-        "score": 0.92
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2d67f8b900dfccccc944c5c8d82e5444751f591d",
-        "score": 0.909
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_69d7058c8760a81c824ecd6714f02cc6956a587f",
-        "score": 0.895
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_162b632b0882544918e926eccce59de4eedd1fec",
-        "score": 0.893
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_172827d2186df3ddaf3a7fcb472b09cd419c7038",
-        "score": 0.892
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_27dac111eb5d7d4eb4b5dfb66c168227a5f61ea9",
-        "score": 0.892
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_406e5a0dc200d27e5516ae6a07f30fddc3ef572c",
-        "score": 0.889
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_046768cc33aa0fea3039cd73a059f9839e800884",
-        "score": 0.886
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_1dbe9f12d8a41001cf940dfc306d33cb23dbf3f5",
-        "score": 0.886
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a96e0c894550b06af4a53df7d80b696f76623839",
-        "score": 0.885
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_8f0ad167483b322571be7b4407415e14c748e209",
-        "score": 0.884
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b866f9504af8b7cfa0dee7d561127e0c8d2f9591",
-        "score": 0.882
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2f1619f6fce06e5489f050661323418f9db44e22",
-        "score": 0.881
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a3d00e226e82da857a72bd93eb6f84ad2de6778e",
-        "score": 0.881
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_bbf34e0e6a023861cb553a10a58f300ec9b44955",
-        "score": 0.881
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_5fe18ac4b2eade242d1c2371bb12097d5c6b135f",
-        "score": 0.88
-      }
-    ],
     "https://data.crow.nl/kg/zn/id/Prd_b2c1746b769fbeb50e1082ae80d976d64da8851b": [
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_c5b8f0ab78338be3bf6484f67e0e21709dce544e",
@@ -21416,10 +20208,6 @@
         "score": 0.908
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_15a9a29b04bb65e6d7a49cda8e3cbbbec8b58152",
-        "score": 0.907
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_52a9a0816f273a01359491458662a4c87973251f",
         "score": 0.904
       },
@@ -21498,6 +20286,10 @@
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_8ec5a84e45f7972a68d18a4e8f04bb4a167ec383",
         "score": 0.893
+      },
+      {
+        "id": "https://data.crow.nl/kg/zn/id/Prd_b04a897ed7c4fbe2d159168a20508ebc25f8f519",
+        "score": 0.892
       },
       {
         "id": "https://bouwzo.nl/reader/publicatie/isso-publicatie-70-hemelwater-en-grijswater-binnen-de-perceelgrens/2023",
@@ -21956,48 +20748,6 @@
         "score": 0.846
       }
     ],
-    "https://data.crow.nl/kg/zn/id/Prd_b866f9504af8b7cfa0dee7d561127e0c8d2f9591": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_bffbc99014ab327914e43b3fd2478d90ce093440",
-        "score": 0.979
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_25e8a15e354557b17a1f835dcde6b9f3fcf009be",
-        "score": 0.913
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2d67f8b900dfccccc944c5c8d82e5444751f591d",
-        "score": 0.894
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_434de952a703431167d7f427a7c82defddd53ca1",
-        "score": 0.887
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_baa9707a071ca1e912346dd723c1afb09503efef",
-        "score": 0.887
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_765042c17a619277f5ad4b6955be0a269832dc9f",
-        "score": 0.884
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b2980f807cc7b62868f2dd7ccf4f9766258ce669",
-        "score": 0.882
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_029d74f47a620fde360eaad887f1364774e8b732",
-        "score": 0.881
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_312629e8e9f2fb93e74a703e96dc3d0b06b19ef3",
-        "score": 0.881
-      },
-      {
-        "id": "https://bouwzo.nl/reader/publicatie/isso-publicatie-106-functionele-inspectiemethode-duurzaam-beheer-en-onderhoud/2010",
-        "score": 0.856
-      }
-    ],
     "https://data.crow.nl/kg/zn/id/Prd_b88c5307d37e0a01a647a64998ed5687b6665f03": [
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_1b396bf35e29f495fa195c8e579e77cb945de3a7",
@@ -22006,10 +20756,6 @@
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_f2a9a9fe6323374398b8143206b9a302c461de0e",
         "score": 0.896
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_7f50fb6469587adfee3c16f5832bf03f5520c699",
-        "score": 0.895
       },
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_bfda95d0db0d426afe62d2a57f5be42f0a7135a8",
@@ -22462,14 +21208,6 @@
         "score": 0.926
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_68332d6a6c8ca31dc1a0a3fc8b10d00d750f62ac",
-        "score": 0.912
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_baa9707a071ca1e912346dd723c1afb09503efef",
-        "score": 0.911
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_1b396bf35e29f495fa195c8e579e77cb945de3a7",
         "score": 0.908
       },
@@ -22520,82 +21258,6 @@
       {
         "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021",
         "score": 0.853
-      }
-    ],
-    "https://data.crow.nl/kg/zn/id/Prd_ba8eb1fa595f2eaa7ed25408d761e6dc35064605": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_651a6904bd8a296f8e7ba1ad87c46a8848d4c060",
-        "score": 0.914
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_15a9a29b04bb65e6d7a49cda8e3cbbbec8b58152",
-        "score": 0.906
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_f5e87920801cf15956f4fb77808dbf67d9e0a50a",
-        "score": 0.905
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a96e0c894550b06af4a53df7d80b696f76623839",
-        "score": 0.898
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_1c6bf807ff143ec3d248db62eb0f159de2f32f14",
-        "score": 0.892
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2f1619f6fce06e5489f050661323418f9db44e22",
-        "score": 0.886
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2266bd4364439e33f3c725c9b36c47bce8b892d1",
-        "score": 0.885
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_644c4c6b49287d1f7d25630b01b063a8d8273303",
-        "score": 0.885
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_cbaba350e6ab6790c969d2ecae3915f5f7e0917c",
-        "score": 0.881
-      }
-    ],
-    "https://data.crow.nl/kg/zn/id/Prd_baa9707a071ca1e912346dd723c1afb09503efef": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_68332d6a6c8ca31dc1a0a3fc8b10d00d750f62ac",
-        "score": 0.994
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_7f50fb6469587adfee3c16f5832bf03f5520c699",
-        "score": 0.941
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_1b396bf35e29f495fa195c8e579e77cb945de3a7",
-        "score": 0.912
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_ba2e028d66eaa3d16cdfd923223c968426aa49b4",
-        "score": 0.911
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_f94365c2d852f0aef7f0d70617b5748ca13870d7",
-        "score": 0.906
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_df10e4f93af25d95bac8d1be30d232ecacee1a27",
-        "score": 0.889
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b866f9504af8b7cfa0dee7d561127e0c8d2f9591",
-        "score": 0.887
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_bffbc99014ab327914e43b3fd2478d90ce093440",
-        "score": 0.887
-      },
-      {
-        "id": "urn:isso:publicatie:kleintje-gas",
-        "score": 0.844
       }
     ],
     "https://data.crow.nl/kg/zn/id/Prd_bafb62ffcf43d279108e88cef769987aa29b6d14": [
@@ -22832,40 +21494,6 @@
       {
         "id": "urn:isso:publicatie:kleintje-gas",
         "score": 0.846
-      }
-    ],
-    "https://data.crow.nl/kg/zn/id/Prd_bbf34e0e6a023861cb553a10a58f300ec9b44955": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_5f353acabbdabf48a5f619b319481164f730f8ff",
-        "score": 0.932
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_1dbe9f12d8a41001cf940dfc306d33cb23dbf3f5",
-        "score": 0.928
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a3d00e226e82da857a72bd93eb6f84ad2de6778e",
-        "score": 0.922
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_162b632b0882544918e926eccce59de4eedd1fec",
-        "score": 0.895
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_27dac111eb5d7d4eb4b5dfb66c168227a5f61ea9",
-        "score": 0.895
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_8f0ad167483b322571be7b4407415e14c748e209",
-        "score": 0.89
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_046768cc33aa0fea3039cd73a059f9839e800884",
-        "score": 0.883
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b2980f807cc7b62868f2dd7ccf4f9766258ce669",
-        "score": 0.881
       }
     ],
     "https://data.crow.nl/kg/zn/id/Prd_bc031b40f1abc3957d4137a0d300f79b74408363": [
@@ -23216,58 +21844,12 @@
         "score": 0.896
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_7f50fb6469587adfee3c16f5832bf03f5520c699",
-        "score": 0.892
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_b88c5307d37e0a01a647a64998ed5687b6665f03",
         "score": 0.889
       },
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_70d30b5023585d18ccb4eada3ce31b1471ffe516",
         "score": 0.885
-      }
-    ],
-    "https://data.crow.nl/kg/zn/id/Prd_bffbc99014ab327914e43b3fd2478d90ce093440": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b866f9504af8b7cfa0dee7d561127e0c8d2f9591",
-        "score": 0.979
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_25e8a15e354557b17a1f835dcde6b9f3fcf009be",
-        "score": 0.918
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_312629e8e9f2fb93e74a703e96dc3d0b06b19ef3",
-        "score": 0.896
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2d67f8b900dfccccc944c5c8d82e5444751f591d",
-        "score": 0.89
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_434de952a703431167d7f427a7c82defddd53ca1",
-        "score": 0.89
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_765042c17a619277f5ad4b6955be0a269832dc9f",
-        "score": 0.89
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_baa9707a071ca1e912346dd723c1afb09503efef",
-        "score": 0.887
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_9514a4b1faf064b5160cc61d48f92e46a1c419a6",
-        "score": 0.886
-      },
-      {
-        "id": "https://bouwzo.nl/reader/publicatie/isso-publicatie-106-functionele-inspectiemethode-duurzaam-beheer-en-onderhoud/2010",
-        "score": 0.852
-      },
-      {
-        "id": "urn:isso:publicatie:kleintje-gas",
-        "score": 0.84
       }
     ],
     "https://data.crow.nl/kg/zn/id/Prd_c110100a26bcac6b72f56e49453554acfa531eec": [
@@ -23664,10 +22246,6 @@
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_30ea9bbc173c02d385f36a7ee52607007a405e2d",
         "score": 0.889
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_1dbe9f12d8a41001cf940dfc306d33cb23dbf3f5",
-        "score": 0.885
       },
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_b2c1746b769fbeb50e1082ae80d976d64da8851b",
@@ -24380,10 +22958,6 @@
         "score": 0.908
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a36973933d73c8a469627e80834c46ea5f74aae6",
-        "score": 0.906
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_a76a335b644012138ccf6ffbf767a2dc6b378fcd",
         "score": 0.905
       },
@@ -24405,10 +22979,6 @@
       },
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_51089c1da9adaa7b43b4a2a8c3700b6b56a4ecff",
-        "score": 0.9
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_6c362ef6daaca7fb9be60928fc6dade0943f0a33",
         "score": 0.9
       },
       {
@@ -24462,6 +23032,14 @@
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_b1cd354208a0b8f9fc9b5c091d8fdea3104d0e3d",
         "score": 0.894
+      },
+      {
+        "id": "https://data.crow.nl/kg/zn/id/Prd_5349404b307e91e8cb9a2325c6ba246bd2e37891",
+        "score": 0.893
+      },
+      {
+        "id": "https://data.crow.nl/kg/zn/id/Prd_b75e22b96c8ffe4d1d0c518b2c888115d9e505d5",
+        "score": 0.893
       },
       {
         "id": "urn:isso:publicatie:kleintje-gas",
@@ -26120,10 +24698,6 @@
         "score": 0.884
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_0481ff441ce32a01b1a14129477c96e68e8aa4d9",
-        "score": 0.883
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_8ec5a84e45f7972a68d18a4e8f04bb4a167ec383",
         "score": 0.883
       },
@@ -26184,10 +24758,6 @@
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_3c7304ff222e19f65855c7329bf10463715d5450",
         "score": 0.883
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_15a9a29b04bb65e6d7a49cda8e3cbbbec8b58152",
-        "score": 0.882
       },
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_5f96a78c18a3032b6f9344aa6d7d58e89c5e8557",
@@ -26814,19 +25384,11 @@
         "score": 0.891
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_6c362ef6daaca7fb9be60928fc6dade0943f0a33",
-        "score": 0.89
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_d11f01f459f33814bcd7f7d00d6412f00f75b19e",
         "score": 0.889
       },
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_e3600c2de8a4c3cd2d34086d1a1ba60aa27392fc",
-        "score": 0.889
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_f5e87920801cf15956f4fb77808dbf67d9e0a50a",
         "score": 0.889
       },
       {
@@ -26856,6 +25418,14 @@
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_f1fe1c62c450092784467323212587b168be56b4",
         "score": 0.887
+      },
+      {
+        "id": "https://data.crow.nl/kg/zn/id/Prd_0fe87ef0ab495cc59fe0e8fc296fe1786beaa07b",
+        "score": 0.885
+      },
+      {
+        "id": "https://data.crow.nl/kg/zn/id/Prd_60f17e35f0a83627a9b9903ccc21b016d5fa4520",
+        "score": 0.885
       }
     ],
     "https://data.crow.nl/kg/zn/id/Prd_ded8fb7536e501929ff9a9ca47f429a4513a2a74": [
@@ -26958,20 +25528,6 @@
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_b3da27edbf5dba1f156c12a844d638639b4a3b05",
         "score": 0.882
-      }
-    ],
-    "https://data.crow.nl/kg/zn/id/Prd_df10e4f93af25d95bac8d1be30d232ecacee1a27": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_7f50fb6469587adfee3c16f5832bf03f5520c699",
-        "score": 0.905
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_68332d6a6c8ca31dc1a0a3fc8b10d00d750f62ac",
-        "score": 0.891
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_baa9707a071ca1e912346dd723c1afb09503efef",
-        "score": 0.889
       }
     ],
     "https://data.crow.nl/kg/zn/id/Prd_df1106a75a8fbaeff49604eff379d052c97fd56c": [
@@ -27894,14 +26450,6 @@
         "score": 0.885
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a2d64aa0c830c94f0947b4b177548806986f6f4e",
-        "score": 0.884
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_62d3e5d8ca1cf370a955dbd14c9f275d19ab8249",
-        "score": 0.882
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_cbaba350e6ab6790c969d2ecae3915f5f7e0917c",
         "score": 0.882
       },
@@ -28311,7 +26859,6 @@
         "score": 0.883
       }
     ],
-    "https://data.crow.nl/kg/zn/id/Prd_e6ed2531e199d313922643c44636d42427c8e203": [],
     "https://data.crow.nl/kg/zn/id/Prd_e7aa0e6d5dae2303a411e903580e6e12ef298d7e": [
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_b7497979aeb8dc5cf90662bd696a757166368f85",
@@ -29513,10 +28060,6 @@
         "score": 0.902
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_6c362ef6daaca7fb9be60928fc6dade0943f0a33",
-        "score": 0.899
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_6c87dd3e19a6da7b68aa3b3c02148c31c9758852",
         "score": 0.898
       },
@@ -29561,10 +28104,6 @@
         "score": 0.892
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a36973933d73c8a469627e80834c46ea5f74aae6",
-        "score": 0.891
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_9d54a5623718a8b055c8d3c8c935f182dca9d82d",
         "score": 0.89
       },
@@ -29587,6 +28126,14 @@
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_99e9ba7dfbe046bc2937364496f7b4c105441f16",
         "score": 0.889
+      },
+      {
+        "id": "https://data.crow.nl/kg/zn/id/Prd_d11f01f459f33814bcd7f7d00d6412f00f75b19e",
+        "score": 0.889
+      },
+      {
+        "id": "https://data.crow.nl/kg/zn/id/Prd_8ec5a84e45f7972a68d18a4e8f04bb4a167ec383",
+        "score": 0.888
       },
       {
         "id": "https://bouwzo.nl/reader/publicatie/isso-publicatie-70-hemelwater-en-grijswater-binnen-de-perceelgrens/2023",
@@ -30205,72 +28752,6 @@
         "score": 0.88
       }
     ],
-    "https://data.crow.nl/kg/zn/id/Prd_f5e87920801cf15956f4fb77808dbf67d9e0a50a": [
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_15a9a29b04bb65e6d7a49cda8e3cbbbec8b58152",
-        "score": 0.906
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_ba8eb1fa595f2eaa7ed25408d761e6dc35064605",
-        "score": 0.905
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_6c362ef6daaca7fb9be60928fc6dade0943f0a33",
-        "score": 0.902
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2266bd4364439e33f3c725c9b36c47bce8b892d1",
-        "score": 0.901
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2f1619f6fce06e5489f050661323418f9db44e22",
-        "score": 0.897
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_651a6904bd8a296f8e7ba1ad87c46a8848d4c060",
-        "score": 0.896
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_790e2dc04bde4dd126cf178ee7b63ccbf65517a2",
-        "score": 0.892
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_34aa2c790019d0870d37f8a3424c9dc0011a6c72",
-        "score": 0.89
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a36973933d73c8a469627e80834c46ea5f74aae6",
-        "score": 0.889
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_dd5e119371c45b80b66a1bec2b83854f28bf40cc",
-        "score": 0.889
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_644c4c6b49287d1f7d25630b01b063a8d8273303",
-        "score": 0.883
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_cbd5fbec80cdeca181d653ce114c16567dd956be",
-        "score": 0.882
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_f1fe1c62c450092784467323212587b168be56b4",
-        "score": 0.882
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_cbaba350e6ab6790c969d2ecae3915f5f7e0917c",
-        "score": 0.881
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_a96e0c894550b06af4a53df7d80b696f76623839",
-        "score": 0.88
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_b04a897ed7c4fbe2d159168a20508ebc25f8f519",
-        "score": 0.88
-      }
-    ],
     "https://data.crow.nl/kg/zn/id/Prd_f6c559399a6e728c7036fc3596490acee780037c": [
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_45bb655cd81c4e7d4d3740f3f69430f6f11adbec",
@@ -30507,24 +28988,12 @@
         "score": 0.916
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_baa9707a071ca1e912346dd723c1afb09503efef",
-        "score": 0.906
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_68332d6a6c8ca31dc1a0a3fc8b10d00d750f62ac",
-        "score": 0.905
-      },
-      {
         "id": "https://data.crow.nl/kg/zn/id/Prd_bfda95d0db0d426afe62d2a57f5be42f0a7135a8",
         "score": 0.898
       },
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_acb413acbe293b2207bda00b3fb6c70344c10198",
         "score": 0.894
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_7f50fb6469587adfee3c16f5832bf03f5520c699",
-        "score": 0.89
       },
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_0a9b4845dd9dd5e152444891ef63c17fdb0d6390",
@@ -31192,18 +29661,6 @@
       {
         "id": "urn:fgoplus:product:3327137",
         "score": 0.978
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_046768cc33aa0fea3039cd73a059f9839e800884",
-        "score": 0.855
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_8f0ad167483b322571be7b4407415e14c748e209",
-        "score": 0.848
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_1c6bf807ff143ec3d248db62eb0f159de2f32f14",
-        "score": 0.843
       }
     ],
     "urn:fgoplus:product:2269428": [
@@ -31218,18 +29675,6 @@
       {
         "id": "urn:fgoplus:product:3327137",
         "score": 0.971
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_046768cc33aa0fea3039cd73a059f9839e800884",
-        "score": 0.848
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_8f0ad167483b322571be7b4407415e14c748e209",
-        "score": 0.843
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_2266bd4364439e33f3c725c9b36c47bce8b892d1",
-        "score": 0.842
       }
     ],
     "urn:fgoplus:product:2712660": [
@@ -31244,14 +29689,6 @@
       {
         "id": "urn:fgoplus:product:2269428",
         "score": 0.973
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_172827d2186df3ddaf3a7fcb472b09cd419c7038",
-        "score": 0.847
-      },
-      {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_1c6bf807ff143ec3d248db62eb0f159de2f32f14",
-        "score": 0.845
       }
     ],
     "urn:fgoplus:product:3327137": [
