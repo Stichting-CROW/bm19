@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "Publication": "schema:CreativeWork",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "abstract": "schema:abstract",
+    "publisher": {
+      "@id": "schema:publisher",
+      "@type": "@id"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@type": "xsd:anyURI"
+    },
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "id": "urn:isso:publicatie:4.2.2",
+      "type": "Publication",
+      "name": {
+        "@language": "nl",
+        "@value": "ISSO-publicatie 4.2.2 — Warmtebehoefte"
+      },
+      "abstract": "Placeholder: titel en samenvatting volgen uit de ISSO-zoekindex. Deze publicatie behandelt de warmtebehoefte.",
+      "publisher": "ISSO",
+      "url": null
+    }
+  ]
+}
