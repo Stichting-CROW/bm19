@@ -253,7 +253,7 @@ window.Catalog = (function () {
       '">' +
       esc(title(node)) +
       "</a></h3>" +
-      (sum ? "<p>" + esc(sum) + "</p>" : "") +
+      (sum ? '<p class="card-summary">' + esc(sum) + "</p>" : "") +
       (parts.length
         ? '<p class="chapters-label">Direct naar</p>' + chapterLinks(parts)
         : "") +
