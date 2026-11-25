@@ -130,7 +130,8 @@ p.lead {
   color: var(--heading);
   font-weight: 700;
 }
-.group {
+.group,
+section {
   margin: 0 0 2rem;
 }
 .group h2 {
