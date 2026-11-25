@@ -3,103 +3,27 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>BM19 demo — Publicaties</title>
-    <style>
-      :root {
-        --accent: #005a9c;
-        --border: #d0d7de;
-        --bg-soft: #f6f8fa;
-      }
-      * {
-        box-sizing: border-box;
-      }
-      body {
-        font-family:
-          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-          Arial, sans-serif;
-        margin: 0;
-        padding: 2rem 1rem;
-        color: #1f2328;
-        background: #fff;
-      }
-      main {
-        max-width: 1100px;
-        margin: 0 auto;
-      }
-      h1 {
-        font-size: 1.5rem;
-        margin-bottom: 0.25rem;
-      }
-      p.lead {
-        color: #57606a;
-        margin-top: 0;
-      }
-      .toolbar {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.75rem;
-        align-items: center;
-        margin: 1.25rem 0;
-      }
-      .toolbar input[type="search"] {
-        flex: 1 1 260px;
-        padding: 0.5rem 0.75rem;
-        font-size: 1rem;
-        border: 1px solid var(--border);
-        border-radius: 6px;
-      }
-      .toolbar input[type="search"]:focus {
-        outline: 2px solid var(--accent);
-        outline-offset: -1px;
-        border-color: var(--accent);
-      }
-      .count {
-        color: #57606a;
-        font-size: 0.9rem;
-        white-space: nowrap;
-      }
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        font-size: 0.92rem;
-      }
-      th,
-      td {
-        text-align: left;
-        vertical-align: top;
-        padding: 0.55rem 0.75rem;
-        border-bottom: 1px solid var(--border);
-      }
-      thead th {
-        position: sticky;
-        top: 0;
-        background: var(--bg-soft);
-        border-bottom: 2px solid var(--border);
-        white-space: nowrap;
-      }
-      tbody tr:hover {
-        background: var(--bg-soft);
-      }
-      td.abstract {
-        max-width: 32rem;
-        color: #444c56;
-      }
-      td a {
-        color: var(--accent);
-      }
-      .muted {
-        color: #8b949e;
-      }
-      .error {
-        background: #ffebe9;
-        border: 1px solid #ff8182;
-        border-radius: 6px;
-        padding: 0.75rem 1rem;
-        color: #cf222e;
-      }
-    </style>
+    <title>BM19 Proof of Concept — Publicaties</title>
+    <link rel="stylesheet" href="catalog.css" />
+    <link rel="stylesheet" href="https://docs.crow.nl/webfonts/webfonts.css" />
   </head>
   <body>
+    <header class="site-header">
+      <a href="https://www.digigo.nu/" aria-label="digiGO">
+        <img src="img/digigo.svg" alt="digiGO" width="140" height="61" />
+      </a>
+      <p>Digitaal samenwerken in de Gebouwde Omgeving</p>
+    </header>
+    <nav class="site-menu" aria-label="Menu">
+      <span class="menu-item menu-item-current">Kennisbank</span>
+      <span class="menu-item">Standaarden</span>
+      <span class="menu-item">Digitaal stelsel</span>
+      <span class="menu-item">Bestuursakkoord ’27</span>
+    </nav>
+    <p class="poc">
+      Proof of Concept voor beleidsmaatregel 19, sector kennisplatformen en
+      kennisdiensten.
+    </p>
     <main>
       <h1>Publicaties</h1>
       <p class="lead">
@@ -120,18 +44,20 @@
 
       <div id="status"></div>
 
-      <table id="results" hidden>
-        <thead>
-          <tr>
-            <th>Titel</th>
-            <th>Uitgever</th>
-            <th>Datum</th>
-            <th>Samenvatting</th>
-            <th>Link</th>
-          </tr>
-        </thead>
-        <tbody id="tbody"></tbody>
-      </table>
+      <div class="table-wrap">
+        <table id="results" hidden>
+          <thead>
+            <tr>
+              <th>Titel</th>
+              <th>Uitgever</th>
+              <th>Datum</th>
+              <th>Samenvatting</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
     </main>
 
     <script>
