@@ -368,6 +368,13 @@ p.lead {
 .cards-grid .card > p:not(.card-links) {
   font-size: 0.95rem;
 }
+.cards-grid .card-summary {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  overflow: hidden;
+}
 .cards-grid .badge {
   align-self: flex-start;
 }
