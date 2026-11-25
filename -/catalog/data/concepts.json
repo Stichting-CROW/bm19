@@ -8,13 +8,48 @@
       "fietsparkeren",
       "fietsparkeerplaats",
       "fietsenrek",
-      "rekken"
+      "rekken",
+      "fietsparkeer",
+      "stallen"
     ],
-    "terms": ["fietsparkeren", "fietsparkeerplaats"]
+    "terms": [
+      "fietsparkeren",
+      "fietsparkeerplaats",
+      "fietsparkeer",
+      "fietsenstalling",
+      "fietsstalling",
+      "stalling"
+    ]
   },
   {
     "label": "warmtebehoefte",
-    "triggers": ["warmtebehoefte", "warmteverlies", "transmissieverlies"],
+    "triggers": [
+      "warmtebehoefte",
+      "warmteverlies",
+      "transmissieverlies"
+    ],
     "terms": ["warmtebehoefte"]
+  },
+  {
+    "label": "laadinfrastructuur",
+    "triggers": ["laad", "elektrisch", "zero-emissie"],
+    "terms": ["laad", "elektrisch", "zero-emissie"]
+  },
+  {
+    "label": "klimaatadaptatie",
+    "triggers": ["klimaat", "hemelwater"],
+    "terms": ["hemelwater", "klimaatbestendig"]
+  },
+  {
+    "label": "beheer en onderhoud",
+    "triggers": ["beheer", "onderhoud", "inspectie", "assetmanagement"],
+    "terms": [
+      "inspectiemethode",
+      "inspectie",
+      "beheer",
+      "onderhoud",
+      "assetmanagement",
+      "beheersystematiek"
+    ]
   }
 ]
