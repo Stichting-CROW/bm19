@@ -104,7 +104,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_029d74f47a620fde360eaad887f1364774e8b732",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/durability-design-of-concrete-pavements-gedrukte-versie/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -205,7 +205,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_046768cc33aa0fea3039cd73a059f9839e800884",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-voorbereidende-opdracht-ambtenaar-30/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -230,7 +230,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_0481ff441ce32a01b1a14129477c96e68e8aa4d9",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/vv-bericht-171-autonome-voertuigen-d-redding-voor-het-platteland/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -1118,7 +1118,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_15a9a29b04bb65e6d7a49cda8e3cbbbec8b58152",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/organisatie-en-bestrijding-van-wintergladheid-2/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -1168,7 +1168,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_15ce108007791f27d006b3dc3ff0162b5f5638b7",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/notitie-stedelijke-mobiliteit-ten-tijde-van-covid-19-2/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -1193,7 +1193,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_162b632b0882544918e926eccce59de4eedd1fec",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-kostendeskundigheid-infrastructuur-obv-ssk-2018-2/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -1243,7 +1243,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_172827d2186df3ddaf3a7fcb472b09cd419c7038",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-am-4-daagse-incompany/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -1394,7 +1394,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_1c6bf807ff143ec3d248db62eb0f159de2f32f14",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/probeer-een-e-bike-bramm-2/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -1520,7 +1520,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_1dbe9f12d8a41001cf940dfc306d33cb23dbf3f5",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-twee-fasen-aanbesteden-bouwteams/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -1698,7 +1698,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_2266bd4364439e33f3c725c9b36c47bce8b892d1",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/aan-de-slag-met-park-bike-voor-woon-werkverkeer-3/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -1927,7 +1927,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_27dac111eb5d7d4eb4b5dfb66c168227a5f61ea9",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-basiscursus-imbor/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -2256,7 +2256,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_2d67f8b900dfccccc944c5c8d82e5444751f591d",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-toezichthouders-in-verontreinigde-water-bodem/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -3247,7 +3247,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_42df7b25b27759d9b2b3dbea7780bca8bb3846b5",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/vv-bericht-172-praktijkproef-amsterdam-test-slimme-oplossingen-voor-files/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -3422,7 +3422,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_4400de7ed40b68bfc7a16d60656a54931a5d9525",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-opfriscursus-cogla/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -3704,7 +3704,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_4889a19e56055211b0699d088796f4a2b9996adc",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/vv-bericht-170-papieren-kaartje-op-zn-retour/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -4586,7 +4586,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_57353898f9f77c69955a1c0818d18e3d5cf39126",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/refactor-ipad-apps-tbv-uitrol-van-ios-15/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -4833,7 +4833,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_5f353acabbdabf48a5f619b319481164f730f8ff",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-verdiepingscursus-aanbesteden-van-werken/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -5184,7 +5184,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_62d3e5d8ca1cf370a955dbd14c9f275d19ab8249",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-beinvloeden-van-mobiliteitsgedrag/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -5234,7 +5234,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_6389c5f3b35566fd816b839254c34138f6cbbd6d",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/vv-bericht-173-cijfers-ov-gebruik-komen-langzaam-maar-zeker-boven-water/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -5259,7 +5259,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_644c4c6b49287d1f7d25630b01b063a8d8273303",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/ontwerpwijzer-bruggen-voor-langzaam-verkeer-2/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -5309,7 +5309,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_651a6904bd8a296f8e7ba1ad87c46a8848d4c060",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/inspiratieboek-snelle-fietsroutes-2/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -5436,7 +5436,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_68332d6a6c8ca31dc1a0a3fc8b10d00d750f62ac",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/handboek-soilmix-wanden-online-versie/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -5486,7 +5486,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_69d7058c8760a81c824ecd6714f02cc6956a587f",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-verkeersveiligheid-vanuit-menselijk-perspectief/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -5611,7 +5611,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_6c362ef6daaca7fb9be60928fc6dade0943f0a33",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/fietsberaadpublicatie-36-fietsparkeren-bij-grootschalige-wooncomplexen-2/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -6317,7 +6317,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_7cbe300e7b8dea764f974db4dcf4d361ced6cede",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-module-gladheidsmeldsysteem-gms/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -6418,7 +6418,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_7f50fb6469587adfee3c16f5832bf03f5520c699",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/sbr-referentiedetails-voor-op-de-bouwplaats-gedrukte-versie/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -7050,7 +7050,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_8f0ad167483b322571be7b4407415e14c748e209",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-training-ambtenaar-30/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -7961,7 +7961,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_a2d64aa0c830c94f0947b4b177548806986f6f4e",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/vv-bericht-169-nieuwe-omgevingswet-vraagt-afstemming-ruimte-en-mobiliteit/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -7987,7 +7987,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_a36973933d73c8a469627e80834c46ea5f74aae6",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/fietsberaadpublicatie-25-kwaliteitsnormen-fietsparkeervoorzieningen-btm-haltes-2/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -8037,7 +8037,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_a3d00e226e82da857a72bd93eb6f84ad2de6778e",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-basiscursus-samenwerkings-en-contractvormen-in-de-bouw/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -8261,7 +8261,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_a96e0c894550b06af4a53df7d80b696f76623839",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/fietsberaadnotitie-kennisagenda-markering-op-snelle-fietsroutes/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -8596,7 +8596,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_b2980f807cc7b62868f2dd7ccf4f9766258ce669",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-basiscursus-wegbeheersystematiek/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -8974,7 +8974,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_b866f9504af8b7cfa0dee7d561127e0c8d2f9591",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/handboek-inspectie-voegovergangen-gedrukte-versie/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -9200,7 +9200,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_ba8eb1fa595f2eaa7ed25408d761e6dc35064605",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/leidraad-toegankelijkheid-2/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -9225,7 +9225,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_baa9707a071ca1e912346dd723c1afb09503efef",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/handboek-soilmix-wanden-gedrukte-versie/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -9353,7 +9353,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_bbf34e0e6a023861cb553a10a58f300ec9b44955",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/cursusmateriaal-basiscursus-aanbesteden-van-werken/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -9528,7 +9528,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_bffbc99014ab327914e43b3fd2478d90ce093440",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/handboek-inspectie-opleggingen-gedrukte-versie/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -10969,7 +10969,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_df10e4f93af25d95bac8d1be30d232ecacee1a27",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/richtlijn-houten-paalfunderingen-onder-gebouwen/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -11471,7 +11471,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_e6ed2531e199d313922643c44636d42427c8e203",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/toepassing-kengetallen-goederenvervoer-van-en-naar-bedrijventerreinen/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,
@@ -12229,7 +12229,7 @@
     {
       "id": "https://data.crow.nl/kg/zn/id/Prd_f5e87920801cf15956f4fb77808dbf67d9e0a50a",
       "type": "Publication",
-      "abstract": "Placeholder",
+      "schema:abstract": null,
       "acquireLicensePage": "https://www.crow.nl/kennisproducten/fietsparkeerbeleid-in-centrumgebieden-2/?utm_medium=referral&utm_source=api-bm19",
       "schema:alternateName": null,
       "audience": null,

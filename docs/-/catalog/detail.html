@@ -193,8 +193,7 @@
 
           return (
             '<section class="access">' +
-            '<p class="eyebrow">Toegang via de bronhouder</p>' +
-            "<h2>Zo krijg je deze gegevens</h2>" +
+            "<h2>Zo krijg je toegang</h2>" +
             '<ul class="access-rows">' +
             rows.join("") +
             "</ul>" +
@@ -205,7 +204,7 @@
             (sourceUrl && sourceUrl !== ctaHref
               ? externalLink(
                   sourceUrl,
-                  "Bekijk op " + entry.source,
+                  "Lees direct bij " + entry.source,
                   "button button-secondary",
                 )
               : "") +
@@ -214,19 +213,24 @@
           );
         }
 
-        function related(entry, byId) {
-          var works = C.relatedWorks(entry, byId);
+        function related(entry, result) {
+          var access = C.accessWork(entry, result.byId);
+          var works = C.relatedWorks(entry, result.byId, result.similar).filter(
+            function (w) {
+              return !access || w.node !== access.node;
+            },
+          );
           if (!works.length) return "";
           return (
             '<section class="related">' +
             "<h2>Ook relevant</h2>" +
-            '<p class="related-lead">Kennis van andere bronnen bij ' +
+            '<p class="related-lead">Vergelijkbare publicaties bij ' +
             esc(C.title(entry.node)) +
             "</p>" +
             '<ul class="cards cards-grid">' +
             works
               .map(function (w) {
-                return C.card(w, byId);
+                return C.card(w, result.byId);
               })
               .join("") +
             "</ul>" +
@@ -251,7 +255,7 @@
             header(entry) +
             about(work || entry) +
             access(entry, work) +
-            related(entry, result.byId);
+            related(entry, result);
         });
       })();
     </script>

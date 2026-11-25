@@ -1,0 +1,13 @@
+{
+  "name": "bm19-similar",
+  "version": "1.0.0",
+  "description": "Builds similar.json: nearest publications by multilingual embeddings",
+  "scripts": {
+    "build": "node similar.mjs"
+  },
+  "type": "module",
+  "private": "true",
+  "dependencies": {
+    "@huggingface/transformers": "^4.3.2"
+  }
+}

@@ -40,8 +40,8 @@
       "@id": "schema:acquireLicensePage",
       "@type": "@id"
     },
-    "subjectOf": {
-      "@id": "schema:subjectOf",
+    "isRelatedTo": {
+      "@id": "schema:isRelatedTo",
       "@type": "@id"
     },
     "isTierOf": "schema:isTierOf",
@@ -121,7 +121,7 @@
       "mpn": "545-1020",
       "gtin": "08712922953143",
       "category": "Gaswand Combiketel (EC011396)",
-      "subjectOf": [
+      "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
         },
@@ -143,7 +143,7 @@
       "mpn": "545-1220",
       "gtin": "08712922963074",
       "category": "Gaswand Combiketel (EC011396)",
-      "subjectOf": [
+      "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
         },
@@ -165,7 +165,7 @@
       "mpn": "545-1024",
       "gtin": "08712922953136",
       "category": "Gaswand Combiketel (EC011396)",
-      "subjectOf": [
+      "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
         },
@@ -187,7 +187,7 @@
       "mpn": "545-1336A",
       "gtin": "08712922140055",
       "category": "Gaswand Combiketel (EC011396)",
-      "subjectOf": [
+      "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
         },

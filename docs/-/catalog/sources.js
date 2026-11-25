@@ -11,6 +11,9 @@ window.Catalog = (function () {
     { url: "data/fgoplus.json", source: "FGOPlus" },
   ];
 
+  // Written by tools/similar; maps each id to its most similar entries.
+  var similarUrl = "data/similar.json";
+
   function text(value) {
     if (value == null) return "";
     if (typeof value === "string") return value;
@@ -153,7 +156,7 @@ window.Catalog = (function () {
     );
   }
 
-  // The entries of the nodes a property refers to, e.g. subjectOf. A
+  // The entries of the nodes a property refers to, e.g. isRelatedTo. A
   // reference is an object with only an id; unknown ids are skipped.
   function refs(byId, value) {
     return list(value)
@@ -174,19 +177,21 @@ window.Catalog = (function () {
     var node = entry.node;
     if (node.offers || node.acquireLicensePage || node.license) return entry;
     return (
-      refs(byId, node.subjectOf).filter(function (e) {
+      refs(byId, node.isRelatedTo).filter(function (e) {
         return e.source === entry.source;
       })[0] || null
     );
   }
 
-  // The other works about an entry: everything in subjectOf except the work
-  // that gives access to it.
-  function relatedWorks(entry, byId) {
-    var access = accessWork(entry, byId);
-    return refs(byId, entry.node.subjectOf).filter(function (e) {
-      return !access || e.node !== access.node;
-    });
+  // The entries most similar to an entry, from any source, as computed by
+  // scripts in tools/similar. Entries without a close match have no list.
+  function relatedWorks(entry, byId, similar) {
+    var ids = (similar && similar[text(entry.node.id)]) || [];
+    return ids
+      .map(function (n) {
+        return byId[n.id];
+      })
+      .filter(Boolean);
   }
 
   // Cost and license as HTML, from schema.org offers, license and
@@ -285,32 +290,45 @@ window.Catalog = (function () {
   }
 
   // Resolves to { nodes: [{ node, source }], byId: { id: { node, source } },
-  // errors: [{ url, error }] }. A failing source is reported but doesn't
-  // block the others.
+  // similar: { id: [{ id, score }] }, errors: [{ url, error }] }. A failing
+  // file is reported but doesn't block the others.
   function loadSources() {
     var errors = [];
-    return Promise.all(
+    function optional(url, pick) {
+      return loadJson(url)
+        .then(pick)
+        .catch(function (err) {
+          errors.push({ url: url, error: err });
+          return pick(null);
+        });
+    }
+    var similarFile = optional(similarUrl, function (data) {
+      return data ? data.similar || {} : {};
+    });
+    var sourceFiles = Promise.all(
       endpoints.map(function (ep) {
-        return loadJson(ep.url)
-          .then(function (data) {
-            var nodes = Array.isArray(data["@graph"]) ? data["@graph"] : [data];
-            return nodes.map(function (node) {
-              return { node: node, source: ep.source };
-            });
-          })
-          .catch(function (err) {
-            errors.push({ url: ep.url, error: err });
-            return [];
+        return optional(ep.url, function (data) {
+          if (!data) return [];
+          var nodes = Array.isArray(data["@graph"]) ? data["@graph"] : [data];
+          return nodes.map(function (node) {
+            return { node: node, source: ep.source };
           });
+        });
       }),
-    ).then(function (results) {
-      var nodes = [].concat.apply([], results);
+    );
+    return Promise.all([sourceFiles, similarFile]).then(function (results) {
+      var nodes = [].concat.apply([], results[0]);
       var byId = {};
       nodes.forEach(function (entry) {
         var id = text(entry.node.id);
         if (id) byId[id] = entry;
       });
-      return { nodes: nodes, byId: byId, errors: errors };
+      return {
+        nodes: nodes,
+        byId: byId,
+        similar: results[1],
+        errors: errors,
+      };
     });
   }
 

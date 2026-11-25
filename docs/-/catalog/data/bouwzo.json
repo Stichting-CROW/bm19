@@ -77,10 +77,6 @@
     "isRelatedTo": {
       "@id": "schema:isRelatedTo",
       "@type": "@id"
-    },
-    "subjectOf": {
-      "@id": "schema:subjectOf",
-      "@type": "@id"
     }
   },
   "@graph": [
@@ -97,13 +93,8 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978-90-5044-339-5",
-      "keywords": [
-        "warmtebehoefte"
-      ],
-      "name": {
-        "@language": "nl",
-        "@value": "Kleintje inregelen"
-      },
+      "keywords": ["warmtebehoefte"],
+      "name": "Kleintje inregelen",
       "offers": {
         "type": "Offer",
         "price": 68.0,
@@ -117,9 +108,7 @@
           "type": "Chapter",
           "position": "4.2.2",
           "name": null,
-          "keywords": [
-            "warmtebehoefte"
-          ],
+          "keywords": ["warmtebehoefte"],
           "url": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021/4#4/4.2/4.2.2"
         }
       ]
@@ -137,14 +126,8 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978-90-5044-414-9",
-      "keywords": [
-        "Elektrotechnische installaties",
-        "Elektrisch vervoer"
-      ],
-      "name": {
-        "@language": "nl",
-        "@value": "Kleintje Laadinfrastructuur"
-      },
+      "keywords": ["Elektrotechnische installaties", "Elektrisch vervoer"],
+      "name": "Kleintje Laadinfrastructuur",
       "offers": {
         "type": "Offer",
         "price": 72.0,
@@ -162,7 +145,7 @@
           "url": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025/5#5/5.4/5.4.2"
         }
       ],
-      "subjectOf": [
+      "isRelatedTo": [
         {
           "id": "https://bouwzo.nl/reader/publicatie/isso-handboek-bouw-en-installatietechniek-deel-7-elektrotechnische-installaties/2025"
         },
@@ -189,10 +172,7 @@
         "Gebouwriolering",
         "Leidingwaterinstallaties"
       ],
-      "name": {
-        "@language": "nl",
-        "@value": "ISSO-publicatie 70 Hemelwater en grijswater binnen de perceelgrens"
-      },
+      "name": "ISSO-publicatie 70 Hemelwater en grijswater binnen de perceelgrens",
       "offers": {
         "type": "Offer",
         "price": 86.0,
@@ -231,10 +211,7 @@
         "Verwarmings- en koelinstallaties",
         "Utiliteitsbouw"
       ],
-      "name": {
-        "@language": "nl",
-        "@value": "ISSO-publicatie 106 Functionele inspectiemethode Duurzaam Beheer en Onderhoud"
-      },
+      "name": "ISSO-publicatie 106 Functionele inspectiemethode Duurzaam Beheer en Onderhoud",
       "offers": {
         "type": "Offer",
         "price": 65.0,
@@ -260,10 +237,7 @@
         "Elektrotechnische installaties",
         "Laagspanningsinstallaties"
       ],
-      "name": {
-        "@language": "nl",
-        "@value": "Handboek HBbi Bouw- en Installatietechniek Deel 7: Elektrotechnische installaties"
-      },
+      "name": "Handboek HBbi Bouw- en Installatietechniek Deel 7: Elektrotechnische installaties",
       "offers": {
         "type": "Offer",
         "price": 118.0,
@@ -277,10 +251,7 @@
       "type": "Publication",
       "abstract": "Het Handboek Zonne-energie biedt professionals actuele kennis voor het ontwerpen en realiseren van zonnewarmte- en zonnestroomsystemen. De kennis sluit aan op de huidige wet- en regelgeving en normen en volgt het volledige bouwproces: van ontwerp tot en met uitvoering. Opdrachtgevers, adviseurs, ontwerpers en installateurs vinden in het handboek de uitgangspunten en eisen die per fase gelden. Het vernieuwde handboek verwerkt recente ontwikkelingen in wet- en regelgeving en normering. Zo speelt de salderingsregeling geen rol meer als uitgangspunt in de berekeningen, omdat daar vanaf 2027 geen rekening meer mee hoeft te worden gehouden. Ook zijn de kosten- en opbrengstcijfers opnieuw beoordeeld. De hoofdstukken over ontwerp, aansluiting, beveiliging, bekabeling, inspectie en oplevering van PV-installaties zijn afgestemd op de actuele NEN 1010. Daardoor weten aannemers, ontwikkelaars en installateurs duidelijk waar zij aan moeten voldoen. Brandveiligheid krijgt extra aandacht. Verzekeraars kijken steeds kritischer naar brandrisico’s bij zonnepanelen op daken. Vooral de afstand tussen de panelen en het dakoppervlak is daarbij belangrijk. Het handboek ondersteunt professionals in alle fasen van het proces. De bijlagen bevatten formulieren waarmee installateurs het ontwerp, de uitvoering en de oplevering kunnen onderbouwen en verantwoorden richting opdrachtgevers en toezichthouders. Door de uitgebreide inhoud sluit de kennis ook aan op examens en opleidingen in de installatietechniek.",
       "acquireLicensePage": null,
-      "alternateName": {
-        "@language": "nl",
-        "@value": "Bouwkundige- en installatietechnische richtlijnen voor zonne-energiesystemen"
-      },
+      "alternateName": "Bouwkundige- en installatietechnische richtlijnen voor zonne-energiesystemen",
       "audience": null,
       "author": null,
       "citation": null,
@@ -288,14 +259,8 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978-90-5044-434-7",
-      "keywords": [
-        "Elektrotechnische installaties",
-        "Zonne-energie"
-      ],
-      "name": {
-        "@language": "nl",
-        "@value": "Handboek HBze Zonne-energie"
-      },
+      "keywords": ["Elektrotechnische installaties", "Zonne-energie"],
+      "name": "Handboek HBze Zonne-energie",
       "offers": {
         "type": "Offer",
         "price": 250.0,
@@ -308,10 +273,7 @@
       "id": "urn:isso:publicatie:kleintje-gas",
       "type": "Publication",
       "abstract": "Placeholder: titel en samenvatting volgen uit de ISSO-zoekindex. Dit Kleintje gaat over gasinstallaties.",
-      "name": {
-        "@language": "nl",
-        "@value": "ISSO Kleintje Gas"
-      },
+      "name": "ISSO Kleintje Gas",
       "publisher": "ISSO",
       "url": null
     }

@@ -41,7 +41,22 @@ publication through one of its chapters.
 # Detail page
 
 `detail.html?id=<id>` shows one node. A product points with `subjectOf` to
-the works about it. The work from the same source, such as the FGOPlus
-`Dataset`, provides the general description and the access section (its
-`offers` and `acquireLicensePage`); the other works are shown as related
-content.
+the work from its own source, such as the FGOPlus `Dataset`, which provides
+the general description and the access section (its `offers` and
+`acquireLicensePage`).
+
+# Similar publications
+
+[similar.json](./similar.json) lists, per id, up to 25 entries from any source
+whose Dutch name, keywords and abstract are semantically close (a multilingual
+embedding model, cosine similarity). The detail page shows them as "Vergelijkbare
+publicaties". Entries below the threshold (0.88) get no list.
+
+It is generated, not written by hand. After changing a data file, run:
+
+```sh
+cd tools/similar && npm install && npm run build
+```
+
+The GitHub workflow `update-similar.yaml` does this on changes to the data
+and commits the result.
