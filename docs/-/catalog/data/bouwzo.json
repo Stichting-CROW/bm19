@@ -1,0 +1,102 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "bm19": "https://docs.crow.nl/bm19/def/",
+    "ecm": "https://data.crow.nl/kg/schema/def/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "Publication": "schema:CreativeWork",
+    "Book": "schema:Book",
+    "DigitalDocument": "schema:DigitalDocument",
+    "Periodical": "schema:Periodical",
+    "Organization": "schema:Organization",
+    "Person": "schema:Person",
+    "Audience": "schema:Audience",
+    "AlignmentObject": "schema:AlignmentObject",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "alternateName": "schema:alternateName",
+    "url": {
+      "@id": "schema:url",
+      "@type": "xsd:anyURI"
+    },
+    "abstract": "schema:abstract",
+    "author": {
+      "@id": "schema:author",
+      "@type": "@id"
+    },
+    "editor": {
+      "@id": "schema:editor",
+      "@type": "@id"
+    },
+    "publisher": {
+      "@id": "schema:publisher",
+      "@type": "@id"
+    },
+    "datePublished": {
+      "@id": "schema:datePublished",
+      "@type": "xsd:dateTime"
+    },
+    "isbn": "schema:isbn",
+    "audience": {
+      "@id": "schema:audience",
+      "@type": "@id"
+    },
+    "audienceType": "schema:audienceType",
+    "citation": {
+      "@id": "schema:citation",
+      "@type": "@id"
+    },
+    "acquireLicensePage": {
+      "@id": "schema:acquireLicensePage",
+      "@type": "@id"
+    },
+    "educationalAlignment": {
+      "@id": "schema:educationalAlignment",
+      "@type": "@id"
+    },
+    "alignmentType": "schema:alignmentType",
+    "targetName": "schema:targetName",
+    "normativityLevel": "bm19:normativityLevel",
+    "hardheidKennis": "ecm:hardheidKennis",
+    "keywords": "schema:keywords",
+    "Offer": "schema:Offer",
+    "offers": {
+      "@id": "schema:offers",
+      "@type": "@id"
+    },
+    "price": "schema:price",
+    "priceCurrency": "schema:priceCurrency"
+  },
+  "@graph": [
+    {
+      "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021",
+      "type": "Publication",
+      "abstract": "Het ISSO 'Kleintje inregelen' is een compacte handleiding voor het inregelen van de ontwerpvolumestromen van individuele verwarmingsinstallaties in woningen. Hij is bedoeld voor installatieontwerpers, onderhoudsmonteurs en voor het installatietechnische onderwijs.",
+      "acquireLicensePage": null,
+      "alternateName": null,
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2021-01-01T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "978-90-5044-339-5",
+      "keywords": [
+        "warmtebehoefte"
+      ],
+      "name": {
+        "@language": "nl",
+        "@value": "Kleintje inregelen"
+      },
+      "offers": {
+        "type": "Offer",
+        "price": 68.0,
+        "priceCurrency": "EUR"
+      },
+      "publisher": "ISSO",
+      "url": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021/4#4/4.2/4.2.2"
+    }
+  ]
+}

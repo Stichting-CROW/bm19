@@ -28,7 +28,7 @@
       <h1>Publicaties</h1>
       <p class="lead">
         Voorbeeldweergave van JSON-LD-bronnen (schema.org). Typ in het zoekveld
-        om te filteren op titel, uitgever, datum of samenvatting.
+        om te filteren op titel, uitgever, datum, samenvatting of trefwoord.
       </p>
 
       <div class="toolbar">
@@ -51,6 +51,7 @@
               <th>Titel</th>
               <th>Uitgever</th>
               <th>Datum</th>
+              <th>Prijs</th>
               <th>Samenvatting</th>
               <th>Link</th>
             </tr>
@@ -95,6 +96,17 @@
           });
         }
 
+        function fmtPrice(offers) {
+          var offer = Array.isArray(offers) ? offers[0] : offers;
+          if (!offer || offer.price == null) return "";
+          var amount = Number(offer.price);
+          if (isNaN(amount)) return text(offer.price);
+          return amount.toLocaleString("nl-NL", {
+            style: "currency",
+            currency: offer.priceCurrency || "EUR",
+          });
+        }
+
         function esc(s) {
           return String(s)
             .replace(/&/g, "&amp;")
@@ -110,6 +122,11 @@
           var date = fmtDate(node.datePublished);
           var abstract = text(node.abstract);
           var url = text(node.url);
+          var price = fmtPrice(node.offers);
+          var keywords = []
+            .concat(node.keywords == null ? [] : node.keywords)
+            .map(text)
+            .join(" ");
 
           var tr = document.createElement("tr");
           tr.innerHTML =
@@ -122,6 +139,9 @@
             '<td class="muted" style="white-space:nowrap">' +
             (date ? esc(date) : "—") +
             "</td>" +
+            '<td class="muted" style="white-space:nowrap">' +
+            (price ? esc(price) : "—") +
+            "</td>" +
             '<td class="abstract">' +
             (abstract ? esc(abstract) : "—") +
             "</td>" +
@@ -133,7 +153,7 @@
               : "—") +
             "</td>";
 
-          var searchable = [name, publisherName, date, abstract, url]
+          var searchable = [name, publisherName, date, abstract, url, keywords]
             .join(" ")
             .toLowerCase();
           return { node: tr, text: searchable };
@@ -157,7 +177,7 @@
 
         // All JSON-LD endpoints to load. Add more JSON files here; each may
         // be a single node or an object with an "@graph" array of nodes.
-        var endpoints = ["data/crow.json"];
+        var endpoints = ["data/crow.json", "data/bouwzo.json"];
 
         function loadEndpoint(url) {
           return fetch(url)
