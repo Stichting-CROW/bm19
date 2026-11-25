@@ -27,8 +27,8 @@
     <main>
       <h1>Kennisbronnen</h1>
       <p class="lead">
-        Voorbeeldweergave van JSON-LD-bronnen (schema.org) van CROW, BouwZo,
-        ISSO en FGOPlus. Stel een vraag of zoek op titel, bron, datum of
+        Voorbeeldweergave van JSON-LD-bronnen (schema.org) van CROW, BouwZo
+        en FGOPlus. Stel een vraag of zoek op titel, bron, datum of
         samenvatting.
       </p>
 
@@ -57,6 +57,7 @@
               <th>Prijs</th>
               <th>Samenvatting</th>
               <th>Link</th>
+              <th>Hoofdstuk</th>
             </tr>
           </thead>
           <tbody id="tbody"></tbody>
@@ -80,7 +81,6 @@
         var endpoints = [
           { url: "data/crow.json", source: "CROW" },
           { url: "data/bouwzo.json", source: "BouwZo" },
-          { url: "data/isso.json", source: "ISSO" },
           { url: "data/fgoplus.json", source: "FGOPlus" },
         ];
         var conceptsUrl = "data/concepts.json";
@@ -128,6 +128,53 @@
             style: "currency",
             currency: offer.priceCurrency || "EUR",
           });
+        }
+
+        // Chapters of a publication, from schema:hasPart. A chapter shows
+        // as "4.2.2 Name", or "Hoofdstuk 4.2.2" when it has no name.
+        function chapters(node) {
+          return []
+            .concat(node.hasPart == null ? [] : node.hasPart)
+            .filter(function (part) {
+              return part && typeof part === "object";
+            })
+            .map(function (part) {
+              var position = text(part.position);
+              var name = text(part.name);
+              var label = name
+                ? (position ? position + " " : "") + name
+                : "Hoofdstuk" + (position ? " " + position : "");
+              return {
+                label: label,
+                url: text(part.url) || text(part.id),
+                keywords: []
+                  .concat(part.keywords == null ? [] : part.keywords)
+                  .map(text)
+                  .join(" "),
+              };
+            });
+        }
+
+        function chapterLinks(list) {
+          return (
+            '<ul class="chapters">' +
+            list
+              .map(function (c) {
+                return (
+                  "<li>" +
+                  (c.url
+                    ? '<a href="' +
+                      esc(c.url) +
+                      '" target="_blank" rel="noopener">' +
+                      esc(c.label) +
+                      "</a>"
+                    : esc(c.label)) +
+                  "</li>"
+                );
+              })
+              .join("") +
+            "</ul>"
+          );
         }
 
         function esc(s) {
@@ -204,6 +251,7 @@
             .concat(node.keywords == null ? [] : node.keywords)
             .map(text)
             .join(" ");
+          var parts = chapters(node);
           var summary;
           if (isProduct) {
             summary = [
@@ -242,6 +290,9 @@
                 esc(url) +
                 '" target="_blank" rel="noopener">bekijk</a>'
               : "—") +
+            "</td>" +
+            "<td>" +
+            (parts.length ? chapterLinks(parts) : "—") +
             "</td>";
 
           return {
@@ -250,6 +301,7 @@
             title: title,
             summary: summary,
             url: url,
+            chapters: parts,
             row: tr,
             words: words(
               [
@@ -260,7 +312,13 @@
                 summary,
                 url,
                 keywords,
-              ].join(" "),
+              ]
+                .concat(
+                  parts.map(function (c) {
+                    return c.label + " " + c.keywords;
+                  }),
+                )
+                .join(" "),
             ),
           };
         }
@@ -342,6 +400,10 @@
               : esc(r.title)) +
             "</h3>" +
             (r.summary ? "<p>" + esc(r.summary) + "</p>" : "") +
+            (r.chapters.length
+              ? '<p class="chapters-label">Direct naar</p>' +
+                chapterLinks(r.chapters)
+              : "") +
             "</li>"
           );
         }
