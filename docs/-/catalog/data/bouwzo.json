@@ -117,6 +117,112 @@
       ]
     },
     {
+      "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025",
+      "type": "Publication",
+      "abstract": "De uitgave ISSO-Kleintje Laadinfrastructuur biedt bouw- en installatieprofessionals kennis over het ontwerpen en installeren van laadinfrastructuur bij woningen en gebouwen. Door de toename van elektrisch vervoer groeit de behoefte aan laadvoorzieningen. Deze compacte kennisbron biedt praktische informatie die direct toepasbaar is in de dagelijkse praktijk. Niet alleen de installatie van laadpunten komt aan bod, maar ook de gevolgen voor de elektrische infrastructuur van een gebouw, bijvoorbeeld in situaties waar de netcapaciteit beperkt is. Het Kleintje behandelt daarnaast relevante wet- en regelgeving, waaronder eisen uit het Besluit bouwwerken leefomgeving en Europese richtlijnen zoals de EPBD. De kennis is opgebouwd volgens de logische fasen van een project: van voorbereiding en ontwerp tot uitvoering. Onderwerpen als locatiekeuze, afstemming met netbeheerders en de integratie van laadpunten worden uitgebreid toegelicht. Ook ontwikkelingen op het gebied van standaardisatie van stekkers, laadprotocollen en aansluitvoorwaarden komen aan bod. De uitgave is gericht op toepassingen in de gebouwde omgeving en sluit aan bij de praktijk van installateurs, ontwerpers en andere professionals die werken aan een toekomstgerichte energievoorziening. De inhoud is gevalideerd en afgestemd op actuele technische inzichten, zodat professionals goed voorbereid aan de slag kunnen.",
+      "acquireLicensePage": null,
+      "alternateName": null,
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2025-03-01T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "978-90-5044-414-9",
+      "keywords": [
+        "Elektrotechnische installaties",
+        "Elektrisch vervoer"
+      ],
+      "name": {
+        "@language": "nl",
+        "@value": "Kleintje Laadinfrastructuur"
+      },
+      "offers": {
+        "type": "Offer",
+        "price": 72.0,
+        "priceCurrency": "EUR"
+      },
+      "publisher": "ISSO",
+      "url": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025/",
+      "hasPart": [
+        {
+          "id": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025/5#5/5.4/5.4.2",
+          "type": "Chapter",
+          "position": "5.4.2",
+          "name": null,
+          "keywords": [],
+          "url": "https://bouwzo.nl/reader/publicatie/isso-kleintje-laadinfrastructuur/2025/5#5/5.4/5.4.2"
+        }
+      ]
+    },
+    {
+      "id": "https://bouwzo.nl/reader/publicatie/isso-publicatie-70-hemelwater-en-grijswater-binnen-de-perceelgrens/2023",
+      "type": "Publication",
+      "abstract": "In steeds meer delen van ons land wordt drinkwater schaars. Dit leidt tot een toenemende vraag naar hemelwater- en grijswatersystemen die voor verschillende toepassingen het gebruik van drinkwater kunnen vervangen. ISSO-publicatie 70 bevat de richtlijnen voor het ontwerpen, realiseren en beheren van hemelwater- en grijswatersystemen.\n\nDe kennis beschrijft onder meer de enorme ontwikkeling die de toepassing van hemelwater- en grijswatersystemen de afgelopen jaren heeft doorgemaakt. Bij het opstellen van deze kennis was een brede vertegenwoordiging van de sector betrokken. Dit heeft ervoor gezorgd dat de juiste en ook de meest actuele kennis in de publicatie terecht kwam.\n\nDe professional krijgt algemene kennis over de huidige problematiek met drinkwaterschaarste maar bijvoorbeeld ook over de overlast die zware regenbuien veroorzaken. Een onderwerp als klimaatadaptatie komt aan bod, net als neerslagpatronen en een blik op de toekomst van onze waterhuishouding. Verder is er aandacht voor de milieu-impact en de LCA-berekening van deze systemen. Tevens behandelt de publicatie de wet- en regelgeving. Het onderwerp van deze publicatie beweegt zich op het snijpunt van afvoer- en toevoertechniek, van hemelwater en licht verontreinigd afvalwater, van zuivering, infiltratie en benutting binnen het leidingwatersysteem. Dit houdt in dat de professional met meerdere soorten regelgeving te maken krijgt, zodra hij met deze systemen aan de slag gaat. De kennis richt zich volledig op het ontwerpen, realiseren en beheren van hemelwatersystemen, van grijswatersystemen en van huishoudwatersystemen. Tot slot eindigt de publicatie met een hoofdstuk over beheer, onderhoud en oplevering.",
+      "acquireLicensePage": null,
+      "alternateName": null,
+      "audience": null,
+      "author": null,
+      "citation": null,
+      "datePublished": "2023-11-15T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "978-90-5044-385-2",
+      "keywords": [
+        "Sanitairtechniek",
+        "Gebouwriolering",
+        "Leidingwaterinstallaties"
+      ],
+      "name": {
+        "@language": "nl",
+        "@value": "ISSO-publicatie 70 Hemelwater en grijswater binnen de perceelgrens"
+      },
+      "offers": {
+        "type": "Offer",
+        "price": 86.0,
+        "priceCurrency": "EUR"
+      },
+      "publisher": "ISSO",
+      "url": "https://bouwzo.nl/reader/publicatie/isso-publicatie-70-hemelwater-en-grijswater-binnen-de-perceelgrens/2023/"
+    },
+    {
+      "id": "https://bouwzo.nl/reader/publicatie/isso-publicatie-106-functionele-inspectiemethode-duurzaam-beheer-en-onderhoud/2010",
+      "type": "Publication",
+      "abstract": "Deze publicatie beschrijft de methode van functionele inspectie bij bestaande gebouwen volgens de quick-scanmethode. Met ISSO-publicatie 106 heeft een voor Duurzaam Beheer en Onderhoud opgeleide adviseur of inspecteur een complete handleiding om invulling te kunnen geven aan de inspectie. Deze inspectiemethode past binnen een Retro-commissioningsproces.",
+      "acquireLicensePage": null,
+      "alternateName": null,
+      "audience": null,
+      "author": {
+        "type": "Person",
+        "name": "André Derksen"
+      },
+      "citation": null,
+      "datePublished": "2010-04-01T00:00:00",
+      "editor": null,
+      "educationalAlignment": null,
+      "isbn": "978-90-5044-205-3",
+      "keywords": [
+        "Bouwmanagement",
+        "Beheer en onderhoud",
+        "Beheer, onderhoud en renovatie",
+        "Ventilatie",
+        "Ventilatie Luchtbehandeling",
+        "Verwarmings- en koelinstallaties",
+        "Utiliteitsbouw"
+      ],
+      "name": {
+        "@language": "nl",
+        "@value": "ISSO-publicatie 106 Functionele inspectiemethode Duurzaam Beheer en Onderhoud"
+      },
+      "offers": {
+        "type": "Offer",
+        "price": 65.0,
+        "priceCurrency": "EUR"
+      },
+      "publisher": "ISSO",
+      "url": "https://bouwzo.nl/reader/publicatie/isso-publicatie-106-functionele-inspectiemethode-duurzaam-beheer-en-onderhoud/2010/"
+    },
+    {
       "id": "urn:isso:publicatie:kleintje-gas",
       "type": "Publication",
       "abstract": "Placeholder: titel en samenvatting volgen uit de ISSO-zoekindex. Dit Kleintje gaat over gasinstallaties.",
