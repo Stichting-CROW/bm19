@@ -40,8 +40,37 @@ publication through one of its chapters.
 
 # Detail page
 
-`detail.html?id=<id>` shows one node. A product points with `subjectOf` to
-the works about it. The work from the same source, such as the FGOPlus
-`Dataset`, provides the general description and the access section (its
-`offers` and `acquireLicensePage`); the other works are shown as related
-content.
+`detail.html?id=<id>` shows one node. A product points with `isRelatedTo` to
+the work from its own source, such as the FGOPlus `Dataset`, which provides
+the general description and the access section (its `offers` and
+`acquireLicensePage`).
+
+The page has two lists of cards:
+
+- **Referereert aan**: the works the node refers to, from `isRelatedTo`,
+  `mentions` and `citation`. `isRelatedTo` is symmetric: when A lists B, the
+  page also shows A under B. This is done when the data loads, so the JSON
+  only needs the edge once. `mentions` and `citation` stay one-way.
+- **Ook relevant**: up to 25 similar publications from
+  [similar.json](./similar.json), minus anything already under "Referereert aan".
+
+# Similar publications
+
+[similar.json](./similar.json) lists, per id, up to 25 entries whose Dutch name,
+keywords and abstract are semantically close (multilingual-e5-base, cosine
+similarity). The detail page shows them as "Vergelijkbare publicaties".
+
+- Same-source neighbours need a score of at least 0.88.
+- Neighbours from other sources need at least 0.84, and at most 5 per entry.
+  Cross-source matches are kept deliberately, so the sources link to each other.
+  The rest of the list is filled with same-source neighbours.
+- Entries with no neighbour above the threshold get an empty list.
+
+It is generated, not written by hand. After changing a data file, run:
+
+```sh
+cd tools/similar && npm install && npm run build
+```
+
+The GitHub workflow `update-similar.yaml` does this on changes to the data
+and commits the result.
