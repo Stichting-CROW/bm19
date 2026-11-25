@@ -10,38 +10,249 @@
     "model": "schema:model",
     "mpn": "schema:mpn",
     "gtin": "schema:gtin",
-    "category": "schema:category"
+    "category": "schema:category",
+    "Offer": "schema:Offer",
+    "UnitPriceSpecification": "schema:UnitPriceSpecification",
+    "QuantitativeValue": "schema:QuantitativeValue",
+    "MemberProgramTier": "schema:MemberProgramTier",
+    "offers": "schema:offers",
+    "description": "schema:description",
+    "priceSpecification": "schema:priceSpecification",
+    "price": "schema:price",
+    "priceCurrency": "schema:priceCurrency",
+    "referenceQuantity": "schema:referenceQuantity",
+    "value": "schema:value",
+    "unitCode": "schema:unitCode",
+    "unitText": "schema:unitText",
+    "validForMemberTier": "schema:validForMemberTier",
+    "Service": "schema:Service",
+    "itemOffered": "schema:itemOffered",
+    "url": {
+      "@id": "schema:url",
+      "@type": "xsd:anyURI"
+    },
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
   },
   "@graph": [
     {
       "id": "urn:fgoplus:product:3471115",
       "type": "Product",
       "name": "HR-wand combiketel Kli-Max tapklasse 3",
+      "url": "https://www.fgoplus.nl/Boiler/Details?productId=3471115",
       "brand": "Itho Daalderop",
       "model": "Kli-Max HRT 20/22",
       "mpn": "545-1020",
       "gtin": "08712922953143",
-      "category": "Gaswand Combiketel (EC011396)"
+      "category": "Gaswand Combiketel (EC011396)",
+      "offers": [
+        {
+          "type": "Offer",
+          "itemOffered": {
+            "type": "Service",
+            "name": "Licentie op FGOPlus"
+          },
+          "description": "Leden Techniek Nederland",
+          "priceSpecification": {
+            "type": "UnitPriceSpecification",
+            "price": 96.59,
+            "priceCurrency": "EUR",
+            "referenceQuantity": {
+              "type": "QuantitativeValue",
+              "value": 1,
+              "unitCode": "ANN",
+              "unitText": "jaar"
+            },
+            "validForMemberTier": {
+              "type": "MemberProgramTier",
+              "name": "Lid Techniek Nederland"
+            }
+          }
+        },
+        {
+          "type": "Offer",
+          "itemOffered": {
+            "type": "Service",
+            "name": "Licentie op FGOPlus"
+          },
+          "description": "Niet-leden",
+          "priceSpecification": {
+            "type": "UnitPriceSpecification",
+            "price": 218.76,
+            "priceCurrency": "EUR",
+            "referenceQuantity": {
+              "type": "QuantitativeValue",
+              "value": 1,
+              "unitCode": "ANN",
+              "unitText": "jaar"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "urn:fgoplus:product:2269428",
       "type": "Product",
       "name": "HR-wand combiketel Kli-Max/VKK tapklasse 3",
+      "url": "https://www.fgoplus.nl/Boiler/Details?productId=2269428",
       "brand": "Itho Daalderop",
       "model": "Kli-Max HRT 20/22 VKK",
       "mpn": "545-1220",
       "gtin": "08712922963074",
-      "category": "Gaswand Combiketel (EC011396)"
+      "category": "Gaswand Combiketel (EC011396)",
+      "offers": [
+        {
+          "type": "Offer",
+          "itemOffered": {
+            "type": "Service",
+            "name": "Licentie op FGOPlus"
+          },
+          "description": "Leden Techniek Nederland",
+          "priceSpecification": {
+            "type": "UnitPriceSpecification",
+            "price": 96.59,
+            "priceCurrency": "EUR",
+            "referenceQuantity": {
+              "type": "QuantitativeValue",
+              "value": 1,
+              "unitCode": "ANN",
+              "unitText": "jaar"
+            },
+            "validForMemberTier": {
+              "type": "MemberProgramTier",
+              "name": "Lid Techniek Nederland"
+            }
+          }
+        },
+        {
+          "type": "Offer",
+          "itemOffered": {
+            "type": "Service",
+            "name": "Licentie op FGOPlus"
+          },
+          "description": "Niet-leden",
+          "priceSpecification": {
+            "type": "UnitPriceSpecification",
+            "price": 218.76,
+            "priceCurrency": "EUR",
+            "referenceQuantity": {
+              "type": "QuantitativeValue",
+              "value": 1,
+              "unitCode": "ANN",
+              "unitText": "jaar"
+            }
+          }
+        }
+      ]
     },
     {
       "id": "urn:fgoplus:product:2712660",
       "type": "Product",
       "name": "HR-wand combiketel Kli-Max tapklasse 4",
+      "url": "https://www.fgoplus.nl/Boiler/Details?productId=2712660",
       "brand": "Itho Daalderop",
       "model": "Kli-Max HRT 24/28",
       "mpn": "545-1024",
       "gtin": "08712922953136",
-      "category": "Gaswand Combiketel (EC011396)"
+      "category": "Gaswand Combiketel (EC011396)",
+      "offers": [
+        {
+          "type": "Offer",
+          "itemOffered": {
+            "type": "Service",
+            "name": "Licentie op FGOPlus"
+          },
+          "description": "Leden Techniek Nederland",
+          "priceSpecification": {
+            "type": "UnitPriceSpecification",
+            "price": 96.59,
+            "priceCurrency": "EUR",
+            "referenceQuantity": {
+              "type": "QuantitativeValue",
+              "value": 1,
+              "unitCode": "ANN",
+              "unitText": "jaar"
+            },
+            "validForMemberTier": {
+              "type": "MemberProgramTier",
+              "name": "Lid Techniek Nederland"
+            }
+          }
+        },
+        {
+          "type": "Offer",
+          "itemOffered": {
+            "type": "Service",
+            "name": "Licentie op FGOPlus"
+          },
+          "description": "Niet-leden",
+          "priceSpecification": {
+            "type": "UnitPriceSpecification",
+            "price": 218.76,
+            "priceCurrency": "EUR",
+            "referenceQuantity": {
+              "type": "QuantitativeValue",
+              "value": 1,
+              "unitCode": "ANN",
+              "unitText": "jaar"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "urn:fgoplus:product:3327137",
+      "type": "Product",
+      "name": "HR-wand combiketel Kli-Max tapklasse 5+",
+      "url": "https://www.fgoplus.nl/Boiler/Details?productId=3327137",
+      "brand": "Itho Daalderop",
+      "model": "Kli-Max HRT 36/42",
+      "mpn": "545-1336A",
+      "gtin": "08712922140055",
+      "category": "Gaswand Combiketel (EC011396)",
+      "offers": [
+        {
+          "type": "Offer",
+          "itemOffered": {
+            "type": "Service",
+            "name": "Licentie op FGOPlus"
+          },
+          "description": "Leden Techniek Nederland",
+          "priceSpecification": {
+            "type": "UnitPriceSpecification",
+            "price": 96.59,
+            "priceCurrency": "EUR",
+            "referenceQuantity": {
+              "type": "QuantitativeValue",
+              "value": 1,
+              "unitCode": "ANN",
+              "unitText": "jaar"
+            },
+            "validForMemberTier": {
+              "type": "MemberProgramTier",
+              "name": "Lid Techniek Nederland"
+            }
+          }
+        },
+        {
+          "type": "Offer",
+          "itemOffered": {
+            "type": "Service",
+            "name": "Licentie op FGOPlus"
+          },
+          "description": "Niet-leden",
+          "priceSpecification": {
+            "type": "UnitPriceSpecification",
+            "price": 218.76,
+            "priceCurrency": "EUR",
+            "referenceQuantity": {
+              "type": "QuantitativeValue",
+              "value": 1,
+              "unitCode": "ANN",
+              "unitText": "jaar"
+            }
+          }
+        }
+      ]
     }
   ]
 }
