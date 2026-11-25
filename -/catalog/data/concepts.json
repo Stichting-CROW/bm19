@@ -1,0 +1,20 @@
+[
+  {
+    "label": "fietsparkeren",
+    "triggers": [
+      "fietsenstalling",
+      "fietsstalling",
+      "stalling",
+      "fietsparkeren",
+      "fietsparkeerplaats",
+      "fietsenrek",
+      "rekken"
+    ],
+    "terms": ["fietsparkeren", "fietsparkeerplaats"]
+  },
+  {
+    "label": "warmtebehoefte",
+    "triggers": ["warmtebehoefte", "warmteverlies", "transmissieverlies"],
+    "terms": ["warmtebehoefte"]
+  }
+]

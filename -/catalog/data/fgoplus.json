@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "Product": "schema:Product",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "brand": "schema:brand",
+    "model": "schema:model",
+    "mpn": "schema:mpn",
+    "gtin": "schema:gtin",
+    "category": "schema:category"
+  },
+  "@graph": [
+    {
+      "id": "urn:fgoplus:product:3471115",
+      "type": "Product",
+      "name": "HR-wand combiketel Kli-Max tapklasse 3",
+      "brand": "Itho Daalderop",
+      "model": "Kli-Max HRT 20/22",
+      "mpn": "545-1020",
+      "gtin": "08712922953143",
+      "category": "Gaswand Combiketel (EC011396)"
+    },
+    {
+      "id": "urn:fgoplus:product:2269428",
+      "type": "Product",
+      "name": "HR-wand combiketel Kli-Max/VKK tapklasse 3",
+      "brand": "Itho Daalderop",
+      "model": "Kli-Max HRT 20/22 VKK",
+      "mpn": "545-1220",
+      "gtin": "08712922963074",
+      "category": "Gaswand Combiketel (EC011396)"
+    },
+    {
+      "id": "urn:fgoplus:product:2712660",
+      "type": "Product",
+      "name": "HR-wand combiketel Kli-Max tapklasse 4",
+      "brand": "Itho Daalderop",
+      "model": "Kli-Max HRT 24/28",
+      "mpn": "545-1024",
+      "gtin": "08712922953136",
+      "category": "Gaswand Combiketel (EC011396)"
+    }
+  ]
+}
