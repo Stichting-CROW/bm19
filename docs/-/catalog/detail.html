@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BM19 Proof of Concept — Details</title>
+    <link rel="stylesheet" href="catalog.css" />
+    <link rel="stylesheet" href="https://docs.crow.nl/webfonts/webfonts.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a href="https://www.digigo.nu/" aria-label="digiGO">
+        <img src="img/digigo.svg" alt="digiGO" width="140" height="61" />
+      </a>
+      <p>Digitaal samenwerken in de Gebouwde Omgeving</p>
+    </header>
+    <nav class="site-menu" aria-label="Menu">
+      <span class="menu-item menu-item-current">Kennisbank</span>
+      <span class="menu-item">Standaarden</span>
+      <span class="menu-item">Digitaal stelsel</span>
+      <span class="menu-item">Bestuursakkoord ’27</span>
+    </nav>
+    <p class="poc">
+      Proof of Concept voor beleidsmaatregel 19, sector kennisplatformen en
+      kennisdiensten.
+    </p>
+    <main>
+      <a class="back" href="index.html">← Terug naar kennisbronnen</a>
+      <div id="status"></div>
+      <h1 id="title"></h1>
+    </main>
+
+    <script src="sources.js"></script>
+    <script>
+      (function () {
+        "use strict";
+
+        var statusEl = document.getElementById("status");
+        var titleEl = document.getElementById("title");
+        var id = new URLSearchParams(location.search).get("id");
+
+        Catalog.loadSources().then(function (result) {
+          result.errors.forEach(function (e) {
+            statusEl.innerHTML += Catalog.errorHtml(e.url, e.error);
+          });
+          var match = result.nodes.filter(function (n) {
+            return Catalog.text(n.node.id) === id;
+          })[0];
+          if (!match) {
+            titleEl.textContent = "Niet gevonden";
+            return;
+          }
+          var title = Catalog.title(match.node);
+          titleEl.textContent = title;
+          document.title = title + " — BM19 Proof of Concept";
+        });
+      })();
+    </script>
+  </body>
+</html>

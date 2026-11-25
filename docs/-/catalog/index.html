@@ -47,23 +47,10 @@
 
       <div id="groups" hidden></div>
 
-      <div class="table-wrap">
-        <table id="results" hidden>
-          <thead>
-            <tr>
-              <th>Titel</th>
-              <th>Bron</th>
-              <th>Datum</th>
-              <th>Prijs</th>
-              <th>Samenvatting</th>
-              <th>Link</th>
-            </tr>
-          </thead>
-          <tbody id="tbody"></tbody>
-        </table>
-      </div>
+      <ul class="cards" id="list" hidden></ul>
     </main>
 
+    <script src="sources.js"></script>
     <script>
       (function () {
         "use strict";
@@ -72,17 +59,10 @@
         var countEl = document.getElementById("count");
         var statusEl = document.getElementById("status");
         var groupsEl = document.getElementById("groups");
-        var table = document.getElementById("results");
-        var tbody = document.getElementById("tbody");
+        var listEl = document.getElementById("list");
 
-        // JSON-LD sources to load; each file may be a single node or an
-        // object with an "@graph" array of nodes.
-        var endpoints = [
-          { url: "data/crow.json", source: "CROW" },
-          { url: "data/bouwzo.json", source: "BouwZo" },
-          { url: "data/isso.json", source: "ISSO" },
-          { url: "data/fgoplus.json", source: "FGOPlus" },
-        ];
+        var text = Catalog.text;
+        var esc = Catalog.esc;
         var conceptsUrl = "data/concepts.json";
 
         var STOPWORDS = (
@@ -96,17 +76,6 @@
         var records = []; // see buildRecord
         var concepts = []; // { label, triggers, terms }
 
-        function text(value) {
-          if (value == null) return "";
-          if (typeof value === "string") return value;
-          if (typeof value === "object") {
-            // Language-tagged string: { "@language": "nl", "@value": "…" }
-            if (value["@value"] != null) return String(value["@value"]);
-            return JSON.stringify(value);
-          }
-          return String(value);
-        }
-
         function fmtDate(value) {
           var s = text(value);
           if (!s) return "";
@@ -117,25 +86,6 @@
             month: "2-digit",
             day: "2-digit",
           });
-        }
-
-        function fmtPrice(offers) {
-          var offer = Array.isArray(offers) ? offers[0] : offers;
-          if (!offer || offer.price == null) return "";
-          var amount = Number(offer.price);
-          if (isNaN(amount)) return text(offer.price);
-          return amount.toLocaleString("nl-NL", {
-            style: "currency",
-            currency: offer.priceCurrency || "EUR",
-          });
-        }
-
-        function esc(s) {
-          return String(s)
-            .replace(/&/g, "&amp;")
-            .replace(/</g, "&lt;")
-            .replace(/>/g, "&gt;")
-            .replace(/"/g, "&quot;");
         }
 
         // Splits text into lowercase words. Hyphenated words are kept whole
@@ -193,13 +143,89 @@
           return hasTextToken && textHits === 0 ? 0 : hits;
         }
 
+        // E.g. "€ 96,59 per jaar (Leden Techniek Nederland)". The price may
+        // be on the offer itself or in its priceSpecification.
+        function fmtPrice(offer) {
+          var spec = offer.priceSpecification || {};
+          var price = text(spec.price != null ? spec.price : offer.price);
+          if (price === "") return "";
+          var currency =
+            text(spec.priceCurrency || offer.priceCurrency) || "EUR";
+          var n = Number(price);
+          var amount =
+            n === 0
+              ? "Gratis"
+              : isNaN(n)
+                ? price + " " + currency
+                : n.toLocaleString("nl-NL", {
+                    style: "currency",
+                    currency: currency,
+                  });
+          var unit = spec.referenceQuantity
+            ? text(spec.referenceQuantity.unitText)
+            : "";
+          var label = text(offer.description) || text(offer.name);
+          return (
+            amount +
+            (unit && n !== 0 ? " per " + unit : "") +
+            (label ? " (" + label + ")" : "")
+          );
+        }
+
+        // Cost and license as HTML, from schema.org offers, license and
+        // acquireLicensePage.
+        function costLicense(node) {
+          var parts = [];
+          // Prices grouped under the name of what is offered, e.g.
+          // "Licentie op FGOPlus".
+          var items = [];
+          [].concat(node.offers || []).forEach(function (offer) {
+            var price = fmtPrice(offer);
+            if (!price) return;
+            var item = offer.itemOffered ? text(offer.itemOffered.name) : "";
+            var group = items.filter(function (g) {
+              return g.item === item;
+            })[0];
+            if (!group) items.push((group = { item: item, prices: [] }));
+            group.prices.push(price);
+          });
+          items.forEach(function (g) {
+            parts.push(
+              (g.item
+                ? '<span class="offer-item">' + esc(g.item) + "</span><br />"
+                : "") + g.prices.map(esc).join("<br />"),
+            );
+          });
+          var license = text(node.license);
+          if (license) {
+            parts.push(
+              /^https?:\/\//.test(license)
+                ? '<a href="' +
+                    esc(license) +
+                    '" target="_blank" rel="noopener">licentie</a>'
+                : esc(license),
+            );
+          }
+          [].concat(node.acquireLicensePage || []).forEach(function (page) {
+            var href = text(page);
+            if (href) {
+              parts.push(
+                '<a href="' +
+                  esc(href) +
+                  '" target="_blank" rel="noopener">licentie verkrijgen</a>',
+              );
+            }
+          });
+          return parts.length
+            ? parts.join(" · ")
+            : '<span class="unknown">Niet opgegeven door de bron</span>';
+        }
+
         function buildRecord(node, source) {
           var isProduct = text(node.type) === "Product";
-          var title =
-            text(node.name) || text(node.alternateName) || "(zonder titel)";
+          var title = Catalog.title(node);
           var date = fmtDate(node.datePublished);
           var url = text(node.url);
-          var price = fmtPrice(node.offers);
           var keywords = []
             .concat(node.keywords == null ? [] : node.keywords)
             .map(text)
@@ -219,38 +245,15 @@
             summary = text(node.abstract);
           }
 
-          var tr = document.createElement("tr");
-          tr.innerHTML =
-            "<td>" +
-            esc(title) +
-            "</td>" +
-            '<td class="muted">' +
-            esc(source) +
-            "</td>" +
-            '<td class="muted" style="white-space:nowrap">' +
-            (date ? esc(date) : "—") +
-            "</td>" +
-            '<td class="muted" style="white-space:nowrap">' +
-            (price ? esc(price) : "—") +
-            "</td>" +
-            '<td class="abstract">' +
-            (summary ? esc(summary) : "—") +
-            "</td>" +
-            "<td>" +
-            (url
-              ? '<a href="' +
-                esc(url) +
-                '" target="_blank" rel="noopener">bekijk</a>'
-              : "—") +
-            "</td>";
-
           return {
             isProduct: isProduct,
             source: source,
             title: title,
             summary: summary,
+            date: date,
             url: url,
-            row: tr,
+            detailUrl: Catalog.detailUrl(node),
+            costLicense: costLicense(node),
             words: words(
               [
                 title,
@@ -332,16 +335,30 @@
             '<span class="badge">' +
             esc(r.source) +
             "</span>" +
-            '<h3 class="card-title">' +
+            '<h3 class="card-title"><a href="' +
+            esc(r.detailUrl) +
+            '">' +
+            esc(r.title) +
+            "</a></h3>" +
+            (r.summary ? "<p>" + esc(r.summary) + "</p>" : "") +
+            '<dl class="card-meta">' +
+            (r.date
+              ? "<div><dt>Datum</dt><dd>" + esc(r.date) + "</dd></div>"
+              : "") +
+            "<div><dt>Kosten/licentie</dt><dd>" +
+            r.costLicense +
+            "</dd></div>" +
+            "</dl>" +
+            '<p class="card-links">' +
+            '<a href="' +
+            esc(r.detailUrl) +
+            '">Details</a>' +
             (r.url
               ? '<a href="' +
                 esc(r.url) +
-                '" target="_blank" rel="noopener">' +
-                esc(r.title) +
-                "</a>"
-              : esc(r.title)) +
-            "</h3>" +
-            (r.summary ? "<p>" + esc(r.summary) + "</p>" : "") +
+                '" target="_blank" rel="noopener">Naar de bron ↗</a>'
+              : '<span class="unknown">Geen bronlink</span>') +
+            "</p>" +
             "</li>"
           );
         }
@@ -367,7 +384,7 @@
             })
             .join("");
           groupsEl.hidden = false;
-          table.hidden = true;
+          listEl.hidden = true;
           countEl.textContent =
             total +
             (total === 1 ? " bron" : " bronnen") +
@@ -376,7 +393,7 @@
             (groups.length === 1 ? " onderwerp" : " onderwerpen");
         }
 
-        function showTable(tokens) {
+        function showList(tokens) {
           var shown = records;
           if (tokens.length) {
             shown = records
@@ -393,12 +410,9 @@
                 return x.r;
               });
           }
-          tbody.textContent = "";
-          shown.forEach(function (r) {
-            tbody.appendChild(r.row);
-          });
+          listEl.innerHTML = shown.map(card).join("");
           groupsEl.hidden = true;
-          table.hidden = records.length === 0;
+          listEl.hidden = records.length === 0;
           countEl.textContent =
             shown.length + " van " + records.length + " resultaten";
         }
@@ -425,58 +439,29 @@
           }
 
           if (groups.length) showGroups(groups);
-          else showTable(tokens);
+          else showList(tokens);
         }
 
         searchInput.addEventListener("input", applySearch);
 
-        function loadJson(url) {
-          return fetch(url).then(function (res) {
-            if (!res.ok) throw new Error("HTTP " + res.status);
-            return res.json();
-          });
-        }
-
         function reportError(url, err) {
-          statusEl.innerHTML +=
-            '<p class="error">Kon <code>' +
-            esc(url) +
-            "</code> niet laden: " +
-            esc(err.message) +
-            ".";
+          statusEl.innerHTML += Catalog.errorHtml(url, err);
         }
 
-        // A failing source shows an error but doesn't block the others.
-        Promise.all(
-          endpoints
-            .map(function (ep) {
-              return loadJson(ep.url)
-                .then(function (data) {
-                  var nodes = Array.isArray(data["@graph"])
-                    ? data["@graph"]
-                    : [data];
-                  return nodes.map(function (node) {
-                    return buildRecord(node, ep.source);
-                  });
-                })
-                .catch(function (err) {
-                  reportError(ep.url, err);
-                  return [];
-                });
-            })
-            .concat(
-              loadJson(conceptsUrl)
-                .then(function (data) {
-                  concepts = data;
-                  return [];
-                })
-                .catch(function (err) {
-                  reportError(conceptsUrl, err);
-                  return [];
-                }),
-            ),
-        ).then(function (results) {
-          records = [].concat.apply([], results);
+        Promise.all([
+          Catalog.loadSources(),
+          Catalog.loadJson(conceptsUrl).catch(function (err) {
+            reportError(conceptsUrl, err);
+            return [];
+          }),
+        ]).then(function (results) {
+          results[0].errors.forEach(function (e) {
+            reportError(e.url, e.error);
+          });
+          records = results[0].nodes.map(function (n) {
+            return buildRecord(n.node, n.source);
+          });
+          concepts = results[1];
           applySearch();
         });
       })();
