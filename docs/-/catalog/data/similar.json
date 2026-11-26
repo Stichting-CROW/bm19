@@ -3056,6 +3056,10 @@
       {
         "id": "https://data.crow.nl/kg/zn/id/Prd_31c3d75431a5fab941da456b3dfdc3eff4dc972e",
         "score": 0.882
+      },
+      {
+        "id": "urn:fgoplus:product:3258066",
+        "score": 0.841
       }
     ],
     "https://data.crow.nl/kg/zn/id/Prd_211e498b9022a147a4cf67d83b39e5f7be95b36e": [
@@ -6172,12 +6176,12 @@
         "score": 0.888
       },
       {
-        "id": "https://data.crow.nl/kg/zn/id/Prd_3d1a137a3ea4a9b481a67ecfc1d8759cf80d1059",
-        "score": 0.885
-      },
-      {
         "id": "https://bouwzo.nl/reader/publicatie/isso-publicatie-70-hemelwater-en-grijswater-binnen-de-perceelgrens/2023",
         "score": 0.849
+      },
+      {
+        "id": "urn:fgoplus:product:3258066",
+        "score": 0.84
       }
     ],
     "https://data.crow.nl/kg/zn/id/Prd_36300184b9222d745aa10c155980deedb365a373": [
@@ -29652,57 +29656,1823 @@
     "urn:fgoplus:product:3471115": [
       {
         "id": "urn:fgoplus:product:2269428",
-        "score": 0.991
+        "score": 0.995
       },
       {
         "id": "urn:fgoplus:product:2712660",
-        "score": 0.982
+        "score": 0.987
       },
       {
         "id": "urn:fgoplus:product:3327137",
-        "score": 0.978
+        "score": 0.986
+      },
+      {
+        "id": "urn:fgoplus:product:3629720",
+        "score": 0.958
+      },
+      {
+        "id": "urn:fgoplus:product:3258066",
+        "score": 0.949
+      },
+      {
+        "id": "urn:fgoplus:product:3061514",
+        "score": 0.926
+      },
+      {
+        "id": "urn:fgoplus:product:3085542",
+        "score": 0.92
+      },
+      {
+        "id": "urn:fgoplus:product:4113127",
+        "score": 0.92
+      },
+      {
+        "id": "urn:fgoplus:product:3054839",
+        "score": 0.915
+      },
+      {
+        "id": "urn:fgoplus:product:3040861",
+        "score": 0.914
+      },
+      {
+        "id": "urn:fgoplus:product:3021500",
+        "score": 0.911
+      },
+      {
+        "id": "urn:fgoplus:product:3083794",
+        "score": 0.911
+      },
+      {
+        "id": "urn:fgoplus:product:3339286",
+        "score": 0.908
+      },
+      {
+        "id": "urn:fgoplus:product:4129500",
+        "score": 0.908
+      },
+      {
+        "id": "urn:fgoplus:product:3520109",
+        "score": 0.9
+      },
+      {
+        "id": "urn:fgoplus:product:3126037",
+        "score": 0.9
+      },
+      {
+        "id": "urn:fgoplus:product:4138293",
+        "score": 0.899
+      },
+      {
+        "id": "urn:fgoplus:product:3139391",
+        "score": 0.898
+      },
+      {
+        "id": "urn:fgoplus:product:3633484",
+        "score": 0.894
+      },
+      {
+        "id": "urn:fgoplus:product:3053614",
+        "score": 0.881
       }
     ],
     "urn:fgoplus:product:2269428": [
       {
         "id": "urn:fgoplus:product:3471115",
-        "score": 0.991
+        "score": 0.995
       },
       {
         "id": "urn:fgoplus:product:2712660",
-        "score": 0.973
+        "score": 0.982
       },
       {
         "id": "urn:fgoplus:product:3327137",
-        "score": 0.971
+        "score": 0.982
+      },
+      {
+        "id": "urn:fgoplus:product:3629720",
+        "score": 0.956
+      },
+      {
+        "id": "urn:fgoplus:product:3258066",
+        "score": 0.953
+      },
+      {
+        "id": "urn:fgoplus:product:3061514",
+        "score": 0.925
+      },
+      {
+        "id": "urn:fgoplus:product:3085542",
+        "score": 0.922
+      },
+      {
+        "id": "urn:fgoplus:product:4113127",
+        "score": 0.92
+      },
+      {
+        "id": "urn:fgoplus:product:3040861",
+        "score": 0.917
+      },
+      {
+        "id": "urn:fgoplus:product:3083794",
+        "score": 0.914
+      },
+      {
+        "id": "urn:fgoplus:product:3021500",
+        "score": 0.911
+      },
+      {
+        "id": "urn:fgoplus:product:3054839",
+        "score": 0.911
+      },
+      {
+        "id": "urn:fgoplus:product:4129500",
+        "score": 0.911
+      },
+      {
+        "id": "urn:fgoplus:product:3126037",
+        "score": 0.903
+      },
+      {
+        "id": "urn:fgoplus:product:3339286",
+        "score": 0.902
+      },
+      {
+        "id": "urn:fgoplus:product:3139391",
+        "score": 0.901
+      },
+      {
+        "id": "urn:fgoplus:product:3520109",
+        "score": 0.9
+      },
+      {
+        "id": "urn:fgoplus:product:4138293",
+        "score": 0.897
+      },
+      {
+        "id": "urn:fgoplus:product:3633484",
+        "score": 0.888
+      },
+      {
+        "id": "urn:fgoplus:product:3053614",
+        "score": 0.882
       }
     ],
     "urn:fgoplus:product:2712660": [
       {
         "id": "urn:fgoplus:product:3471115",
-        "score": 0.982
+        "score": 0.987
       },
       {
         "id": "urn:fgoplus:product:3327137",
-        "score": 0.98
+        "score": 0.986
       },
       {
         "id": "urn:fgoplus:product:2269428",
-        "score": 0.973
+        "score": 0.982
+      },
+      {
+        "id": "urn:fgoplus:product:3629720",
+        "score": 0.968
+      },
+      {
+        "id": "urn:fgoplus:product:3258066",
+        "score": 0.956
+      },
+      {
+        "id": "urn:fgoplus:product:3061514",
+        "score": 0.936
+      },
+      {
+        "id": "urn:fgoplus:product:3040861",
+        "score": 0.919
+      },
+      {
+        "id": "urn:fgoplus:product:3054839",
+        "score": 0.912
+      },
+      {
+        "id": "urn:fgoplus:product:3083794",
+        "score": 0.911
+      },
+      {
+        "id": "urn:fgoplus:product:3085542",
+        "score": 0.911
+      },
+      {
+        "id": "urn:fgoplus:product:4113127",
+        "score": 0.911
+      },
+      {
+        "id": "urn:fgoplus:product:3021500",
+        "score": 0.906
+      },
+      {
+        "id": "urn:fgoplus:product:3126037",
+        "score": 0.905
+      },
+      {
+        "id": "urn:fgoplus:product:3633484",
+        "score": 0.903
+      },
+      {
+        "id": "urn:fgoplus:product:3139391",
+        "score": 0.902
+      },
+      {
+        "id": "urn:fgoplus:product:4129500",
+        "score": 0.902
+      },
+      {
+        "id": "urn:fgoplus:product:4138293",
+        "score": 0.898
+      },
+      {
+        "id": "urn:fgoplus:product:3339286",
+        "score": 0.897
+      },
+      {
+        "id": "urn:fgoplus:product:3520109",
+        "score": 0.893
       }
     ],
     "urn:fgoplus:product:3327137": [
       {
-        "id": "urn:fgoplus:product:2712660",
-        "score": 0.98
+        "id": "urn:fgoplus:product:3471115",
+        "score": 0.986
       },
       {
-        "id": "urn:fgoplus:product:3471115",
-        "score": 0.978
+        "id": "urn:fgoplus:product:2712660",
+        "score": 0.986
       },
       {
         "id": "urn:fgoplus:product:2269428",
-        "score": 0.971
+        "score": 0.982
+      },
+      {
+        "id": "urn:fgoplus:product:3629720",
+        "score": 0.957
+      },
+      {
+        "id": "urn:fgoplus:product:3258066",
+        "score": 0.95
+      },
+      {
+        "id": "urn:fgoplus:product:3061514",
+        "score": 0.925
+      },
+      {
+        "id": "urn:fgoplus:product:3085542",
+        "score": 0.917
+      },
+      {
+        "id": "urn:fgoplus:product:4129500",
+        "score": 0.911
+      },
+      {
+        "id": "urn:fgoplus:product:3040861",
+        "score": 0.91
+      },
+      {
+        "id": "urn:fgoplus:product:4113127",
+        "score": 0.908
+      },
+      {
+        "id": "urn:fgoplus:product:3054839",
+        "score": 0.907
+      },
+      {
+        "id": "urn:fgoplus:product:3083794",
+        "score": 0.907
+      },
+      {
+        "id": "urn:fgoplus:product:3021500",
+        "score": 0.902
+      },
+      {
+        "id": "urn:fgoplus:product:3633484",
+        "score": 0.901
+      },
+      {
+        "id": "urn:fgoplus:product:3126037",
+        "score": 0.901
+      },
+      {
+        "id": "urn:fgoplus:product:4138293",
+        "score": 0.899
+      },
+      {
+        "id": "urn:fgoplus:product:3339286",
+        "score": 0.898
+      },
+      {
+        "id": "urn:fgoplus:product:3139391",
+        "score": 0.896
+      },
+      {
+        "id": "urn:fgoplus:product:3520109",
+        "score": 0.894
+      },
+      {
+        "id": "urn:fgoplus:product:3053614",
+        "score": 0.884
+      }
+    ],
+    "urn:fgoplus:product:3339286": [
+      {
+        "id": "urn:fgoplus:product:4138293",
+        "score": 0.939
+      },
+      {
+        "id": "urn:fgoplus:product:3085542",
+        "score": 0.925
+      },
+      {
+        "id": "urn:fgoplus:product:4129500",
+        "score": 0.918
+      },
+      {
+        "id": "urn:fgoplus:product:3053614",
+        "score": 0.913
+      },
+      {
+        "id": "urn:fgoplus:product:4113127",
+        "score": 0.913
+      },
+      {
+        "id": "urn:fgoplus:product:3083794",
+        "score": 0.911
+      },
+      {
+        "id": "urn:fgoplus:product:3139391",
+        "score": 0.91
+      },
+      {
+        "id": "urn:fgoplus:product:3633484",
+        "score": 0.909
+      },
+      {
+        "id": "urn:fgoplus:product:3054839",
+        "score": 0.909
+      },
+      {
+        "id": "urn:fgoplus:product:3471115",
+        "score": 0.908
+      },
+      {
+        "id": "urn:fgoplus:product:2269428",
+        "score": 0.902
+      },
+      {
+        "id": "urn:fgoplus:product:3126037",
+        "score": 0.899
+      },
+      {
+        "id": "urn:fgoplus:product:3327137",
+        "score": 0.898
+      },
+      {
+        "id": "urn:fgoplus:product:3021500",
+        "score": 0.898
+      },
+      {
+        "id": "urn:fgoplus:product:2712660",
+        "score": 0.897
+      },
+      {
+        "id": "urn:fgoplus:product:3040861",
+        "score": 0.893
+      },
+      {
+        "id": "urn:fgoplus:product:3617749",
+        "score": 0.891
+      },
+      {
+        "id": "urn:fgoplus:product:3258066",
+        "score": 0.886
+      },
+      {
+        "id": "urn:fgoplus:product:3520109",
+        "score": 0.881
+      },
+      {
+        "id": "urn:fgoplus:product:3061514",
+        "score": 0.881
+      }
+    ],
+    "urn:fgoplus:product:3520109": [
+      {
+        "id": "urn:fgoplus:product:3021500",
+        "score": 0.958
+      },
+      {
+        "id": "urn:fgoplus:product:4113127",
+        "score": 0.958
+      },
+      {
+        "id": "urn:fgoplus:product:3040861",
+        "score": 0.946
+      },
+      {
+        "id": "urn:fgoplus:product:3054839",
+        "score": 0.924
+      },
+      {
+        "id": "urn:fgoplus:product:3126037",
+        "score": 0.904
+      },
+      {
+        "id": "urn:fgoplus:product:3471115",
+        "score": 0.9
+      },
+      {
+        "id": "urn:fgoplus:product:2269428",
+        "score": 0.9
+      },
+      {
+        "id": "urn:fgoplus:product:3629720",
+        "score": 0.897
+      },
+      {
+        "id": "urn:fgoplus:product:4129500",
+        "score": 0.897
+      },
+      {
+        "id": "urn:fgoplus:product:3327137",
+        "score": 0.894
+      },
+      {
+        "id": "urn:fgoplus:product:2712660",
+        "score": 0.893
+      },
+      {
+        "id": "urn:fgoplus:product:3258066",
+        "score": 0.892
+      },
+      {
+        "id": "urn:fgoplus:product:3085542",
+        "score": 0.891
+      },
+      {
+        "id": "urn:fgoplus:product:4138293",
+        "score": 0.884
+      },
+      {
+        "id": "urn:fgoplus:product:3083794",
+        "score": 0.882
+      },
+      {
+        "id": "urn:fgoplus:product:3339286",
+        "score": 0.881
+      }
+    ],
+    "urn:fgoplus:product:3617749": [
+      {
+        "id": "urn:fgoplus:product:3053614",
+        "score": 0.94
+      },
+      {
+        "id": "urn:fgoplus:product:4079307",
+        "score": 0.938
+      },
+      {
+        "id": "urn:fgoplus:product:3126037",
+        "score": 0.917
+      },
+      {
+        "id": "urn:fgoplus:product:3083794",
+        "score": 0.903
+      },
+      {
+        "id": "urn:fgoplus:product:3085542",
+        "score": 0.903
+      },
+      {
+        "id": "urn:fgoplus:product:4113127",
+        "score": 0.9
+      },
+      {
+        "id": "urn:fgoplus:product:3633484",
+        "score": 0.898
+      },
+      {
+        "id": "urn:fgoplus:product:3040861",
+        "score": 0.898
+      },
+      {
+        "id": "urn:fgoplus:product:4129500",
+        "score": 0.898
+      },
+      {
+        "id": "urn:fgoplus:product:3021500",
+        "score": 0.896
+      },
+      {
+        "id": "urn:fgoplus:product:3339286",
+        "score": 0.891
+      },
+      {
+        "id": "urn:fgoplus:product:3054839",
+        "score": 0.891
+      },
+      {
+        "id": "urn:fgoplus:product:4138293",
+        "score": 0.882
+      },
+      {
+        "id": "urn:fgoplus:product:3139391",
+        "score": 0.88
+      }
+    ],
+    "urn:fgoplus:product:3629720": [
+      {
+        "id": "urn:fgoplus:product:2712660",
+        "score": 0.968
+      },
+      {
+        "id": "urn:fgoplus:product:3471115",
+        "score": 0.958
+      },
+      {
+        "id": "urn:fgoplus:product:3327137",
+        "score": 0.957
+      },
+      {
+        "id": "urn:fgoplus:product:2269428",
+        "score": 0.956
+      },
+      {
+        "id": "urn:fgoplus:product:3258066",
+        "score": 0.947
+      },
+      {
+        "id": "urn:fgoplus:product:3061514",
+        "score": 0.927
+      },
+      {
+        "id": "urn:fgoplus:product:3040861",
+        "score": 0.914
+      },
+      {
+        "id": "urn:fgoplus:product:3083794",
+        "score": 0.908
+      },
+      {
+        "id": "urn:fgoplus:product:3085542",
+        "score": 0.907
+      },
+      {
+        "id": "urn:fgoplus:product:3054839",
+        "score": 0.904
+      },
+      {
+        "id": "urn:fgoplus:product:4113127",
+        "score": 0.902
+      },
+      {
+        "id": "urn:fgoplus:product:3021500",
+        "score": 0.9
+      },
+      {
+        "id": "urn:fgoplus:product:4129500",
+        "score": 0.898
+      },
+      {
+        "id": "urn:fgoplus:product:3520109",
+        "score": 0.897
+      },
+      {
+        "id": "urn:fgoplus:product:3139391",
+        "score": 0.897
+      },
+      {
+        "id": "urn:fgoplus:product:3633484",
+        "score": 0.894
+      },
+      {
+        "id": "urn:fgoplus:product:3126037",
+        "score": 0.893
+      },
+      {
+        "id": "urn:fgoplus:product:4138293",
+        "score": 0.885
+      }
+    ],
+    "urn:fgoplus:product:3633484": [
+      {
+        "id": "urn:fgoplus:product:3053614",
+        "score": 0.92
+      },
+      {
+        "id": "urn:fgoplus:product:3085542",
+        "score": 0.915
+      },
+      {
+        "id": "urn:fgoplus:product:3083794",
+        "score": 0.914
+      },
+      {
+        "id": "urn:fgoplus:product:4129500",
+        "score": 0.914
+      },
+      {
+        "id": "urn:fgoplus:product:3054839",
+        "score": 0.91
+      },
+      {
+        "id": "urn:fgoplus:product:4138293",
+        "score": 0.91
+      },
+      {
+        "id": "urn:fgoplus:product:3339286",
+        "score": 0.909
+      },
+      {
+        "id": "urn:fgoplus:product:4113127",
+        "score": 0.905
+      },
+      {
+        "id": "urn:fgoplus:product:3258066",
+        "score": 0.904
+      },
+      {
+        "id": "urn:fgoplus:product:2712660",
+        "score": 0.903
+      },
+      {
+        "id": "urn:fgoplus:product:3040861",
+        "score": 0.902
+      },
+      {
+        "id": "urn:fgoplus:product:3327137",
+        "score": 0.901
+      },
+      {
+        "id": "urn:fgoplus:product:3617749",
+        "score": 0.898
+      },
+      {
+        "id": "urn:fgoplus:product:3061514",
+        "score": 0.898
+      },
+      {
+        "id": "urn:fgoplus:product:4079307",
+        "score": 0.897
+      },
+      {
+        "id": "urn:fgoplus:product:3471115",
+        "score": 0.894
+      },
+      {
+        "id": "urn:fgoplus:product:3629720",
+        "score": 0.894
+      },
+      {
+        "id": "urn:fgoplus:product:3139391",
+        "score": 0.894
+      },
+      {
+        "id": "urn:fgoplus:product:3021500",
+        "score": 0.893
+      },
+      {
+        "id": "urn:fgoplus:product:3126037",
+        "score": 0.892
+      },
+      {
+        "id": "urn:fgoplus:product:2269428",
+        "score": 0.888
+      }
+    ],
+    "urn:fgoplus:product:3021500": [
+      {
+        "id": "urn:fgoplus:product:3040861",
+        "score": 0.965
+      },
+      {
+        "id": "urn:fgoplus:product:4113127",
+        "score": 0.959
+      },
+      {
+        "id": "urn:fgoplus:product:3520109",
+        "score": 0.958
+      },
+      {
+        "id": "urn:fgoplus:product:3054839",
+        "score": 0.94
+      },
+      {
+        "id": "urn:fgoplus:product:3126037",
+        "score": 0.923
+      },
+      {
+        "id": "urn:fgoplus:product:3471115",
+        "score": 0.911
+      },
+      {
+        "id": "urn:fgoplus:product:2269428",
+        "score": 0.911
+      },
+      {
+        "id": "urn:fgoplus:product:3258066",
+        "score": 0.909
+      },
+      {
+        "id": "urn:fgoplus:product:2712660",
+        "score": 0.906
+      },
+      {
+        "id": "urn:fgoplus:product:3053614",
+        "score": 0.903
+      },
+      {
+        "id": "urn:fgoplus:product:3327137",
+        "score": 0.902
+      },
+      {
+        "id": "urn:fgoplus:product:3085542",
+        "score": 0.902
+      },
+      {
+        "id": "urn:fgoplus:product:3629720",
+        "score": 0.9
+      },
+      {
+        "id": "urn:fgoplus:product:4138293",
+        "score": 0.9
+      },
+      {
+        "id": "urn:fgoplus:product:4129500",
+        "score": 0.899
+      },
+      {
+        "id": "urn:fgoplus:product:3339286",
+        "score": 0.898
+      },
+      {
+        "id": "urn:fgoplus:product:3617749",
+        "score": 0.896
+      },
+      {
+        "id": "urn:fgoplus:product:3083794",
+        "score": 0.894
+      },
+      {
+        "id": "urn:fgoplus:product:3633484",
+        "score": 0.893
+      },
+      {
+        "id": "urn:fgoplus:product:4079307",
+        "score": 0.889
+      },
+      {
+        "id": "urn:fgoplus:product:3061514",
+        "score": 0.887
+      },
+      {
+        "id": "urn:fgoplus:product:3139391",
+        "score": 0.881
+      }
+    ],
+    "urn:fgoplus:product:3040861": [
+      {
+        "id": "urn:fgoplus:product:3021500",
+        "score": 0.965
+      },
+      {
+        "id": "urn:fgoplus:product:3520109",
+        "score": 0.946
+      },
+      {
+        "id": "urn:fgoplus:product:4113127",
+        "score": 0.945
+      },
+      {
+        "id": "urn:fgoplus:product:3054839",
+        "score": 0.938
+      },
+      {
+        "id": "urn:fgoplus:product:3258066",
+        "score": 0.926
+      },
+      {
+        "id": "urn:fgoplus:product:2712660",
+        "score": 0.919
+      },
+      {
+        "id": "urn:fgoplus:product:2269428",
+        "score": 0.917
+      },
+      {
+        "id": "urn:fgoplus:product:3126037",
+        "score": 0.917
+      },
+      {
+        "id": "urn:fgoplus:product:3471115",
+        "score": 0.914
+      },
+      {
+        "id": "urn:fgoplus:product:3629720",
+        "score": 0.914
+      },
+      {
+        "id": "urn:fgoplus:product:3327137",
+        "score": 0.91
+      },
+      {
+        "id": "urn:fgoplus:product:3061514",
+        "score": 0.909
+      },
+      {
+        "id": "urn:fgoplus:product:3633484",
+        "score": 0.902
+      },
+      {
+        "id": "urn:fgoplus:product:3083794",
+        "score": 0.902
+      },
+      {
+        "id": "urn:fgoplus:product:3085542",
+        "score": 0.902
+      },
+      {
+        "id": "urn:fgoplus:product:4129500",
+        "score": 0.902
+      },
+      {
+        "id": "urn:fgoplus:product:4138293",
+        "score": 0.9
+      },
+      {
+        "id": "urn:fgoplus:product:3617749",
+        "score": 0.898
+      },
+      {
+        "id": "urn:fgoplus:product:3139391",
+        "score": 0.895
+      },
+      {
+        "id": "urn:fgoplus:product:3339286",
+        "score": 0.893
+      },
+      {
+        "id": "urn:fgoplus:product:4079307",
+        "score": 0.886
+      },
+      {
+        "id": "urn:fgoplus:product:3053614",
+        "score": 0.882
+      }
+    ],
+    "urn:fgoplus:product:3053614": [
+      {
+        "id": "urn:fgoplus:product:3617749",
+        "score": 0.94
+      },
+      {
+        "id": "urn:fgoplus:product:3633484",
+        "score": 0.92
+      },
+      {
+        "id": "urn:fgoplus:product:3085542",
+        "score": 0.917
+      },
+      {
+        "id": "urn:fgoplus:product:3339286",
+        "score": 0.913
+      },
+      {
+        "id": "urn:fgoplus:product:4129500",
+        "score": 0.912
+      },
+      {
+        "id": "urn:fgoplus:product:4079307",
+        "score": 0.909
+      },
+      {
+        "id": "urn:fgoplus:product:3126037",
+        "score": 0.907
+      },
+      {
+        "id": "urn:fgoplus:product:4113127",
+        "score": 0.907
+      },
+      {
+        "id": "urn:fgoplus:product:3083794",
+        "score": 0.905
+      },
+      {
+        "id": "urn:fgoplus:product:4138293",
+        "score": 0.905
+      },
+      {
+        "id": "urn:fgoplus:product:3021500",
+        "score": 0.903
+      },
+      {
+        "id": "urn:fgoplus:product:3054839",
+        "score": 0.894
+      },
+      {
+        "id": "urn:fgoplus:product:3327137",
+        "score": 0.884
+      },
+      {
+        "id": "urn:fgoplus:product:3139391",
+        "score": 0.884
+      },
+      {
+        "id": "urn:fgoplus:product:2269428",
+        "score": 0.882
+      },
+      {
+        "id": "urn:fgoplus:product:3040861",
+        "score": 0.882
+      },
+      {
+        "id": "urn:fgoplus:product:3471115",
+        "score": 0.881
+      }
+    ],
+    "urn:fgoplus:product:3054839": [
+      {
+        "id": "urn:fgoplus:product:4113127",
+        "score": 0.957
+      },
+      {
+        "id": "urn:fgoplus:product:3021500",
+        "score": 0.94
+      },
+      {
+        "id": "urn:fgoplus:product:3040861",
+        "score": 0.938
+      },
+      {
+        "id": "urn:fgoplus:product:3520109",
+        "score": 0.924
+      },
+      {
+        "id": "urn:fgoplus:product:3085542",
+        "score": 0.918
+      },
+      {
+        "id": "urn:fgoplus:product:3126037",
+        "score": 0.918
+      },
+      {
+        "id": "urn:fgoplus:product:3471115",
+        "score": 0.915
+      },
+      {
+        "id": "urn:fgoplus:product:4138293",
+        "score": 0.915
+      },
+      {
+        "id": "urn:fgoplus:product:2712660",
+        "score": 0.912
+      },
+      {
+        "id": "urn:fgoplus:product:2269428",
+        "score": 0.911
+      },
+      {
+        "id": "urn:fgoplus:product:3633484",
+        "score": 0.91
+      },
+      {
+        "id": "urn:fgoplus:product:3083794",
+        "score": 0.91
+      },
+      {
+        "id": "urn:fgoplus:product:3339286",
+        "score": 0.909
+      },
+      {
+        "id": "urn:fgoplus:product:3258066",
+        "score": 0.909
+      },
+      {
+        "id": "urn:fgoplus:product:4129500",
+        "score": 0.909
+      },
+      {
+        "id": "urn:fgoplus:product:3327137",
+        "score": 0.907
+      },
+      {
+        "id": "urn:fgoplus:product:3629720",
+        "score": 0.904
+      },
+      {
+        "id": "urn:fgoplus:product:3061514",
+        "score": 0.904
+      },
+      {
+        "id": "urn:fgoplus:product:3139391",
+        "score": 0.901
+      },
+      {
+        "id": "urn:fgoplus:product:3053614",
+        "score": 0.894
+      },
+      {
+        "id": "urn:fgoplus:product:3617749",
+        "score": 0.891
+      }
+    ],
+    "urn:fgoplus:product:3061514": [
+      {
+        "id": "urn:fgoplus:product:3258066",
+        "score": 0.94
+      },
+      {
+        "id": "urn:fgoplus:product:2712660",
+        "score": 0.936
+      },
+      {
+        "id": "urn:fgoplus:product:3629720",
+        "score": 0.927
+      },
+      {
+        "id": "urn:fgoplus:product:3471115",
+        "score": 0.926
+      },
+      {
+        "id": "urn:fgoplus:product:2269428",
+        "score": 0.925
+      },
+      {
+        "id": "urn:fgoplus:product:3327137",
+        "score": 0.925
+      },
+      {
+        "id": "urn:fgoplus:product:3040861",
+        "score": 0.909
+      },
+      {
+        "id": "urn:fgoplus:product:3083794",
+        "score": 0.909
+      },
+      {
+        "id": "urn:fgoplus:product:3085542",
+        "score": 0.908
+      },
+      {
+        "id": "urn:fgoplus:product:3054839",
+        "score": 0.904
+      },
+      {
+        "id": "urn:fgoplus:product:3139391",
+        "score": 0.903
+      },
+      {
+        "id": "urn:fgoplus:product:4113127",
+        "score": 0.9
+      },
+      {
+        "id": "urn:fgoplus:product:3126037",
+        "score": 0.899
+      },
+      {
+        "id": "urn:fgoplus:product:3633484",
+        "score": 0.898
+      },
+      {
+        "id": "urn:fgoplus:product:4129500",
+        "score": 0.897
+      },
+      {
+        "id": "urn:fgoplus:product:4138293",
+        "score": 0.894
+      },
+      {
+        "id": "urn:fgoplus:product:3021500",
+        "score": 0.887
+      },
+      {
+        "id": "urn:fgoplus:product:3339286",
+        "score": 0.881
+      }
+    ],
+    "urn:fgoplus:product:3083794": [
+      {
+        "id": "urn:fgoplus:product:3085542",
+        "score": 0.983
+      },
+      {
+        "id": "urn:fgoplus:product:4129500",
+        "score": 0.966
+      },
+      {
+        "id": "urn:fgoplus:product:3139391",
+        "score": 0.94
+      },
+      {
+        "id": "urn:fgoplus:product:2269428",
+        "score": 0.914
+      },
+      {
+        "id": "urn:fgoplus:product:3633484",
+        "score": 0.914
+      },
+      {
+        "id": "urn:fgoplus:product:3258066",
+        "score": 0.914
+      },
+      {
+        "id": "urn:fgoplus:product:4113127",
+        "score": 0.914
+      },
+      {
+        "id": "urn:fgoplus:product:3126037",
+        "score": 0.913
+      },
+      {
+        "id": "urn:fgoplus:product:3471115",
+        "score": 0.911
+      },
+      {
+        "id": "urn:fgoplus:product:2712660",
+        "score": 0.911
+      },
+      {
+        "id": "urn:fgoplus:product:3339286",
+        "score": 0.911
+      },
+      {
+        "id": "urn:fgoplus:product:3054839",
+        "score": 0.91
+      },
+      {
+        "id": "urn:fgoplus:product:3061514",
+        "score": 0.909
+      },
+      {
+        "id": "urn:fgoplus:product:3629720",
+        "score": 0.908
+      },
+      {
+        "id": "urn:fgoplus:product:4138293",
+        "score": 0.908
+      },
+      {
+        "id": "urn:fgoplus:product:3327137",
+        "score": 0.907
+      },
+      {
+        "id": "urn:fgoplus:product:3053614",
+        "score": 0.905
+      },
+      {
+        "id": "urn:fgoplus:product:3617749",
+        "score": 0.903
+      },
+      {
+        "id": "urn:fgoplus:product:3040861",
+        "score": 0.902
+      },
+      {
+        "id": "urn:fgoplus:product:3021500",
+        "score": 0.894
+      },
+      {
+        "id": "urn:fgoplus:product:3520109",
+        "score": 0.882
+      }
+    ],
+    "urn:fgoplus:product:3085542": [
+      {
+        "id": "urn:fgoplus:product:3083794",
+        "score": 0.983
+      },
+      {
+        "id": "urn:fgoplus:product:4129500",
+        "score": 0.981
+      },
+      {
+        "id": "urn:fgoplus:product:3139391",
+        "score": 0.95
+      },
+      {
+        "id": "urn:fgoplus:product:3339286",
+        "score": 0.925
+      },
+      {
+        "id": "urn:fgoplus:product:4138293",
+        "score": 0.923
+      },
+      {
+        "id": "urn:fgoplus:product:2269428",
+        "score": 0.922
+      },
+      {
+        "id": "urn:fgoplus:product:4113127",
+        "score": 0.922
+      },
+      {
+        "id": "urn:fgoplus:product:3471115",
+        "score": 0.92
+      },
+      {
+        "id": "urn:fgoplus:product:3054839",
+        "score": 0.918
+      },
+      {
+        "id": "urn:fgoplus:product:3327137",
+        "score": 0.917
+      },
+      {
+        "id": "urn:fgoplus:product:3053614",
+        "score": 0.917
+      },
+      {
+        "id": "urn:fgoplus:product:3633484",
+        "score": 0.915
+      },
+      {
+        "id": "urn:fgoplus:product:3258066",
+        "score": 0.914
+      },
+      {
+        "id": "urn:fgoplus:product:3126037",
+        "score": 0.912
+      },
+      {
+        "id": "urn:fgoplus:product:2712660",
+        "score": 0.911
+      },
+      {
+        "id": "urn:fgoplus:product:3061514",
+        "score": 0.908
+      },
+      {
+        "id": "urn:fgoplus:product:3629720",
+        "score": 0.907
+      },
+      {
+        "id": "urn:fgoplus:product:3617749",
+        "score": 0.903
+      },
+      {
+        "id": "urn:fgoplus:product:3021500",
+        "score": 0.902
+      },
+      {
+        "id": "urn:fgoplus:product:3040861",
+        "score": 0.902
+      },
+      {
+        "id": "urn:fgoplus:product:3520109",
+        "score": 0.891
+      }
+    ],
+    "urn:fgoplus:product:3126037": [
+      {
+        "id": "urn:fgoplus:product:4113127",
+        "score": 0.924
+      },
+      {
+        "id": "urn:fgoplus:product:3021500",
+        "score": 0.923
+      },
+      {
+        "id": "urn:fgoplus:product:3054839",
+        "score": 0.918
+      },
+      {
+        "id": "urn:fgoplus:product:3617749",
+        "score": 0.917
+      },
+      {
+        "id": "urn:fgoplus:product:3040861",
+        "score": 0.917
+      },
+      {
+        "id": "urn:fgoplus:product:4129500",
+        "score": 0.915
+      },
+      {
+        "id": "urn:fgoplus:product:3083794",
+        "score": 0.913
+      },
+      {
+        "id": "urn:fgoplus:product:3258066",
+        "score": 0.913
+      },
+      {
+        "id": "urn:fgoplus:product:3085542",
+        "score": 0.912
+      },
+      {
+        "id": "urn:fgoplus:product:4138293",
+        "score": 0.911
+      },
+      {
+        "id": "urn:fgoplus:product:3139391",
+        "score": 0.91
+      },
+      {
+        "id": "urn:fgoplus:product:3053614",
+        "score": 0.907
+      },
+      {
+        "id": "urn:fgoplus:product:2712660",
+        "score": 0.905
+      },
+      {
+        "id": "urn:fgoplus:product:3520109",
+        "score": 0.904
+      },
+      {
+        "id": "urn:fgoplus:product:2269428",
+        "score": 0.903
+      },
+      {
+        "id": "urn:fgoplus:product:3327137",
+        "score": 0.901
+      },
+      {
+        "id": "urn:fgoplus:product:3471115",
+        "score": 0.9
+      },
+      {
+        "id": "urn:fgoplus:product:3339286",
+        "score": 0.899
+      },
+      {
+        "id": "urn:fgoplus:product:3061514",
+        "score": 0.899
+      },
+      {
+        "id": "urn:fgoplus:product:3629720",
+        "score": 0.893
+      },
+      {
+        "id": "urn:fgoplus:product:3633484",
+        "score": 0.892
+      },
+      {
+        "id": "urn:fgoplus:product:4079307",
+        "score": 0.889
+      }
+    ],
+    "urn:fgoplus:product:3139391": [
+      {
+        "id": "urn:fgoplus:product:4129500",
+        "score": 0.951
+      },
+      {
+        "id": "urn:fgoplus:product:3085542",
+        "score": 0.95
+      },
+      {
+        "id": "urn:fgoplus:product:3083794",
+        "score": 0.94
+      },
+      {
+        "id": "urn:fgoplus:product:4138293",
+        "score": 0.918
+      },
+      {
+        "id": "urn:fgoplus:product:3339286",
+        "score": 0.91
+      },
+      {
+        "id": "urn:fgoplus:product:3126037",
+        "score": 0.91
+      },
+      {
+        "id": "urn:fgoplus:product:3061514",
+        "score": 0.903
+      },
+      {
+        "id": "urn:fgoplus:product:2712660",
+        "score": 0.902
+      },
+      {
+        "id": "urn:fgoplus:product:4113127",
+        "score": 0.902
+      },
+      {
+        "id": "urn:fgoplus:product:2269428",
+        "score": 0.901
+      },
+      {
+        "id": "urn:fgoplus:product:3054839",
+        "score": 0.901
+      },
+      {
+        "id": "urn:fgoplus:product:3471115",
+        "score": 0.898
+      },
+      {
+        "id": "urn:fgoplus:product:3629720",
+        "score": 0.897
+      },
+      {
+        "id": "urn:fgoplus:product:3327137",
+        "score": 0.896
+      },
+      {
+        "id": "urn:fgoplus:product:3040861",
+        "score": 0.895
+      },
+      {
+        "id": "urn:fgoplus:product:3258066",
+        "score": 0.895
+      },
+      {
+        "id": "urn:fgoplus:product:3633484",
+        "score": 0.894
+      },
+      {
+        "id": "urn:fgoplus:product:3053614",
+        "score": 0.884
+      },
+      {
+        "id": "urn:fgoplus:product:3021500",
+        "score": 0.881
+      },
+      {
+        "id": "urn:fgoplus:product:3617749",
+        "score": 0.88
+      }
+    ],
+    "urn:fgoplus:product:3258066": [
+      {
+        "id": "urn:fgoplus:product:2712660",
+        "score": 0.956
+      },
+      {
+        "id": "urn:fgoplus:product:2269428",
+        "score": 0.953
+      },
+      {
+        "id": "urn:fgoplus:product:3327137",
+        "score": 0.95
+      },
+      {
+        "id": "urn:fgoplus:product:3471115",
+        "score": 0.949
+      },
+      {
+        "id": "urn:fgoplus:product:3629720",
+        "score": 0.947
+      },
+      {
+        "id": "urn:fgoplus:product:3061514",
+        "score": 0.94
+      },
+      {
+        "id": "urn:fgoplus:product:3040861",
+        "score": 0.926
+      },
+      {
+        "id": "urn:fgoplus:product:3083794",
+        "score": 0.914
+      },
+      {
+        "id": "urn:fgoplus:product:3085542",
+        "score": 0.914
+      },
+      {
+        "id": "urn:fgoplus:product:3126037",
+        "score": 0.913
+      },
+      {
+        "id": "urn:fgoplus:product:3021500",
+        "score": 0.909
+      },
+      {
+        "id": "urn:fgoplus:product:3054839",
+        "score": 0.909
+      },
+      {
+        "id": "urn:fgoplus:product:4113127",
+        "score": 0.906
+      },
+      {
+        "id": "urn:fgoplus:product:3633484",
+        "score": 0.904
+      },
+      {
+        "id": "urn:fgoplus:product:4129500",
+        "score": 0.902
+      },
+      {
+        "id": "urn:fgoplus:product:3139391",
+        "score": 0.895
+      },
+      {
+        "id": "urn:fgoplus:product:3520109",
+        "score": 0.892
+      },
+      {
+        "id": "urn:fgoplus:product:4079307",
+        "score": 0.891
+      },
+      {
+        "id": "urn:fgoplus:product:4138293",
+        "score": 0.888
+      },
+      {
+        "id": "urn:fgoplus:product:3339286",
+        "score": 0.886
+      },
+      {
+        "id": "https://data.crow.nl/kg/zn/id/Prd_205b2c0583f30b492255192a406db0b890bfe4e9",
+        "score": 0.841
+      },
+      {
+        "id": "https://data.crow.nl/kg/zn/id/Prd_36288497bcf9f167d9b3a11010b662c046ba191f",
+        "score": 0.84
+      }
+    ],
+    "urn:fgoplus:product:4079307": [
+      {
+        "id": "urn:fgoplus:product:3617749",
+        "score": 0.938
+      },
+      {
+        "id": "urn:fgoplus:product:3053614",
+        "score": 0.909
+      },
+      {
+        "id": "urn:fgoplus:product:3633484",
+        "score": 0.897
+      },
+      {
+        "id": "urn:fgoplus:product:3258066",
+        "score": 0.891
+      },
+      {
+        "id": "urn:fgoplus:product:3021500",
+        "score": 0.889
+      },
+      {
+        "id": "urn:fgoplus:product:3126037",
+        "score": 0.889
+      },
+      {
+        "id": "urn:fgoplus:product:3040861",
+        "score": 0.886
+      }
+    ],
+    "urn:fgoplus:product:4113127": [
+      {
+        "id": "urn:fgoplus:product:3021500",
+        "score": 0.959
+      },
+      {
+        "id": "urn:fgoplus:product:3520109",
+        "score": 0.958
+      },
+      {
+        "id": "urn:fgoplus:product:3054839",
+        "score": 0.957
+      },
+      {
+        "id": "urn:fgoplus:product:3040861",
+        "score": 0.945
+      },
+      {
+        "id": "urn:fgoplus:product:3126037",
+        "score": 0.924
+      },
+      {
+        "id": "urn:fgoplus:product:3085542",
+        "score": 0.922
+      },
+      {
+        "id": "urn:fgoplus:product:4129500",
+        "score": 0.921
+      },
+      {
+        "id": "urn:fgoplus:product:3471115",
+        "score": 0.92
+      },
+      {
+        "id": "urn:fgoplus:product:2269428",
+        "score": 0.92
+      },
+      {
+        "id": "urn:fgoplus:product:4138293",
+        "score": 0.918
+      },
+      {
+        "id": "urn:fgoplus:product:3083794",
+        "score": 0.914
+      },
+      {
+        "id": "urn:fgoplus:product:3339286",
+        "score": 0.913
+      },
+      {
+        "id": "urn:fgoplus:product:2712660",
+        "score": 0.911
+      },
+      {
+        "id": "urn:fgoplus:product:3327137",
+        "score": 0.908
+      },
+      {
+        "id": "urn:fgoplus:product:3053614",
+        "score": 0.907
+      },
+      {
+        "id": "urn:fgoplus:product:3258066",
+        "score": 0.906
+      },
+      {
+        "id": "urn:fgoplus:product:3633484",
+        "score": 0.905
+      },
+      {
+        "id": "urn:fgoplus:product:3629720",
+        "score": 0.902
+      },
+      {
+        "id": "urn:fgoplus:product:3139391",
+        "score": 0.902
+      },
+      {
+        "id": "urn:fgoplus:product:3617749",
+        "score": 0.9
+      },
+      {
+        "id": "urn:fgoplus:product:3061514",
+        "score": 0.9
+      }
+    ],
+    "urn:fgoplus:product:4129500": [
+      {
+        "id": "urn:fgoplus:product:3085542",
+        "score": 0.981
+      },
+      {
+        "id": "urn:fgoplus:product:3083794",
+        "score": 0.966
+      },
+      {
+        "id": "urn:fgoplus:product:3139391",
+        "score": 0.951
+      },
+      {
+        "id": "urn:fgoplus:product:4138293",
+        "score": 0.925
+      },
+      {
+        "id": "urn:fgoplus:product:4113127",
+        "score": 0.921
+      },
+      {
+        "id": "urn:fgoplus:product:3339286",
+        "score": 0.918
+      },
+      {
+        "id": "urn:fgoplus:product:3126037",
+        "score": 0.915
+      },
+      {
+        "id": "urn:fgoplus:product:3633484",
+        "score": 0.914
+      },
+      {
+        "id": "urn:fgoplus:product:3053614",
+        "score": 0.912
+      },
+      {
+        "id": "urn:fgoplus:product:2269428",
+        "score": 0.911
+      },
+      {
+        "id": "urn:fgoplus:product:3327137",
+        "score": 0.911
+      },
+      {
+        "id": "urn:fgoplus:product:3054839",
+        "score": 0.909
+      },
+      {
+        "id": "urn:fgoplus:product:3471115",
+        "score": 0.908
+      },
+      {
+        "id": "urn:fgoplus:product:2712660",
+        "score": 0.902
+      },
+      {
+        "id": "urn:fgoplus:product:3040861",
+        "score": 0.902
+      },
+      {
+        "id": "urn:fgoplus:product:3258066",
+        "score": 0.902
+      },
+      {
+        "id": "urn:fgoplus:product:3021500",
+        "score": 0.899
+      },
+      {
+        "id": "urn:fgoplus:product:3617749",
+        "score": 0.898
+      },
+      {
+        "id": "urn:fgoplus:product:3629720",
+        "score": 0.898
+      },
+      {
+        "id": "urn:fgoplus:product:3520109",
+        "score": 0.897
+      },
+      {
+        "id": "urn:fgoplus:product:3061514",
+        "score": 0.897
+      }
+    ],
+    "urn:fgoplus:product:4138293": [
+      {
+        "id": "urn:fgoplus:product:3339286",
+        "score": 0.939
+      },
+      {
+        "id": "urn:fgoplus:product:4129500",
+        "score": 0.925
+      },
+      {
+        "id": "urn:fgoplus:product:3085542",
+        "score": 0.923
+      },
+      {
+        "id": "urn:fgoplus:product:3139391",
+        "score": 0.918
+      },
+      {
+        "id": "urn:fgoplus:product:4113127",
+        "score": 0.918
+      },
+      {
+        "id": "urn:fgoplus:product:3054839",
+        "score": 0.915
+      },
+      {
+        "id": "urn:fgoplus:product:3126037",
+        "score": 0.911
+      },
+      {
+        "id": "urn:fgoplus:product:3633484",
+        "score": 0.91
+      },
+      {
+        "id": "urn:fgoplus:product:3083794",
+        "score": 0.908
+      },
+      {
+        "id": "urn:fgoplus:product:3053614",
+        "score": 0.905
+      },
+      {
+        "id": "urn:fgoplus:product:3021500",
+        "score": 0.9
+      },
+      {
+        "id": "urn:fgoplus:product:3040861",
+        "score": 0.9
+      },
+      {
+        "id": "urn:fgoplus:product:3471115",
+        "score": 0.899
+      },
+      {
+        "id": "urn:fgoplus:product:3327137",
+        "score": 0.899
+      },
+      {
+        "id": "urn:fgoplus:product:2712660",
+        "score": 0.898
+      },
+      {
+        "id": "urn:fgoplus:product:2269428",
+        "score": 0.897
+      },
+      {
+        "id": "urn:fgoplus:product:3061514",
+        "score": 0.894
+      },
+      {
+        "id": "urn:fgoplus:product:3258066",
+        "score": 0.888
+      },
+      {
+        "id": "urn:fgoplus:product:3629720",
+        "score": 0.885
+      },
+      {
+        "id": "urn:fgoplus:product:3520109",
+        "score": 0.884
+      },
+      {
+        "id": "urn:fgoplus:product:3617749",
+        "score": 0.882
       }
     ]
   }
