@@ -46,7 +46,8 @@
     },
     "isTierOf": "schema:isTierOf",
     "hostingOrganization": "schema:hostingOrganization",
-    "disambiguatingDescription": "schema:disambiguatingDescription"
+    "disambiguatingDescription": "schema:disambiguatingDescription",
+    "keywords": "schema:keywords"
   },
   "@graph": [
     {
@@ -121,6 +122,7 @@
       "mpn": "545-1020",
       "gtin": "08712922953143",
       "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "keywords": ["cv-ketel", "gasketel"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
@@ -143,6 +145,7 @@
       "mpn": "545-1220",
       "gtin": "08712922963074",
       "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "keywords": ["cv-ketel", "gasketel"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
@@ -165,6 +168,7 @@
       "mpn": "545-1024",
       "gtin": "08712922953136",
       "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "keywords": ["cv-ketel", "gasketel"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
@@ -187,6 +191,7 @@
       "mpn": "545-1336A",
       "gtin": "08712922140055",
       "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "keywords": ["cv-ketel", "gasketel"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
@@ -209,6 +214,7 @@
       "mpn": "100017684",
       "gtin": "08713809245962",
       "category": ["CV-toestellen", "Gaswandketel (EC010232)"],
+      "keywords": ["cv-ketel", "gasketel"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
@@ -231,6 +237,7 @@
       "mpn": "041207",
       "gtin": "08718556041201",
       "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "keywords": ["cv-ketel", "gasketel"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
@@ -253,6 +260,7 @@
       "mpn": "7618834",
       "gtin": "08713809268237",
       "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "keywords": ["cv-ketel", "gasketel"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
@@ -275,6 +283,7 @@
       "mpn": "545-1624",
       "gtin": "08712922753606",
       "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "keywords": ["cv-ketel", "gasketel"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
@@ -297,6 +306,7 @@
       "mpn": "7608430",
       "gtin": "08713809264772",
       "category": ["CV-toestellen", "Gaswandketel (EC010232)"],
+      "keywords": ["cv-ketel", "gasketel"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
@@ -319,6 +329,7 @@
       "mpn": "041507",
       "gtin": "08718556041508",
       "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "keywords": ["cv-ketel", "gasketel"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
@@ -341,6 +352,7 @@
       "mpn": "041117",
       "gtin": "08718556041119",
       "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "keywords": ["cv-ketel", "gasketel"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
@@ -363,6 +375,7 @@
       "mpn": "7625508",
       "gtin": "08713809270018",
       "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "keywords": ["cv-ketel", "gasketel"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
@@ -385,6 +398,7 @@
       "mpn": "040287",
       "gtin": "08718556040280",
       "category": ["CV-toestellen", "Gaswandketel (EC010232)"],
+      "keywords": ["cv-ketel", "gasketel"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
@@ -407,6 +421,7 @@
       "mpn": "TB4BE30H",
       "gtin": "08719699130463",
       "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "keywords": ["cv-ketel", "gasketel"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
@@ -429,6 +444,7 @@
       "mpn": "0010011708",
       "gtin": "04024074621455",
       "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "keywords": ["cv-ketel", "gasketel"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
@@ -451,6 +467,7 @@
       "mpn": "0010015191",
       "gtin": "04024074700327",
       "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "keywords": ["cv-ketel", "gasketel"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
@@ -473,6 +490,7 @@
       "mpn": "07.36.58.072",
       "gtin": "08713418015741",
       "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "keywords": ["cv-ketel", "gasketel"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
@@ -495,6 +513,7 @@
       "mpn": "0010006142",
       "gtin": "04024074541814",
       "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "keywords": ["cv-ketel", "gasketel"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
@@ -517,6 +536,7 @@
       "mpn": "545-1426",
       "gtin": "08712922995037",
       "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "keywords": ["cv-ketel", "gasketel"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
@@ -539,6 +559,7 @@
       "mpn": "7618902",
       "gtin": "08713809268268",
       "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "keywords": ["cv-ketel", "gasketel"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
@@ -561,6 +582,7 @@
       "mpn": "043327",
       "gtin": "08718556043328",
       "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "keywords": ["cv-ketel", "gasketel"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
@@ -583,6 +605,7 @@
       "mpn": "0010011702",
       "gtin": "04024074621394",
       "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "keywords": ["cv-ketel", "gasketel"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
@@ -605,6 +628,7 @@
       "mpn": "0010007402",
       "gtin": "04024074575857",
       "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "keywords": ["cv-ketel", "gasketel"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"

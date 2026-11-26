@@ -180,13 +180,21 @@ class CatalogSearch {
     this.statusEl.insertAdjacentHTML("beforeend", C.errorHtml(url, err));
   }
 
+  // Groups of results, the group that covers the most query tokens first.
+  // Groups that cover as many tokens keep their order: concepts first.
   apply() {
     const tokens = queryTokens(this.input.value);
     const groups = [];
 
     for (const concept of this.matchedConcepts(tokens)) {
       const hits = this.conceptHits(concept);
-      if (hits.length) groups.push({ heading: concept.label, hits });
+      if (hits.length) {
+        groups.push({
+          heading: concept.label,
+          hits,
+          covered: this.triggeredBy(concept, tokens).length,
+        });
+      }
     }
 
     const products = this.bestProducts(tokens);
@@ -194,19 +202,24 @@ class CatalogSearch {
       groups.push({
         heading: productHeading(products),
         hits: products,
+        covered: products[0].matchCount(tokens),
       });
     }
 
+    groups.sort((a, b) => b.covered - a.covered);
     if (groups.length) this.showGroups(groups);
     else this.showList(tokens);
   }
 
-  matchedConcepts(tokens) {
-    return this.concepts.filter((c) =>
-      tokens.some((t) =>
-        c.triggers.some((trigger) => t.startsWith(trigger.toLowerCase())),
-      ),
+  // The query tokens that start with one of the concept's triggers.
+  triggeredBy(concept, tokens) {
+    return tokens.filter((t) =>
+      concept.triggers.some((trigger) => t.startsWith(trigger.toLowerCase())),
     );
+  }
+
+  matchedConcepts(tokens) {
+    return this.concepts.filter((c) => this.triggeredBy(c, tokens).length);
   }
 
   // The non-product sources about a concept, best matches first.
