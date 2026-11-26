@@ -76,6 +76,11 @@ class Record {
     return 0;
   }
 
+  // The number of tokens that match the record.
+  matchCount(tokens) {
+    return tokens.filter((t) => this.weight(t) > 0).length;
+  }
+
   // Sum of the weights of the tokens. A query with text words only counts
   // when at least one text word matches.
   score(tokens) {
@@ -93,18 +98,54 @@ class Record {
   }
 }
 
-// The words all titles start with, e.g. "HR-wand combiketel Kli-Max" for
-// its tapklasse 3 and tapklasse 4 variants.
-function commonTitle(titles) {
-  let prefix = titles.reduce((p, t) => {
+// The words all strings start with, e.g. "HR-wand combiketel Kli-Max" for
+// its tapklasse 3 and tapklasse 4 variants. Empty when they share no word.
+function commonPrefix(strings) {
+  let prefix = strings.reduce((p, t) => {
     let i = 0;
     while (i < p.length && i < t.length && p[i] === t[i]) i++;
     return p.slice(0, i);
   });
-  const cutsWord = titles.some((t) => /[0-9a-z]/i.test(t.charAt(prefix.length)));
+  const cutsWord = strings.some((t) =>
+    /[0-9a-z]/i.test(t.charAt(prefix.length)),
+  );
   if (cutsWord) prefix = prefix.replace(/[^\s/]*$/, "");
-  prefix = prefix.replace(/[\s/-]+$/, "");
-  return prefix || titles[0];
+  return prefix.replace(/[\s/-]+$/, "");
+}
+
+// The most specific category all products share, without its ETIM code,
+// e.g. "Gaswand Combiketel" or else "CV-toestellen".
+function commonCategory(records) {
+  const categories = records.map((r) =>
+    C.list(r.entry.node.category).map((c) =>
+      C.text(c).replace(/\s*\(EC\d+\)$/, ""),
+    ),
+  );
+  return (
+    categories[0]
+      .slice()
+      .reverse()
+      .find((c) => categories.every((list) => list.includes(c))) || ""
+  );
+}
+
+// The value of a property that all products share, or "".
+function shared(records, property) {
+  const values = records.map((r) => C.text(r.entry.node[property]));
+  return values.every((v) => v === values[0]) ? values[0] : "";
+}
+
+// A heading for a group of products: the longest run of words their titles
+// or models start with, or else the brand or category they share.
+function productHeading(records) {
+  const title = commonPrefix(records.map((r) => r.title));
+  const model = commonPrefix(records.map((r) => C.text(r.entry.node.model)));
+  return (
+    (model.length > title.length ? model : title) ||
+    shared(records, "brand") ||
+    commonCategory(records) ||
+    records[0].title
+  );
 }
 
 class CatalogSearch {
@@ -139,33 +180,46 @@ class CatalogSearch {
     this.statusEl.insertAdjacentHTML("beforeend", C.errorHtml(url, err));
   }
 
+  // Groups of results, the group that covers the most query tokens first.
+  // Groups that cover as many tokens keep their order: concepts first.
   apply() {
     const tokens = queryTokens(this.input.value);
     const groups = [];
 
     for (const concept of this.matchedConcepts(tokens)) {
       const hits = this.conceptHits(concept);
-      if (hits.length) groups.push({ heading: concept.label, hits });
+      if (hits.length) {
+        groups.push({
+          heading: concept.label,
+          hits,
+          covered: this.triggeredBy(concept, tokens).length,
+        });
+      }
     }
 
     const products = this.bestProducts(tokens);
     if (products.length) {
       groups.push({
-        heading: commonTitle(products.map((r) => r.title)),
+        heading: productHeading(products),
         hits: products,
+        covered: products[0].matchCount(tokens),
       });
     }
 
+    groups.sort((a, b) => b.covered - a.covered);
     if (groups.length) this.showGroups(groups);
     else this.showList(tokens);
   }
 
-  matchedConcepts(tokens) {
-    return this.concepts.filter((c) =>
-      tokens.some((t) =>
-        c.triggers.some((trigger) => t.startsWith(trigger.toLowerCase())),
-      ),
+  // The query tokens that start with one of the concept's triggers.
+  triggeredBy(concept, tokens) {
+    return tokens.filter((t) =>
+      concept.triggers.some((trigger) => t.startsWith(trigger.toLowerCase())),
     );
+  }
+
+  matchedConcepts(tokens) {
+    return this.concepts.filter((c) => this.triggeredBy(c, tokens).length);
   }
 
   // The non-product sources about a concept, best matches first.
@@ -182,23 +236,26 @@ class CatalogSearch {
       .map((x) => x.r);
   }
 
-  // The products that share the most query tokens with the query, shortest
-  // title first.
+  // The products that match the most query tokens, best score first and
+  // then shortest title first.
   bestProducts(tokens) {
     let best = 0;
     let hits = [];
     for (const r of this.records) {
       if (!r.isProduct) continue;
-      const s = r.score(tokens);
-      if (s === 0) continue;
-      if (s > best) {
-        best = s;
+      const n = r.matchCount(tokens);
+      if (n === 0 || r.score(tokens) === 0) continue;
+      if (n > best) {
+        best = n;
         hits = [r];
-      } else if (s === best) {
+      } else if (n === best) {
         hits.push(r);
       }
     }
-    return hits.sort((a, b) => a.title.length - b.title.length);
+    return hits.sort(
+      (a, b) =>
+        b.score(tokens) - a.score(tokens) || a.title.length - b.title.length,
+    );
   }
 
   card(r) {
