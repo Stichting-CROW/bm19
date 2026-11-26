@@ -46,5 +46,26 @@
       "assetmanagement",
       "beheersystematiek"
     ]
+  },
+  {
+    "label": "gas- en cv-installaties",
+    "triggers": [
+      "gas",
+      "aardgas",
+      "ketel",
+      "combiketel",
+      "cv-ketel",
+      "cv-toestel",
+      "cv-installatie",
+      "verwarmingsketel",
+      "verwarmingsinstallatie",
+      "inregel"
+    ],
+    "terms": [
+      "gasinstallatie",
+      "verwarmingsinstallatie",
+      "inregelen",
+      "cv-toestel"
+    ]
   }
 ]

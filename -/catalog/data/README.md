@@ -13,6 +13,10 @@ page. When a word in the query starts with one of a concept's `triggers`, the
 page shows a group "Over “label”" with every publication whose title, abstract
 or keywords contain a word starting with one of the concept's `terms`.
 
+Products that match the query form a group of their own. The group that
+covers the most words of the query comes first; on a tie, concepts come
+before products.
+
 # Chapters
 
 A publication's `url` links to the document as a whole. To link straight to a
