@@ -120,7 +120,7 @@
       "model": "Kli-Max HRT 20/22",
       "mpn": "545-1020",
       "gtin": "08712922953143",
-      "category": "Gaswand Combiketel (EC011396)",
+      "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
@@ -142,7 +142,7 @@
       "model": "Kli-Max HRT 20/22 VKK",
       "mpn": "545-1220",
       "gtin": "08712922963074",
-      "category": "Gaswand Combiketel (EC011396)",
+      "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
@@ -164,7 +164,7 @@
       "model": "Kli-Max HRT 24/28",
       "mpn": "545-1024",
       "gtin": "08712922953136",
-      "category": "Gaswand Combiketel (EC011396)",
+      "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
@@ -186,7 +186,425 @@
       "model": "Kli-Max HRT 36/42",
       "mpn": "545-1336A",
       "gtin": "08712922140055",
-      "category": "Gaswand Combiketel (EC011396)",
+      "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "isRelatedTo": [
+        {
+          "id": "https://www.fgoplus.nl/"
+        },
+        {
+          "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021"
+        },
+        {
+          "id": "urn:isso:publicatie:kleintje-gas"
+        }
+      ]
+    },
+    {
+      "id": "urn:fgoplus:product:3339286",
+      "type": "Product",
+      "name": "Calora Tower Gas 35 S",
+      "url": "https://www.fgoplus.nl/Boiler/Details?productId=3339286",
+      "brand": "Remeha",
+      "model": "Calora Tower",
+      "mpn": "100017684",
+      "gtin": "08713809245962",
+      "category": ["CV-toestellen", "Gaswandketel (EC010232)"],
+      "isRelatedTo": [
+        {
+          "id": "https://www.fgoplus.nl/"
+        },
+        {
+          "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021"
+        },
+        {
+          "id": "urn:isso:publicatie:kleintje-gas"
+        }
+      ]
+    },
+    {
+      "id": "urn:fgoplus:product:3520109",
+      "type": "Product",
+      "name": "Kombi Kompakt HReco 30 concentrisch 60/100",
+      "url": "https://www.fgoplus.nl/Boiler/Details?productId=3520109",
+      "brand": "Intergas",
+      "model": "Kombi Kompakt HReco 30",
+      "mpn": "041207",
+      "gtin": "08718556041201",
+      "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "isRelatedTo": [
+        {
+          "id": "https://www.fgoplus.nl/"
+        },
+        {
+          "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021"
+        },
+        {
+          "id": "urn:isso:publicatie:kleintje-gas"
+        }
+      ]
+    },
+    {
+      "id": "urn:fgoplus:product:3617749",
+      "type": "Product",
+      "name": "Remeha Tzerra M 24c Plus CW3 exc. 80-80",
+      "url": "https://www.fgoplus.nl/Boiler/Details?productId=3617749",
+      "brand": "Remeha",
+      "model": "Tzerra 24C",
+      "mpn": "7618834",
+      "gtin": "08713809268237",
+      "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "isRelatedTo": [
+        {
+          "id": "https://www.fgoplus.nl/"
+        },
+        {
+          "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021"
+        },
+        {
+          "id": "urn:isso:publicatie:kleintje-gas"
+        }
+      ]
+    },
+    {
+      "id": "urn:fgoplus:product:3629720",
+      "type": "Product",
+      "name": "HR-combiketel Aqua-Max DV tapklasse 4 zwart",
+      "url": "https://www.fgoplus.nl/Boiler/Details?productId=3629720",
+      "brand": "Itho Daalderop",
+      "model": "Aqua-Max AM HR24CW4",
+      "mpn": "545-1624",
+      "gtin": "08712922753606",
+      "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "isRelatedTo": [
+        {
+          "id": "https://www.fgoplus.nl/"
+        },
+        {
+          "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021"
+        },
+        {
+          "id": "urn:isso:publicatie:kleintje-gas"
+        }
+      ]
+    },
+    {
+      "id": "urn:fgoplus:product:3633484",
+      "type": "Product",
+      "name": "Remeha Quinta 45 Pro met A-pomp",
+      "url": "https://www.fgoplus.nl/Boiler/Details?productId=3633484",
+      "brand": "Remeha",
+      "model": "Quinta 45S",
+      "mpn": "7608430",
+      "gtin": "08713809264772",
+      "category": ["CV-toestellen", "Gaswandketel (EC010232)"],
+      "isRelatedTo": [
+        {
+          "id": "https://www.fgoplus.nl/"
+        },
+        {
+          "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021"
+        },
+        {
+          "id": "urn:isso:publicatie:kleintje-gas"
+        }
+      ]
+    },
+    {
+      "id": "urn:fgoplus:product:3021500",
+      "type": "Product",
+      "name": "Kombi Kompakt HReco 36 2-pijps 80/80",
+      "url": "https://www.fgoplus.nl/Boiler/Details?productId=3021500",
+      "brand": "Intergas",
+      "model": "Kombi Kompakt HReco 36",
+      "mpn": "041507",
+      "gtin": "08718556041508",
+      "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "isRelatedTo": [
+        {
+          "id": "https://www.fgoplus.nl/"
+        },
+        {
+          "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021"
+        },
+        {
+          "id": "urn:isso:publicatie:kleintje-gas"
+        }
+      ]
+    },
+    {
+      "id": "urn:fgoplus:product:3040861",
+      "type": "Product",
+      "name": "Kombi Kompakt HReco 24 2-pijps TSK/RGK",
+      "url": "https://www.fgoplus.nl/Boiler/Details?productId=3040861",
+      "brand": "Intergas",
+      "model": "Kombi Kompakt HReco 24",
+      "mpn": "041117",
+      "gtin": "08718556041119",
+      "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "isRelatedTo": [
+        {
+          "id": "https://www.fgoplus.nl/"
+        },
+        {
+          "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021"
+        },
+        {
+          "id": "urn:isso:publicatie:kleintje-gas"
+        }
+      ]
+    },
+    {
+      "id": "urn:fgoplus:product:3053614",
+      "type": "Product",
+      "name": "Remeha Avanta 35C CW5 exc. 80-80",
+      "url": "https://www.fgoplus.nl/Boiler/Details?productId=3053614",
+      "brand": "Remeha",
+      "model": "Avanta 35C",
+      "mpn": "7625508",
+      "gtin": "08713809270018",
+      "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "isRelatedTo": [
+        {
+          "id": "https://www.fgoplus.nl/"
+        },
+        {
+          "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021"
+        },
+        {
+          "id": "urn:isso:publicatie:kleintje-gas"
+        }
+      ]
+    },
+    {
+      "id": "urn:fgoplus:product:3054839",
+      "type": "Product",
+      "name": "Kompakt Solo HRE 12 A",
+      "url": "https://www.fgoplus.nl/Boiler/Details?productId=3054839",
+      "brand": "Intergas",
+      "model": "Kompakt Solo HRE 12 A",
+      "mpn": "040287",
+      "gtin": "08718556040280",
+      "category": ["CV-toestellen", "Gaswandketel (EC010232)"],
+      "isRelatedTo": [
+        {
+          "id": "https://www.fgoplus.nl/"
+        },
+        {
+          "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021"
+        },
+        {
+          "id": "urn:isso:publicatie:kleintje-gas"
+        }
+      ]
+    },
+    {
+      "id": "urn:fgoplus:product:3061514",
+      "type": "Product",
+      "name": "HR-combiketel E264C HP CW4 (voor CLV)",
+      "url": "https://www.fgoplus.nl/Boiler/Details?productId=3061514",
+      "brand": "ATAG",
+      "model": "E-Serie E264C HP",
+      "mpn": "TB4BE30H",
+      "gtin": "08719699130463",
+      "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "isRelatedTo": [
+        {
+          "id": "https://www.fgoplus.nl/"
+        },
+        {
+          "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021"
+        },
+        {
+          "id": "urn:isso:publicatie:kleintje-gas"
+        }
+      ]
+    },
+    {
+      "id": "urn:fgoplus:product:3083794",
+      "type": "Product",
+      "name": "VHR NL CW4/5-3 EXP",
+      "url": "https://www.fgoplus.nl/Boiler/Details?productId=3083794",
+      "brand": "Vaillant",
+      "model": "EcoTEC Pure/Classic",
+      "mpn": "0010011708",
+      "gtin": "04024074621455",
+      "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "isRelatedTo": [
+        {
+          "id": "https://www.fgoplus.nl/"
+        },
+        {
+          "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021"
+        },
+        {
+          "id": "urn:isso:publicatie:kleintje-gas"
+        }
+      ]
+    },
+    {
+      "id": "urn:fgoplus:product:3085542",
+      "type": "Product",
+      "name": "VHR NL CW5/5-3",
+      "url": "https://www.fgoplus.nl/Boiler/Details?productId=3085542",
+      "brand": "Vaillant",
+      "model": "EcoTEC Pure/Classic",
+      "mpn": "0010015191",
+      "gtin": "04024074700327",
+      "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "isRelatedTo": [
+        {
+          "id": "https://www.fgoplus.nl/"
+        },
+        {
+          "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021"
+        },
+        {
+          "id": "urn:isso:publicatie:kleintje-gas"
+        }
+      ]
+    },
+    {
+      "id": "urn:fgoplus:product:3126037",
+      "type": "Product",
+      "name": "COMBIFORT 24/80+",
+      "url": "https://www.fgoplus.nl/Boiler/Details?productId=3126037",
+      "brand": "Itho Daalderop",
+      "model": "Combifort CCB80",
+      "mpn": "07.36.58.072",
+      "gtin": "08713418015741",
+      "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "isRelatedTo": [
+        {
+          "id": "https://www.fgoplus.nl/"
+        },
+        {
+          "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021"
+        },
+        {
+          "id": "urn:isso:publicatie:kleintje-gas"
+        }
+      ]
+    },
+    {
+      "id": "urn:fgoplus:product:3139391",
+      "type": "Product",
+      "name": "VC NL 255/4-7 L",
+      "url": "https://www.fgoplus.nl/Boiler/Details?productId=3139391",
+      "brand": "Vaillant",
+      "model": "VR Ketel ThermoCOMPACT",
+      "mpn": "0010006142",
+      "gtin": "04024074541814",
+      "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "isRelatedTo": [
+        {
+          "id": "https://www.fgoplus.nl/"
+        },
+        {
+          "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021"
+        },
+        {
+          "id": "urn:isso:publicatie:kleintje-gas"
+        }
+      ]
+    },
+    {
+      "id": "urn:fgoplus:product:3258066",
+      "type": "Product",
+      "name": "HR combiketel Kli-Max 2 CW4 in combinatie met VKK-HB",
+      "url": "https://www.fgoplus.nl/Boiler/Details?productId=3258066",
+      "brand": "Itho Daalderop",
+      "model": "Kli-Max 2 HR24 CW4 VKK-HB",
+      "mpn": "545-1426",
+      "gtin": "08712922995037",
+      "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "isRelatedTo": [
+        {
+          "id": "https://www.fgoplus.nl/"
+        },
+        {
+          "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021"
+        },
+        {
+          "id": "urn:isso:publicatie:kleintje-gas"
+        }
+      ]
+    },
+    {
+      "id": "urn:fgoplus:product:4079307",
+      "type": "Product",
+      "name": "Remeha Tzerra M 28c Plus CW4 Combi Comfortsysteem met iSense exc.80-80",
+      "url": "https://www.fgoplus.nl/Boiler/Details?productId=4079307",
+      "brand": "Remeha",
+      "model": "Tzerra 28C",
+      "mpn": "7618902",
+      "gtin": "08713809268268",
+      "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "isRelatedTo": [
+        {
+          "id": "https://www.fgoplus.nl/"
+        },
+        {
+          "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021"
+        },
+        {
+          "id": "urn:isso:publicatie:kleintje-gas"
+        }
+      ]
+    },
+    {
+      "id": "urn:fgoplus:product:4113127",
+      "type": "Product",
+      "name": "Kombi Kompakt HRE 36/30 A",
+      "url": "https://www.fgoplus.nl/Boiler/Details?productId=4113127",
+      "brand": "Intergas",
+      "model": "Kombi Kompakt HRE 36/30 A",
+      "mpn": "043327",
+      "gtin": "08718556043328",
+      "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "isRelatedTo": [
+        {
+          "id": "https://www.fgoplus.nl/"
+        },
+        {
+          "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021"
+        },
+        {
+          "id": "urn:isso:publicatie:kleintje-gas"
+        }
+      ]
+    },
+    {
+      "id": "urn:fgoplus:product:4129500",
+      "type": "Product",
+      "name": "VHR NL 25-30/5-5",
+      "url": "https://www.fgoplus.nl/Boiler/Details?productId=4129500",
+      "brand": "Vaillant",
+      "model": "EcoTEC Plus Combi",
+      "mpn": "0010011702",
+      "gtin": "04024074621394",
+      "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
+      "isRelatedTo": [
+        {
+          "id": "https://www.fgoplus.nl/"
+        },
+        {
+          "id": "https://bouwzo.nl/reader/publicatie/kleintje-inregelen/2021"
+        },
+        {
+          "id": "urn:isso:publicatie:kleintje-gas"
+        }
+      ]
+    },
+    {
+      "id": "urn:fgoplus:product:4138293",
+      "type": "Product",
+      "name": "Thermogrand 65S",
+      "url": "https://www.fgoplus.nl/Boiler/Details?productId=4138293",
+      "brand": "AWB",
+      "model": "ThermGrand",
+      "mpn": "0010007402",
+      "gtin": "04024074575857",
+      "category": ["CV-toestellen", "Gaswand Combiketel (EC011396)"],
       "isRelatedTo": [
         {
           "id": "https://www.fgoplus.nl/"
