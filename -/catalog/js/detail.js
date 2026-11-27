@@ -80,7 +80,9 @@ class DetailPage {
       const host = text(program.hostingOrganization) || publisherName(work);
       body =
         `Word lid van ${esc(host)} en neem daarna een abonnement op ${esc(name)}.` +
-        (program.url ? ` ${externalLink(text(program.url), "Lid worden", "inline")}` : "");
+        (program.url
+          ? ` ${externalLink(text(program.url), "Lid worden", "inline")}`
+          : "");
     } else if (anyMembers) {
       body = `Ook zonder lidmaatschap kun je een abonnement op ${esc(name)} nemen.`;
     }
@@ -134,7 +136,11 @@ class DetailPage {
         ${ctaHref ? externalLink(ctaHref, ctaLabel, "button button-primary") : '<span class="unknown">Geen bronlink</span>'}
         ${
           sourceUrl && sourceUrl !== ctaHref
-            ? externalLink(sourceUrl, `Lees direct bij ${entry.source}`, "button button-secondary")
+            ? externalLink(
+                sourceUrl,
+                `Lees direct bij ${entry.source}`,
+                "button button-secondary",
+              )
             : ""
         }
       </p>
@@ -164,14 +170,14 @@ class DetailPage {
     return (
       this.cardSection(
         "related refers",
-        "Referereert aan",
-        `Werken waar ${title} naar verwijst.`,
+        "Referenties",
+        `Werken waar <cite>${title}</cite> naar verwijst of omgekeerd, die naar <cite>${title}</cite> verwijzen.`,
         refersTo,
       ) +
       this.cardSection(
         "related",
         "Ook relevant",
-        `Vergelijkbare publicaties bij ${title}.`,
+        `Vergelijkbare publicaties bij <cite>${title}</cite>.`,
         similar,
       )
     );
