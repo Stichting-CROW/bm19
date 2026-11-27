@@ -7,6 +7,7 @@ const endpoints = [
   { url: "data/crow.json", source: "CROW" },
   { url: "data/bouwzo.json", source: "BouwZo" },
   { url: "data/fgoplus.json", source: "FGOPlus" },
+  { url: "data/nen.json", source: "NEN" },
 ];
 
 // Written by tools/similar; maps each id to its most similar entries.
@@ -191,8 +192,14 @@ function buildReferences(nodes) {
       add(id, to);
       add(to, id);
     }
-    refIds(entry.node.mentions).forEach((to) => add(id, to));
-    refIds(entry.node.citation).forEach((to) => add(id, to));
+    for (const to of refIds(entry.node.mentions)) {
+      add(id, to);
+      add(to, id);
+    }
+    for (const to of refIds(entry.node.citation)) {
+      add(id, to);
+      add(to, id);
+    }
   }
   return refs;
 }

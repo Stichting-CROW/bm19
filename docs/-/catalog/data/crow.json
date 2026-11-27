@@ -51,6 +51,10 @@
       "@id": "schema:citation",
       "@type": "@id"
     },
+    "mentions": {
+      "@id": "schema:mentions",
+      "@type": "@id"
+    },
     "acquireLicensePage": "schema:acquireLicensePage",
     "educationalAlignment": {
       "@id": "schema:educationalAlignment",
@@ -89,9 +93,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Werk in uitvoering"
-      ],
+      "keywords": ["Werk in uitvoering"],
       "name": "Werk in Uitvoering 2020 - Serie",
       "offers": {
         "type": "Offer",
@@ -114,9 +116,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Weloverwogen over water",
       "offers": {
         "type": "Offer",
@@ -139,9 +139,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978 90 6628 710 5",
-      "keywords": [
-        "Kwaliteit fysieke leefomgeving"
-      ],
+      "keywords": ["Kwaliteit fysieke leefomgeving"],
       "name": "Kwaliteitscatalogus openbare ruimte 2023",
       "offers": {
         "type": "Offer",
@@ -164,10 +162,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978-90-6628-658-0",
-      "keywords": [
-        "Werk in uitvoering",
-        "Kabels en leidingen"
-      ],
+      "keywords": ["Werk in uitvoering", "Kabels en leidingen"],
       "name": "Schade voorkomen aan kabels en leidingen",
       "offers": {
         "type": "Offer",
@@ -190,9 +185,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadpublicatie 20: Umbrella branding in het fietsbeleid",
       "offers": {
         "type": "Offer",
@@ -215,10 +208,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Brede welvaart",
-        "Toegankelijkheid"
-      ],
+      "keywords": ["Brede welvaart", "Toegankelijkheid"],
       "name": "Wijkscans voor ouderen",
       "offers": {
         "type": "Offer",
@@ -241,9 +231,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadpublicatie 15: De invloed van het weer op het fietsgebruik en het aantal fietsslachtoffers",
       "offers": {
         "type": "Offer",
@@ -266,8 +254,52 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "9789066286719",
-      "keywords": [
-        "Bruggen"
+      "keywords": ["Bruggen"],
+      "mentions": [
+        "https://nen.nl/id/gbv-1950",
+        "https://nen.nl/id/gbv-1962",
+        "https://nen.nl/id/nen-en-206-1",
+        "https://nen.nl/id/nen-en-338",
+        "https://nen.nl/id/nen-en-384",
+        "https://nen.nl/id/nen-en-583-6",
+        "https://nen.nl/id/nen-en-1052-1",
+        "https://nen.nl/id/nen-en-1052-2",
+        "https://nen.nl/id/nen-en-1052-3",
+        "https://nen.nl/id/nen-en-1052-5",
+        "https://nen.nl/id/nen-en-1330-8",
+        "https://nen.nl/id/nen-en-1912",
+        "https://nen.nl/id/nen-en-1990",
+        "https://nen.nl/id/nen-en-1991",
+        "https://nen.nl/id/nen-en-1992",
+        "https://nen.nl/id/nen-en-1993",
+        "https://nen.nl/id/nen-en-1994",
+        "https://nen.nl/id/nen-en-1995",
+        "https://nen.nl/id/nen-en-1996",
+        "https://nen.nl/id/nen-en-1997",
+        "https://nen.nl/id/nen-en-10351",
+        "https://nen.nl/id/nen-en-12504-1",
+        "https://nen.nl/id/nen-en-12390-3",
+        "https://nen.nl/id/nen-en-12390-6",
+        "https://nen.nl/id/nen-en-14080",
+        "https://nen.nl/id/nen-en-15617",
+        "https://nen.nl/id/nen-2767-4",
+        "https://nen.nl/id/nen-3237",
+        "https://nen.nl/id/nen-5461",
+        "https://nen.nl/id/nen-5466",
+        "https://nen.nl/id/nen-5493",
+        "https://nen.nl/id/nen-5499",
+        "https://nen.nl/id/nen-6720",
+        "https://nen.nl/id/nen-6787",
+        "https://nen.nl/id/nen-8700",
+        "https://nen.nl/id/nen-8701",
+        "https://nen.nl/id/nen-8707",
+        "https://nen.nl/id/nen-en-iso-148-1",
+        "https://nen.nl/id/nen-en-iso-3452-4",
+        "https://nen.nl/id/nen-en-iso-6506-1",
+        "https://nen.nl/id/nen-en-iso-6892-1",
+        "https://nen.nl/id/nen-en-iso-10863",
+        "https://nen.nl/id/nen-en-iso-14688-1",
+        "https://nen.nl/id/nen-en-iso-15630-1"
       ],
       "name": "Constructieve veiligheid bestaande bruggen en viaducten van decentrale overheden",
       "offers": {
@@ -291,10 +323,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Slimme duurzame verstedelijking",
-        "Brede welvaart"
-      ],
+      "keywords": ["Slimme duurzame verstedelijking", "Brede welvaart"],
       "name": "Mobiliteit en Omgevingswet",
       "offers": {
         "type": "Offer",
@@ -345,9 +374,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978-90-6628-706-8",
-      "keywords": [
-        "Verontreinigde bodem"
-      ],
+      "keywords": ["Verontreinigde bodem"],
       "name": "Werken in en met verontreinigde bodem",
       "offers": {
         "type": "Offer",
@@ -370,9 +397,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "CO2-uitstoot bussenpark weergegeven in factsheet",
       "offers": {
         "type": "Offer",
@@ -395,10 +420,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Wegontwerp en weginrichting",
-        "Smart Mobility"
-      ],
+      "keywords": ["Wegontwerp en weginrichting", "Smart Mobility"],
       "name": "Real Time Traffic Information, duiding voor wegbeheerders",
       "offers": {
         "type": "Offer",
@@ -421,9 +443,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadnotitie: Bouwstenen voor een comfortabel en vergevingsgezind fietspad",
       "offers": {
         "type": "Offer",
@@ -446,10 +466,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Kerende constructies",
-        "Funderingen en trillingen"
-      ],
+      "keywords": ["Kerende constructies", "Funderingen en trillingen"],
       "name": "CROW-CUR Rapport 213:2022",
       "offers": {
         "type": "Offer",
@@ -472,9 +489,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Klanttevredenheid zero-emissie openbaar vervoer",
       "offers": {
         "type": "Offer",
@@ -497,9 +512,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Mengen fietsers en voetgangers?",
       "offers": {
         "type": "Offer",
@@ -522,9 +535,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Smart Mobility"
-      ],
+      "keywords": ["Smart Mobility"],
       "name": "Afweegkader smart-mobilityservices voor wegbeheerders",
       "offers": {
         "type": "Offer",
@@ -547,9 +558,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Monitor zero-emissiebussen 1 juli 2026",
       "offers": {
         "type": "Offer",
@@ -572,9 +581,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "UAV en RAW"
-      ],
+      "keywords": ["UAV en RAW"],
       "name": "Model Agreement UAV-GC 2005 and General Explanatory Notes",
       "offers": {
         "type": "Offer",
@@ -597,10 +604,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Slimme duurzame verstedelijking",
-        "Parkeren"
-      ],
+      "keywords": ["Slimme duurzame verstedelijking", "Parkeren"],
       "name": "Wikken en Wegen van keuzen voor parkeren, casus Maasterras in Dordrecht",
       "offers": {
         "type": "Offer",
@@ -623,9 +627,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Geluidssignalen bij elektrische bussen",
       "offers": {
         "type": "Offer",
@@ -648,10 +650,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Wegontwerp en weginrichting",
-        "Smart Mobility"
-      ],
+      "keywords": ["Wegontwerp en weginrichting", "Smart Mobility"],
       "name": "Richtlijn en Leidraad voor multimodale netwerkkaders",
       "offers": {
         "type": "Offer",
@@ -674,9 +673,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Inventarisatie van veiligheidsaspecten zero-emissiebussen",
       "offers": {
         "type": "Offer",
@@ -699,9 +696,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "90 6628 435 8",
-      "keywords": [
-        "Assetmanagement"
-      ],
+      "keywords": ["Assetmanagement"],
       "name": "BESCON",
       "offers": {
         "type": "Offer",
@@ -724,9 +719,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Profiel vrije ruimte van fietsers (Fietsberaadnotitie)",
       "offers": {
         "type": "Offer",
@@ -749,9 +742,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Breedtetool Fietspaden",
       "offers": {
         "type": "Offer",
@@ -801,9 +792,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadnotitie: Eisen aan deelmobiliteit in de Verenigde Staten",
       "offers": {
         "type": "Offer",
@@ -826,9 +815,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Het vernieuwde VeiligStallen.nl - Handleiding voor gemeenten",
       "offers": {
         "type": "Offer",
@@ -851,10 +838,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Assetmanagement",
-        "Voetganger"
-      ],
+      "keywords": ["Assetmanagement", "Voetganger"],
       "name": "Voetgangersvriendelijk beheer openbare ruimte",
       "offers": {
         "type": "Offer",
@@ -877,9 +861,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "CROW publicatie 126A. Fietsoversteken op rotondes",
       "offers": {
         "type": "Offer",
@@ -928,10 +910,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "9789066286849",
-      "keywords": [
-        "Bruggen",
-        "Kerende constructies"
-      ],
+      "keywords": ["Bruggen", "Kerende constructies"],
       "name": "Inspectie en advies civiele kunstwerken",
       "offers": {
         "type": "Offer",
@@ -954,9 +933,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Kwaliteit fysieke leefomgeving"
-      ],
+      "keywords": ["Kwaliteit fysieke leefomgeving"],
       "name": "Sociale veiligheid in de openbare ruimte",
       "offers": {
         "type": "Offer",
@@ -979,9 +956,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978 90 6628 700 6",
-      "keywords": [
-        "Beton en betonconstructies"
-      ],
+      "keywords": ["Beton en betonconstructies"],
       "name": "CROW-CUR Aanbeveling 48:2022",
       "offers": {
         "type": "Offer",
@@ -1004,10 +979,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Wegontwerp en weginrichting",
-        "Smart Mobility"
-      ],
+      "keywords": ["Wegontwerp en weginrichting", "Smart Mobility"],
       "name": "Verkenning Wegenclassificatie in relatie tot Automated Driving Systems (ADS)",
       "offers": {
         "type": "Offer",
@@ -1053,9 +1025,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Wegontwerp en weginrichting"
-      ],
+      "keywords": ["Wegontwerp en weginrichting"],
       "name": "Discussienotitie Het Voorrangsplein, een nieuw kruispunttype",
       "offers": {
         "type": "Offer",
@@ -1078,9 +1048,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Beton en betonconstructies"
-      ],
+      "keywords": ["Beton en betonconstructies"],
       "name": "Recommendations and Guidelines for Embedded Rail Systems",
       "offers": {
         "type": "Offer",
@@ -1103,9 +1071,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Toegankelijke reisinformatie en reisinformatie over toegankelijkheid",
       "offers": {
         "type": "Offer",
@@ -1128,10 +1094,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978 90 6628 698 6",
-      "keywords": [
-        "Beton en betonconstructies",
-        "Kerende constructies"
-      ],
+      "keywords": ["Beton en betonconstructies", "Kerende constructies"],
       "name": "CROW-CUR Richtlijn 2:2021",
       "offers": {
         "type": "Offer",
@@ -1154,9 +1117,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Duurzame mobiliteit"],
       "name": "Impact van mobiliteitstransitie",
       "offers": {
         "type": "Offer",
@@ -1179,9 +1140,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978 90 6628 636 8",
-      "keywords": [
-        "Funderingen en trillingen"
-      ],
+      "keywords": ["Funderingen en trillingen"],
       "name": "Handboek funderingsmaterialen in de wegenbouw",
       "offers": {
         "type": "Offer",
@@ -1204,9 +1163,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Ontwerpwijzer fietsverkeer",
       "offers": {
         "type": "Offer",
@@ -1229,9 +1186,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Asfaltverhardingen"
-      ],
+      "keywords": ["Asfaltverhardingen"],
       "name": "CROW Richtlijn Warm Mix Asfalt v1.01",
       "offers": {
         "type": "Offer",
@@ -1254,9 +1209,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Eerste evaluatie E-kluizen Zeist",
       "offers": {
         "type": "Offer",
@@ -1279,10 +1232,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Wegontwerp en weginrichting",
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Wegontwerp en weginrichting", "Openbaar vervoer"],
       "name": "Handreiking besteksteksten OVpay",
       "offers": {
         "type": "Offer",
@@ -1305,9 +1255,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadpublicatie 6: Fietsstraten in hoofdfietsroutes - Toepassingen in de praktijk",
       "offers": {
         "type": "Offer",
@@ -1330,11 +1278,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets",
-        "Smart Mobility",
-        "Voetganger"
-      ],
+      "keywords": ["Fiets", "Smart Mobility", "Voetganger"],
       "name": "Slim afwikkelen fietsers en voetgangers op geregelde kruispunten",
       "offers": {
         "type": "Offer",
@@ -1357,9 +1301,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Monitor Toekomstbeeld OV 2040, 4-meting",
       "offers": {
         "type": "Offer",
@@ -1382,9 +1324,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Funderingen en trillingen"
-      ],
+      "keywords": ["Funderingen en trillingen"],
       "name": "Handboek Funderingen - Deel B",
       "offers": {
         "type": "Offer",
@@ -1407,9 +1347,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Aanbesteden"
-      ],
+      "keywords": ["Aanbesteden"],
       "name": "Leidraad Schoon en Emissieloos Bouwen in de aanbesteding",
       "offers": {
         "type": "Offer",
@@ -1432,9 +1370,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadpublicatie 19: Samen werken aan een veilige fietsomgeving",
       "offers": {
         "type": "Offer",
@@ -1457,10 +1393,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Wegontwerp en weginrichting",
-        "Smart Mobility"
-      ],
+      "keywords": ["Wegontwerp en weginrichting", "Smart Mobility"],
       "name": "Aan de slag met Toekomstvaste inrichting van wegen",
       "offers": {
         "type": "Offer",
@@ -1483,9 +1416,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Innovatieve meting klanttevredenheid ov-reizigers tijdens corona",
       "offers": {
         "type": "Offer",
@@ -1508,10 +1439,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Verkeersveiligheid",
-        "Verkeerseducatie en gedrag"
-      ],
+      "keywords": ["Verkeersveiligheid", "Verkeerseducatie en gedrag"],
       "name": "Checklist verkeerseducatie",
       "offers": {
         "type": "Offer",
@@ -1534,9 +1462,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978 9066285873",
-      "keywords": [
-        "Assetmanagement"
-      ],
+      "keywords": ["Assetmanagement"],
       "name": "Handboek visuele inspectie 2011",
       "offers": {
         "type": "Offer",
@@ -1559,9 +1485,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Beton en betonconstructies"
-      ],
+      "keywords": ["Beton en betonconstructies"],
       "name": "Handboek inspectie beton",
       "offers": {
         "type": "Offer",
@@ -1584,9 +1508,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Kerende constructies"
-      ],
+      "keywords": ["Kerende constructies"],
       "name": "CUR Rapport 232 - Falende constructies",
       "offers": {
         "type": "Offer",
@@ -1609,10 +1531,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets",
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Fiets", "Duurzame mobiliteit"],
       "name": "Buitenmodelfietsen in stationsstallingen",
       "offers": {
         "type": "Offer",
@@ -1635,10 +1554,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Toegankelijkheid",
-        "Voetganger"
-      ],
+      "keywords": ["Toegankelijkheid", "Voetganger"],
       "name": "Toegankelijkheid en Omgevingswet, kansen voor inclusiviteit",
       "offers": {
         "type": "Offer",
@@ -1661,10 +1577,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets",
-        "Parkeren"
-      ],
+      "keywords": ["Fiets", "Parkeren"],
       "name": "Handreiking brom- en snorfietsparkeren",
       "offers": {
         "type": "Offer",
@@ -1687,9 +1600,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Smart Mobility"
-      ],
+      "keywords": ["Smart Mobility"],
       "name": "iBedienfilosofie: landelijke standaard 3.0",
       "offers": {
         "type": "Offer",
@@ -1712,10 +1623,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets",
-        "Toegankelijkheid"
-      ],
+      "keywords": ["Fiets", "Toegankelijkheid"],
       "name": "Checklist inpandige fietsenstallingen",
       "offers": {
         "type": "Offer",
@@ -1738,9 +1646,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Kerende constructies"
-      ],
+      "keywords": ["Kerende constructies"],
       "name": "Standaard UitwisselingsFormaat voor globale visuele inspectiebestanden (versie 2.0)",
       "offers": {
         "type": "Offer",
@@ -1763,9 +1669,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Duurzame mobiliteit"],
       "name": "Leidraad Multimodale Netwerkkaders - update 2023",
       "offers": {
         "type": "Offer",
@@ -1788,9 +1692,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Notitie - Stedelijke Mobiliteit ten tijde van COVID-19",
       "offers": {
         "type": "Offer",
@@ -1813,9 +1715,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "BAZEB: 10 jaar onderweg",
       "offers": {
         "type": "Offer",
@@ -1838,9 +1738,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "OV-Klantenbarometer 2019",
       "offers": {
         "type": "Offer",
@@ -1863,9 +1761,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "OV-Klantenbarometer 2024",
       "offers": {
         "type": "Offer",
@@ -1888,10 +1784,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978 90 6628 691 7",
-      "keywords": [
-        "Beton en betonconstructies",
-        "Kerende constructies"
-      ],
+      "keywords": ["Beton en betonconstructies", "Kerende constructies"],
       "name": "CROW-CUR Aanbeveling 24:2021",
       "offers": {
         "type": "Offer",
@@ -1914,9 +1807,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Checklist indoor bicycle parking",
       "offers": {
         "type": "Offer",
@@ -1939,10 +1830,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Beton en betonconstructies",
-        "Kerende constructies"
-      ],
+      "keywords": ["Beton en betonconstructies", "Kerende constructies"],
       "name": "CUR-Aanbeveling 100 (gedrukte versie)",
       "offers": {
         "type": "Offer",
@@ -1965,9 +1853,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Discussienotitie: Ontwerpaanbevelingen fietspad van de toekomst",
       "offers": {
         "type": "Offer",
@@ -1990,9 +1876,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Parkeren"
-      ],
+      "keywords": ["Parkeren"],
       "name": "Leidraad parkeren bij knooppunten en mobiliteitshubs",
       "offers": {
         "type": "Offer",
@@ -2015,9 +1899,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Ontmoetingenvoorspeller voor gemengde profielen",
       "offers": {
         "type": "Offer",
@@ -2040,9 +1922,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Rationeel beheer van fietspaden",
       "offers": {
         "type": "Offer",
@@ -2065,11 +1945,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Brede welvaart",
-        "Fiets",
-        "Parkeren"
-      ],
+      "keywords": ["Brede welvaart", "Fiets", "Parkeren"],
       "name": "Parkeernormen en duurzame gebiedsontwikkeling",
       "offers": {
         "type": "Offer",
@@ -2092,11 +1968,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978 90 6628 570 5",
-      "keywords": [
-        "Aanbesteden",
-        "Samenwerken in projecten",
-        "UAVgc"
-      ],
+      "keywords": ["Aanbesteden", "Samenwerken in projecten", "UAVgc"],
       "name": "Effectief omgaan met risico's",
       "offers": {
         "type": "Offer",
@@ -2119,9 +1991,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Kerende constructies"
-      ],
+      "keywords": ["Kerende constructies"],
       "name": "CROW-CUR Prestatie-eisen aan gegoten dekvloeren mbt aan te brengen vloerafwerkingen",
       "offers": {
         "type": "Offer",
@@ -2144,10 +2014,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Bruggen",
-        "Assetmanagement"
-      ],
+      "keywords": ["Bruggen", "Assetmanagement"],
       "name": "Handboek Inspectie Opleggingen",
       "offers": {
         "type": "Offer",
@@ -2170,10 +2037,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Thema overstijgend",
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Thema overstijgend", "Openbaar vervoer"],
       "name": "KpVV-jaarprogramma 2023, zeven integrale thema's",
       "offers": {
         "type": "Offer",
@@ -2196,10 +2060,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Toegankelijkheid",
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Toegankelijkheid", "Openbaar vervoer"],
       "name": "Update Factsheets Toegankelijkheid in het openbaar vervoer",
       "offers": {
         "type": "Offer",
@@ -2222,10 +2083,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets",
-        "Asfaltverhardingen"
-      ],
+      "keywords": ["Fiets", "Asfaltverhardingen"],
       "name": "Rood asfalt op fietspaden",
       "offers": {
         "type": "Offer",
@@ -2274,9 +2132,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Beton en betonconstructies"
-      ],
+      "keywords": ["Beton en betonconstructies"],
       "name": "Verkennend onderzoek naar betonaantasting in combinatie met mosaangroei",
       "offers": {
         "type": "Offer",
@@ -2299,9 +2155,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978 90 6628 711 2",
-      "keywords": [
-        "Beton en betonconstructies"
-      ],
+      "keywords": ["Beton en betonconstructies"],
       "name": "CROW-CUR Richtlijn 5:2023 3D-Betonprinten",
       "offers": {
         "type": "Offer",
@@ -2324,9 +2178,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadpublicatie 35: Fietsparkeereisen in stationsgebieden",
       "offers": {
         "type": "Offer",
@@ -2349,9 +2201,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Parkeren en Fiets - Bevindingen van een aantal koplopergemeenten",
       "offers": {
         "type": "Offer",
@@ -2374,9 +2224,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Rekentool autocapaciteit bij kruisen van fietsstromen in de voorrang",
       "offers": {
         "type": "Offer",
@@ -2399,9 +2247,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Handreiking om ov-concessies wendbaar te maken bij calamiteiten ",
       "offers": {
         "type": "Offer",
@@ -2424,9 +2270,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978-90-6628-673-3",
-      "keywords": [
-        "Geokunststoffen"
-      ],
+      "keywords": ["Geokunststoffen"],
       "name": "CROW- CUR Recommendation 96:2019",
       "offers": {
         "type": "Offer",
@@ -2449,10 +2293,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Brede welvaart",
-        "Parkeren"
-      ],
+      "keywords": ["Brede welvaart", "Parkeren"],
       "name": "Parkeermaatregelen en brede welvaart",
       "offers": {
         "type": "Offer",
@@ -2475,10 +2316,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Bouwproces",
-        "UAVgc"
-      ],
+      "keywords": ["Bouwproces", "UAVgc"],
       "name": "Specificeren van duurzaamheid",
       "offers": {
         "type": "Offer",
@@ -2501,9 +2339,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Overzicht buurtbuslijnen 2013",
       "offers": {
         "type": "Offer",
@@ -2526,10 +2362,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "9789066286832",
-      "keywords": [
-        "Wegontwerp en weginrichting",
-        "Werk in uitvoering"
-      ],
+      "keywords": ["Wegontwerp en weginrichting", "Werk in uitvoering"],
       "name": "Standaardmaatregelen op niet-autosnelwegen",
       "offers": {
         "type": "Offer",
@@ -2552,10 +2385,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Doelgroepen- en flexvervoer",
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Doelgroepen- en flexvervoer", "Openbaar vervoer"],
       "name": "Integratie doelgroepen en ov, praktijkvoorbeelden",
       "offers": {
         "type": "Offer",
@@ -2578,9 +2408,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Datagedreven assetmanagement"
-      ],
+      "keywords": ["Datagedreven assetmanagement"],
       "name": "Dashboard Monitoring",
       "offers": {
         "type": "Offer",
@@ -2603,10 +2431,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Wegontwerp en weginrichting",
-        "Verkeersveiligheid"
-      ],
+      "keywords": ["Wegontwerp en weginrichting", "Verkeersveiligheid"],
       "name": "Verkenning zebrapaden, aanbevelingen voor toepassing en inrichting",
       "offers": {
         "type": "Offer",
@@ -2629,9 +2454,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Update 2021 van 'Zero-emissiebus, hoe doe je dat?'",
       "offers": {
         "type": "Offer",
@@ -2677,9 +2500,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Zero-emissiebus - Is er nog een onrendabele top?",
       "offers": {
         "type": "Offer",
@@ -2702,10 +2523,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Doelgroepen- en flexvervoer",
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Doelgroepen- en flexvervoer", "Openbaar vervoer"],
       "name": "Woordenboek reizigerskenmerken",
       "offers": {
         "type": "Offer",
@@ -2728,9 +2546,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Dataplatform Fietsparkeertellingen",
       "offers": {
         "type": "Offer",
@@ -2753,9 +2569,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Wegontwerp en weginrichting"
-      ],
+      "keywords": ["Wegontwerp en weginrichting"],
       "name": "Reclame langs wegen",
       "offers": {
         "type": "Offer",
@@ -2778,10 +2592,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Brede welvaart",
-        "Fiets"
-      ],
+      "keywords": ["Brede welvaart", "Fiets"],
       "name": "Fietsinvesteringen en brede welvaart",
       "offers": {
         "type": "Offer",
@@ -2804,9 +2615,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Geokunststoffen"
-      ],
+      "keywords": ["Geokunststoffen"],
       "name": "CUR Rapport 174 Geokunststoffen in de waterbouw (gedrukte versie)",
       "offers": {
         "type": "Offer",
@@ -2829,9 +2638,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Wegontwerp en weginrichting"
-      ],
+      "keywords": ["Wegontwerp en weginrichting"],
       "name": "Werken met verkeers- en mobiliteitsmodellen",
       "offers": {
         "type": "Offer",
@@ -2854,9 +2661,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Advies CROW-Fietsberaad over Speed Pedelec",
       "offers": {
         "type": "Offer",
@@ -2879,10 +2684,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "9789066286825",
-      "keywords": [
-        "Wegontwerp en weginrichting",
-        "Werk in uitvoering"
-      ],
+      "keywords": ["Wegontwerp en weginrichting", "Werk in uitvoering"],
       "name": "Standaardmaatregelen op autosnelwegen",
       "offers": {
         "type": "Offer",
@@ -2905,10 +2707,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Wegontwerp en weginrichting",
-        "Smart Mobility"
-      ],
+      "keywords": ["Wegontwerp en weginrichting", "Smart Mobility"],
       "name": "Whitepaper Toekomstvaste inrichting van wegen",
       "offers": {
         "type": "Offer",
@@ -2931,9 +2730,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadpublicatie 11b: Het effect van de toename van het aantal allochtonen en de vergrijzing op het fietsgebruik",
       "offers": {
         "type": "Offer",
@@ -2956,9 +2753,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "The Netherlands Cycling Embassy gaat de wereld veroveren",
       "offers": {
         "type": "Offer",
@@ -2981,9 +2776,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Wegontwerp en weginrichting"
-      ],
+      "keywords": ["Wegontwerp en weginrichting"],
       "name": "Handreiking voorlopige inrichtingskenmerken GOW30",
       "offers": {
         "type": "Offer",
@@ -3006,9 +2799,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Doelgroepen- en flexvervoer"
-      ],
+      "keywords": ["Doelgroepen- en flexvervoer"],
       "name": "Vraagsturing in het doelgroepenvervoer",
       "offers": {
         "type": "Offer",
@@ -3031,9 +2822,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Slimme duurzame verstedelijking"
-      ],
+      "keywords": ["Slimme duurzame verstedelijking"],
       "name": "Activiteitenschema Regionaal Technisch Ketenbeheer",
       "offers": {
         "type": "Offer",
@@ -3056,9 +2845,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978-90-6628-675-7",
-      "keywords": [
-        "Kerende constructies"
-      ],
+      "keywords": ["Kerende constructies"],
       "name": "Inspectie elektrotechnische en werktuigbouwkundige installaties (E&WI)",
       "offers": {
         "type": "Offer",
@@ -3081,9 +2868,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Handboek Buurtbus",
       "offers": {
         "type": "Offer",
@@ -3106,9 +2891,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "OV-Klantenbarometer 2022",
       "offers": {
         "type": "Offer",
@@ -3131,9 +2914,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Standaard Hoofdstukindeling Aanbestedings- en Concessiedocumenten",
       "offers": {
         "type": "Offer",
@@ -3156,10 +2937,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets",
-        "Voetganger"
-      ],
+      "keywords": ["Fiets", "Voetganger"],
       "name": "Herverdeling Openbare Ruimte ten gunste van Fietsers en Voetgangers",
       "offers": {
         "type": "Offer",
@@ -3182,9 +2960,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Kerende constructies"
-      ],
+      "keywords": ["Kerende constructies"],
       "name": "Kerende constructies van gewapende grond",
       "offers": {
         "type": "Offer",
@@ -3207,9 +2983,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Smart Mobility"
-      ],
+      "keywords": ["Smart Mobility"],
       "name": "Koppelvlakken iCentrale",
       "offers": {
         "type": "Offer",
@@ -3232,11 +3006,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Smart Mobility",
-        "Toegankelijkheid",
-        "Voetganger"
-      ],
+      "keywords": ["Smart Mobility", "Toegankelijkheid", "Voetganger"],
       "name": "Akoestische signalering bij verkeerslichten voor visueel gehandicapten",
       "offers": {
         "type": "Offer",
@@ -3259,10 +3029,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Beheersystematiek",
-        "Assetmanagement"
-      ],
+      "keywords": ["Beheersystematiek", "Assetmanagement"],
       "name": "BOR MELD 2.0",
       "offers": {
         "type": "Offer",
@@ -3285,11 +3052,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978 90 6628 580 4",
-      "keywords": [
-        "Samenwerken in projecten",
-        "UAV en RAW",
-        "UAVgc"
-      ],
+      "keywords": ["Samenwerken in projecten", "UAV en RAW", "UAVgc"],
       "name": "Handboek specificeren",
       "offers": {
         "type": "Offer",
@@ -3312,9 +3075,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Parkeren"
-      ],
+      "keywords": ["Parkeren"],
       "name": "Handboek P+R",
       "offers": {
         "type": "Offer",
@@ -3337,10 +3098,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Wegontwerp en weginrichting",
-        "Smart Mobility"
-      ],
+      "keywords": ["Wegontwerp en weginrichting", "Smart Mobility"],
       "name": "Rijtaakondersteunende systemen (ADAS) en weginrichting",
       "offers": {
         "type": "Offer",
@@ -3363,9 +3121,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Personeelsmonitor 2022",
       "offers": {
         "type": "Offer",
@@ -3388,10 +3144,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978 90 6628 708 2",
-      "keywords": [
-        "Wegontwerp en weginrichting",
-        "Voetganger"
-      ],
+      "keywords": ["Wegontwerp en weginrichting", "Voetganger"],
       "name": "Ontwerpwijzer voetgangers",
       "offers": {
         "type": "Offer",
@@ -3414,9 +3167,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Bewaartermijnen verwijderde fietsen",
       "offers": {
         "type": "Offer",
@@ -3439,9 +3190,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadnotitie: Aanbevelingen fietsstraten binnen de kom",
       "offers": {
         "type": "Offer",
@@ -3464,9 +3213,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "9789066286597",
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Design manual for bicycle traffic",
       "offers": {
         "type": "Offer",
@@ -3489,10 +3236,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets",
-        "Voetganger"
-      ],
+      "keywords": ["Fiets", "Voetganger"],
       "name": "Lopen en fietsen in beweegvriendelijke Omgevingswet",
       "offers": {
         "type": "Offer",
@@ -3541,9 +3285,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "UAV en RAW"
-      ],
+      "keywords": ["UAV en RAW"],
       "name": "Indexen voor de GWW - vanaf 1 jan 2022",
       "offers": {
         "type": "Offer",
@@ -3566,9 +3308,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadpublicatie 26: Fietsen in Nederland - patronen, trends en beleid",
       "offers": {
         "type": "Offer",
@@ -3591,9 +3331,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Beton en betonconstructies"
-      ],
+      "keywords": ["Beton en betonconstructies"],
       "name": "CUR-Aanbeveling 118:2015 (gedrukte versie)",
       "offers": {
         "type": "Offer",
@@ -3616,10 +3354,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer",
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Openbaar vervoer", "Duurzame mobiliteit"],
       "name": "Handreiking Overnameregeling zero-emissiebussysteem - tweede update",
       "offers": {
         "type": "Offer",
@@ -3642,9 +3377,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Geokunststoffen"
-      ],
+      "keywords": ["Geokunststoffen"],
       "name": "Ontwerprichtlijn Geotextielen onder steenbekleding",
       "offers": {
         "type": "Offer",
@@ -3667,9 +3400,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Standaard Programma van Eisen E-kluizen",
       "offers": {
         "type": "Offer",
@@ -3692,10 +3423,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Doelgroepen- en flexvervoer",
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Doelgroepen- en flexvervoer", "Duurzame mobiliteit"],
       "name": "Leidraad Stop & Drop",
       "offers": {
         "type": "Offer",
@@ -3718,10 +3446,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Mobiliteitshubs",
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Mobiliteitshubs", "Duurzame mobiliteit"],
       "name": "Handreiking Energie en mobiliteitshubs, op weg naar integrale hubs",
       "offers": {
         "type": "Offer",
@@ -3744,9 +3469,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Duurzame mobiliteit"],
       "name": "Self-driving bus to improve accessibility of rural area",
       "offers": {
         "type": "Offer",
@@ -3769,9 +3492,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Afwegingskader 30 km/h",
       "offers": {
         "type": "Offer",
@@ -3794,9 +3515,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Concessieposter 2025",
       "offers": {
         "type": "Offer",
@@ -3819,9 +3538,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadnotitie: Fietsdrukte op kruispunten - innovaties, pilots, kennis en ervaring",
       "offers": {
         "type": "Offer",
@@ -3844,9 +3561,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadnotitie: Rapportage enquête 10-jarig bestaan Fietsberaad",
       "offers": {
         "type": "Offer",
@@ -3869,10 +3584,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets",
-        "Voetganger"
-      ],
+      "keywords": ["Fiets", "Voetganger"],
       "name": "Magazine Beweegvriendelijke omgeving",
       "offers": {
         "type": "Offer",
@@ -3895,9 +3607,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Internationaal openbaar vervoer 2026",
       "offers": {
         "type": "Offer",
@@ -3920,9 +3630,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadnotitie: Kennis en ontwikkelingen rond drukte op fietspaden",
       "offers": {
         "type": "Offer",
@@ -3945,9 +3653,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "OV-Klantenbarometer 2023",
       "offers": {
         "type": "Offer",
@@ -3970,9 +3676,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadnotitie: Speed-pedelec - een verkenning naar de scenario's voor de plek op de weg",
       "offers": {
         "type": "Offer",
@@ -3995,9 +3699,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "UAV en RAW"
-      ],
+      "keywords": ["UAV en RAW"],
       "name": "Indexen voor de GWW - tot en met 2023",
       "offers": {
         "type": "Offer",
@@ -4020,11 +3722,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Mobiliteitshubs",
-        "Fiets",
-        "Parkeren"
-      ],
+      "keywords": ["Mobiliteitshubs", "Fiets", "Parkeren"],
       "name": "P+Fiets",
       "offers": {
         "type": "Offer",
@@ -4047,9 +3745,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Verkeerseducatie en gedrag"
-      ],
+      "keywords": ["Verkeerseducatie en gedrag"],
       "name": "Project LEARN! afgesloten met handboek verkeerseducatie",
       "offers": {
         "type": "Offer",
@@ -4095,9 +3791,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Beton en betonconstructies"
-      ],
+      "keywords": ["Beton en betonconstructies"],
       "name": "CUR-aanbeveling 123:2018",
       "offers": {
         "type": "Offer",
@@ -4120,9 +3814,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Beton en betonconstructies"
-      ],
+      "keywords": ["Beton en betonconstructies"],
       "name": "CROW-CUR Aanbeveling 130:2024",
       "offers": {
         "type": "Offer",
@@ -4145,9 +3837,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "9789066286801",
-      "keywords": [
-        "Werk in uitvoering"
-      ],
+      "keywords": ["Werk in uitvoering"],
       "name": "Werken op niet-autosnelwegen",
       "offers": {
         "type": "Offer",
@@ -4170,9 +3860,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Factsheet De weg naar groei in het openbaar vervoer",
       "offers": {
         "type": "Offer",
@@ -4195,9 +3883,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Discussienotitie Voorrangsregeling fietsers en voetgangers bij VRI’s",
       "offers": {
         "type": "Offer",
@@ -4220,9 +3906,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Assetmanagement"
-      ],
+      "keywords": ["Assetmanagement"],
       "name": "Houvast in de veranderende wereld van Infratechniek",
       "offers": {
         "type": "Offer",
@@ -4245,9 +3929,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Duurzame mobiliteit"],
       "name": "Inspiratiegids RMP Klimaat: Sporen van verandering",
       "offers": {
         "type": "Offer",
@@ -4270,9 +3952,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Kansen voor transitie naar zero-emissiebussen",
       "offers": {
         "type": "Offer",
@@ -4295,9 +3975,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Richtlijn reisinformatie op DRIS-displays",
       "offers": {
         "type": "Offer",
@@ -4320,9 +3998,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Smart Mobility"
-      ],
+      "keywords": ["Smart Mobility"],
       "name": "Smart Mobility Magazine: vier jaar krachtenbundeling",
       "offers": {
         "type": "Offer",
@@ -4345,10 +4021,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Wegontwerp en weginrichting",
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Wegontwerp en weginrichting", "Openbaar vervoer"],
       "name": "Circulariteit in het ov, inspirerende praktijkvoorbeelden",
       "offers": {
         "type": "Offer",
@@ -4371,9 +4044,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadnotitie: Kennisontsluiting Hogescholen en Universiteiten",
       "offers": {
         "type": "Offer",
@@ -4396,9 +4067,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978-90-6628-699-3",
-      "keywords": [
-        "Kerende constructies"
-      ],
+      "keywords": ["Kerende constructies"],
       "name": "CROW-CUR Rapport 231:2022",
       "offers": {
         "type": "Offer",
@@ -4444,9 +4113,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "15 jaar OV-Klantenbarometer",
       "offers": {
         "type": "Offer",
@@ -4469,9 +4136,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "9789066287167",
-      "keywords": [
-        "Wegontwerp en weginrichting"
-      ],
+      "keywords": ["Wegontwerp en weginrichting"],
       "name": "Handboek wegontwerp",
       "offers": {
         "type": "Offer",
@@ -4494,9 +4159,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "9789066286795",
-      "keywords": [
-        "Wegontwerp en weginrichting"
-      ],
+      "keywords": ["Wegontwerp en weginrichting"],
       "name": "Beleid en proces",
       "offers": {
         "type": "Offer",
@@ -4519,9 +4182,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "90 6628 320 3",
-      "keywords": [
-        "Verkeersveiligheid"
-      ],
+      "keywords": ["Verkeersveiligheid"],
       "name": "ROA Handboek Bermbeveiligingsvoorzieningen",
       "offers": {
         "type": "Offer",
@@ -4544,9 +4205,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "9789066287204",
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Manual for Bicycle Parking",
       "offers": {
         "type": "Offer",
@@ -4569,9 +4228,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Discussienotitie: Aanpak Grote Fietsstromen",
       "offers": {
         "type": "Offer",
@@ -4594,9 +4251,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Producten en bijeenkomsten van CROW-Fietsberaad in 2022",
       "offers": {
         "type": "Offer",
@@ -4619,9 +4274,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Duurzame mobiliteit"],
       "name": "Handreiking Duurzame gebiedsontwikkeling en logistiek",
       "offers": {
         "type": "Offer",
@@ -4644,9 +4297,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Logistiek"
-      ],
+      "keywords": ["Logistiek"],
       "name": "Solve pakket: Bevoorrading",
       "offers": {
         "type": "Offer",
@@ -4669,9 +4320,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadnotitie: Fietsstraten buiten de bebouwde kom",
       "offers": {
         "type": "Offer",
@@ -4694,9 +4343,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Slimme duurzame verstedelijking"
-      ],
+      "keywords": ["Slimme duurzame verstedelijking"],
       "name": "Brochure Toepassen STOMP uitgebreid met twee casussen",
       "offers": {
         "type": "Offer",
@@ -4719,9 +4366,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Deelmobiliteit"
-      ],
+      "keywords": ["Deelmobiliteit"],
       "name": "Staat van de deelmobiliteit 2024",
       "offers": {
         "type": "Offer",
@@ -4744,10 +4389,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Wegontwerp en weginrichting",
-        "Voetganger"
-      ],
+      "keywords": ["Wegontwerp en weginrichting", "Voetganger"],
       "name": "Integrale aanpak openbare verlichting, afwegingskader 2.0",
       "offers": {
         "type": "Offer",
@@ -4770,9 +4412,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "MaaS-waardige bestekseisen voor ov-concessies, versie 4.1",
       "offers": {
         "type": "Offer",
@@ -4795,9 +4435,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Smart Mobility"
-      ],
+      "keywords": ["Smart Mobility"],
       "name": "Digitale aspecten werken aan de weg",
       "offers": {
         "type": "Offer",
@@ -4820,9 +4458,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Sociale veiligheid van het personeel in het openbaar vervoer",
       "offers": {
         "type": "Offer",
@@ -4845,10 +4481,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Assetmanagement",
-        "Datagedreven assetmanagement"
-      ],
+      "keywords": ["Assetmanagement", "Datagedreven assetmanagement"],
       "name": "IMBOR",
       "offers": {
         "type": "Offer",
@@ -4871,10 +4504,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Slimme duurzame verstedelijking",
-        "Smart Mobility"
-      ],
+      "keywords": ["Slimme duurzame verstedelijking", "Smart Mobility"],
       "name": "Meer bereiken met een brede blik op mobiliteit",
       "offers": {
         "type": "Offer",
@@ -4897,9 +4527,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Notitie Fietsdeelsystemen in Antwerpen - het succes van de Velo",
       "offers": {
         "type": "Offer",
@@ -4922,9 +4550,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Toegankelijkheid"
-      ],
+      "keywords": ["Toegankelijkheid"],
       "name": "Praktijkvoorbeelden van inclusieve mobiliteit",
       "offers": {
         "type": "Offer",
@@ -4947,9 +4573,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Assetmanagement"
-      ],
+      "keywords": ["Assetmanagement"],
       "name": "Handreiking: Het creëren van een line of sight",
       "offers": {
         "type": "Offer",
@@ -4972,9 +4596,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Stappenplan implementatie BIO IA voor decentrale overheden",
       "offers": {
         "type": "Offer",
@@ -4997,9 +4619,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Veiligheidsscan openbaar vervoer",
       "offers": {
         "type": "Offer",
@@ -5022,9 +4642,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "9789066286771",
-      "keywords": [
-        "UAV en RAW"
-      ],
+      "keywords": ["UAV en RAW"],
       "name": "Standaard RAW Bepalingen 2020",
       "offers": {
         "type": "Offer",
@@ -5047,9 +4665,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Verkenning Centrale Fietsendatabase",
       "offers": {
         "type": "Offer",
@@ -5072,9 +4688,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadpublicatie 7: Het fietsbeleid van de Europese toppers: langdurig en integraal",
       "offers": {
         "type": "Offer",
@@ -5097,10 +4711,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Beheersystematiek",
-        "Assetmanagement"
-      ],
+      "keywords": ["Beheersystematiek", "Assetmanagement"],
       "name": "Template Assetmanagementplan AMP/Beheerplan",
       "offers": {
         "type": "Offer",
@@ -5123,9 +4734,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadpublicatie 30: Over drukte valt te twisten",
       "offers": {
         "type": "Offer",
@@ -5148,9 +4757,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Voetganger"
-      ],
+      "keywords": ["Voetganger"],
       "name": "Inzicht in acceptabele loopafstanden",
       "offers": {
         "type": "Offer",
@@ -5173,9 +4780,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Verwerkingsregels bus, tram en metro voor reizigers met beperking",
       "offers": {
         "type": "Offer",
@@ -5198,9 +4803,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "UAV en RAW"
-      ],
+      "keywords": ["UAV en RAW"],
       "name": "Muster-Basisvertrag und UAV-GC 2005",
       "offers": {
         "type": "Offer",
@@ -5223,9 +4826,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Funderingen en trillingen"
-      ],
+      "keywords": ["Funderingen en trillingen"],
       "name": "Ontwerprichtlijn paalmatrassystemen",
       "offers": {
         "type": "Offer",
@@ -5248,9 +4849,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Binnenstedelijke kademuren"
-      ],
+      "keywords": ["Binnenstedelijke kademuren"],
       "name": "Binnenstedelijke kademuren",
       "offers": {
         "type": "Offer",
@@ -5273,9 +4872,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Inbesteding openbaar vervoer",
       "offers": {
         "type": "Offer",
@@ -5348,10 +4945,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Smart Mobility",
-        "Thema overstijgend"
-      ],
+      "keywords": ["Smart Mobility", "Thema overstijgend"],
       "name": "Multi Modal Travel Information Services",
       "offers": {
         "type": "Offer",
@@ -5374,9 +4968,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978 90 6628 704 4",
-      "keywords": [
-        "Geokunststoffen"
-      ],
+      "keywords": ["Geokunststoffen"],
       "name": "Ankerpalen",
       "offers": {
         "type": "Offer",
@@ -5399,9 +4991,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Doelgroepen- en flexvervoer"
-      ],
+      "keywords": ["Doelgroepen- en flexvervoer"],
       "name": "Kennisagenda Zero-emissie doelgroepenvervoer",
       "offers": {
         "type": "Offer",
@@ -5424,9 +5014,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978-90-6628-676-4",
-      "keywords": [
-        "Kerende constructies"
-      ],
+      "keywords": ["Kerende constructies"],
       "name": "Inspectie hout",
       "offers": {
         "type": "Offer",
@@ -5449,10 +5037,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Wegontwerp en weginrichting",
-        "Verkeersveiligheid"
-      ],
+      "keywords": ["Wegontwerp en weginrichting", "Verkeersveiligheid"],
       "name": "Verkenning Woonerven 2.0, met afwegingskader woonstraten zonder voetpaden",
       "offers": {
         "type": "Offer",
@@ -5475,9 +5060,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Discussienotitie fiets- en kantstroken",
       "offers": {
         "type": "Offer",
@@ -5500,9 +5083,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Monitor Stedelijke Mobiliteit - Maak Samen Ruimte",
       "offers": {
         "type": "Offer",
@@ -5525,10 +5106,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer",
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Openbaar vervoer", "Duurzame mobiliteit"],
       "name": "Infographic 10 jaar BAZEB",
       "offers": {
         "type": "Offer",
@@ -5551,9 +5129,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadpublicatie 8: Fietsers in voetgangersgebieden - Feiten en richtlijnen",
       "offers": {
         "type": "Offer",
@@ -5576,9 +5152,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978 90 6628 670 2",
-      "keywords": [
-        "Beton en betonconstructies"
-      ],
+      "keywords": ["Beton en betonconstructies"],
       "name": "Autogene krimp. Fase 2",
       "offers": {
         "type": "Offer",
@@ -5601,9 +5175,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Evaluatie discussienotitie fiets- en kantstroken",
       "offers": {
         "type": "Offer",
@@ -5626,10 +5198,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Mobiliteitshubs",
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Mobiliteitshubs", "Duurzame mobiliteit"],
       "name": "Factsheet Sustainable Urban Mobility Plans (SUMP's)",
       "offers": {
         "type": "Offer",
@@ -5652,9 +5221,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Kostenkengetallen regionaal openbaar vervoer 2021",
       "offers": {
         "type": "Offer",
@@ -5677,10 +5244,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978 90 6628 694 8",
-      "keywords": [
-        "Beton en betonconstructies",
-        "Kerende constructies"
-      ],
+      "keywords": ["Beton en betonconstructies", "Kerende constructies"],
       "name": "CROW-CUR Aanbeveling 128:2021",
       "offers": {
         "type": "Offer",
@@ -5703,9 +5267,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Voetganger"
-      ],
+      "keywords": ["Voetganger"],
       "name": "Uitwerking kwaliteitseis aantrekkelijkheid van looproutes",
       "offers": {
         "type": "Offer",
@@ -5728,9 +5290,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Doelgroepen- en flexvervoer"
-      ],
+      "keywords": ["Doelgroepen- en flexvervoer"],
       "name": "Wmo-vervoerregelingen per 1 augustus 2019",
       "offers": {
         "type": "Offer",
@@ -5753,10 +5313,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer",
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Openbaar vervoer", "Duurzame mobiliteit"],
       "name": "Ontwikkeling verduurzaming ov-bussen",
       "offers": {
         "type": "Offer",
@@ -5779,9 +5336,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Deelmobiliteit"
-      ],
+      "keywords": ["Deelmobiliteit"],
       "name": "Definitie deelmobiliteit",
       "offers": {
         "type": "Offer",
@@ -5858,9 +5413,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Onderzoek bevestigingsmogelijkheden RFID-chiphouder aan fietsen",
       "offers": {
         "type": "Offer",
@@ -5883,10 +5436,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Wegontwerp en weginrichting",
-        "Smart Mobility"
-      ],
+      "keywords": ["Wegontwerp en weginrichting", "Smart Mobility"],
       "name": "Infra van de toekomst, handelingsperspectief voor wegbeheerders",
       "offers": {
         "type": "Offer",
@@ -5909,9 +5459,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Breedtelabels fietspaden in de praktijk",
       "offers": {
         "type": "Offer",
@@ -5934,9 +5482,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadpublicatie 12: Ontwikkelingen van het fietsgebruik in voor- en natransport van de trein",
       "offers": {
         "type": "Offer",
@@ -5959,9 +5505,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Deelmobiliteit"
-      ],
+      "keywords": ["Deelmobiliteit"],
       "name": "Staat van de deelmobiliteit 2023",
       "offers": {
         "type": "Offer",
@@ -5984,10 +5528,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Smart Mobility",
-        "Parkeren"
-      ],
+      "keywords": ["Smart Mobility", "Parkeren"],
       "name": "Veiligheidskaders",
       "offers": {
         "type": "Offer",
@@ -6010,9 +5551,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Slim afwikkelen fietsers en voetgangers op geregelde kruispunten",
       "offers": {
         "type": "Offer",
@@ -6035,9 +5574,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Personeelsmonitor: sociale veiligheid onder ov-personeel verslechterd in 2020",
       "offers": {
         "type": "Offer",
@@ -6060,10 +5597,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Toegankelijkheid",
-        "Voetganger"
-      ],
+      "keywords": ["Toegankelijkheid", "Voetganger"],
       "name": "Laadkabels en laadpalen, hoe houd je het trottoir veilig en toegankelijk?",
       "offers": {
         "type": "Offer",
@@ -6086,9 +5620,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Ontwerprichtlijnen brandveiligheid stallingen voor zero-emissiebussen",
       "offers": {
         "type": "Offer",
@@ -6111,9 +5643,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadnotitie: Fietsers over smalle wegen buiten de bebouwde kom",
       "offers": {
         "type": "Offer",
@@ -6136,9 +5666,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Staat van het openbaar vervoer 2025",
       "offers": {
         "type": "Offer",
@@ -6161,9 +5689,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadpublicatie 16: Fietspad of parallelweg",
       "offers": {
         "type": "Offer",
@@ -6186,10 +5712,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Wegontwerp en weginrichting",
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Wegontwerp en weginrichting", "Openbaar vervoer"],
       "name": "Flexwaaier",
       "offers": {
         "type": "Offer",
@@ -6212,9 +5735,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Smart Mobility"
-      ],
+      "keywords": ["Smart Mobility"],
       "name": "Smart Mobility Magazine",
       "offers": {
         "type": "Offer",
@@ -6260,9 +5781,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978-90-6628-697-9",
-      "keywords": [
-        "Beton en betonconstructies"
-      ],
+      "keywords": ["Beton en betonconstructies"],
       "name": "CROW-CUR Aanbeveling 127:2021",
       "offers": {
         "type": "Offer",
@@ -6285,10 +5804,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Thema overstijgend",
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Thema overstijgend", "Openbaar vervoer"],
       "name": "Jaarverslag 2019 KpVV-programma",
       "offers": {
         "type": "Offer",
@@ -6311,9 +5827,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Deelmobiliteit"
-      ],
+      "keywords": ["Deelmobiliteit"],
       "name": "Deelmobiliteit, de feiten op een rij voor raadsleden",
       "offers": {
         "type": "Offer",
@@ -6336,9 +5850,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978 90 6628 531 6",
-      "keywords": [
-        "Verkeersveiligheid"
-      ],
+      "keywords": ["Verkeersveiligheid"],
       "name": "Road safety manual",
       "offers": {
         "type": "Offer",
@@ -6361,9 +5873,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Smart Mobility"
-      ],
+      "keywords": ["Smart Mobility"],
       "name": "Blauwdruk iCentrale",
       "offers": {
         "type": "Offer",
@@ -6386,9 +5896,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Discussienotitie fietsstraten binnen de kom",
       "offers": {
         "type": "Offer",
@@ -6411,9 +5919,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978 90 6628 712 9",
-      "keywords": [
-        "Beton en betonconstructies"
-      ],
+      "keywords": ["Beton en betonconstructies"],
       "name": "CROW-CUR Richtlijn 4:2023 Hergebruik constructieve prefab betonelementen",
       "offers": {
         "type": "Offer",
@@ -6436,10 +5942,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer",
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Openbaar vervoer", "Duurzame mobiliteit"],
       "name": "Monitor zero-emissiebussen 1 oktober 2026",
       "offers": {
         "type": "Offer",
@@ -6462,9 +5965,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Geactualiseerde aanbevelingen voor markering op fietspaden 2022",
       "offers": {
         "type": "Offer",
@@ -6487,9 +5988,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Effecten en uitdagingen van MaaS, handelingsperspectieven voor concessieverleners",
       "offers": {
         "type": "Offer",
@@ -6539,9 +6038,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "9789066287150",
-      "keywords": [
-        "Asfaltverhardingen"
-      ],
+      "keywords": ["Asfaltverhardingen"],
       "name": "CROW Richtlijn Warm Mix Asfalt v1.01",
       "offers": {
         "type": "Offer",
@@ -6564,9 +6061,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadpublicatie 28: Evaluatie discussienotitie fiets- en kantstroken",
       "offers": {
         "type": "Offer",
@@ -6589,10 +6084,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer",
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Openbaar vervoer", "Duurzame mobiliteit"],
       "name": "Inkoopbundeling heeft (nog) geen prioriteit",
       "offers": {
         "type": "Offer",
@@ -6615,10 +6107,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978-90-6628-674-0",
-      "keywords": [
-        "Binnenstedelijke kademuren",
-        "Kerende constructies"
-      ],
+      "keywords": ["Binnenstedelijke kademuren", "Kerende constructies"],
       "name": "Handboek oeverconstructies",
       "offers": {
         "type": "Offer",
@@ -6641,9 +6130,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Kosten en financiering fietsparkeren",
       "offers": {
         "type": "Offer",
@@ -6666,9 +6153,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Kerende constructies"
-      ],
+      "keywords": ["Kerende constructies"],
       "name": "Handboek Inspectie Metselwerk",
       "offers": {
         "type": "Offer",
@@ -6691,9 +6176,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Voetganger"
-      ],
+      "keywords": ["Voetganger"],
       "name": "Het belang van een aantrekkelijke looproute naar de halte",
       "offers": {
         "type": "Offer",
@@ -6716,9 +6199,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Beton en betonconstructies"
-      ],
+      "keywords": ["Beton en betonconstructies"],
       "name": "Staalvezelbeton bedrijfsvloeren op palen - Dimensionering en uitvoering",
       "offers": {
         "type": "Offer",
@@ -6741,9 +6222,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Doelgroepen- en flexvervoer"
-      ],
+      "keywords": ["Doelgroepen- en flexvervoer"],
       "name": "Wmo-vervoerregelingen per 1-1-2017",
       "offers": {
         "type": "Offer",
@@ -6766,9 +6245,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Sociale veiligheid van het personeel in het openbaar vervoer",
       "offers": {
         "type": "Offer",
@@ -6791,10 +6268,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer",
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Openbaar vervoer", "Duurzame mobiliteit"],
       "name": "Staat van het regionale ov: minder reizigers en meer duurzaamheid in 2020",
       "offers": {
         "type": "Offer",
@@ -6817,9 +6291,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Smart Mobility"
-      ],
+      "keywords": ["Smart Mobility"],
       "name": "Waardenkaart Mobiliteit",
       "offers": {
         "type": "Offer",
@@ -6842,9 +6314,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Deelmobiliteit"
-      ],
+      "keywords": ["Deelmobiliteit"],
       "name": "Evaluatie City Deal Elektrische Deelmobiliteit in Stedelijke Gebiedsontwikkeling",
       "offers": {
         "type": "Offer",
@@ -6867,9 +6337,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Aanbevelingen fiets- en kantstroken",
       "offers": {
         "type": "Offer",
@@ -6892,9 +6360,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadpublicatie 25: Kwaliteitsnormen fietsparkeervoorzieningen BTM-haltes",
       "offers": {
         "type": "Offer",
@@ -6917,9 +6383,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Beton en betonconstructies"
-      ],
+      "keywords": ["Beton en betonconstructies"],
       "name": "CUR-Aanbeveling 121:2018",
       "offers": {
         "type": "Offer",
@@ -6942,9 +6406,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Voetganger"
-      ],
+      "keywords": ["Voetganger"],
       "name": "Verkenning baten loopvriendelijke gebiedsontwikkeling",
       "offers": {
         "type": "Offer",
@@ -6994,9 +6456,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "UAV en RAW"
-      ],
+      "keywords": ["UAV en RAW"],
       "name": "Rekenmodel SSK-2018",
       "offers": {
         "type": "Offer",
@@ -7019,9 +6479,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadpublicatie 33: Verkenning doelgroepenaanpak voor het fietsparkeren",
       "offers": {
         "type": "Offer",
@@ -7044,10 +6502,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Thema overstijgend",
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Thema overstijgend", "Openbaar vervoer"],
       "name": "Jaarverslag 2018 KpVV-programma",
       "offers": {
         "type": "Offer",
@@ -7070,9 +6525,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Inrichtingsaanbevelingen voor fietsrotondes (Fietsberaadnotitie)",
       "offers": {
         "type": "Offer",
@@ -7095,9 +6548,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadpublicatie 31: Leidraad gemeentelijk deelfietsbeleid",
       "offers": {
         "type": "Offer",
@@ -7120,9 +6571,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadnotitie: Drukte op fietspaden - een inventarisatie van knelpunten, maatregelen en ideeën",
       "offers": {
         "type": "Offer",
@@ -7172,11 +6621,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Smart Mobility",
-        "Toegankelijkheid",
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Smart Mobility", "Toegankelijkheid", "Openbaar vervoer"],
       "name": "Richtlijn informatievoorziening op dynamische informatiepanelen",
       "offers": {
         "type": "Offer",
@@ -7199,9 +6644,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Verkeerseducatie en gedrag"
-      ],
+      "keywords": ["Verkeerseducatie en gedrag"],
       "name": "Mobiliteit en gedrag",
       "offers": {
         "type": "Offer",
@@ -7247,9 +6690,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Kwaliteit fysieke leefomgeving"
-      ],
+      "keywords": ["Kwaliteit fysieke leefomgeving"],
       "name": "Solve pakket: Leefbare en schone wijken",
       "offers": {
         "type": "Offer",
@@ -7272,9 +6713,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "9789066286788",
-      "keywords": [
-        "Bouwproces"
-      ],
+      "keywords": ["Bouwproces"],
       "name": "Specificaties voor materiaal en materieel",
       "offers": {
         "type": "Offer",
@@ -7297,9 +6736,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978-90-6628-685-6",
-      "keywords": [
-        "Kerende constructies"
-      ],
+      "keywords": ["Kerende constructies"],
       "name": "Handboek bemaling van bouwputten en sleuven",
       "offers": {
         "type": "Offer",
@@ -7322,9 +6759,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Smart Mobility"
-      ],
+      "keywords": ["Smart Mobility"],
       "name": "Handreiking Intelligente Snelheids Assistent (ISA) voor wegbeheerders",
       "offers": {
         "type": "Offer",
@@ -7347,9 +6782,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Human Factors in fietsveiligheid - CROW-Fietsberaad notitie",
       "offers": {
         "type": "Offer",
@@ -7395,9 +6828,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Geokunststoffen"
-      ],
+      "keywords": ["Geokunststoffen"],
       "name": "Geokunstoffen als funderingswapening in ongebonden funderingslagen",
       "offers": {
         "type": "Offer",
@@ -7420,9 +6851,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Leren van fietsparkeren",
       "offers": {
         "type": "Offer",
@@ -7445,9 +6874,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Werk in uitvoering"
-      ],
+      "keywords": ["Werk in uitvoering"],
       "name": "Combinatiepakket Werk in Uitvoering 96a",
       "offers": {
         "type": "Offer",
@@ -7470,10 +6897,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer",
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Openbaar vervoer", "Duurzame mobiliteit"],
       "name": "Poster Milieuprestatie ov-bussen 2026",
       "offers": {
         "type": "Offer",
@@ -7496,9 +6920,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Duurzame mobiliteit"],
       "name": "Vierde kwartaal 2022: tijdelijke afname elektrisch wagenpark",
       "offers": {
         "type": "Offer",
@@ -7521,10 +6943,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Verkeersveiligheid",
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Verkeersveiligheid", "Openbaar vervoer"],
       "name": "Adviezen om tram herkenbaarder te maken in het verkeer",
       "offers": {
         "type": "Offer",
@@ -7547,9 +6966,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadpublicatie 18: Gevoeligheidsanalyse effecten fietsbeleid",
       "offers": {
         "type": "Offer",
@@ -7572,9 +6989,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Funderingen en trillingen"
-      ],
+      "keywords": ["Funderingen en trillingen"],
       "name": "Begaanbaarheid van bouwterreinen (gedrukte versie)",
       "offers": {
         "type": "Offer",
@@ -7624,9 +7039,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Voetganger"
-      ],
+      "keywords": ["Voetganger"],
       "name": "Leidraad lopen en verblijven in woonstraten",
       "offers": {
         "type": "Offer",
@@ -7676,9 +7089,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Professionalisering opdrachtgeverschap fietsparkeren - Verkennend onderzoek",
       "offers": {
         "type": "Offer",
@@ -7728,9 +7139,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadpublicatie 29: Buitenmodelfietsen in stationsstallingen",
       "offers": {
         "type": "Offer",
@@ -7753,10 +7162,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Toegankelijkheid",
-        "Voetganger"
-      ],
+      "keywords": ["Toegankelijkheid", "Voetganger"],
       "name": "Leidraad effectmeting loopmaatregelen",
       "offers": {
         "type": "Offer",
@@ -7779,9 +7185,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadnotitie: Aanpak veiligheid kruispunten met tweerichtingsfietspaden",
       "offers": {
         "type": "Offer",
@@ -7804,11 +7208,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets",
-        "Toegankelijkheid",
-        "Parkeren"
-      ],
+      "keywords": ["Fiets", "Toegankelijkheid", "Parkeren"],
       "name": "Handreiking fietsparkeren en inclusie",
       "offers": {
         "type": "Offer",
@@ -7831,9 +7231,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Aanbesteden"
-      ],
+      "keywords": ["Aanbesteden"],
       "name": "Handreiking TeamValue",
       "offers": {
         "type": "Offer",
@@ -7856,9 +7254,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Asfaltverhardingen"
-      ],
+      "keywords": ["Asfaltverhardingen"],
       "name": "Richtlijn volumetrisch ontwerp steenmastiekasfalt",
       "offers": {
         "type": "Offer",
@@ -7881,9 +7277,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadnotitie: Tips voor effectievere handhaving op fietsparkeerduur",
       "offers": {
         "type": "Offer",
@@ -7906,9 +7300,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978 90 6628 701 3",
-      "keywords": [
-        "Werk in uitvoering"
-      ],
+      "keywords": ["Werk in uitvoering"],
       "name": "Tijdelijke verkeersmaatregelen op vaarwegen",
       "offers": {
         "type": "Offer",
@@ -7931,9 +7323,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Duurzame mobiliteit"],
       "name": "Betalen naar Gebruik: studie naar een vlakke heffing",
       "offers": {
         "type": "Offer",
@@ -7956,9 +7346,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Gladheidsbestrijding voor fietsers en voetgangers - Beleid, organisatie en uitvoering",
       "offers": {
         "type": "Offer",
@@ -7981,9 +7369,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Duurzame mobiliteit"],
       "name": "Tweede editie van SUMP Guidelines verschenen",
       "offers": {
         "type": "Offer",
@@ -8006,10 +7392,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Wegontwerp en weginrichting",
-        "Verkeerseducatie en gedrag"
-      ],
+      "keywords": ["Wegontwerp en weginrichting", "Verkeerseducatie en gedrag"],
       "name": "Evaluatie buurtacties in 30 km/h-straten",
       "offers": {
         "type": "Offer",
@@ -8032,9 +7415,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "ITS-richtlijn",
       "offers": {
         "type": "Offer",
@@ -8057,9 +7438,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "UAV en RAW"
-      ],
+      "keywords": ["UAV en RAW"],
       "name": "Standaard RAW Bepalingen 2025",
       "offers": {
         "type": "Offer",
@@ -8082,10 +7461,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Beton en betonconstructies",
-        "Kerende constructies"
-      ],
+      "keywords": ["Beton en betonconstructies", "Kerende constructies"],
       "name": "CUR-Aanbeveling 116: 2017",
       "offers": {
         "type": "Offer",
@@ -8108,9 +7484,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "P+Fiets - Snel en slim in de stad",
       "offers": {
         "type": "Offer",
@@ -8133,9 +7507,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Slimme duurzame verstedelijking"
-      ],
+      "keywords": ["Slimme duurzame verstedelijking"],
       "name": "Handreiking mobiliteit en duurzame gebiedsontwikkeling",
       "offers": {
         "type": "Offer",
@@ -8158,9 +7530,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadnotitie: De basis voor effectieve gladheidsbestrijding voor fietsers",
       "offers": {
         "type": "Offer",
@@ -8183,9 +7553,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Funderingen en trillingen"
-      ],
+      "keywords": ["Funderingen en trillingen"],
       "name": "Paal-plaat funderingen",
       "offers": {
         "type": "Offer",
@@ -8208,9 +7576,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "OV-Klantenbarometer 2021",
       "offers": {
         "type": "Offer",
@@ -8233,9 +7599,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Sociale veiligheid van het personeel in het stads- en streekvervoer",
       "offers": {
         "type": "Offer",
@@ -8258,9 +7622,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978 9066285880",
-      "keywords": [
-        "Assetmanagement"
-      ],
+      "keywords": ["Assetmanagement"],
       "name": "Handleiding globale visuele inspectie 2011",
       "offers": {
         "type": "Offer",
@@ -8283,9 +7645,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Beton en betonconstructies"
-      ],
+      "keywords": ["Beton en betonconstructies"],
       "name": "CUR-Aanbeveling 89:2017",
       "offers": {
         "type": "Offer",
@@ -8308,10 +7668,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Slimme duurzame verstedelijking",
-        "Parkeren"
-      ],
+      "keywords": ["Slimme duurzame verstedelijking", "Parkeren"],
       "name": "Parkeren en Omgevingswet",
       "offers": {
         "type": "Offer",
@@ -8334,9 +7691,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978 90 6450 791 5",
-      "keywords": [
-        "Mobiliteitshubs"
-      ],
+      "keywords": ["Mobiliteitshubs"],
       "name": "Stromen en Verblijven",
       "offers": {
         "type": "Offer",
@@ -8359,9 +7714,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Funderingen en trillingen"
-      ],
+      "keywords": ["Funderingen en trillingen"],
       "name": "Handboek Soilmix-wanden - ontwerp en uitvoering",
       "offers": {
         "type": "Offer",
@@ -8384,9 +7737,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Stads- en streekvervoer groeit in 2015 vijf procent",
       "offers": {
         "type": "Offer",
@@ -8409,9 +7760,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Voetganger"
-      ],
+      "keywords": ["Voetganger"],
       "name": "Handreiking voetgangersnetwerk",
       "offers": {
         "type": "Offer",
@@ -8434,10 +7783,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets",
-        "Parkeren"
-      ],
+      "keywords": ["Fiets", "Parkeren"],
       "name": "Fietsparkeerkencijfers 2025",
       "offers": {
         "type": "Offer",
@@ -8460,11 +7806,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets",
-        "Verkeersveiligheid",
-        "Voetganger"
-      ],
+      "keywords": ["Fiets", "Verkeersveiligheid", "Voetganger"],
       "name": "Schoolzones: toepassing en inrichting",
       "offers": {
         "type": "Offer",
@@ -8487,9 +7829,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fiets in de Omgevingswet",
       "offers": {
         "type": "Offer",
@@ -8512,9 +7852,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "OV-Klantenbarometer 2016 - Sociale veiligheid in het openbaar vervoer",
       "offers": {
         "type": "Offer",
@@ -8537,9 +7875,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978-90-6628-686-3",
-      "keywords": [
-        "UAVgc"
-      ],
+      "keywords": ["UAVgc"],
       "name": "UAV-GC 2025",
       "offers": {
         "type": "Offer",
@@ -8562,9 +7898,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadpublicatie 22: Weesfietsen: wie, waar, waarom?",
       "offers": {
         "type": "Offer",
@@ -8587,9 +7921,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Met de fiets naar de bus",
       "offers": {
         "type": "Offer",
@@ -8612,9 +7944,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Funderingen en trillingen"
-      ],
+      "keywords": ["Funderingen en trillingen"],
       "name": "Richtlijn Geotechnisch laboratoriumonderzoek",
       "offers": {
         "type": "Offer",
@@ -8637,10 +7967,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer",
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Openbaar vervoer", "Duurzame mobiliteit"],
       "name": "Aanscherping handreiking overnameregeling zero-emissiebussysteem",
       "offers": {
         "type": "Offer",
@@ -8663,9 +7990,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "OV-Klantenbarometer 2025",
       "offers": {
         "type": "Offer",
@@ -8688,9 +8013,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Wielrenners naar de rijbaan",
       "offers": {
         "type": "Offer",
@@ -8713,9 +8036,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "9789066286528",
-      "keywords": [
-        "Assetmanagement"
-      ],
+      "keywords": ["Assetmanagement"],
       "name": "Valgewichtdeflectiemetingen voor wegbeheerders",
       "offers": {
         "type": "Offer",
@@ -8738,9 +8059,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Assetmanagement"
-      ],
+      "keywords": ["Assetmanagement"],
       "name": "UEC-SLAB, versie 2.00 (update)",
       "offers": {
         "type": "Offer",
@@ -8763,9 +8082,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Voetganger"
-      ],
+      "keywords": ["Voetganger"],
       "name": "Stroefheid voor voetgangers (en ander langzaam verkeer)",
       "offers": {
         "type": "Offer",
@@ -8788,9 +8105,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Dashboard Deelmobiliteit",
       "offers": {
         "type": "Offer",
@@ -8813,10 +8128,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Aanbesteden",
-        "UAVgc"
-      ],
+      "keywords": ["Aanbesteden", "UAVgc"],
       "name": "Handreiking 'Aanbesteden van twee fasen contracten'",
       "offers": {
         "type": "Offer",
@@ -8839,9 +8151,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Smart Mobility"
-      ],
+      "keywords": ["Smart Mobility"],
       "name": "(i)VRI Magazine",
       "offers": {
         "type": "Offer",
@@ -8864,9 +8174,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadnotitie: Fietsoversteken in de voorrang",
       "offers": {
         "type": "Offer",
@@ -8889,9 +8197,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Richtlijn toegankelijkheid tram- en metrohaltes",
       "offers": {
         "type": "Offer",
@@ -8914,9 +8220,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978 90 6628 687 0",
-      "keywords": [
-        "Beton en betonconstructies"
-      ],
+      "keywords": ["Beton en betonconstructies"],
       "name": "Scheurwijdtebeheersing Betonconstructies - Fase 1",
       "offers": {
         "type": "Offer",
@@ -8939,9 +8243,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Rapportage gebruikers-enquête Fietsberaad 2021",
       "offers": {
         "type": "Offer",
@@ -8964,9 +8266,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Rapport invloed zero-emissiebussen op brand- en explosieveiligheid van ov-knooppunten",
       "offers": {
         "type": "Offer",
@@ -8989,9 +8289,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Werk in uitvoering"
-      ],
+      "keywords": ["Werk in uitvoering"],
       "name": "Combinatiepakket Werk in Uitvoering 96b",
       "offers": {
         "type": "Offer",
@@ -9014,9 +8312,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadpublicatie 37: Leidraad gemeentelijk beleid deelmobiliteit",
       "offers": {
         "type": "Offer",
@@ -9039,9 +8335,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadnotitie: Best-Practices Pop-up fietsparkeren",
       "offers": {
         "type": "Offer",
@@ -9064,9 +8358,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Parkeren"
-      ],
+      "keywords": ["Parkeren"],
       "name": "Magazine Parkeren en gedrag",
       "offers": {
         "type": "Offer",
@@ -9089,9 +8381,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Richtlijn reisinformatie op schermen in ov-voertuigen",
       "offers": {
         "type": "Offer",
@@ -9114,9 +8404,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Deelmobiliteit"
-      ],
+      "keywords": ["Deelmobiliteit"],
       "name": "Green Deal Autodelen II geëvalueerd",
       "offers": {
         "type": "Offer",
@@ -9139,9 +8427,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "UAV en RAW"
-      ],
+      "keywords": ["UAV en RAW"],
       "name": "Normenoverzicht gww 2014",
       "offers": {
         "type": "Offer",
@@ -9164,10 +8450,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "9789066286931",
-      "keywords": [
-        "Beton en betonconstructies",
-        "Kerende constructies"
-      ],
+      "keywords": ["Beton en betonconstructies", "Kerende constructies"],
       "name": "CROW-CUR Aanbeveling 91:2021",
       "offers": {
         "type": "Offer",
@@ -9190,9 +8473,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Samenvatting rapport risico's zero-emissiebussen op ov-knooppunten",
       "offers": {
         "type": "Offer",
@@ -9215,10 +8496,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Slimme duurzame verstedelijking",
-        "Brede welvaart"
-      ],
+      "keywords": ["Slimme duurzame verstedelijking", "Brede welvaart"],
       "name": "Vitaal Platteland!",
       "offers": {
         "type": "Offer",
@@ -9241,9 +8519,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Kerende constructies"
-      ],
+      "keywords": ["Kerende constructies"],
       "name": "Praktijkrichtlijn Omgevingsbeïnvloeding inbrengen en trekken van damwanden",
       "offers": {
         "type": "Offer",
@@ -9266,9 +8542,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "VeiligStallen / Beloningssysteem Fiets-en-Win",
       "offers": {
         "type": "Offer",
@@ -9291,9 +8565,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Kerende constructies"
-      ],
+      "keywords": ["Kerende constructies"],
       "name": "Falling Weight Deflectometer calibration guide",
       "offers": {
         "type": "Offer",
@@ -9316,10 +8588,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets",
-        "Voetganger"
-      ],
+      "keywords": ["Fiets", "Voetganger"],
       "name": "Whitepaper Fietsen en Lopen: Goud in handen",
       "offers": {
         "type": "Offer",
@@ -9342,9 +8611,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadpublicatie 11c: Allochtonen in het fietsbeleid",
       "offers": {
         "type": "Offer",
@@ -9367,9 +8634,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Concessieposter 2026",
       "offers": {
         "type": "Offer",
@@ -9392,9 +8657,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "OV-Klantenbarometer 2015 - Sociale veiligheid in het openbaar vervoer",
       "offers": {
         "type": "Offer",
@@ -9417,10 +8680,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Verkeersveiligheid",
-        "Smart Mobility"
-      ],
+      "keywords": ["Verkeersveiligheid", "Smart Mobility"],
       "name": "Proeftuinen Risico-gestuurde aanpak",
       "offers": {
         "type": "Offer",
@@ -9443,10 +8703,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978 90 6628 702 0",
-      "keywords": [
-        "Openbaar vervoer",
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Openbaar vervoer", "Duurzame mobiliteit"],
       "name": "Richtlijn inpassing tram in stedelijke omgeving",
       "offers": {
         "type": "Offer",
@@ -9469,9 +8726,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Stageonderzoek naar succesfactoren grensoverschrijdende regionale ov-verbindingen",
       "offers": {
         "type": "Offer",
@@ -9517,9 +8772,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Duurzame mobiliteit"],
       "name": "De prijs van mobiliteit in Stad en Ommeland",
       "offers": {
         "type": "Offer",
@@ -9542,9 +8795,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Webtool Fiets- en kantstroken",
       "offers": {
         "type": "Offer",
@@ -9567,10 +8818,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets",
-        "Voetganger"
-      ],
+      "keywords": ["Fiets", "Voetganger"],
       "name": "Mengen fietsers en voetgangers",
       "offers": {
         "type": "Offer",
@@ -9620,9 +8868,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Duurzame mobiliteit"],
       "name": "Boek: Verkeersmanagement van solo naar samenwerking",
       "offers": {
         "type": "Offer",
@@ -9645,11 +8891,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets",
-        "Deelmobiliteit",
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Fiets", "Deelmobiliteit", "Duurzame mobiliteit"],
       "name": "Auto of OV+fiets?",
       "offers": {
         "type": "Offer",
@@ -9672,11 +8914,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Mobiliteitshubs",
-        "Openbaar vervoer",
-        "Voetganger"
-      ],
+      "keywords": ["Mobiliteitshubs", "Openbaar vervoer", "Voetganger"],
       "name": "Handleiding voor de ov-halte",
       "offers": {
         "type": "Offer",
@@ -9699,9 +8937,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Geactualiseerde aanbevelingen voor afsluitpalen op fietspaden 2022",
       "offers": {
         "type": "Offer",
@@ -9724,9 +8960,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Doelgroepen- en flexvervoer"
-      ],
+      "keywords": ["Doelgroepen- en flexvervoer"],
       "name": "Inzicht in de kosten van kleinschalig vraagafhankelijk vervoer",
       "offers": {
         "type": "Offer",
@@ -9749,9 +8983,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978 90 6628 713 6",
-      "keywords": [
-        "Gladheidsbestrijding"
-      ],
+      "keywords": ["Gladheidsbestrijding"],
       "name": "Richtlijn organisatie en bestrijding wintergladheid 2024",
       "offers": {
         "type": "Offer",
@@ -9774,9 +9006,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Assetmanagement"
-      ],
+      "keywords": ["Assetmanagement"],
       "name": "Informatieblad Infrastructuur",
       "offers": {
         "type": "Offer",
@@ -9799,9 +9029,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Kostenkengetallen regionaal openbaar vervoer 2015",
       "offers": {
         "type": "Offer",
@@ -9824,10 +9052,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer",
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Openbaar vervoer", "Duurzame mobiliteit"],
       "name": "Nulmeting circulariteit openbaar vervoer",
       "offers": {
         "type": "Offer",
@@ -9850,11 +9075,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Toegankelijkheid",
-        "Openbaar vervoer",
-        "Voetganger"
-      ],
+      "keywords": ["Toegankelijkheid", "Openbaar vervoer", "Voetganger"],
       "name": "Evaluatie project WEVER",
       "offers": {
         "type": "Offer",
@@ -9877,9 +9098,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Doelgroepen- en flexvervoer"
-      ],
+      "keywords": ["Doelgroepen- en flexvervoer"],
       "name": "Integrale afweging van maatschappelijke effecten doelgroepenvervoer",
       "offers": {
         "type": "Offer",
@@ -9902,10 +9121,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "97890662868879",
-      "keywords": [
-        "Beton en betonconstructies",
-        "Kerende constructies"
-      ],
+      "keywords": ["Beton en betonconstructies", "Kerende constructies"],
       "name": "Colloïdaal beton",
       "offers": {
         "type": "Offer",
@@ -9928,9 +9144,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Onderzoek afwikkeling fietsverkeer",
       "offers": {
         "type": "Offer",
@@ -9953,9 +9167,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Voetganger"
-      ],
+      "keywords": ["Voetganger"],
       "name": "Obstakels op voetpaden",
       "offers": {
         "type": "Offer",
@@ -9978,9 +9190,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadpublicatie 5: Tellen met beleid - Handreiking voor een zinvolle monitoring van fietsbeleid",
       "offers": {
         "type": "Offer",
@@ -10003,9 +9213,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsoversteken uit de voorrang",
       "offers": {
         "type": "Offer",
@@ -10028,9 +9236,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadpublicatie 21: Stimuleren van fietsgebruik door zorgverleners",
       "offers": {
         "type": "Offer",
@@ -10080,9 +9286,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Door met doorfietsroutes",
       "offers": {
         "type": "Offer",
@@ -10105,9 +9309,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Beton en betonconstructies"
-      ],
+      "keywords": ["Beton en betonconstructies"],
       "name": "CUR-Aanbeveling 122:2018",
       "offers": {
         "type": "Offer",
@@ -10130,9 +9332,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Evaluatie aanbevelingen voor palen op fietspaden",
       "offers": {
         "type": "Offer",
@@ -10155,9 +9355,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Parkeren"
-      ],
+      "keywords": ["Parkeren"],
       "name": "Factsheet parkeer- of mobiliteitsfonds",
       "offers": {
         "type": "Offer",
@@ -10180,9 +9378,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Beton en betonconstructies"
-      ],
+      "keywords": ["Beton en betonconstructies"],
       "name": "Kennispakket Vliegveldverhardingen",
       "offers": {
         "type": "Offer",
@@ -10205,9 +9401,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Voetganger"
-      ],
+      "keywords": ["Voetganger"],
       "name": "Baten van investeren in lopen",
       "offers": {
         "type": "Offer",
@@ -10230,9 +9424,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Duurzame mobiliteit"],
       "name": "Duurzaam mobiliteitsbeleid voor gemeenten",
       "offers": {
         "type": "Offer",
@@ -10255,9 +9447,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Voetganger"
-      ],
+      "keywords": ["Voetganger"],
       "name": "Juridische sturingsinstrumenten voor een loopvriendelijke omgeving",
       "offers": {
         "type": "Offer",
@@ -10280,9 +9470,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Discussienotitie: Breedtelabels voor fietspaden",
       "offers": {
         "type": "Offer",
@@ -10305,9 +9493,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadpublicatie 34: Uitwerking hoofdeisen fietsvriendelijke infrastructuur - Aantrekkelijkheid",
       "offers": {
         "type": "Offer",
@@ -10330,9 +9516,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Verkeerseducatie en gedrag"
-      ],
+      "keywords": ["Verkeerseducatie en gedrag"],
       "name": "V&V Bericht 166: Effectiever verkeersmanagement met nieuwe Regelaanpak",
       "offers": {
         "type": "Offer",
@@ -10355,9 +9539,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Deelmobiliteit"
-      ],
+      "keywords": ["Deelmobiliteit"],
       "name": "Handreikingen voor ketenregie en ketenmobiliteit in relatie tot MaaS",
       "offers": {
         "type": "Offer",
@@ -10380,9 +9562,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Kerende constructies"
-      ],
+      "keywords": ["Kerende constructies"],
       "name": "Quay Walls",
       "offers": {
         "type": "Offer",
@@ -10405,9 +9585,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Wegontwerp en weginrichting"
-      ],
+      "keywords": ["Wegontwerp en weginrichting"],
       "name": "MKBA-tool 30 km/h-wegen",
       "offers": {
         "type": "Offer",
@@ -10430,9 +9608,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Verkeersveiligheid"
-      ],
+      "keywords": ["Verkeersveiligheid"],
       "name": "De 3 E's in balans, een discussienotitie",
       "offers": {
         "type": "Offer",
@@ -10455,9 +9631,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Onderzoeksrapport Financiering gemeentelijke fietsenstallingen",
       "offers": {
         "type": "Offer",
@@ -10480,9 +9654,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadnotitie: Meer ruimte voor fietsers en voetgangers",
       "offers": {
         "type": "Offer",
@@ -10505,9 +9677,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978-90-6628-704-4",
-      "keywords": [
-        "Beton en betonconstructies"
-      ],
+      "keywords": ["Beton en betonconstructies"],
       "name": "CROW-CUR Aanbeveling 129:2022",
       "offers": {
         "type": "Offer",
@@ -10530,9 +9700,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Mobiliteitshubs"
-      ],
+      "keywords": ["Mobiliteitshubs"],
       "name": "Mobiliteitshubs houden landelijk gebied bereikbaar",
       "offers": {
         "type": "Offer",
@@ -10555,9 +9723,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Geokunststoffen"
-      ],
+      "keywords": ["Geokunststoffen"],
       "name": "CROW-CUR Aanbeveling 59:2023",
       "offers": {
         "type": "Offer",
@@ -10580,9 +9746,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Mobiliteitshubs"
-      ],
+      "keywords": ["Mobiliteitshubs"],
       "name": "Handreiking: Naar een samenhangend netwerk van mobiliteitshubs en knooppunten",
       "offers": {
         "type": "Offer",
@@ -10605,9 +9769,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Kerende constructies"
-      ],
+      "keywords": ["Kerende constructies"],
       "name": "Jetties and Wharfs",
       "offers": {
         "type": "Offer",
@@ -10657,9 +9819,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "OV-Klantenbarometer 2018 - landelijke cijfers",
       "offers": {
         "type": "Offer",
@@ -10682,9 +9842,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978 90 6628 723 5",
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Design manual for pedestrians",
       "offers": {
         "type": "Offer",
@@ -10707,9 +9865,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Monitor Toekomstbeeld OV 2040, 2-meting",
       "offers": {
         "type": "Offer",
@@ -10732,9 +9888,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Deelmobiliteit"
-      ],
+      "keywords": ["Deelmobiliteit"],
       "name": "Staat van de deelmobiliteit 2025",
       "offers": {
         "type": "Offer",
@@ -10780,10 +9934,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "99789066286955",
-      "keywords": [
-        "Kerende constructies",
-        "Asfaltverhardingen"
-      ],
+      "keywords": ["Kerende constructies", "Asfaltverhardingen"],
       "name": "Asfalt in de weg- en waterbouw",
       "offers": {
         "type": "Offer",
@@ -10806,9 +9957,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsparkeerduurtool",
       "offers": {
         "type": "Offer",
@@ -10831,9 +9980,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Datagedreven assetmanagement"
-      ],
+      "keywords": ["Datagedreven assetmanagement"],
       "name": "FDW Correlation Trial 2013",
       "offers": {
         "type": "Offer",
@@ -10856,10 +10003,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets",
-        "Verkeerseducatie en gedrag"
-      ],
+      "keywords": ["Fiets", "Verkeerseducatie en gedrag"],
       "name": "De toegevoegde waarde van gedrag in fietsprojecten",
       "offers": {
         "type": "Offer",
@@ -10882,10 +10026,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer",
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Openbaar vervoer", "Duurzame mobiliteit"],
       "name": "Monitor zero-emissiebussen 1 januari 2026",
       "offers": {
         "type": "Offer",
@@ -10908,10 +10049,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer",
-        "Duurzame mobiliteit"
-      ],
+      "keywords": ["Openbaar vervoer", "Duurzame mobiliteit"],
       "name": "Monitor zero-emissiebussen 1 april 2026",
       "offers": {
         "type": "Offer",
@@ -10934,10 +10072,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Bouwproces",
-        "UAVgc"
-      ],
+      "keywords": ["Bouwproces", "UAVgc"],
       "name": "Specificeren van beschikbaarheid",
       "offers": {
         "type": "Offer",
@@ -10960,10 +10095,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Thema overstijgend",
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Thema overstijgend", "Openbaar vervoer"],
       "name": "KpVV-jaarverslag 2022",
       "offers": {
         "type": "Offer",
@@ -10986,9 +10118,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Fietsberaadpublicatie 14: Fietsparkeerproblemen onder het vergrootglas",
       "offers": {
         "type": "Offer",
@@ -11011,9 +10141,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "UAV en RAW"
-      ],
+      "keywords": ["UAV en RAW"],
       "name": "Normenoverzicht gww (30-8-2011)",
       "offers": {
         "type": "Offer",
@@ -11036,9 +10164,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Beton en betonconstructies"
-      ],
+      "keywords": ["Beton en betonconstructies"],
       "name": "CUR-Aanbeveling 119:2016 (gedrukte versie)",
       "offers": {
         "type": "Offer",
@@ -11061,9 +10187,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Funderingen en trillingen"
-      ],
+      "keywords": ["Funderingen en trillingen"],
       "name": "Handreiking vervormingsgedrag van funderingen op staal",
       "offers": {
         "type": "Offer",
@@ -11086,9 +10210,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "90 6628 434X",
-      "keywords": [
-        "UAV en RAW"
-      ],
+      "keywords": ["UAV en RAW"],
       "name": "UAV-GC-2005",
       "offers": {
         "type": "Offer",
@@ -11111,9 +10233,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "9789066287181",
-      "keywords": [
-        "Beton en betonconstructies"
-      ],
+      "keywords": ["Beton en betonconstructies"],
       "name": "CROW-CUR Aanbeveling 132:2025",
       "offers": {
         "type": "Offer",
@@ -11136,9 +10256,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Telformulier buitenmodelfietsen",
       "offers": {
         "type": "Offer",
@@ -11161,9 +10279,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "OV-Klantenbarometer 2017 - Sociale veiligheid in het openbaar vervoer",
       "offers": {
         "type": "Offer",
@@ -11186,9 +10302,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "9789066286726",
-      "keywords": [
-        "Geokunststoffen"
-      ],
+      "keywords": ["Geokunststoffen"],
       "name": "Vezelversterkte kunststoffen in bouwkundige en civieltechnische draagconstructies",
       "offers": {
         "type": "Offer",
@@ -11238,9 +10352,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Facts about cycling in the Netherlands",
       "offers": {
         "type": "Offer",
@@ -11263,9 +10375,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Smart Mobility"
-      ],
+      "keywords": ["Smart Mobility"],
       "name": "Samenhang Koppelvlakken en Blauwdruk iCentrale",
       "offers": {
         "type": "Offer",
@@ -11288,9 +10398,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": "978 90 6628 689 4",
-      "keywords": [
-        "Beton en betonconstructies"
-      ],
+      "keywords": ["Beton en betonconstructies"],
       "name": "Maatregelen voor het beperken van biologische aangroei op beton",
       "offers": {
         "type": "Offer",
@@ -11313,9 +10421,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Poster Milieuprestatie ov-bussen 2025",
       "offers": {
         "type": "Offer",
@@ -11338,9 +10444,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Funderingen en trillingen"
-      ],
+      "keywords": ["Funderingen en trillingen"],
       "name": "Handboek Hei- en trilbaarheid",
       "offers": {
         "type": "Offer",
@@ -11363,10 +10467,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Verontreinigde bodem",
-        "Werk in uitvoering"
-      ],
+      "keywords": ["Verontreinigde bodem", "Werk in uitvoering"],
       "name": "Download stroomschema werken met stabiele grond",
       "offers": {
         "type": "Offer",
@@ -11389,9 +10490,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Datagedreven assetmanagement"
-      ],
+      "keywords": ["Datagedreven assetmanagement"],
       "name": "Rekenmodel Digitalisering Openbare Ruimte Quickstart",
       "offers": {
         "type": "Offer",
@@ -11414,9 +10513,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Fiets"
-      ],
+      "keywords": ["Fiets"],
       "name": "Op weg naar een toekomstbestendige kennisinfrastructuur fiets",
       "offers": {
         "type": "Offer",
@@ -11462,9 +10559,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Openbaar vervoer"
-      ],
+      "keywords": ["Openbaar vervoer"],
       "name": "Monitor Toekomstbeeld OV 2040, 3-meting",
       "offers": {
         "type": "Offer",
@@ -11487,9 +10582,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Kerende constructies"
-      ],
+      "keywords": ["Kerende constructies"],
       "name": "Handboek inspectie Staal",
       "offers": {
         "type": "Offer",
@@ -11512,9 +10605,7 @@
       "editor": null,
       "educationalAlignment": null,
       "isbn": null,
-      "keywords": [
-        "Smart Mobility"
-      ],
+      "keywords": ["Smart Mobility"],
       "name": "Vertaling van inzichten uit het SAMEN-project naar toepassingen en gevolgen",
       "offers": {
         "type": "Offer",
