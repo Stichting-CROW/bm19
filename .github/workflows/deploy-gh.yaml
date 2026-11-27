@@ -9,6 +9,7 @@ on:
       - "Publish version"
       - "Add document"
       - "Auto-publish draft"
+      - "Update similar publications"
 
 concurrency:
   group: deploy
